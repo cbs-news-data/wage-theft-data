@@ -11,6 +11,8 @@ geopandas
 rtree
 matplotlib
 pandera[io]
+PyPdf2
+pandera
 
 # utilities
 tqdm
