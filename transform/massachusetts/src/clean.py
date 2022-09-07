@@ -4,6 +4,7 @@ Explodes them and assigns a sequence ID
 """
 
 import sys
+import numpy as np
 import pandas as pd
 
 print(
@@ -29,5 +30,30 @@ print(
     )
     # drop vacated records
     .pipe(lambda df: df[df["Paid In Full"] != "Vacated"])
+    # drop missing employer names
+    .pipe(lambda df: df[df["Employer"].notna()])
+    # drop missing violation categories
+    .query("violation_description.notna()")
+    # convert "yes" subtypes in appeal filed to "yes"
+    .assign(
+        **{
+            "Appeal Filed": lambda df: df["Appeal Filed"].apply(
+                lambda val: "Yes" if "yes" in val.lower() else val
+            )
+        }
+    )
+    # drop "n/a" values in specific intent field and fill missing values with "No"
+    .assign(
+        **{
+            "With Specific Intent": lambda df: df["With Specific Intent"].apply(
+                lambda val: np.NaN
+                if val == "N/A"
+                else val
+                if pd.notna(val) and val != ""
+                else "No"
+            )
+        }
+    )
     .to_csv(index=False, line_terminator="\n")
 )
+

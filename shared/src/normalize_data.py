@@ -103,8 +103,11 @@ SCHEMA = pa.DataFrameSchema(
                     "minimum_wage",
                     "tips",
                     "overtime",
-                    "rest_breaks",
+                    "breaks",
                     "unpaid_wages",
+                    "time_off",
+                    "sick_time",
+                    "other",
                 ],
             ),
         ),
@@ -115,7 +118,7 @@ SCHEMA = pa.DataFrameSchema(
         ),
         "amount_claimed": pa.Column(
             dtype=float,
-            nullable=False,
+            nullable=True,
             unique=False,
         ),
         "amount_assessed": pa.Column(
@@ -125,7 +128,7 @@ SCHEMA = pa.DataFrameSchema(
         ),
         "amount_paid": pa.Column(
             dtype=float,
-            nullable=False,
+            nullable=True,
             unique=False,
         ),
         "paid_in_full": pa.Column(
@@ -179,7 +182,7 @@ def parse_bool(val: any) -> Union[bool, any]:
         case str():
             val = val.lower().strip()
             try:
-                return strtobool(val)
+                return bool(strtobool(val)) if len(val) > 0 else False
             except ValueError:
                 return val
         case other:
@@ -236,17 +239,15 @@ if __name__ == "__main__":
         # if the column name was provided in command line args,
         # get the source data and make transformations on it
         if source_colname is not None:
-            # get existing vals from infile
-            vals = df[source_colname]
-
             # if a file called converters_{filename} is present, replace values from file)
-            converter_path = f"hand/converters_{dest_colname}"
+            converter_path = f"hand/converters_{dest_colname}.yaml"
             if os.path.exists(converter_path):
                 with open(converter_path, "r") as converter_file:
                     converters = yaml.load(converter_file, Loader=yaml.CLoader)
+
                 if not isinstance(converters, dict):
                     raise ValueError(
-                        f"converter yaml files must be a dictionary, got {type(converters)}"
+                        f"{converter_path} must be a dictionary, got {type(converters)}"
                     )
 
                 # use source column name so cleaners can also be applied
@@ -257,10 +258,10 @@ if __name__ == "__main__":
             df[dest_colname] = (
                 df[source_colname].progress_apply(CLEAN_FUNCTIONS[dest_colname])
                 if dest_colname in CLEAN_FUNCTIONS
-                else vals
+                else df[source_colname]
                 # if schema expects a datetime, convert values to datetime
                 if not schema_col_is_datetime(schema_col)
-                else pd.to_datetime(vals)
+                else pd.to_datetime(df[source_colname])
             )
 
         else:
@@ -272,6 +273,6 @@ if __name__ == "__main__":
 
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]
-        .set_index("uuuid")
-        .to_csv(index=False, line_terminator="\n")
+        .set_index("uuid")
+        .to_csv(line_terminator="\n")
     )
