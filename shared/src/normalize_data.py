@@ -1,7 +1,6 @@
 """normalizes all datasets from various sources"""
 
 import argparse
-from distutils.util import strtobool
 import os
 import sys
 from typing import Union
@@ -155,16 +154,27 @@ SCHEMA = pa.DataFrameSchema(
 )
 
 
-def schema_col_is_datetime(schema_col: pa.Column) -> bool:
+def schema_col_is_datetime(column: pa.Column) -> bool:
     """checks whether the pandera.Column object has a dtype of "datetime64[ns]"
 
     Args:
-        schema_col (pandera.Column): Column object to check
+        column (pandera.Column): Column object to check
 
     Returns:
         bool: True if datetime, False if not
     """
-    return schema_col.dtype.type == "datetime64[ns]"
+    return column.dtype.type == "datetime64[ns]"
+
+
+def strtobool(val: any) -> bool:
+    """Convert a string representation of truth to True or False"""
+    val = val.lower()
+    if val in ('y', 'yes', 't', 'true', 'on', '1'):
+        return True
+    elif val in ('n', 'no', 'f', 'false', 'off', '0'):
+        return False
+    else:
+        raise ValueError(f"invalid truth value {val}")
 
 
 def parse_bool(val: any) -> Union[bool, any]:
@@ -185,7 +195,7 @@ def parse_bool(val: any) -> Union[bool, any]:
                 return bool(strtobool(val)) if len(val) > 0 else False
             except ValueError:
                 return val
-        case other:
+        case other:  # type: ignore # pylint: disable=unused-variable
             return val
 
 
@@ -242,7 +252,7 @@ if __name__ == "__main__":
             # if a file called converters_{filename} is present, replace values from file)
             converter_path = f"hand/converters_{dest_colname}.yaml"
             if os.path.exists(converter_path):
-                with open(converter_path, "r") as converter_file:
+                with open(converter_path, "r", encoding="utf-8") as converter_file:
                     converters = yaml.load(converter_file, Loader=yaml.CLoader)
 
                 if not isinstance(converters, dict):
