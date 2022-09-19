@@ -315,7 +315,6 @@ if __name__ == "__main__":
         if len(pa_col.checks) > 0:
             for check in pa_col.checks:
                 if "allowed_values" in check.statistics:
-                    print(check.statistics["allowed_values"])
                     help_msg += "Must be one of: " + "\n".join(
                         [
                             str(v) if not isinstance(v, str) else f"'{v}'"
