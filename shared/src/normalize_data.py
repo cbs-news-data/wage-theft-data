@@ -12,8 +12,6 @@ import numpy as np
 from tqdm import tqdm
 import yaml
 
-tqdm.pandas()
-
 SCHEMA = pa.DataFrameSchema(
     columns={
         "uuid": pa.Column(
@@ -363,6 +361,7 @@ if __name__ == "__main__":
 
             # create a new column with the expected colname based on vals, optionally
             # applying a clean function to each value
+            tqdm.pandas(leave=False, desc=dest_colname)
             df[dest_colname] = (
                 df[source_colname].progress_apply(CLEAN_FUNCTIONS[dest_colname])
                 if dest_colname in CLEAN_FUNCTIONS
