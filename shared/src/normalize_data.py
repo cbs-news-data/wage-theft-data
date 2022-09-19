@@ -276,7 +276,7 @@ if __name__ == "__main__":
                 else df[source_colname]
                 # if schema expects a datetime, convert values to datetime
                 if not schema_col_is_datetime(schema_col)
-                else pd.to_datetime(df[source_colname])
+                else pd.to_datetime(df[source_colname], errors="coerce")
             )
 
         else:
