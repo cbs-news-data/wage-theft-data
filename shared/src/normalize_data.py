@@ -115,6 +115,11 @@ SCHEMA = pa.DataFrameSchema(
             nullable=False,
             unique=False,
         ),
+        "date_paid": pa.Column(
+            dtype="datetime64[ns]",
+            nullable=True,
+            unique=False
+        ),
         "amount_claimed": pa.Column(
             dtype=float,
             nullable=True,
