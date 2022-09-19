@@ -2,6 +2,7 @@
 
 import argparse
 import os
+import re
 import sys
 from typing import Union
 import uuid
@@ -115,11 +116,7 @@ SCHEMA = pa.DataFrameSchema(
             nullable=False,
             unique=False,
         ),
-        "date_paid": pa.Column(
-            dtype="datetime64[ns]",
-            nullable=True,
-            unique=False
-        ),
+        "date_paid": pa.Column(dtype="datetime64[ns]", nullable=True, unique=False),
         "amount_claimed": pa.Column(
             dtype=float,
             nullable=True,
@@ -204,11 +201,72 @@ def parse_bool(val: any) -> Union[bool, any]:
             return val
 
 
+def clean_amount(val: any) -> any:
+    """attempts to clean amount values formatted as strings
+
+    Args:
+        val (any): value to clean
+
+    Returns:
+        Union[int, float]: if an amount value was found
+        np.NaN if a string was provided that did not contain an amount
+        any: the original value, if any type other than int, float, or str was provided
+    """
+    match val:
+        # return numeric values
+        case int() | float():
+            if not isinstance(val, bool):
+                return val
+
+        # attempt to parse string values
+        case str():
+            # find all numbers
+            amt_strings = [
+                re.sub(r"[\,]", "", s)
+                for s in re.findall(
+                    r"^[\d\,\.]+(?:k|m)?|(?<=\s|\$)[\d\,\.]+(?:k|m)?",
+                    val,
+                )
+            ]
+
+            # if matches were found, parse them
+            if len(amt_strings) > 0:
+                # if a range was provided, use the smallest amount
+                vals = []
+                for string in amt_strings:
+
+                    # convert the value to float
+                    try:
+                        amt = float(re.sub(r"(k|m)", "", string, flags=re.IGNORECASE))
+                    except ValueError:
+                        # if error, return NaN
+                        return np.NaN
+
+                    # if 1,000 or 1 million, convert the numbers
+                    if "k" in string.lower():
+                        amt = amt * 1000
+                    elif "m" in string.lower():
+                        amt = amt * 1_000_000
+                    vals.append(amt)
+
+                return min(amt_strings)
+
+            # otherwise return NaN
+            else:
+                return np.NaN
+
+    # return all other original values
+    return val
+
+
 CLEAN_FUNCTIONS = {
     "paid_in_full": parse_bool,
     "appeal_filed": parse_bool,
     "lien_issued": parse_bool,
     "specific_intent": parse_bool,
+    "amount_claimed": clean_amount,
+    "amount_assessed": clean_amount,
+    "amount_paid": clean_amount,
 }
 
 if __name__ == "__main__":
@@ -285,6 +343,10 @@ if __name__ == "__main__":
                 df[dest_colname] = pd.to_datetime(np.NaN)
             else:
                 df[dest_colname] = np.NaN
+
+        # convert dtypes if not datetimes
+        if not schema_col_is_datetime(schema_col):
+            df[dest_colname] = df[dest_colname].apply(schema_col.dtype.coerce_value)
 
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]
