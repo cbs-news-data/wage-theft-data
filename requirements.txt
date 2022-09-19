@@ -13,6 +13,7 @@ matplotlib
 pandera[io]
 PyPdf2
 pandera
+pdfplumber
 
 # utilities
 tqdm
