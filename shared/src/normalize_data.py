@@ -100,6 +100,7 @@ SCHEMA = pa.DataFrameSchema(
                 [
                     "minimum_wage",
                     "tips",
+                    "deductions",
                     "overtime",
                     "breaks",
                     "unpaid_wages",
