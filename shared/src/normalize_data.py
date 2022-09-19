@@ -169,9 +169,9 @@ def schema_col_is_datetime(column: pa.Column) -> bool:
 def strtobool(val: any) -> bool:
     """Convert a string representation of truth to True or False"""
     val = val.lower()
-    if val in ('y', 'yes', 't', 'true', 'on', '1'):
+    if val in ("y", "yes", "t", "true", "on", "1"):
         return True
-    elif val in ('n', 'no', 'f', 'false', 'off', '0'):
+    elif val in ("n", "no", "f", "false", "off", "0"):
         return False
     else:
         raise ValueError(f"invalid truth value {val}")
