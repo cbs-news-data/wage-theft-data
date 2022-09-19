@@ -308,10 +308,24 @@ if __name__ == "__main__":
     for colname, pa_col in SCHEMA.columns.items():
         if colname in IGNORE_COLS:
             continue
+
+        help_msg = f"the name of the column in infile to map to schema for column '{colname}'. "
+
+        if len(pa_col.checks) > 0:
+            for check in pa_col.checks:
+                if "allowed_values" in check.statistics:
+                    print(check.statistics["allowed_values"])
+                    help_msg += "Must be one of: " + "\n".join(
+                        [
+                            str(v) if not isinstance(v, str) else f"'{v}'"
+                            for v in check.statistics["allowed_values"]
+                        ]
+                    )
+
         parser.add_argument(
             f"--{colname}",
             type=str,
-            help="the name of the column in infile to map to schema",
+            help=help_msg,
         )
 
     args = parser.parse_args()
