@@ -89,14 +89,12 @@ SCHEMA = pa.DataFrameSchema(
             unique=False,
         ),
         "employer_dba_name": pa.Column(
-            dtype=str,
-            nullable=True,
-            unique=False,
+            dtype=str, nullable=True, unique=False, coerce=True
         ),
-        "employer_city": pa.Column(dtype=str, nullable=True, unique=False),
+        "employer_city": pa.Column(dtype=str, nullable=True, unique=False, coerce=True),
         "violation_category": pa.Column(
             dtype=str,
-            nullable=False,
+            nullable=True,
             unique=False,
             checks=pa.Check.isin(
                 [
@@ -110,10 +108,11 @@ SCHEMA = pa.DataFrameSchema(
                     "other",
                 ],
             ),
+            coerce=True,
         ),
         "date_opened": pa.Column(
             dtype="datetime64[ns]",
-            nullable=False,
+            nullable=True,
             unique=False,
         ),
         "date_paid": pa.Column(dtype="datetime64[ns]", nullable=True, unique=False),
@@ -121,36 +120,43 @@ SCHEMA = pa.DataFrameSchema(
             dtype=float,
             nullable=True,
             unique=False,
+            coerce=True,
         ),
         "amount_assessed": pa.Column(
             dtype=float,
-            nullable=False,
+            nullable=True,
             unique=False,
+            coerce=True,
         ),
         "amount_paid": pa.Column(
             dtype=float,
             nullable=True,
             unique=False,
+            coerce=True,
         ),
         "paid_in_full": pa.Column(
             dtype=bool,
             nullable=True,
             unique=False,
+            coerce=True,
         ),
         "appeal_filed": pa.Column(
             dtype=bool,
             nullable=True,
             unique=False,
+            coerce=True,
         ),
         "lien_issued": pa.Column(
             dtype=bool,
             nullable=True,
             unique=False,
+            coerce=True,
         ),
         "specific_intent": pa.Column(
             dtype=bool,
             nullable=True,
             unique=False,
+            coerce=True,
         ),
     },
 )
@@ -343,10 +349,6 @@ if __name__ == "__main__":
                 df[dest_colname] = pd.to_datetime(np.NaN)
             else:
                 df[dest_colname] = np.NaN
-
-        # convert dtypes if not datetimes
-        if not schema_col_is_datetime(schema_col):
-            df[dest_colname] = df[dest_colname].apply(schema_col.dtype.coerce_value)
 
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]
