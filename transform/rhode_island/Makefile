@@ -12,7 +12,6 @@ output/rhode_island.csv: \
 		output/stacked.csv \
 		src/normalize_data.py
 	cat $< | \
-	csvgrep -c "ACCOUNT NAME" -r "^$$" --invert-match | \
 	python src/normalize_data.py "Rhode Island" \
 		--date_opened "DATE RECEIVED" \
 		--employer_name "ACCOUNT NAME" \

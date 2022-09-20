@@ -10,7 +10,6 @@ output/indiana.csv: \
 		src/assign_amount_assessed.py \
 		src/normalize_data.py
 	in2csv input/indiana.xlsx | \
-		csvgrep -c Employer -r "^$$" --invert-match | \
 			python src/assign_amount_assessed.py | \
 				python src/normalize_data.py Indiana \
 				--employer_name Employer \
@@ -23,7 +22,6 @@ output/indiana.csv: \
 
 	in2csv input/indiana1.xlsx | \
 		python src/assign_amount_assessed.py | \
-			csvgrep -c "Employer Name" -r "^$$" --invert-match | \
 				python src/normalize_data.py Indiana \
 				--employer_name "Employer Name" \
 				--date_opened "Date Received" \

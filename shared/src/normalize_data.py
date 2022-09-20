@@ -84,9 +84,7 @@ SCHEMA = pa.DataFrameSchema(
             unique=False,
         ),
         "employer_name": pa.Column(
-            dtype=str,
-            nullable=False,
-            unique=False,
+            dtype=str, nullable=True, unique=False, required=True, coerce=True
         ),
         "employer_dba_name": pa.Column(
             dtype=str, nullable=True, unique=False, coerce=True

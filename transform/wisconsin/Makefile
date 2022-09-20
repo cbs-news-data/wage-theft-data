@@ -9,7 +9,6 @@ output/wisconsin.csv: \
 		src/normalize_data.py \
 		hand/converters_violation_category.yaml
 	in2csv $< | \
-	csvgrep -c Respondent -r "^$$" --invert-match | \
 	python src/normalize_data.py Wisconsin \
 		--date_opened "Received Date" \
 		--violation_category "Category Description" \

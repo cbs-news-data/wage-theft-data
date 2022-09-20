@@ -11,7 +11,6 @@ output/south_carolina.csv: \
 		output/amounts.csv \
 		src/normalize_data.py
 	csvjoin -c 1 --left $(wordlist 1, 2, $^) | \
-	csvgrep -c Respondent -r "^$$" --invert-match | \
 	python src/normalize_data.py "South Carolina" \
 		--date_opened Received \
 		--employer_name Respondent \

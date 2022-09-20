@@ -9,15 +9,14 @@ GENERATED_FILES: output/kansas.csv
 all: $(GENERATED_FILES)
 
 output/kansas.csv: \
-		output/stacked.csv \
-		src/normalize_data.py
-	csvgrep -c Employer -r "^\s*$$" --invert-match $< | \
-		python src/normalize_data.py \
-			--employer_name Employer \
-			--date_opened Received \
-			--date_closed Closed \
-			--amount_claimed Amount \
-			Kansas > $@
+		src/normalize_data.py \
+		output/stacked.csv		
+	python $^ Kansas \
+		--employer_name Employer \
+		--date_opened Received \
+		--date_closed Closed \
+		--amount_claimed Amount \
+		> $@
 
 output/stacked.csv: input/kansas.xlsx
 	for sheet in $$(in2csv -n $<) ; do \
