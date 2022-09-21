@@ -1,2 +1,2 @@
-# Data-Project-Template
-A template repository for data journalism projects
+# Wage Theft Complaints
+A collection of state wage theft complaint data gathered by CBS News. 
