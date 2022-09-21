@@ -13,8 +13,12 @@ matplotlib
 pandera[io]
 PyPdf2
 pandera
-pdfplumber
 
 # utilities
 tqdm
 pyyaml
+
+# project-specific
+airtable
+pdfplumber
+python-dotenv
