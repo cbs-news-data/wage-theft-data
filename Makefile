@@ -2,7 +2,8 @@ SHELL := /bin/bash
 
 TASKS := \
     transform \
-	merge
+	merge \
+	upload
 
 .PHONY: \
 	  all \

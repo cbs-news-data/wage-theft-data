@@ -1,0 +1,16 @@
+{
+  "title": "State Wage Theft Complaints",
+  "id": "christopherhacker/state-wage-theft-complaints",
+  "description": "State wage theft complaints gathered by CBS News through public records requests",
+  "resources": [
+    {
+      "path": "./state_complaints.csv",
+      "description": "All individual state wage theft complaints"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ]
+}
