@@ -1,20 +1,19 @@
 SHELL := /bin/bash
 
-# TASKS := \
-#     your \
-#     tasks \
-#     here
+TASKS := \
+    transform \
+	merge
 
 .PHONY: \
 	  all \
 	  init \
-	  cleanup # \
-#	  $(TASKS)
+	  cleanup \
+	  $(TASKS)
 
 all: $(TASKS)
 
-# $(TASKS): venv/bin/activate
-# 	source $< && $(MAKE) -C $@
+$(TASKS): venv/bin/activate
+	source $< && $(MAKE) -C $@
 
 init: venv/bin/activate
 	source $<
