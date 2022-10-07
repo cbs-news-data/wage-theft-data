@@ -6,15 +6,15 @@ all: $(GENERATED_FILES)
 
 output/new_york.csv: \
 		input/new_york.xlsx \
-		src/explode_claim_types.py \
 		src/normalize_data.py
 	in2csv $< | \
-	python src/explode_claim_types.py | \
 	python src/normalize_data.py "New York" \
+		--explode-violations \
+		--violations-delim "," \
 		--date_opened CASE_DATE \
 		--employer_name "Account Name" \
 		--employer_dba_name "Account DBA name" \
-		--violation_category claim_type \
+		--violation_category "Claim Types" \
 		--amount_claimed "Claim Amount" \
 		--amount_assessed "Amount Assessed" \
 		--amount_paid "Deposits" \

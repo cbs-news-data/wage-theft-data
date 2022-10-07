@@ -14,7 +14,12 @@ import yaml
 
 SCHEMA = pa.DataFrameSchema(
     columns={
-        "uuid": pa.Column(
+        "case_uuid": pa.Column(
+            dtype=str,
+            nullable=False,
+            unique=False,
+        ),
+        "violation_uuid": pa.Column(
             dtype=str,
             nullable=False,
             unique=True,
@@ -277,6 +282,44 @@ def clean_amount(val: any) -> any:
     return val
 
 
+def explode_violations(
+    dataframe: pd.DataFrame,
+    violation_column: str,
+    delim: str,
+) -> pd.DataFrame:
+    """
+    Explodes violation descriptions and assigns a sequence ID
+
+    Args:
+        dataframe (pandas.DataFrame): dataframe with violation descriptions
+        violation_column (str): name of column containing lists of violation descriptions
+
+    Returns:
+        pandas.DataFrame: dataframe with exploded violations
+    """
+    return (
+        dataframe.assign(
+            violation_category=lambda dataframe: dataframe[violation_column].apply(
+                lambda val: [v.strip() for v in val.split(delim)]
+                if isinstance(val, str)
+                else val
+            )
+        )
+        .explode("violation_category")
+        .reset_index()
+        .assign(
+            index=lambda dataframe: dataframe.groupby("index")
+            .cumcount()
+            .add(1)
+            .astype(float)
+        )
+        .rename(columns={"index": "citation_sequence"})
+        .assign(
+            violation_category=lambda dataframe: dataframe.violation_category.str.strip()
+        )
+    )
+
+
 CLEAN_FUNCTIONS = {
     "paid_in_full": parse_bool,
     "appeal_filed": parse_bool,
@@ -300,6 +343,18 @@ if __name__ == "__main__":
         "state_name",
         type=str,
         help="The name of the agency that provided the data",
+    )
+    parser.add_argument(
+        "--explode-violations",
+        action="store_true",
+        help="If provided, violation descriptions will be exploded into separate rows",
+    )
+    parser.add_argument(
+        "--violations-delim",
+        type=str,
+        default=None,
+        help="Delimiter for exploding violations. "
+        "Must be provided if --explode-violations is provided.",
     )
 
     # dynamically add arguments for fields from schema
@@ -332,11 +387,28 @@ if __name__ == "__main__":
     df = pd.read_csv(args.infile)
 
     # assign uuid and state fields
-    df["uuid"] = df.apply(lambda _: str(uuid.uuid4()), axis=1)
+    df["case_uuid"] = df.apply(lambda _: str(uuid.uuid4()), axis=1)
     df["state_name"] = args.state_name
+    # TODO: add case unique ID before exploding violations
+
+    # optionally explode violations
+    if args.explode_violations:
+        assert (
+            args.violations_delim is not None
+        ), "violations delim must be provided to explode violations"
+        assert (
+            args.violation_category is not None
+        ), "violation category column must be provided to explode violations"
+        df = explode_violations(df, args.violation_category, args.violations_delim)
+
+        # if exploding violations, always use "violation_category" as the column name
+        args.violation_category = "violation_category"
+
+    # assign violation uuid now that violations have been exploded
+    df["violation_uuid"] = df.apply(lambda _: str(uuid.uuid4()), axis=1)
 
     # loop over all columns, apply cleaners and add if not present
-    for dest_colname in list(vars(args))[2:]:
+    for dest_colname in list(vars(args))[6:]:
         source_colname = getattr(args, dest_colname)
         schema_col = SCHEMA.columns[dest_colname]
 
@@ -378,6 +450,6 @@ if __name__ == "__main__":
 
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]
-        .set_index("uuid")
+        .set_index(["case_uuid", "violation_uuid"])
         .to_csv(line_terminator="\n")
     )
