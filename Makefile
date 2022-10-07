@@ -2,6 +2,7 @@ SHELL := /bin/bash
 
 TASKS := \
     transform \
+	ln_input_output \
 	merge \
 	upload
 
@@ -15,6 +16,11 @@ all: $(TASKS)
 
 $(TASKS): venv/bin/activate
 	source $< && $(MAKE) -C $@
+
+ln_input_output:
+	cd merge/state_complaints/input ; \
+		ln -sf ../../../transform/*/output/*.csv . ; \
+		cd ../..
 
 init: venv/bin/activate
 	source $<
