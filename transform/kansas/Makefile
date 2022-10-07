@@ -28,4 +28,4 @@ output/stacked.csv: input/kansas.xlsx
 	done
 
 cleanup:
-	rm -f output/*
+	rm -f $(GENERATED_FILES)

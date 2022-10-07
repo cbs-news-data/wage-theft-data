@@ -24,4 +24,4 @@ output/extracted.csv: \
 	python $^ > $@
 
 cleanup:
-	rm -f output/*
+	rm -f $(GENERATED_FILES)

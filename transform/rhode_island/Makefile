@@ -35,4 +35,4 @@ output/stacked.csv: \
 	done
 
 cleanup:
-	rm -f output/*
+	rm -f $(GENERATED_FILES)

@@ -31,4 +31,4 @@ output/indiana.csv: \
 					awk "NR > 1" >> $@
 
 cleanup:
-	rm -f output/*
+	rm -f $(GENERATED_FILES)

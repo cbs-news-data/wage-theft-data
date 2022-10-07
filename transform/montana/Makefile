@@ -16,4 +16,4 @@ output/montana.csv: \
 		> $@
 
 cleanup:
-	rm -f output/*
+	rm -f $(GENERATED_FILES)

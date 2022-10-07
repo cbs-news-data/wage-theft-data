@@ -49,4 +49,4 @@ output/employer_name.csv: \
 	>> $@
 
 cleanup:
-	rm -f output/*
+	rm -f $(GENERATED_FILES)

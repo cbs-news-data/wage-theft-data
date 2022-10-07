@@ -8,4 +8,4 @@ output/state_complaints.csv: $(wildcard input/*.csv)
 	csvstack $^ | csvsort -c case_uuid,violation_uuid > $@
 
 cleanup:
-	rm -f output/*
+	rm -f $(GENERATED_FILES)

@@ -27,4 +27,4 @@ output/amounts.csv: input/south_carolina.xlsx
 	in2csv --sheet Sheet2 $< > $@
 
 cleanup:
-	rm -f output/*
+	rm -f $(GENERATED_FILES)
