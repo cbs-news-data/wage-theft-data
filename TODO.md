@@ -3,3 +3,9 @@
 2. Add NAICS field if any have it? 
 3. Add fields for appeals and appeal outcomes where available
 4. Remove records for states like MA which have violations I don't care about in them
+5. Remove child labor and other stuff from states that provided that data. Those are not wage theft complaints. 
+    1. child labor
+    2. retaliation
+    3. recordkeeping
+6. Add field for interest assessed and also fines
+7. Assign unique case ID for cases with multiple violation categories
