@@ -1,10 +1,10 @@
-GENERATED_FILES: output/state_complaints.csv
+GENERATED_FILES: output/state_complaints.csv.gz
 
 .PHONY: all ln_transform cleanup
 
 all: $(GENERATED_FILES)
 
-output/state_complaints.csv: $(wildcard input/*.csv)
+output/state_complaints.csv.gz: $(wildcard input/*.csv)
 	csvstack $^ | csvsort -c case_uuid,violation_uuid | gzip > $@
 
 cleanup:

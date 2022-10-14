@@ -9,9 +9,10 @@ upload: upload.log
 upload.log: \
 		src/kaggle-upload.sh \
 		hand/dataset-metadata.json \
-		input/state_complaints.csv \
+		input/state_complaints.csv.gz \
 		.env
 	export $$(cat .env | xargs) && ./$< > upload.log
 
 cleanup:
 	rm -f upload.log
+	rm -rf assets

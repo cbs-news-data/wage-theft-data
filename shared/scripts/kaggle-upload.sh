@@ -3,8 +3,12 @@
 # move files into new assets dir
 mkdir assets
 cd assets
-ln -s ../input/* .
 ln -s ../hand/* .
+
+for filename in $(ls ../input); do
+    gunzip ../input/$filename -c > $(sed 's/.gz$//' <<< $filename)
+done 
+
 cd ..
 
 # check if dataset exists
