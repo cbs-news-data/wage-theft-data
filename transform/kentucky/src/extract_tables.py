@@ -58,4 +58,4 @@ for col in df.columns:
     if df[col].dtype == "object":
         df[col] = df[col].str.normalize("NFKC")
 
-print(df.to_csv(index=False, line_terminator="\n", encoding="utf-8"))
+print(df.to_csv(index=False, lineterminator="\n", encoding="utf-8"))

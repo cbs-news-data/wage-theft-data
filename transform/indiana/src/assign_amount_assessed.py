@@ -24,5 +24,5 @@ print(
             lambda row: row[AMOUNT_FIELD] if row[OWED_FIELD] == "Yes" else np.NaN,
             axis=1,
         )
-    ).to_csv(index=False, line_terminator="\n")
+    ).to_csv(index=False, lineterminator="\n")
 )

@@ -451,5 +451,5 @@ if __name__ == "__main__":
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]
         .set_index(["case_uuid", "violation_uuid"])
-        .to_csv(line_terminator="\n")
+        .to_csv(lineterminator="\n")
     )

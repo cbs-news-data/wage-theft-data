@@ -38,5 +38,5 @@ print(
                 else "No"
             )
         }
-    ).to_csv(index=False, line_terminator="\n")
+    ).to_csv(index=False, lineterminator="\n")
 )

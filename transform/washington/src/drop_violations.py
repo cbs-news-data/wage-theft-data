@@ -10,5 +10,5 @@ with open(sys.argv[1], "r", encoding="utf-8") as yaml_file:
 print(
     pd.read_csv(sys.stdin)
     .pipe(lambda df: df[df["Violation Type"].isin(keep_viols)])
-    .to_csv(index=False, line_terminator="\n")
+    .to_csv(index=False, lineterminator="\n")
 )
