@@ -20,10 +20,10 @@ output/south_carolina.csv: \
 		--violation_category "Type Citation" \
 		> $@
 
-output/cases.csv: input/south_carolina.xlsx
+output/cases.csv: input/Copy_of_FOIA_Request.xlsx
 	in2csv --sheet Sheet1 $< > $@
 
-output/amounts.csv: input/south_carolina.xlsx
+output/amounts.csv: input/Copy_of_FOIA_Request.xlsx
 	in2csv --sheet Sheet2 $< > $@
 
 cleanup:

@@ -6,7 +6,7 @@ all: $(GENERATED_FILES)
 
 output/maine.csv: \
 		src/normalize_data.py \
-		input/maine.csv
+		input/CBSExtract.csv
 	python $^ Maine \
 		--date_opened INDATE \
 		--employer_name EMPLOYERNAME \

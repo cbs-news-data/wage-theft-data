@@ -5,7 +5,7 @@ GENERATED_FILES: output/new_hampshire.csv
 all: $(GENERATED_FILES)
 
 output/new_hampshire.csv: \
-		input/new_hampshire.xlsx \
+		input/REJhQ7wELFp096-TcN2c9OTF40WXFfFBKBu5o_j12KBthR4HvG71pjJ-V6oRwAI2REmoOge9ITCZ0FUqCrNTOHO1uYMA3GkqFUHREybtx512UNBnU7X9l4hpr95OCMoKpuprsrjtM3IczwjOChrKNS3pK7XCQ12j5Idp0xkuC7A.xlsx \
 		src/fix_dates.py \
 		src/normalize_data.py
 	in2csv --no-inference $< | python src/fix_dates.py | \

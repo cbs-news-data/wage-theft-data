@@ -26,7 +26,7 @@ output/utah.csv: \
 
 output/amounts.csv: \
 		bin/tabula-1.0.5-jar-with-dependencies.jar \
-		input/utah_amounts.pdf
+		input/DataWindow_Case_Number_Amounts_Status.pdf
 	echo case_number,amount_claimed,amount_assessed,amount_received,status > $@
 	java -jar $^ --pages all | \
 		grep -Pve "Total|Amount" \
@@ -34,7 +34,7 @@ output/amounts.csv: \
 
 output/date_opened.csv: \
 		bin/tabula-1.0.5-jar-with-dependencies.jar \
-		input/utah_date_opened.pdf
+		input/DataWindow_Date_Received.pdf
 	echo case_number,date_opened,description > $@
 	java -jar $^ --pages all | \
 		grep -Pve "Action Description" \
@@ -42,7 +42,7 @@ output/date_opened.csv: \
 
 output/employer_name.csv: \
 		bin/tabula-1.0.5-jar-with-dependencies.jar \
-		input/utah_employer_name.pdf
+		input/DataWindow_Employer_Name.pdf
 	echo case_number,employer_name,relationship_type > $@
 	java -jar $^ --pages all | \
 		grep -Pve "Case Number|Relationship Type" \

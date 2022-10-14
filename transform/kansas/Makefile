@@ -18,7 +18,7 @@ output/kansas.csv: \
 		--amount_claimed Amount \
 		> $@
 
-output/stacked.csv: input/kansas.xlsx
+output/stacked.csv: input/CBS_Request.xlsx
 	for sheet in $$(in2csv -n $<) ; do \
 		if [[ $$sheet == "2010" ]] ; then \
 			in2csv --sheet $$sheet $< | csvcut -c "1-12" > $@ ; \

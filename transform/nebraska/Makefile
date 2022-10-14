@@ -5,7 +5,7 @@ GENERATED_FILES: output/nebraska.csv
 all: $(GENERATED_FILES)
 
 output/nebraska.csv: \
-		input/nebraska.xlsx \
+		input/WPCA_Citations.xlsx \
 		src/normalize_data.py
 	in2csv $< | python src/normalize_data.py Nebraska \
 		--employer_name "Business Name" \

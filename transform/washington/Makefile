@@ -5,7 +5,7 @@ GENERATED_FILES: output/washington.csv
 all: $(GENERATED_FILES)
 
 output/washington.csv: \
-		input/washington.xlsx \
+		input/146714.xlsx \
 		src/drop_violations.py \
 		src/normalize_data.py \
 		hand/converters_violation_category.yaml

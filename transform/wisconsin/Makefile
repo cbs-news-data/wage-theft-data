@@ -5,7 +5,7 @@ GENERATED_FILES: output/wisconsin.csv
 all: $(GENERATED_FILES)
 
 output/wisconsin.csv: \
-		input/wisconsin.xlsx \
+		input/Responsive_record.xlsx \
 		src/normalize_data.py \
 		hand/converters_violation_category.yaml
 	in2csv $< | \

@@ -5,7 +5,7 @@ GENERATED_FILES: output/wyoming.csv
 all: $(GENERATED_FILES)
 
 output/wyoming.csv: \
-		input/wyoming.xlsx \
+		input/AdHoc_Report_64_CBS_request.xlsx \
 		src/normalize_data.py
 	in2csv --skip-lines 1 $< | \
 	python src/normalize_data.py Wyoming \

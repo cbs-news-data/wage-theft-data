@@ -5,7 +5,7 @@ GENERATED_FILES: output/maryland.csv
 all: $(GENERATED_FILES)
 
 output/maryland.csv: \
-		input/maryland.xls \
+		input/MPIA_-_CBSNews_ChristopherHacker_wagetheft.xls \
 		src/normalize_data.py
 	in2csv $< | python src/normalize_data.py \
 		--employer_name CompanyName \

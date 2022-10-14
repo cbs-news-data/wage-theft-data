@@ -5,7 +5,7 @@ GENERATED_FILES: output/montana.csv
 all: $(GENERATED_FILES)
 
 output/montana.csv: \
-		input/montana.xlsx \
+		input/Wage_claim_stats.xlsx \
 		src/normalize_data.py
 	in2csv $< | python src/normalize_data.py Montana \
 		--date_opened CASE_RECEIVED \

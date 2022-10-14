@@ -29,7 +29,7 @@ output/massachusetts.csv: \
 # make massachusetts-specific changes to the data
 output/pre_cleaned.csv: \
 		src/clean.py \
-		input/massachusetts.xlsx
+		input/Data_Portal_Citations.xlsx
 	python $^ > $@
 
 cleanup:

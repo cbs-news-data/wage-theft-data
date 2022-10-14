@@ -5,7 +5,7 @@ GENERATED_FILES: output/new_jersey.csv
 all: $(GENERATED_FILES)
 
 output/new_jersey.csv: \
-		input/new_jersey.xlsx \
+		input/Copy_of_C189166_CBS_Request.xlsx \
 		src/add_amount_paid.py \
 		src/normalize_data.py
 	in2csv $< | \

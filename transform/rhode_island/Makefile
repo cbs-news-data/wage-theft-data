@@ -22,8 +22,8 @@ output/rhode_island.csv: \
 		> $@
 
 output/stacked.csv: \
-		input/rhode_island.xls \
-		input/rhode_island1.xlsx
+		input/Copy_of_apra_pw_excel.xls \
+		input/Copy_of_complaints_excel_xls.xlsx
 	i=0 ; \
 	for file in $^ ; do \
 		if [[ $$i -eq 0 ]] ; then \

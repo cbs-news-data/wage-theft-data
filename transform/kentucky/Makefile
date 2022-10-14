@@ -20,7 +20,7 @@ output/kentucky.csv: \
 
 output/extracted.csv: \
 		src/extract_tables.py \
-		input/kentucky.pdf
+		input/CBS_News_Open_Records_Request.pdf
 	python $^ > $@
 
 cleanup:
