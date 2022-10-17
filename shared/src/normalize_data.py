@@ -4,7 +4,7 @@ import argparse
 import os
 import re
 import sys
-from typing import Union
+from typing import Union, Any
 import uuid
 import pandas as pd
 import pandera as pa
@@ -188,28 +188,29 @@ def schema_col_is_datetime(column: pa.Column) -> bool:
     Returns:
         bool: True if datetime, False if not
     """
-    return column.dtype.type == "datetime64[ns]"
+    return column.dtype.type == "datetime64[ns]"  # type: ignore
 
 
-def strtobool(val: any) -> bool:
+def strtobool(val: Any) -> bool:
     """Convert a string representation of truth to True or False"""
     val = val.lower()
     if val in ("y", "yes", "t", "true", "on", "1"):
         return True
-    elif val in ("n", "no", "f", "false", "off", "0"):
+
+    if val in ("n", "no", "f", "false", "off", "0"):
         return False
-    else:
-        raise ValueError(f"invalid truth value {val}")
+
+    raise ValueError(f"invalid truth value {val}")
 
 
-def parse_bool(val: any) -> Union[bool, any]:
+def parse_bool(val: Any) -> Union[bool, Any]:
     """parses boolean columns into bool objects or returns the original value
 
     Args:
-        val (any): value to parse as bool
+        val (Any): value to parse as bool
 
     Returns:
-        Union[bool, any]: bool if conversion successful, original value if not
+        Union[bool, Any]: bool if conversion successful, original value if not
     """
     match val:
         case bool():
@@ -224,16 +225,16 @@ def parse_bool(val: any) -> Union[bool, any]:
             return val
 
 
-def clean_amount(val: any) -> any:
+def clean_amount(val: Any) -> Any:
     """attempts to clean amount values formatted as strings
 
     Args:
-        val (any): value to clean
+        val (Any): value to clean
 
     Returns:
         Union[int, float]: if an amount value was found
         np.NaN if a string was provided that did not contain an amount
-        any: the original value, if any type other than int, float, or str was provided
+        Any: the original value, if any type other than int, float, or str was provided
     """
     match val:
         # return numeric values
@@ -275,8 +276,7 @@ def clean_amount(val: any) -> any:
                 return min(amt_strings)
 
             # otherwise return NaN
-            else:
-                return np.NaN
+            return np.NaN
 
     # return all other original values
     return val
@@ -389,7 +389,6 @@ if __name__ == "__main__":
     # assign uuid and state fields
     df["case_uuid"] = df.apply(lambda _: str(uuid.uuid4()), axis=1)
     df["state_name"] = args.state_name
-    # TODO: add case unique ID before exploding violations
 
     # optionally explode violations
     if args.explode_violations:
