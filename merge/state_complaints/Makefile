@@ -5,7 +5,7 @@ GENERATED_FILES: output/state_complaints.csv.gz
 all: $(GENERATED_FILES)
 
 output/state_complaints.csv.gz: $(wildcard input/*.csv)
-	csvstack $^ | csvsort -c case_uuid,violation_uuid | gzip > $@
+	csvstack $^ | gzip > $@
 
 cleanup:
 	rm -f $(GENERATED_FILES)

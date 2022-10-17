@@ -84,9 +84,10 @@ SCHEMA = pa.DataFrameSchema(
             ),
         ),
         "citation_sequence": pa.Column(
-            dtype=float,
+            dtype=int,
             nullable=True,
             unique=False,
+            coerce=True,
         ),
         "employer_name": pa.Column(
             dtype=str, nullable=True, unique=False, required=True, coerce=True
@@ -402,6 +403,10 @@ if __name__ == "__main__":
 
         # if exploding violations, always use "violation_category" as the column name
         args.violation_category = "violation_category"
+
+    # otherwise assign sequence number 1 to all rows
+    else:
+        df["citation_sequence"] = pd.Series(1, index=df.index).astype(int)
 
     # assign violation uuid now that violations have been exploded
     df["violation_uuid"] = df.apply(lambda _: str(uuid.uuid4()), axis=1)
