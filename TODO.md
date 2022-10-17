@@ -15,3 +15,7 @@
     - DO NOT ALLOW ANYTHING WITH NULL OWED AMOUNTS
 9. add warnings column to final data
     - e.g. "this state didn't provide any amounts paid"
+10. either fully support employer addresses or don't
+11. fix uuid field names in args for normalize_data.py
+11. Enforce no duplicate rows in individual files
+12. Go through each dataset after all steps are done to make sure no fields were missed
