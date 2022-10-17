@@ -358,7 +358,7 @@ if __name__ == "__main__":
     )
 
     # dynamically add arguments for fields from schema
-    IGNORE_COLS = ["uuid", "state_name", "citation_index"]
+    IGNORE_COLS = ["case_uuid", "volation_uuid", "state_name", "citation_index"]
     for colname, pa_col in SCHEMA.columns.items():
         if colname in IGNORE_COLS:
             continue
