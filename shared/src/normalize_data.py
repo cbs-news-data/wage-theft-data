@@ -155,27 +155,6 @@ SCHEMA = pa.DataFrameSchema(
             coerce=True,
             checks=pa.Check.isin([True, False]),
         ),
-        "appeal_filed": pa.Column(
-            dtype="object",
-            nullable=True,
-            unique=False,
-            coerce=True,
-            checks=pa.Check.isin([True, False]),
-        ),
-        "lien_issued": pa.Column(
-            dtype="object",
-            nullable=True,
-            unique=False,
-            coerce=True,
-            checks=pa.Check.isin([True, False]),
-        ),
-        "specific_intent": pa.Column(
-            dtype="object",
-            nullable=True,
-            unique=False,
-            coerce=True,
-            checks=pa.Check.isin([True, False]),
-        ),
     },
 )
 
@@ -321,6 +300,51 @@ def explode_violations(
     )
 
 
+def validate_yaml_files() -> None:
+    """validates all YAML files in the data directory"""
+    if not os.path.exists("hand"):
+        return
+
+    for filename in os.listdir("hand"):
+        if filename.endswith(".yaml"):
+            assert any(
+                col in filename for col in SCHEMA.columns
+            ), f"YAML file {filename} does not contain any columns from the source dataframe"
+
+            with open(f"hand/{filename}", "r", encoding="utf-8") as yaml_file:
+                yaml.load(yaml_file, Loader=yaml.CLoader)
+
+
+def replace_col_vals_from_yaml(
+    dataframe: pd.DataFrame, existing_colname: str, schema_colname: str
+) -> pd.DataFrame:
+    """replaces values in a column based on a yaml file
+
+    Args:
+        dataframe (pandas.DataFrame): dataframe to replace values in
+        existing_colname (str): name of column to replace values in
+        schema_colname (str): name of column in schema, which should appear in the yaml filename
+
+    Returns:
+        pandas.DataFrame: dataframe with replaced values
+    """
+    # if a file called converters_{filename} is present, replace values from file)
+    converter_path = f"hand/converters_{schema_colname}.yaml"
+    if os.path.exists(converter_path):
+        with open(converter_path, "r", encoding="utf-8") as converter_file:
+            converters = yaml.load(converter_file, Loader=yaml.CLoader)
+
+        if not isinstance(converters, dict):
+            raise ValueError(
+                f"{converter_path} must be a dictionary, got {type(converters)}"
+            )
+
+        # use source column name so cleaners can also be applied
+        dataframe[existing_colname] = dataframe[existing_colname].replace(converters)
+
+    return dataframe
+
+
 CLEAN_FUNCTIONS = {
     "paid_in_full": parse_bool,
     "appeal_filed": parse_bool,
@@ -387,6 +411,9 @@ if __name__ == "__main__":
     # read input from file or stdin
     df = pd.read_csv(args.infile)
 
+    # before doing anything else, validate that all yaml files in hand/ directory
+    validate_yaml_files()
+
     # assign uuid and state fields
     df["case_uuid"] = df.apply(lambda _: str(uuid.uuid4()), axis=1)
     df["state_name"] = args.state_name
@@ -419,19 +446,7 @@ if __name__ == "__main__":
         # if the column name was provided in command line args,
         # get the source data and make transformations on it
         if source_colname is not None:
-            # if a file called converters_{filename} is present, replace values from file)
-            converter_path = f"hand/converters_{dest_colname}.yaml"
-            if os.path.exists(converter_path):
-                with open(converter_path, "r", encoding="utf-8") as converter_file:
-                    converters = yaml.load(converter_file, Loader=yaml.CLoader)
-
-                if not isinstance(converters, dict):
-                    raise ValueError(
-                        f"{converter_path} must be a dictionary, got {type(converters)}"
-                    )
-
-                # use source column name so cleaners can also be applied
-                df[source_colname] = df[source_colname].replace(converters)
+            df = replace_col_vals_from_yaml(df, source_colname, dest_colname)
 
             # create a new column with the expected colname based on vals, optionally
             # applying a clean function to each value
