@@ -19,7 +19,7 @@ output/massachusetts.csv: \
 		--violation_category "Violation Description" \
 		--date_opened "Date Issued" \
 		--amount_assessed "Total Assessed" \
-		--paid_in_full "Paid In Full" \
+		--paid-in-full "Paid In Full" \
 		> $@
 
 # make massachusetts-specific changes to the data

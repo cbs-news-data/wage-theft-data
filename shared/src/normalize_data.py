@@ -148,13 +148,6 @@ SCHEMA = pa.DataFrameSchema(
             unique=False,
             coerce=True,
         ),
-        "paid_in_full": pa.Column(
-            dtype="object",
-            nullable=True,
-            unique=False,
-            coerce=True,
-            checks=pa.Check.isin([True, False]),
-        ),
     },
 )
 
@@ -346,7 +339,6 @@ def replace_col_vals_from_yaml(
 
 
 CLEAN_FUNCTIONS = {
-    "paid_in_full": parse_bool,
     "appeal_filed": parse_bool,
     "lien_issued": parse_bool,
     "specific_intent": parse_bool,
@@ -381,6 +373,12 @@ if __name__ == "__main__":
         help="Delimiter for exploding violations. "
         "Must be provided if --explode-violations is provided.",
     )
+    parser.add_argument(
+        "--paid-in-full",
+        type=str,
+        default=None,
+        help="boolean column denoting whether the amount was paid",
+    )
 
     # dynamically add arguments for fields from schema
     IGNORE_ARGS = [
@@ -391,6 +389,7 @@ if __name__ == "__main__":
         "infile",
         "explode_violations",
         "violations_delim",
+        "paid_in_full",
     ]
     for colname, pa_col in SCHEMA.columns.items():
         if colname in IGNORE_ARGS:
@@ -425,6 +424,23 @@ if __name__ == "__main__":
     # assign uuid and state fields
     df["case_uuid"] = df.apply(lambda _: str(uuid.uuid4()), axis=1)
     df["state_name"] = args.state_name
+
+    # if "paid in full" argument was provided, use it to calculate amount paid
+    if args.paid_in_full is not None:
+        assert (
+            args.amount_claimed is not None or args.amount_assessed is not None
+        ), "amount claimed or amount assessed must be provided to calculate amount paid"
+        df["amount_paid"] = df.apply(
+            lambda row: row[
+                args.amount_assessed
+                if args.amount_assessed is not None
+                else args.amount_claimed
+            ]
+            if row[args.paid_in_full]
+            else 0,
+            axis=1,
+        )
+        args.amount_paid = "amount_paid"
 
     # optionally explode violations
     if args.explode_violations:

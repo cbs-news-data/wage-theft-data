@@ -11,7 +11,7 @@ output/nebraska.csv: \
 		--employer_name "Business Name" \
 		--date_closed "Citation Date" \
 		--amount_assessed "Citation Amount" \
-		--paid_in_full Paid \
+		--paid-in-full Paid \
 		> $@
 
 cleanup:
