@@ -383,7 +383,7 @@ if __name__ == "__main__":
     )
 
     # dynamically add arguments for fields from schema
-    IGNORE_COLS = [
+    IGNORE_ARGS = [
         "case_uuid",
         "violation_uuid",
         "state_name",
@@ -393,7 +393,7 @@ if __name__ == "__main__":
         "violations_delim",
     ]
     for colname, pa_col in SCHEMA.columns.items():
-        if colname in IGNORE_COLS:
+        if colname in IGNORE_ARGS:
             continue
 
         help_msg = f"the name of the column in infile to map to schema for column '{colname}'. "
@@ -448,7 +448,7 @@ if __name__ == "__main__":
 
     # loop over all columns, apply cleaners and add if not present
     for dest_colname in list(vars(args)):
-        if dest_colname in IGNORE_COLS:
+        if dest_colname in IGNORE_ARGS:
             continue
 
         source_colname = getattr(args, dest_colname)
