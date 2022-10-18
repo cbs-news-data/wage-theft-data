@@ -13,7 +13,6 @@ output/massachusetts.csv: \
 	cat $< | python src/normalize_data.py Massachusetts \
 		--explode-violations \
 		--violations-delim "," \
-		--citation_sequence citation_sequence \
 		--employer_name Employer \
 		--employer_dba_name DBA \
 		--employer_city city \
@@ -21,9 +20,6 @@ output/massachusetts.csv: \
 		--date_opened "Date Issued" \
 		--amount_assessed "Total Assessed" \
 		--paid_in_full "Paid In Full" \
-		--appeal_filed "Appeal Filed" \
-		--lien_issued "Lien Issued" \
-		--specific_intent "With Specific Intent" \
 		> $@
 
 # make massachusetts-specific changes to the data

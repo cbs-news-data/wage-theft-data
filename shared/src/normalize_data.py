@@ -383,7 +383,15 @@ if __name__ == "__main__":
     )
 
     # dynamically add arguments for fields from schema
-    IGNORE_COLS = ["case_uuid", "volation_uuid", "state_name", "citation_index"]
+    IGNORE_COLS = [
+        "case_uuid",
+        "violation_uuid",
+        "state_name",
+        "citation_sequence",
+        "infile",
+        "explode_violations",
+        "violations_delim",
+    ]
     for colname, pa_col in SCHEMA.columns.items():
         if colname in IGNORE_COLS:
             continue
@@ -439,7 +447,10 @@ if __name__ == "__main__":
     df["violation_uuid"] = df.apply(lambda _: str(uuid.uuid4()), axis=1)
 
     # loop over all columns, apply cleaners and add if not present
-    for dest_colname in list(vars(args))[6:]:
+    for dest_colname in list(vars(args)):
+        if dest_colname in IGNORE_COLS:
+            continue
+
         source_colname = getattr(args, dest_colname)
         schema_col = SCHEMA.columns[dest_colname]
 
