@@ -17,4 +17,4 @@ output/new_hampshire.csv: \
 		> $@
 
 cleanup:
-	rm -f $(GENERATED_FILES)
+	rm -f output/*

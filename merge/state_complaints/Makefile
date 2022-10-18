@@ -8,4 +8,4 @@ output/state_complaints.csv.gz: $(wildcard input/*.csv)
 	csvstack $^ | gzip > $@
 
 cleanup:
-	rm -f $(GENERATED_FILES)
+	rm -f output/*

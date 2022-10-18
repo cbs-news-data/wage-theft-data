@@ -15,4 +15,4 @@ output/wyoming.csv: \
 		> $@
 
 cleanup:
-	rm -f $(GENERATED_FILES)
+	rm -f output/*

@@ -33,4 +33,4 @@ output/pre_cleaned.csv: \
 	python $^ > $@
 
 cleanup:
-	rm -f $(GENERATED_FILES)
+	rm -f output/*

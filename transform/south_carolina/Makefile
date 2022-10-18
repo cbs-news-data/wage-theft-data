@@ -27,4 +27,4 @@ output/amounts.csv: input/Copy_of_FOIA_Request.xlsx
 	in2csv --sheet Sheet2 $< > $@
 
 cleanup:
-	rm -f $(GENERATED_FILES)
+	rm -f output/*
