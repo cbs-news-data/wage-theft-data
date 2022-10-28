@@ -55,13 +55,20 @@ def do_transformation(filename):
         .dropna(axis=1, how="all")
         # drop completely empty rows
         .dropna(axis=0, how="all")
-        # ffill all rows
-        .ffill(axis=0)
+        # ffill values
+        # first need to ffill the case name
+        .assign(dir_case_name=lambda df: df.dir_case_name.ffill())
+        # then groupby the case number and ffill the rest of the values
+        # this prevents values from being ffilled across different cases
+        .pipe(
+            lambda df: df[["dir_case_name"]].join(df.groupby("dir_case_name").ffill())
+        )
         # group by identifying info and sum all other columns
         .groupby(
             [
                 "dir_case_name",
                 "account_name",
+                "account_dba",
                 "date_of_docket",
                 "naics_code",
                 "role",
@@ -70,7 +77,7 @@ def do_transformation(filename):
             ],
             dropna=False,
         )
-        .sum(numeric_only=True)
+        .sum()
     )
 
 
