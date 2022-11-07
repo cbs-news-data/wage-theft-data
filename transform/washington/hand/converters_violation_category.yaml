@@ -6,18 +6,18 @@
 'Rest Periods': breaks
 'Unpaid Overtime': overtime
 'Nurse Overtime': overtime
-'Other': other
+'Other': drop
 'Paid at incorrect classification for work performed': unpaid_wages
 'Unpaid hours worked': unpaid_wages
 'Unpaid overtime': overtime
 'Unauthorized Deductions': deductions
-'Fringe Benefits': other
+'Fringe Benefits': drop
 'Paid Sick Leave': sick_time
 'Meal and Rest Periods (WAC 296-131-020)': breaks
 'Unpaid Tips, Gratuities, Service Charges': tips
-'Other Violations': other
-'Uniform Charges': other
-'Employer': other
+'Other Violations': drop
+'Uniform Charges': drop
+'Employer': drop
 'Unauthorized Deduction': deductions
 'Failure To Reinstate Leave': time_off
 'Insufficient Leave Accrual': time_off

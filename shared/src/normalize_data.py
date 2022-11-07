@@ -110,8 +110,7 @@ SCHEMA = pa.DataFrameSchema(
                     "unpaid_wages",
                     "time_off",
                     "sick_time",
-                    "other",
-                ],
+                ]
             ),
             coerce=True,
         ),
@@ -493,6 +492,10 @@ if __name__ == "__main__":
                 df[dest_colname] = pd.to_datetime(np.NaN)
             else:
                 df[dest_colname] = np.NaN
+
+    # drop rows whose violation_category is 'drop'
+    df = df[df["violation_category"] != "drop"]
+    # all other values will fail validation
 
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]
