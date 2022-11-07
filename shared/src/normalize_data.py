@@ -312,16 +312,17 @@ def explode_violations(
     )
 
 
-def validate_yaml_files() -> None:
+def validate_yaml_files(available_cols: list[str]) -> None:
     """validates all YAML files in the data directory"""
     if not os.path.exists("hand"):
         return
 
     for filename in os.listdir("hand"):
         if filename.endswith(".yaml"):
+            assert filename.startswith("converters_"), f"invalid filename: {filename}"
             assert any(
-                col in filename for col in SCHEMA.columns
-            ), f"YAML file {filename} does not contain any columns from the source dataframe"
+                filename == f"converters_{col}.yaml" for col in available_cols
+            ), f"YAML file {filename} does not contain any column names from the schema that are in the dataframe"
 
             with open(f"hand/{filename}", "r", encoding="utf-8") as yaml_file:
                 yaml.load(yaml_file, Loader=yaml.CLoader)
@@ -445,7 +446,13 @@ if __name__ == "__main__":
     df = pd.read_csv(args.infile)
 
     # before doing anything else, validate that all yaml files in hand/ directory
-    validate_yaml_files()
+    validate_yaml_files(
+        [
+            arg
+            for arg in vars(args)
+            if arg not in IGNORE_ARGS and getattr(args, arg) is not None
+        ]
+    )
 
     # assign uuid and state fields
     df["case_uuid"] = df.apply(lambda _: str(uuid.uuid4()), axis=1)
