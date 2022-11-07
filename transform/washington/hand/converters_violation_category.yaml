@@ -16,7 +16,7 @@
 'Meal and Rest Periods (WAC 296-131-020)': breaks
 'Unpaid Tips, Gratuities, Service Charges': tips
 'Other Violations': drop
-'Uniform Charges': drop
+'Uniform Charges': deductions
 'Employer': drop
 'Unauthorized Deduction': deductions
 'Failure To Reinstate Leave': time_off
