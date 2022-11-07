@@ -2,17 +2,26 @@ GENERATED_FILES: output/illinois.csv
 
 .PHONY: all cleanup
 
+.INTERMEDIATE: output/stacked.csv
+
 all: $(GENERATED_FILES)
 
 output/illinois.csv: \
-		input/FOIA-MWOT_final.xlsx \
+		output/stacked.csv \
 		src/normalize_data.py
-	in2csv $< | \
-	python src/normalize_data.py Illinois \
-		--date_opened "Filing Date" \
-		--employer_name "Employer" \
-		--amount_claimed TotalAmountClaimed \
+	python src/normalize_data.py $< Illinois \
+		--date_opened "date" \
+		--employer_name "employer" \
+		--amount_claimed amount \
 	> $@
+
+output/stacked.csv: \
+		input/FOIA-MWOT_final.xlsx \
+		input/FOIA-WC_Final.xlsx
+	echo date,employer,status,amount > $@
+	for file in $^ ; do \
+		in2csv $$file | awk "NR > 1" >> $@ ; \
+	done
 
 cleanup:
 	rm -f output/*
