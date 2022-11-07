@@ -14,7 +14,7 @@ output/kentucky.csv: \
 		--employer_name Employer \
 		--employer_city city \
 		--date_closed DateClosed \
-		--amount_claimed amount \
+		--amount_paid amount \
 		--violation_category Violation \
 		> $@
 
