@@ -15,6 +15,7 @@ output/ohio.csv: \
 		--amount_claimed amount_claimed \
 		--amount_assessed amount_assessed \
 		--amount_paid amount_paid \
+		--case_status status \
 	> $@
 
 output/stacked.csv: \

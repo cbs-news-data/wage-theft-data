@@ -11,25 +11,28 @@ output/indiana.csv: \
 		src/normalize_data.py
 
 	in2csv $< | \
-		python src/assign_amount_assessed.py | \
-				python src/normalize_data.py Indiana \
-				--employer_name "Employer Name" \
-				--date_opened "Date Received" \
-				--amount_claimed "Amount of Claim" \
-				--amount_assessed amount_assessed \
-				--amount_paid "Net Paid" | \
-					awk "NR > 1" >> $@
+	python src/assign_amount_assessed.py | \
+		python src/normalize_data.py Indiana \
+		--employer_name "Employer Name" \
+		--date_opened "Date Received" \
+		--amount_claimed "Amount of Claim" \
+		--amount_assessed amount_assessed \
+		--amount_paid "Net Paid" \
+		--case_status "Claim Status" \
+	> $@
 	
 	in2csv $(word 2, $^) | \
-			python src/assign_amount_assessed.py | \
-				python src/normalize_data.py Indiana \
-				--employer_name Employer \
-				--date_opened "ClaimReceived" \
-				--date_paid "Date Paid" \
-				--amount_claimed "Amount Claimed" \
-				--amount_assessed amount_assessed \
-				--amount_paid "Net Paid" \
-				> $@
+	python src/assign_amount_assessed.py | \
+		python src/normalize_data.py Indiana \
+		--employer_name Employer \
+		--date_opened "ClaimReceived" \
+		--date_paid "Date Paid" \
+		--amount_claimed "Amount Claimed" \
+		--amount_assessed amount_assessed \
+		--amount_paid "Net Paid" \
+		--case_status Disposition | \
+	awk "NR > 1" \
+	>> $@
 
 cleanup:
 	rm -f output/*

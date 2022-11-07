@@ -10,7 +10,8 @@ all: $(GENERATED_FILES)
 
 output/rhode_island.csv: \
 		output/stacked.csv \
-		src/normalize_data.py
+		src/normalize_data.py \
+		$(wildcard hand/*)
 	cat $< | \
 	python src/normalize_data.py "Rhode Island" \
 		--date_opened "DATE RECEIVED" \
@@ -19,6 +20,7 @@ output/rhode_island.csv: \
 		--amount_claimed "CLAIM AMOUNT" \
 		--amount_assessed "AMOUNT ASSESSED" \
 		--amount_paid "PAYMENTS RECEIVED" \
+		--case_status "CASE STATUS" \
 		> $@
 
 output/stacked.csv: \

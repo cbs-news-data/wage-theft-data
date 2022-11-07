@@ -6,7 +6,8 @@ all: $(GENERATED_FILES)
 
 output/new_york.csv: \
 		input/REC-0011772_Records_for_release.xlsx \
-		src/normalize_data.py
+		src/normalize_data.py \
+		$(wildcard hand/*)
 	in2csv $< | \
 	python src/normalize_data.py "New York" \
 		--explode-violations \
@@ -18,6 +19,7 @@ output/new_york.csv: \
 		--amount_claimed "Claim Amount" \
 		--amount_assessed "Amount Assessed" \
 		--amount_paid "Deposits" \
+		--case_status "Case Status" \
 		> $@
 
 cleanup:

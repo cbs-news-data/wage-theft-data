@@ -114,6 +114,26 @@ SCHEMA = pa.DataFrameSchema(
             ),
             coerce=True,
         ),
+        "case_status": pa.Column(
+            dtype=str,
+            nullable=True,
+            unique=False,
+            coerce=True,
+            checks=pa.Check.isin(
+                [
+                    "closed",
+                    "open",
+                    "dismissed",
+                    "withdrawn",
+                    "pending enforcement",
+                    "awaiting payment",
+                    "pending appeal",
+                    "amount exceeds statutory limit",
+                    "affirmed",
+                    "overturned",
+                ]
+            ),
+        ),
         "date_opened": pa.Column(
             dtype="datetime64[ns]",
             nullable=True,
@@ -337,6 +357,13 @@ def replace_col_vals_from_yaml(
     return dataframe
 
 
+def explicit_drop_replaced_values(
+    dataframe: pd.DataFrame, col_name: str
+) -> pd.DataFrame:
+    """drops any values in column col_name that were replaced with 'drop'"""
+    return dataframe[dataframe[col_name] != "drop"]
+
+
 CLEAN_FUNCTIONS = {
     "appeal_filed": parse_bool,
     "lien_issued": parse_bool,
@@ -493,8 +520,9 @@ if __name__ == "__main__":
             else:
                 df[dest_colname] = np.NaN
 
-    # drop rows whose violation_category is 'drop'
-    df = df[df["violation_category"] != "drop"]
+    # drop rows whose status or violation_category is 'drop'
+    df = explicit_drop_replaced_values(df, "violation_category")
+    df = explicit_drop_replaced_values(df, "case_status")
     # all other values will fail validation
 
     print(

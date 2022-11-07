@@ -9,7 +9,8 @@ all: $(GENERATED_FILES)
 output/south_carolina.csv: \
 		output/cases.csv \
 		output/amounts.csv \
-		src/normalize_data.py
+		src/normalize_data.py \
+		$(wildcard hand/*)
 	csvjoin -c 1 --left $(wordlist 1, 2, $^) | \
 	python src/normalize_data.py "South Carolina" \
 		--date_opened Received \
@@ -18,6 +19,7 @@ output/south_carolina.csv: \
 		--amount_assessed "Wage Due Amt." \
 		--amount_paid "Amt. Paid" \
 		--violation_category "Type Citation" \
+		--case_status Status \
 		> $@
 
 output/cases.csv: input/Copy_of_FOIA_Request.xlsx

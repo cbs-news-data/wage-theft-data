@@ -8,11 +8,13 @@ all: $(GENERATED_FILES)
 
 output/illinois.csv: \
 		output/stacked.csv \
-		src/normalize_data.py
+		src/normalize_data.py \
+		$(wildcard hand/*)
 	python src/normalize_data.py $< Illinois \
 		--date_opened "date" \
 		--employer_name "employer" \
 		--amount_claimed amount \
+		--case_status status \
 	> $@
 
 output/stacked.csv: \

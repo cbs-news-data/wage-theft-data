@@ -10,12 +10,15 @@ all: $(GENERATED_FILES)
 
 output/kansas.csv: \
 		src/normalize_data.py \
-		output/stacked.csv		
-	python $^ Kansas \
+		output/stacked.csv \
+		$(wildcard hand/*)
+	python $< output/stacked.csv Kansas \
 		--employer_name Employer \
 		--date_opened Received \
 		--date_closed Closed \
-		--amount_claimed Amount \
+		--amount_claimed Wages \
+		--amount_paid Amount \
+		--case_status Notes \
 		> $@
 
 output/stacked.csv: input/CBS_Request.xlsx
