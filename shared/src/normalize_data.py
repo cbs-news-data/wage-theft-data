@@ -171,18 +171,6 @@ SCHEMA = pa.DataFrameSchema(
 )
 
 
-def schema_col_is_datetime(column: pa.Column) -> bool:
-    """checks whether the pandera.Column object has a dtype of "datetime64[ns]"
-
-    Args:
-        column (pandera.Column): Column object to check
-
-    Returns:
-        bool: True if datetime, False if not
-    """
-    return column.dtype.type == "datetime64[ns]"  # type: ignore
-
-
 def strtobool(val: Any) -> bool:
     """Convert a string representation of truth to True or False"""
     val = val.lower()
@@ -519,13 +507,13 @@ if __name__ == "__main__":
                 if dest_colname in CLEAN_FUNCTIONS
                 else df[source_colname]
                 # if schema expects a datetime, convert values to datetime
-                if not schema_col_is_datetime(schema_col)
+                if not schema_col.dtype.type == "datetime64[ns]"
                 else pd.to_datetime(df[source_colname], errors="coerce")
             )
 
         else:
             # if the schema expects a datetime, create a null datetime field
-            if schema_col_is_datetime(schema_col):
+            if schema_col.dtype.type == "datetime64[ns]":
                 df[dest_colname] = pd.to_datetime(np.NaN)
             else:
                 df[dest_colname] = np.NaN
