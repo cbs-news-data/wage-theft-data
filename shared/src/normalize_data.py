@@ -322,7 +322,10 @@ def validate_yaml_files(available_cols: list[str]) -> None:
             assert filename.startswith("converters_"), f"invalid filename: {filename}"
             assert any(
                 filename == f"converters_{col}.yaml" for col in available_cols
-            ), f"YAML file {filename} does not contain any column names from the schema that are in the dataframe"
+            ), (
+                f"YAML file {filename} does not contain any column names from the"
+                " schema that are in the dataframe"
+            )
 
             with open(f"hand/{filename}", "r", encoding="utf-8") as yaml_file:
                 yaml.load(yaml_file, Loader=yaml.CLoader)
