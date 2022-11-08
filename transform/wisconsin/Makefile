@@ -15,6 +15,7 @@ output/wisconsin.csv: \
 		--employer_name Respondent \
 		--amount_assessed "Amount Assessed" \
 		--amount_paid "Payment Received" \
+		--case_status "Case Status" \
 		> $@
 
 cleanup:

@@ -6,7 +6,8 @@ all: $(GENERATED_FILES)
 
 output/iowa.csv: \
 		input/OR-_22-2353_Wage_Claims_Data_8_4_2022.xlsx \
-		src/normalize_data.py
+		src/normalize_data.py \
+		$(wildcard hand/*)
 	in2csv $< | \
 	python src/normalize_data.py Iowa \
 		--employer_name "Account DBA Name" \
@@ -14,6 +15,7 @@ output/iowa.csv: \
 		--amount_claimed "Claim Amount" \
 		--amount_assessed "Amount Assessed" \
 		--amount_paid "Amount Received" \
+		--case_status "Case Status" \
 		> $@
 
 cleanup:

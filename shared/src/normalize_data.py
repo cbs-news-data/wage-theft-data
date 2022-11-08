@@ -12,6 +12,16 @@ import numpy as np
 from tqdm import tqdm
 import yaml
 
+# dataframe-wide checks
+def check_no_dupes(dataframe: pd.DataFrame) -> bool:
+    """checks that there are no duplicate rows in the dataframe"""
+    return (
+        not dataframe[[c for c in dataframe.columns if "uuid" not in c]]
+        .duplicated()
+        .any()
+    )
+
+
 SCHEMA = pa.DataFrameSchema(
     columns={
         "case_uuid": pa.Column(
@@ -126,7 +136,6 @@ SCHEMA = pa.DataFrameSchema(
                     "dismissed",
                     "withdrawn",
                     "pending enforcement",
-                    "awaiting payment",
                     "pending appeal",
                     "amount exceeds statutory limit",
                     "affirmed",
@@ -168,6 +177,7 @@ SCHEMA = pa.DataFrameSchema(
             coerce=True,
         ),
     },
+    checks=[pa.Check(check_no_dupes, error="duplicate rows found")],
 )
 
 
@@ -356,6 +366,13 @@ def explicit_drop_replaced_values(
     return dataframe[dataframe[col_name] != "drop"]
 
 
+def dedupe_all(dataframe: pd.DataFrame) -> pd.DataFrame:
+    """dedupe all except uuid rows"""
+    return dataframe.drop_duplicates(
+        subset=[col for col in dataframe.columns if "uuid" not in col]
+    )
+
+
 CLEAN_FUNCTIONS = {
     "appeal_filed": parse_bool,
     "lien_issued": parse_bool,
@@ -522,6 +539,9 @@ if __name__ == "__main__":
     df = explicit_drop_replaced_values(df, "violation_category")
     df = explicit_drop_replaced_values(df, "case_status")
     # all other values will fail validation
+
+    # final dataframe-wise cleaners
+    df = dedupe_all(df)
 
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]
