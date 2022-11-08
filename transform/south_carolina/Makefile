@@ -22,11 +22,15 @@ output/south_carolina.csv: \
 		--case_status Status \
 		> $@
 
-output/cases.csv: input/Copy_of_FOIA_Request.xlsx
-	in2csv --sheet Sheet1 $< > $@
+output/cases.csv: \
+		input/Copy_of_FOIA_Request.xlsx \
+		src/cleanup_case_numbers.py
+	in2csv --sheet Sheet1 $< | python src/cleanup_case_numbers.py > $@
 
-output/amounts.csv: input/Copy_of_FOIA_Request.xlsx
-	in2csv --sheet Sheet2 $< > $@
+output/amounts.csv: \
+		input/Copy_of_FOIA_Request.xlsx \
+		src/cleanup_case_numbers.py
+	in2csv --sheet Sheet2 $< | python src/cleanup_case_numbers.py > $@
 
 cleanup:
 	rm -f output/*
