@@ -539,6 +539,14 @@ if __name__ == "__main__":
         ["date_opened", "date_closed", "date_paid"],
     ] = np.NaN
 
+    # drop date values for rows where any date value is in the future
+    df.loc[
+        (df.date_opened > pd.Timestamp.now())
+        | (df.date_closed > pd.Timestamp.now())
+        | (df.date_paid > pd.Timestamp.now()),
+        ["date_opened", "date_closed", "date_paid"],
+    ] = np.NaN
+
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]
         .set_index(["case_uuid", "violation_uuid"])
