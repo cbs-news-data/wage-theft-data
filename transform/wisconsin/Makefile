@@ -8,9 +8,11 @@ output/wisconsin.csv: \
 		input/Responsive_record.xlsx \
 		src/normalize_data.py \
 		src/ffill_rows.py \
+		src/fix_case_status.py \
 		$(wildcard hand/*)
 	in2csv $< | \
-	python src/ffill_rows.py \
+	python src/ffill_rows.py | \
+	python src/fix_case_status.py "Case Status" "Payment Received" | \
 	python src/normalize_data.py Wisconsin \
 		--date_opened "Received Date" \
 		--violation_category "Category Description" \

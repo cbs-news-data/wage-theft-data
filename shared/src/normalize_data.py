@@ -13,15 +13,6 @@ from tqdm import tqdm
 import yaml
 
 # dataframe-wide checks
-def check_no_dupes(dataframe: pd.DataFrame) -> bool:
-    """checks that there are no duplicate rows in the dataframe"""
-    return (
-        not dataframe[[c for c in dataframe.columns if "uuid" not in c]]
-        .duplicated()
-        .any()
-    )
-
-
 def check_no_status_amount_mismatch(dataframe: pd.DataFrame) -> bool:
     """
     checks that there are no rows where case statuses show 'open'
@@ -190,7 +181,6 @@ SCHEMA = pa.DataFrameSchema(
         ),
     },
     checks=[
-        pa.Check(check_no_dupes, error="duplicate rows found"),
         pa.Check(
             check_no_status_amount_mismatch,
             error="case status and amount paid mismatch",
@@ -557,9 +547,6 @@ if __name__ == "__main__":
     df = explicit_drop_replaced_values(df, "violation_category")
     df = explicit_drop_replaced_values(df, "case_status")
     # all other values will fail validation
-
-    # final dataframe-wise cleaners
-    df = dedupe_all(df)
 
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]

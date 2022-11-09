@@ -1,560 +1,581 @@
 case_uuid,violation_uuid,state_name,citation_sequence,employer_name,employer_dba_name,employer_city,violation_category,case_status,date_opened,date_paid,date_closed,amount_claimed,amount_assessed,amount_paid
-1e1d20f9-c000-47d3-97cc-ee6bd1023fa7,f96108f5-0c96-404d-9979-c9b5684d813c,Nebraska,1,"Let's Talk Dirt, Inc.",,,,closed,,,2014-09-10,,1000.0,0.0
-5a83cba8-a28c-4eb4-8a61-9f2cf80b8c1c,740ba20f-7dec-4d90-88d1-a65539f6fd95,Nebraska,1,perfect finish flooring llc,,,,closed,,,2014-10-30,,500.0,0.0
-8b1d60cb-c392-4b17-a27b-3830d1ddf54f,9ec06f3d-9858-4a15-8791-63be98e687da,Nebraska,1,Little Giggles,,,,closed,,,2014-11-14,,500.0,0.0
-370fbb7d-ffc9-41b9-bc7c-a1b820a5bbe2,f6435047-9a10-48de-95f5-31f7b79b044c,Nebraska,1,Huntington Child Care Center,,,,closed,,,2014-11-18,,400.0,400.0
-212cb5f7-b9a8-49d0-bd52-321e16177b7c,da62eee6-0f56-4d17-bb34-843d4b4a017e,Nebraska,1,Mutual 1st Federal Credit Union,,,,closed,,,2014-11-20,,500.0,500.0
-135c23de-fb2b-40e6-bbc2-b1d4a47e3d7f,53a17dd3-9cae-4fca-8869-cdd7c9e95626,Nebraska,1,"Giggles, Inc.",,,,closed,,,2014-11-21,,500.0,500.0
-92dff881-5903-418a-9785-4666be9b97af,67624b5b-6338-4b07-aa9b-6c081b9f3d1d,Nebraska,1,I Read Books,,,,closed,,,2014-12-01,,225.0,0.0
-283c8743-5794-4969-b8dc-682b99f31415,e2d2697f-51e1-4681-8db2-f3987fbd385d,Nebraska,1,Sterling Enterprises DBA Team Green,,,,closed,,,2014-12-09,,350.0,350.0
-c27783d4-7112-4acb-ae50-2134382291e5,70a3498d-41bc-4687-b837-31fb25bfbb86,Nebraska,1,"Let's Talk Dirt, Inc.",,,,closed,,,2014-12-11,,1100.0,0.0
-25bdc6e1-3394-477c-84c3-3fa98e36e0f0,779c252e-33e9-4aac-887a-0320515244fa,Nebraska,1,Paul Neideffer Painting,,,,closed,,,2014-12-15,,320.0,0.0
-9a1a3b87-8831-4e08-a55e-9154af8fc9fc,9b0cabe9-b1ef-430e-8cae-159c0e0afa32,Nebraska,1,Bridging the Gap Inc.,,,,closed,,,2015-01-02,,500.0,0.0
-07ed03ef-5200-4471-b45f-a2402c64b615,8c94312d-388e-4ad7-a64c-8b3630527616,Nebraska,1,Bridging the Gap Inc.,,,,closed,,,2015-01-02,,500.0,0.0
-85f163b3-54e7-43b3-82ad-ca57478e65e7,6dd274e4-4234-4948-b176-d2a8a7c55894,Nebraska,1,FuturesOne,,,,closed,,,2015-01-06,,500.0,500.0
-0b86010e-8eeb-44f7-a3cc-94da75547e06,99b251eb-7006-4064-8b4b-d4fe43820c39,Nebraska,1,4 Horsemen Security,,,,closed,,,2015-01-14,,500.0,0.0
-7f7ee3ca-72eb-4f27-8b43-45928cb442ec,03a76932-0ae1-40c6-a538-9508903fba14,Nebraska,1,"McCauley Concrete, LLC",,,,closed,,,2015-02-03,,500.0,0.0
-28fd7b9b-eca0-4d32-a3d3-abf007a1ebf7,24f64132-a383-43a4-ba33-8e6a318e6c92,Nebraska,1,Maywood VFW Post 6930 Club,,,,closed,,,2015-02-03,,500.0,500.0
-20dd50ce-181c-43c2-a1c3-077b4df4be71,b681d126-36aa-4943-935c-3be27cfbc4d3,Nebraska,1,Lynn's Hair Lounge and Spa,,,,closed,,,2015-02-03,,100.0,100.0
-7b4bce8a-a2d1-4034-9a57-db685022a7a2,643a5add-7e71-4b51-9746-9981ded62e88,Nebraska,1,Farm Bureau,,,,closed,,,2015-02-11,,100.0,100.0
-d7cde427-3c39-41da-836b-050441fc6447,47d9b76f-1b0d-4fe9-b46d-f4150507e2a9,Nebraska,1,"Building Clean, LLC",,,,closed,,,2015-02-18,,2500.0,0.0
-b9ed4f02-6918-48f4-b37e-4b1a4f8ceaf8,f9e30117-8bb8-44fb-8f76-0924e67aa20c,Nebraska,1,Goodwill Medical Transportation,,,,closed,,,2015-03-09,,100.0,0.0
-171af0bc-8dbd-4e7b-87e6-00a7d4b5eba0,8c6db846-6648-4389-9c38-324b61d95999,Nebraska,1,Westmont Inn & Suites,,,,closed,,,2015-03-09,,500.0,0.0
-4e0da799-39d0-4ede-ab9e-99e3c793c4dc,d21f81db-64ae-4cf6-9a3d-95f70b46a79a,Nebraska,1,Blackout Express LLC,,,,closed,,,2015-03-25,,500.0,0.0
-82fe0a6d-0954-4ce3-a7b9-a073896a4cb3,c9cedbf1-2318-4f88-a956-f1f330b814ae,Nebraska,1,AmeriLawn of Nebraska,,,,overturned,,,2015-03-27,,1000.0,1000.0
-ded318be-47ba-4f2e-bb4b-c6ec2af89648,71dcae90-3714-4728-9edb-72eb012b075d,Nebraska,1,AmeriLawn of Nebraska,,,,overturned,,,2015-03-27,,500.0,500.0
-df3f4366-15c8-40a9-8469-7cd2a5170daf,757d036f-cc8c-4465-8999-c7c1cd3c5fa6,Nebraska,1,Red Rose Ranch,,,,closed,,,2015-04-20,,200.0,0.0
-fbe412b1-a953-4bb2-92ad-ae1a9ef01bf4,44f05960-8746-48d0-b43a-e67f8ca3b388,Nebraska,1,Hobo's Diner LLC,,,,closed,,,2015-04-20,,500.0,0.0
-4357cbfa-8007-44f0-bb35-97391c6d2d20,741c56de-fddb-462d-a932-51d1f37f606d,Nebraska,1,Shuler Irrigation,,,,closed,,,2015-04-30,,500.0,0.0
-59ef2c60-a577-454c-8c97-e1227d689127,a35b74b7-52b8-4a31-a7fe-7857738ce108,Nebraska,1,Aqua-Tots Omaha LLC,,,,closed,,,2015-05-07,,200.0,200.0
-4a3db3ae-0b5a-4433-ad6c-347095b952b4,c0225691-7985-46a2-9799-7d331633c529,Nebraska,1,Huffman Livestock,,,,closed,,,2015-05-08,,500.0,0.0
-a1cac19c-8786-4553-9a15-07fd1079b205,ad9a089f-d21d-465e-a8ee-71886ebeaee7,Nebraska,1,Finch on the Run Entertainment LLC,,,,closed,,,2015-05-11,,500.0,0.0
-f860849f-208c-4e1e-a999-014a070ce71a,854b374f-1e3f-44f1-b244-efd6fe2bce86,Nebraska,1,"Aqua Plumbing and Heating, L.L.C.",,,,closed,,,2015-05-29,,500.0,500.0
-f574c91b-063f-437e-a7a1-4e92ad5a66d6,77c4c52a-b074-4e00-bb34-ac7bb9d6c3d7,Nebraska,1,Twin Rivers Construction and Siding Inc.,,,,closed,,,2015-06-02,,3500.0,0.0
-7397110c-a6ab-4165-a812-d2f82b5af91b,d9556326-a5bb-4bd4-8b61-583ac6bf6c86,Nebraska,1,Twin Rivers Construction and Siding Inc.,,,,closed,,,2015-06-03,,3500.0,0.0
-f46f6175-937a-4352-9084-aebc56cb951f,c39f6c80-6313-4643-a04d-4d6bb23b2a1a,Nebraska,1,Tuffy Associates Corp.,,,,closed,,,2015-06-05,,1000.0,1000.0
-fa78a1e3-8ecd-429c-a75b-aa92e664ed6a,15c53ed1-9701-42ff-ab2f-05bedc0f8b2e,Nebraska,1,TUFFY TIRE AND AUTO,,,,closed,,,2015-06-05,,1000.0,1000.0
-6b82940b-2e26-4fc2-8f9e-72ed223f4e05,9529e4da-5f8f-4d28-b68c-16c7b15f04ec,Nebraska,1,Finch on the Run Entertainment LLC,,,,closed,,,2015-06-11,,5000.0,0.0
-a4f8cbb6-2385-4eaf-8bf1-a03defc96f13,42ba92ef-3f86-4033-8c05-2d1f6d23c46e,Nebraska,1,Steel Steed Steakhouse and Saloon,,,,overturned,,,2015-06-18,,250.0,250.0
-4c33dd18-b9c6-4998-a8fb-0170b1755b0d,891519d8-872f-4ce5-9579-0bedd23cb882,Nebraska,1,"Sleep Pointe, LLC",,,,closed,,,2015-07-10,,500.0,0.0
-eb2994cd-77e3-411d-83e7-f4057941c14d,4a8d0803-7d85-4046-8bcc-89bc3e60a04c,Nebraska,1,Creative Creations Omaha. LLC,,,,closed,,,2015-07-14,,500.0,0.0
-bb1a3123-1407-419e-b31b-cdadbb3b34d0,890b9eb3-8cdc-4aec-87d0-0c6987cc7030,Nebraska,1,Twin Rivers Construction and Siding Inc.,,,,closed,,,2015-07-21,,1500.0,0.0
-f7db245e-0dbd-4d86-a504-d572dff5e64f,3d446cb5-b547-431a-be38-eb6f479fc8e6,Nebraska,1,Twin Rivers Construction and Siding Inc.,,,,closed,,,2015-07-21,,1500.0,0.0
-7b33ccf0-dc5c-4f4d-843d-acdd7fa00533,605d7e92-8cdc-4c42-9a6a-d8f50cea7763,Nebraska,1,"A-1 Spray Foam Insulation, LLC",,,,closed,,,2015-08-10,,200.0,200.0
-a5e565f3-2946-4c19-b2f2-a1a0858ee582,83d5e422-f260-4f1c-b9fb-fae4b60c56b5,Nebraska,1,Affordable Snow Plowing and Underground,,,,closed,,,2015-08-12,,500.0,500.0
-656a19a4-24aa-4034-9a77-2197c055c842,b1f4ba80-fa9b-48cb-901f-c62f1406bce9,Nebraska,1,"Mark Services, Inc.",,,,overturned,,,2015-08-14,,500.0,500.0
-2804d59e-c3ce-4617-909c-bb67e8b604b8,0a4c3c86-fd2d-4a08-aaf7-6ae0c2736425,Nebraska,1,"Wolf Auto Center Sidney, LLC",,,,closed,,,2015-08-14,,500.0,500.0
-1c529bae-a21b-47e5-9195-e7456f78728b,c43e1a44-e3b7-429e-b2f5-4366d84e46a1,Nebraska,1,Johnson's Painting & Total Construction,,,,closed,,,2015-08-26,,5500.0,0.0
-d5e6db4d-cc7b-4365-9111-405507e44023,1ebf6356-c349-4f41-b672-a3dd7f5d6042,Nebraska,1,Johnson's Painting & Total Construction,,,,closed,,,2015-08-26,,5500.0,0.0
-31a73cda-c198-4990-89a1-c009b129b7d7,feb6dae9-acda-4d28-921c-4a2fc03a8c63,Nebraska,1,The Spigot,,,,closed,,,2015-08-28,,500.0,0.0
-51a296ef-54fc-4fb3-b0c0-6bcc649eff1e,a2451973-d2aa-41e6-950e-02d41715c7c7,Nebraska,1,JV5 Solutions LLC,,,,closed,,,2015-08-31,,1000.0,0.0
-7ce21295-4f05-4814-a759-c448402a916b,2fe5b485-75d6-4b6d-8950-413a6a01b6ec,Nebraska,1,Maharaja Indian Cusine,,,,closed,,,2015-09-22,,500.0,500.0
-fbcf32ad-ad00-48ff-9a07-2e7054787aa6,24e70915-3ee7-4a3f-9bbf-13e7a8996091,Nebraska,1,Reuter Construction LLC,,,,closed,,,2015-09-28,,500.0,0.0
-d8aaceec-98a2-4ce1-adbe-69b3ffd83ee6,23444d04-034b-42ff-97d5-ee42bdb2e459,Nebraska,1,R.A.D.S. Renovations LLC,,,,closed,,,2015-09-28,,500.0,0.0
-11309ec4-5d0e-4c4e-9baa-ec17771fd00b,efa37ede-df20-4177-b2f4-62381417efd3,Nebraska,1,Integrity Painting,,,,closed,,,2015-10-06,,300.0,300.0
-7c1afe01-26ab-4114-b231-7879cec3f9d3,5629a828-b771-47de-a9d5-f78197f8bb62,Nebraska,1,Deseret Health Group,,,,closed,,,2015-10-08,,51000.0,0.0
-3f197b91-0ad1-47ab-8376-7cd5bde24a6b,be36b0ea-289d-4432-a544-ab0019a71d85,Nebraska,1,"Lift Omaha, LLC",,,,closed,,,2015-10-13,,500.0,0.0
-1e44d017-0213-4f02-a42d-e8d8476042d4,055a021d-9bab-4e85-8c3f-81e195db45e1,Nebraska,1,"Storz Trophy Room Grill and Brewery, LLC",,,,closed,,,2015-10-14,,500.0,0.0
-0ba30715-e548-4969-9b85-712a1f2d93c1,bc195563-6be6-4f1b-829e-143f79a94d04,Nebraska,1,"Maintenanceman, LLC",,,,pending appeal,,,2015-10-15,,500.0,500.0
-5e57e1fe-0dbe-4b4e-b9e7-0889403159f6,a9b2eeff-5120-4a5b-8d61-35303bbed63c,Nebraska,1,"AdPointe Media, Inc.",,,,closed,,,2015-10-20,,500.0,0.0
-62d3f59a-3490-4b45-b752-13cc578a1819,71f54c30-4bef-4d1d-9485-4a801ff22614,Nebraska,1,Bank of Lewellen,,,,closed,,,2015-10-21,,500.0,500.0
-f109941d-f4e6-4314-a764-af78b7414fd2,04a885ce-231a-475c-a515-bddc2090fb4c,Nebraska,1,West Gate Bank,,,,pending appeal,,,2015-11-09,,500.0,0.0
-8cd698a2-3485-4a17-9186-abf34b119a65,a72a7aa0-9ffd-4fe7-895f-1da5648bb9cd,Nebraska,1,"Sterling Enterprises, Inc.",,,,closed,,,2015-11-09,,500.0,0.0
-14c8f91e-900e-462e-b338-8059727071ea,a8582e02-0333-44be-b7d9-e24aa718039e,Nebraska,1,Walker Search Group LLC,,,,closed,,,2015-11-09,,250.0,250.0
-d03a375b-68e3-455e-b329-56839bb1246e,314b6702-7d05-46e9-961e-dadd754f694e,Nebraska,1,Verizon Wireless,,,,closed,,,2015-11-09,,500.0,500.0
-256a9b63-02fa-46db-a9d3-fa31e3dd6248,e8938c52-752a-4d7e-9133-c59c3ce97f13,Nebraska,1,"Kinderversity, LLC",,,,closed,,,2015-11-12,,500.0,500.0
-36cd4d9e-3e6f-4740-8d74-8d689333734c,18e5fd86-aacd-44a6-9cd2-68082eb7148d,Nebraska,1,Holt Excavating,,,,closed,,,2015-11-17,,500.0,0.0
-d6b4f383-0b07-4f0f-837b-8a6928112ce2,8194c79d-4555-4558-8819-1a64d481c0d3,Nebraska,1,Hire a Maid,,,,closed,,,2015-11-17,,500.0,500.0
-a1d71376-d75a-44c4-ace1-bd50a2c063dc,e2c942e4-57ed-4506-b8e1-0279529e7f24,Nebraska,1,"Novinger Building Services, Inc.",,,,closed,,,2015-11-30,,500.0,0.0
-ace989e8-aa2d-4155-a72b-22a5a66d8861,e40aee9a-c17a-4723-a086-e011dc4ee5df,Nebraska,1,"Mid Plains Food & Lodging, Inc.",,,,closed,,,2015-12-07,,500.0,500.0
-66ba0115-d99f-4921-91ab-3a157e3326bc,c5c8e525-7e33-4491-a71c-3ada15fe996c,Nebraska,1,"TFL, Inc. DBA Mega Saver",,,,closed,,,2015-12-10,,500.0,500.0
-c33a535e-9e9c-4e70-8fe1-2f3c3a0dc6c9,494515e1-2d84-4a0a-8ac0-1268aa9a541f,Nebraska,1,Jim's Truck Stop & Skyline Cafe,,,,closed,,,2015-12-16,,450.0,450.0
-21ebb0fa-07ee-47e1-bf42-38d75ae009a0,8ee50889-2c3e-4bb0-9413-f31912f81724,Nebraska,1,Rehab Lounge,,,,closed,,,2015-12-17,,500.0,0.0
-6f207ed6-612e-4c7d-84b4-1cee9cbcb4d7,641d75ce-40f9-48ab-98b8-71ed92eebcf4,Nebraska,1,"EA Towing, Inc.",,,,closed,,,2015-12-29,,500.0,500.0
-67fbfae2-9882-4ca1-a362-2ac5e27deff9,24561737-9287-4bb2-b7e4-4b6b0bf0dde9,Nebraska,1,"Urban Focus, Inc.",,,,closed,,,2015-12-29,,500.0,0.0
-a5046605-222e-4e34-b219-a04c40eca351,95a810f2-f4a5-4a75-96d0-0fbe6868225c,Nebraska,1,"Bottom Line, Inc.",,,,closed,,,2016-02-01,,500.0,500.0
-111a878d-40be-49ec-92c0-b5bb0c2419d3,9ee51a19-ce79-4c76-968a-418ee18f46dc,Nebraska,1,Paul Neideffer Painting,,,,closed,,,2016-02-05,,2500.0,0.0
-349d3de0-f391-4e12-8704-ac965658b9dc,f19fd643-9d43-43cb-aa47-ed8a4b4f064b,Nebraska,1,"Distinctive Landscape & Concrete Construction, LLC",,,,closed,,,2016-02-25,,250.0,0.0
-18bacc28-e395-4c93-a8da-c2596c5e6bca,e7532398-b210-418f-8ece-79cc0cd14b40,Nebraska,1,Grand Island Pump and Supply Company,,,,closed,,,2016-03-03,,500.0,500.0
-0a76f695-2551-4ef0-8509-88ba675ab5aa,ad4e7151-6e04-40da-8745-e685ae68fac2,Nebraska,1,"Bellevue Property Restoration, LLC",,,,closed,,,2016-03-14,,250.0,0.0
-d70c9ebb-e72a-4d93-8b43-fb12e50ad5ea,c3e03dd1-1b94-4d1c-a48d-53d97f6497a6,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-03-21,,500.0,0.0
-a1393579-cbe5-4e29-b432-50ff00391cd3,473e8a80-e590-4d1e-8536-3eb55cb0c614,Nebraska,1,Sixx B Transport LLC,,,,closed,,,2016-04-11,,500.0,0.0
-0a80e1a6-4f63-42ce-bdfc-3cc60db6cb70,fa430565-dd72-41bb-b8db-fc1c0f87c444,Nebraska,1,LHD LLC DBA LHD Cleanings Solutions LLC,,,,closed,,,2016-04-11,,250.0,0.0
-a085c5db-2423-4f42-913d-2716eca188af,2a8e7fe6-2605-4256-87a8-71fc5f2abbf4,Nebraska,1,Levy Restaurants at Haymarket Park,,,,closed,,,2016-04-11,,500.0,500.0
-8a64cade-7281-46ef-ad67-75c91cfbe04f,d940a0d7-24e6-4daf-860d-221354a83b8e,Nebraska,1,Servpro,,,,closed,,,2016-04-13,,500.0,0.0
-97e8c542-69fe-41ac-a944-501ffb14d517,de1f1b8c-4711-451c-af4a-f678fda4181a,Nebraska,1,"Let's Talk Dirt, Inc.",,,,affirmed,,,2016-04-18,,500.0,0.0
-1ded8da6-3d1b-4b6d-9333-8e2215fce6f2,3d72618a-36ae-4488-b78e-a2a87cba6bcd,Nebraska,1,"Let's Talk Dirt, Inc.",,,,affirmed,,,2016-04-18,,500.0,0.0
-c4bd2f1a-bd42-43cb-8192-e6951a47e195,52431154-1e29-48ef-9315-6872fc37bc5c,Nebraska,1,"Let's Talk Dirt, Inc.",,,,affirmed,,,2016-04-18,,500.0,0.0
-e6074063-be14-40c8-8f6c-23d48542e70f,5b0c7c7b-33cc-4bf2-a984-2edcab32e7de,Nebraska,1,"C & S Electronics, Inc.",,,,closed,,,2016-05-13,,1000.0,0.0
-cfc1de11-6667-45ee-a03a-ec3768ce92ff,85a41ea1-72f0-45b9-bc34-5eeab762f4c8,Nebraska,1,El Parian Bar & Grill,,,,closed,,,2016-05-17,,500.0,0.0
-7e3a67ee-96cf-45c8-983d-d1d5e2f24632,48266b1a-41cd-45d8-85f2-223206dded8f,Nebraska,1,Barnstormers Family Bar and Grill,,,,closed,,,2016-05-18,,100.0,0.0
-3beee9e1-7a70-4785-bafa-cefbed720211,489a0090-6e72-4313-a02b-17745323921a,Nebraska,1,Reuter Construction LLC,,,,closed,,,2016-05-24,,5000.0,0.0
-3c3726aa-9b3c-458a-b382-7f9d67f83f57,4fa5ef7f-ab42-4eab-b31b-38d36b712fce,Nebraska,1,GSE Construction,,,,closed,,,2016-05-25,,250.0,0.0
-b1d7e588-d8f9-4337-ba8e-7b90a27deb69,54d9b9a9-7bc7-4f9c-94b9-8fe82de62e21,Nebraska,1,Family Business Contractor,,,,closed,,,2016-05-25,,150.0,0.0
-2fa4c850-f187-4e87-909c-65d2a7f55fbd,89a4e134-0515-414c-a67c-14073ae5f560,Nebraska,1,Offutt AFB Child Development Center,,,,closed,,,2016-05-25,,100.0,100.0
-17410cad-1031-4e04-9f6a-076d3fa024cf,ee207f0c-e655-4f8f-ab85-63e6caf19dbd,Nebraska,1,Girls Inc.,,,,closed,,,2016-05-31,,500.0,500.0
-a01b944d-6140-460f-947c-0afcd755ad1c,cd47ce8c-cea6-4306-8379-7e9ccf07f51e,Nebraska,1,JD Contracting,,,,closed,,,2016-06-13,,500.0,0.0
-2819b5de-da4e-47b6-bbf9-9d61fdbcc44d,e11a4b31-cfae-47f8-827c-5e740b514bdc,Nebraska,1,JD Contracting,,,,closed,,,2016-06-13,,2500.0,0.0
-65ff0dc8-e2fa-4c27-acd8-a74d257a62ef,30dce904-31df-4ae3-a01d-6b798de18fc7,Nebraska,1,"Reitz Way Delivery, Inc.",,,,closed,,,2016-06-14,,500.0,500.0
-7b5a5f63-3a1a-4d20-8a7c-871c51e62a5c,cdb845bb-c201-404a-8274-8113ce592c9b,Nebraska,1,"Nosh Wine, L.L.C.",,,,closed,,,2016-06-21,,500.0,500.0
-a47cb484-28d2-4181-9181-64659c9b3f48,e2cb1244-9f37-43b4-b01e-c37ac47456c6,Nebraska,1,"Von Busch & Sons, Inc.",,,,closed,,,2016-06-24,,300.0,300.0
-67be942c-9f16-46ba-987d-47da3942b3af,f899fea0-c93b-40bf-9343-aceaa91d93c9,Nebraska,1,"Claire's Boutiques, Inc.",,,,closed,,,2016-07-11,,500.0,500.0
-27cbe395-2116-48d1-a102-112ec7ee51ab,91119454-84ad-465f-bef6-1bf4f165e043,Nebraska,1,"Reinhardt Contracting, Inc.",,,,closed,,,2016-08-08,,500.0,0.0
-d3218fa7-1dae-47a6-9de0-1690258f1d9d,4089a96e-64c0-4d1b-8fbc-ae23b64be161,Nebraska,1,"Corporate Enterprise Solutions, Inc.",,,,closed,,,2016-09-13,,500.0,500.0
-b75fadd3-ba18-4508-8d6f-e4d8092cedda,b29b0295-f7e8-41d8-91b9-a72b32f6630f,Nebraska,1,Sixteen25 Cafe,,,,closed,,,2016-09-19,,500.0,0.0
-01105dc2-6119-4695-8045-740205e6fc09,849587a4-7ea4-4632-95eb-36ea5abc1466,Nebraska,1,"Affordable Underground, LLC",,,,closed,,,2016-09-20,,2500.0,0.0
-c3c34a75-ff02-43a0-9a49-2108eb8e5cc9,f27d6a7c-df13-432f-8d64-9192aa7943c6,Nebraska,1,"TWG Communications, LLC",,,,closed,,,2016-09-23,,500.0,0.0
-b03fd7a4-2016-433f-87f0-552edc76e718,fcd49854-d579-4ff2-9981-edeeeb05aafc,Nebraska,1,"FRSTeam by Fashion Cleaners, LLC",,,,closed,,,2016-09-28,,500.0,500.0
-7eb6368e-121d-4fcc-932f-3a8cc8227063,580353b5-80a6-4be2-b114-ad3b9e139eaa,Nebraska,1,"J's on Jackson, LLC",,,,closed,,,2016-10-06,,250.0,250.0
-3550b6f2-b34c-42ac-b9f2-91836e235b4c,5d4f4ed2-5f11-4323-b408-8f583967140a,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-10-28,,5000.0,0.0
-e83d15e5-3611-429d-bba8-fee5e565ee05,8f644041-44e0-42df-b349-351b474ef4fa,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-10-28,,5000.0,0.0
-e95a55ea-2edf-4fe7-b8b9-bb04bc9eeb0e,8049ad00-1098-4e3e-8266-968f57b70c3c,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-10-28,,5000.0,0.0
-50bf08e5-7d80-41e7-8a5a-feab2c883e4a,8150a425-b47c-478f-9727-102e989c8355,Nebraska,1,Boss' Pizza & Chicken,,,,closed,,,2016-11-10,,500.0,500.0
-9edb6663-ae66-423e-99d1-bea8fa32c864,d45340e3-2461-4b08-a716-ca26573e4433,Nebraska,1,"Credit Bureau of Hastings, Inc.",,,,closed,,,2016-11-21,,500.0,500.0
-1b3ccb33-55c3-4729-9126-2fbf9b5f89e2,033ea5c0-f031-46be-bd38-599a37638414,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-12-02,,5000.0,0.0
-82ebdee2-48c3-49da-980f-414c472f1f84,9474b234-a95e-4057-9918-2d4cd8a70263,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-12-02,,5000.0,0.0
-408f3bc5-3474-4105-a223-d445f436a820,1245e297-8d6d-4e96-8b5f-9f135022bc0c,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-12-29,,5000.0,0.0
-3d0b38ec-1415-4336-9b20-d48a9b40c68b,b99ee198-7954-4cb1-b565-ad8cbc6e950c,Nebraska,1,Nebraska Beef,,,,closed,,,2017-01-05,,500.0,0.0
-d57224de-d3b5-49e0-a099-3e3bb0b95b74,5a931bee-7f90-4eb9-ac50-051f24050670,Nebraska,1,A Clean Cut Lawn and Landscape,,,,closed,,,2017-02-15,,500.0,0.0
-d9a6db10-edb2-4c9f-8d52-3675fb9de60d,4981f051-4c8c-4ed4-95c4-c6720af8ef65,Nebraska,1,American Income Life,,,,closed,,,2017-02-24,,500.0,500.0
-d36fe287-20c2-40a0-82eb-860c933e528b,ce687107-1fea-4fa7-ae65-ea864b88bca0,Nebraska,1,Thomas Precision Repair & Sales,,,,closed,,,2017-03-20,,500.0,0.0
-1bb7dd17-05e1-4148-985b-e019310e6a92,5353d950-3484-4995-9d90-a02ed46f67b8,Nebraska,1,McDonald's,,,,closed,,,2017-04-04,,500.0,0.0
-516ad397-1eb5-40ae-8dec-eac3746014ce,436f185a-df29-43b6-b9ac-5d3e274c4d2f,Nebraska,1,"Let's Talk Dirt, Inc.",,,,pending appeal,,,2017-04-26,,5000.0,5000.0
-2c916298-b524-4d8a-bfea-25f8480d5382,d3a4f06f-38da-49bf-9ce7-e802eb21926c,Nebraska,1,Bro2 Construction,,,,closed,,,2017-05-03,,500.0,0.0
-0d194c1d-09b8-4123-adb9-eafdf1309705,5aadb8a4-6ed2-4005-ba69-82aafb95fde4,Nebraska,1,Over the Top Roofing and Construction LLC,,,,closed,,,2017-05-05,,500.0,500.0
-4ff6177c-bf99-4a5e-ab77-6a9d5949297b,1c47ffe0-88ff-476f-8d34-62eae00599bc,Nebraska,1,"Laughing Llamas Learning Center, LLC",,,,closed,,,2017-05-18,,300.0,0.0
-2828f4d3-155c-4b45-b235-469e8471fe3a,15bfe840-7c81-4e05-9e84-693bcc890c90,Nebraska,1,"Garber's, LLC",,,,closed,,,2017-05-18,,250.0,250.0
-47f9f080-2786-4f3f-b8ca-beeda14ba1a3,bdffefa7-66ca-4fed-a769-208d5befb185,Nebraska,1,"Eagle 1st Roofing & Construction, Inc.",,,,closed,,,2017-05-19,,500.0,0.0
-e44c6bf5-fb47-43b1-8c2f-7b7756538f72,82028d57-21e3-4568-94bb-1a24ccc46c29,Nebraska,1,Martinez & Sons,,,,closed,,,2017-05-19,,500.0,0.0
-93dbaa62-dafa-4a8e-8247-a1804f7b6049,e0a8da04-5b41-4e24-9450-79985a15d842,Nebraska,1,El Parian Bar & Grill,,,,closed,,,2017-05-23,,500.0,0.0
-6544758c-d1c8-498d-bb79-b3b7d9743e77,094332a9-594e-4bfc-9731-695f9b01a361,Nebraska,1,Ash Fire & Safety Co.,,,,closed,,,2017-05-24,,500.0,500.0
-aafdd3e0-9307-4bf8-9f86-7c7e3ecc809b,e0e097be-5009-482e-9715-e7a95e4e2286,Nebraska,1,"TFL, Inc. DBA Mega Saver",,,,overturned,,,2017-06-26,,500.0,500.0
-133bed15-a24d-4f2f-b1b7-3bed37995418,b325aae2-c59a-4f21-9999-18e415d8b452,Nebraska,1,"Hawkeye Vision, Inc.",,,,closed,,,2017-06-28,,500.0,500.0
-8e08cb9c-8c4c-4493-be0f-f7165af9b115,dc8817a9-5dd7-4b83-a80e-12080e6e4b04,Nebraska,1,"Flat River Contractors, Inc.",,,,closed,,,2017-07-11,,500.0,500.0
-be8656e5-0816-45cf-98c4-3a6baf96d7be,eaea2443-c5de-4fcf-8183-ae77b4576cf0,Nebraska,1,"PracticeMax, Inc.",,,,closed,,,2017-07-14,,500.0,0.0
-7362f7e0-dc63-4ec0-814d-536baf7bcfec,761df3c4-264a-4598-b302-cc23efe89f63,Nebraska,1,Hartland Cleaning Services & Associates,,,,closed,,,2017-07-17,,150.0,150.0
-92ea7ed0-47f0-48a5-9719-1b0611fb43a4,a7c5ff66-2e45-4af5-bd7b-0f9ff85aa752,Nebraska,1,"Upstream Brewing Company, L.L.C.",,,,closed,,,2017-07-27,,500.0,500.0
-365a6955-e909-4e70-93c1-32ffdb5b1d44,1fc87c0a-bdb9-4825-9c68-8760706dc3e3,Nebraska,1,"Power Crew, Inc.",,,,overturned,,,2017-08-03,,500.0,500.0
-ea82695d-1c25-4677-92f7-2c198bf41620,68844d40-3fca-4dd0-a4db-63340f8b05a6,Nebraska,1,SPEAK OUT,,,,closed,,,2017-08-08,,500.0,500.0
-982b3b29-cd54-40fa-addb-de337134ad02,7c15f3d6-a078-4993-98a6-daf3ce523f2e,Nebraska,1,"MWD Steel Fabrication, L.L.C.",,,,closed,,,2017-08-10,,500.0,0.0
-371dc863-b56e-46bf-beb9-a4fea8d1f9e0,e5e5b1fb-d978-43e1-870b-40bfa0b30b3b,Nebraska,1,"Trimmerz Lawn and Landscape, LLC",,,,closed,,,2017-08-23,,250.0,0.0
-0358f39b-7f41-4af4-8b69-20125d2c17d4,fc9f78a9-bcd9-45ae-b36c-b8632ba49a9e,Nebraska,1,"Wentworth, U.S.A.",,,,closed,,,2017-08-28,,500.0,0.0
-cd37dd4f-7507-4652-b375-48a7db4286a7,33a6a5fa-97bc-4825-a075-c06324cc6a70,Nebraska,1,Simplified Electronics LLC,,,,pending appeal,,,2017-08-31,,500.0,500.0
-0061ec10-5112-4bd6-b013-02fcfd0bc222,f8f8af3c-ee4e-4069-badd-938a3ef07fd5,Nebraska,1,"TFL, Inc. DBA Mega Saver",,,,closed,,,2017-09-11,,2500.0,2500.0
-6dcb2f2c-8f4e-4d88-9358-6c8908f368ff,7345eb3d-d379-4c9a-bcd7-0751ad93f380,Nebraska,1,All Season Construction,,,,overturned,,,2017-09-14,,500.0,0.0
-f8f937d3-e984-4e34-a6bc-5cc47a777cd4,f703ab4f-01eb-4ead-8025-5e14423c4f39,Nebraska,1,All Season Construction,,,,overturned,,,2017-09-14,,500.0,0.0
-74bee5f7-ac9f-4fc4-b05d-7ebbfe83752b,3fb7b9ed-0375-47d9-9e2c-e1f6a0457daf,Nebraska,1,ELV Siding Windows & More,,,,closed,,,2017-09-28,,500.0,0.0
-3e61b16c-3b13-4db8-a33e-349f61e4ddee,1ceaa3fa-6435-482b-b85a-61da2425a2a2,Nebraska,1,Tix Construction LLC,,,,closed,,,2017-09-28,,100.0,0.0
-8ea73f9e-e7c3-4ac3-8547-311ddfea53a5,ec7f4ea0-8c0c-4a7e-b80f-bfb9f8bc8cc2,Nebraska,1,D.C. Feeds,,,,closed,,,2017-09-29,,500.0,0.0
-7a4c1ed9-9b17-4d4e-bd9b-82903c7f772f,80682ee6-4aa8-485a-bc17-751775c60756,Nebraska,1,Teavana,,,,closed,,,2017-10-06,,500.0,0.0
-83f61858-730b-4bb8-850b-7cb440b7035a,de7036f1-8b0c-4211-b4b8-2effb61b8238,Nebraska,1,"Bootleg Brewers, L.L.C.",,,,closed,,,2017-10-17,,500.0,500.0
-093749f3-06b9-4815-a964-34560f1b09c7,85a7b673-c4b7-45bc-a52f-ed15e856489f,Nebraska,1,Fernando Mancinas Construction,,,,closed,,,2017-10-23,,400.0,0.0
-31267581-3d99-4e3d-b04c-c412777a928a,3567fe48-fc67-44b5-9736-e54d5ca56208,Nebraska,1,City of Waverly,,,,closed,,,2017-11-08,,500.0,0.0
-a19a4a4a-a5c0-4b8d-918d-dc7c61466eed,8a955a60-1da9-4c45-a7fc-be5ef80116e0,Nebraska,1,"Wright Way Fuel, LLC",,,,closed,,,2017-11-15,,500.0,0.0
-50232561-e965-4913-9d26-6035a3f18f46,38cf8da2-08be-46bd-8ae3-a847dc6ca3f9,Nebraska,1,"Aernco Transportation, LLC",,,,closed,,,2017-11-22,,500.0,500.0
-5bfc361e-9a65-445e-8d66-4b5f2b32e5a6,1776c15a-4736-4148-89fc-e25054ed1334,Nebraska,1,"Novinger Building Services, Inc.",,,,closed,,,2017-12-08,,500.0,0.0
-b97e69ad-a23b-4725-b420-9da82d1cba8f,ca12b93a-243b-4bb1-9c75-25f46ca4836c,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
-97d3c0a5-99f1-4218-bacf-dec30353eb74,16d34afe-1154-4d17-9b9f-c7581bac4418,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
-4c2af2d4-0317-449c-8c94-f587edb5d645,4b6630bb-0cea-4fbe-9f0f-b243311d379f,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
-e3141721-d49f-4cb3-9516-685a9e5733fc,4c4d04d5-317b-4287-97f4-ca94a573d977,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
-36073aea-4dff-4d93-b94d-6b0fcb2cd880,bb07c361-85fd-47fa-9d1b-3b232aebacee,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
-de45bc4e-01e9-411a-862f-167459a8100f,4046224f-8adc-401a-86bb-206a75eb27ea,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
-b6630766-ba15-40cc-b8f8-6491169d2f0e,a70b416b-a6ee-4284-b0c1-e25650d397d3,Nebraska,1,Cateus Pita,,,,closed,,,2018-01-08,,500.0,0.0
-f90d32dd-8926-4ff8-af98-bd5422fbe36f,448dd937-4785-4833-bbfc-a249422292ed,Nebraska,1,"Halftime Sports Bar and Grill, LLC",,,,closed,,,2018-01-12,,500.0,0.0
-40cb3093-6675-4d01-8a80-8f5713be9705,c512d3b8-871b-47f5-9e58-0a7b36091859,Nebraska,1,Papa Bob's To Go,,,,closed,,,2018-01-22,,500.0,0.0
-0bbdb634-e6b4-4339-acf0-be07561ae57e,0f7ea9ae-f9f2-4c58-8dd5-92f22d6d543b,Nebraska,1,Lincoln Guards Security Company,,,,closed,,,2018-02-01,,500.0,0.0
-ecae920b-b523-4d7a-bd9d-0af70e4cb5ac,ca5c2b17-ad95-4112-afb5-93734d9338e3,Nebraska,1,"Muhm Enterprise, Inc.",,,,closed,,,2018-02-02,,500.0,0.0
-5f7ad285-8e21-406e-94cd-53f005e5da34,1132343b-f555-4194-87f7-4a6c5b253abe,Nebraska,1,"Muhm Enterprise, Inc.",,,,closed,,,2018-02-02,,500.0,0.0
-fca4a3cc-ee98-460e-b06a-c4af00595b41,7e27f03e-8c56-476c-98e3-0153c795c41c,Nebraska,1,"Holt Enterprises, L.L.C. DBA Oasis Inn & Suites",,,,closed,,,2018-02-02,,500.0,500.0
-6b750c72-b29f-4978-a7c7-96d065981569,983de9c1-030e-44a9-b716-60cef235d511,Nebraska,1,Midland Drilling LLC,,,,closed,,,2018-02-02,,500.0,0.0
-53fa98e0-29e0-4753-84c9-321271242d78,9b32067d-cb90-4e8f-82ef-4903d10a1dd1,Nebraska,1,Advantage Solutions,,,,closed,,,2018-02-20,,150.0,0.0
-46f4882e-9886-49e3-911b-85d8fd1e25db,c0cdcf06-2ebc-4b79-8e79-a9a7654c1baf,Nebraska,1,Elite Mechanical/HVAC Systems,,,,closed,,,2018-02-23,,500.0,0.0
-fcda273a-a921-44bb-9812-e63d3fe0b45a,7bb9c64c-b982-47d1-844f-1fa2f5b40ccb,Nebraska,1,Elite Mechanical/HVAC Systems,,,,closed,,,2018-02-23,,500.0,0.0
-ec2148a5-fb1c-4a3d-bb3d-107e3609ace4,68fdf45a-93c2-4219-9ef5-7f243c2ce5f7,Nebraska,1,Elite Mechanical/HVAC Systems,,,,closed,,,2018-02-23,,500.0,0.0
-a5a32279-b655-4912-a520-988cfe20ad6d,027bfccc-4db4-4d92-9f87-ddbfa54b3e98,Nebraska,1,A Perfect Clean Window Cleaning Inc.,,,,closed,,,2018-02-26,,500.0,0.0
-fbec0df0-b262-458e-a671-689cfd83ba64,e0477377-46e7-4d37-8c2d-a56b6541915d,Nebraska,1,"Construction Finishes, LLC",,,,closed,,,2018-02-26,,500.0,0.0
-2f5f62a3-c1f0-4cf0-a474-6e124f5038f6,7f0d02e3-da61-446f-bf10-b3e25fcb27ae,Nebraska,1,"UWA, L.L.C. DBA Howard Johnson",,,,closed,,,2018-03-02,,500.0,0.0
-0715e1b7-fa93-4a41-b062-8f6dfe5f8623,18fcba7e-5f3f-461c-95c4-0d2808e1c50a,Nebraska,1,"UWA, L.L.C. DBA Howard Johnson",,,,closed,,,2018-03-02,,500.0,0.0
-0a8dff9a-3bd8-440b-8516-185cb7026ce1,3c205451-2440-40c9-92e0-c2857a29511d,Nebraska,1,Jeff Wallin Farms,,,,closed,,,2018-03-06,,500.0,500.0
-2715f7d5-4451-4918-bef5-1b8264008c63,e71024c3-f22f-4478-a381-26d0bb83658e,Nebraska,1,City of Waverly,,,,closed,,,2018-03-06,,500.0,500.0
-60d52622-82e0-49d2-89d0-7492d76162a2,fef6e0dd-410d-47fc-be53-64ab85e9dbb8,Nebraska,1,"Bud Small Trucking, Inc.",,,,closed,,,2018-03-19,,500.0,0.0
-6c8f19c5-e949-405a-bc9b-1ba8e8de361e,841b8b4d-7983-4edc-915a-203204f69a40,Nebraska,1,Hotel RL Omaha,,,,closed,,,2018-03-21,,500.0,0.0
-fe9101c0-9d7d-4b26-845c-003e4db5fe04,53406c27-8095-4e05-ae28-98f983d4a0be,Nebraska,1,Mendez Drywall,,,,closed,,,2018-04-03,,250.0,0.0
-01e2bd8e-51aa-4270-ae74-671261851be5,99916e70-c634-43f9-8d7f-e3648a2bc137,Nebraska,1,"Energy Pioneer Solutions, Inc.",,,,closed,,,2018-04-11,,500.0,0.0
-18ba408c-0442-4940-9f3a-49cc4cca2d49,2627caae-a2af-4bad-93ff-648e9b4a5177,Nebraska,1,Huerta Trucking LLC,,,,closed,,,2018-04-16,,500.0,0.0
-1131fb44-b1dd-4264-b3c9-1a0aee32189b,5b94c807-152c-43dc-b4cc-382f56b77d5b,Nebraska,1,All My Sons Moving & Storage,,,,closed,,,2018-04-17,,500.0,0.0
-f6c92126-d928-4eac-8be7-6ce6a53dbc3a,2bbfb32e-90b0-4dd3-bfc0-c243c64316d5,Nebraska,1,"Gavrooden, Inc. DBA Mr. Rooter of Omaha",,,,closed,,,2018-04-24,,250.0,250.0
-e8f5fcf9-f894-44ef-9753-b815fc3d4a1b,00578e40-0f14-4deb-8d5a-d8aa77810bc7,Nebraska,1,SABR Consulting LLC,,,,closed,,,2018-04-24,,150.0,0.0
-264e4ca5-b217-4a01-b3d6-9afc2dd05cf8,b534d448-66ef-423c-be3e-9bbe747e3a24,Nebraska,1,"Gear Supply Co., LLC",,,,closed,,,2018-04-26,,500.0,0.0
-89c5f1b4-503a-4a02-98e3-1005d48ec35a,518d6344-fc63-4965-b8d4-092b69638109,Nebraska,1,"Holcomb Heating & Air, Inc.",,,,closed,,,2018-04-26,,500.0,0.0
-28ba320e-b9e3-4095-aaa4-bbea0e4c6b77,8ba87a0b-f0d2-4fd3-af62-c03e02efd9b1,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-05-10,,5000.0,0.0
-371bf217-18e0-46ba-8b76-817cc6137de1,bfe7ae78-4b17-4250-9125-f3fae1f9a134,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-05-10,,5000.0,0.0
-7fce9b48-a10a-4175-8e31-fe7a4e97e254,ab73b871-3438-48ec-ba90-94bc78b5756e,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-05-10,,5000.0,0.0
-dc0ed80b-b3a5-44ea-93b3-a487f2d78aa4,e83466d8-81e5-47f8-9ae8-0a3e659ccbbf,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-05-10,,5000.0,0.0
-9852a2cd-07ec-483b-b64f-0752614f886e,dcf706ed-b1ee-4c95-99f8-9ace72b24952,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-05-10,,5000.0,0.0
-e2d8decd-34fd-43d5-b156-defff50cd64e,58a2ae52-e6db-4c2a-b5b7-2fb824b492c2,Nebraska,1,The Shop on Thirteenth,,,,closed,,,2018-05-15,,500.0,0.0
-ccb27b0f-047c-4591-8396-4aaf48840728,fb34523f-2c2f-4280-a499-a393ccf661ed,Nebraska,1,"Waterjet Cutting Specialists, Inc.",,,,closed,,,2018-05-22,,500.0,0.0
-87c0bf11-6bfc-4360-a582-ce1ca9fbe283,7d386ad9-6922-4280-bc40-57426804edd9,Nebraska,1,"Holcomb Heating & Air, Inc.",,,,closed,,,2018-06-13,,500.0,0.0
-6b9958c9-84f5-4fe9-b000-dfd632394048,0c446908-5672-4019-8e56-b7723df5aec3,Nebraska,1,Lincoln Guards Security Company,,,,closed,,,2018-06-15,,1000.0,0.0
-b38b985f-f425-4301-8453-ea3cfe5a0d86,4c7e5908-ad10-4667-bfd6-8ec14e87affd,Nebraska,1,"Roadrunner Temperature Controlled, LLC",,,,closed,,,2018-06-18,,500.0,0.0
-10607f4b-91ee-48ac-9ed6-07d1217eba80,6ddd755e-6e6e-424a-a56c-842b92e70e7a,Nebraska,1,IHOP,,,,closed,,,2018-06-20,,150.0,0.0
-9aa672c1-5f77-4581-a703-0cf51b6a8703,9278a55a-1f18-4b2d-afa8-40578d93ad45,Nebraska,1,Benitez Landscaping and Lawns,,,,closed,,,2018-06-22,,250.0,0.0
-dd93576b-893f-4073-9338-19714197a9dc,5fb02d08-821d-4505-af98-de1519c0dbd9,Nebraska,1,Benitez Landscaping and Lawns,,,,closed,,,2018-06-22,,250.0,0.0
-f6515282-bce0-4a6c-8591-27ba1916469e,de3f6c2d-31a5-48f3-825b-ce27c394b480,Nebraska,1,Aron Geiger Construction,,,,closed,,,2018-06-22,,500.0,0.0
-cca88b95-947d-4a57-af3c-2fa25667b670,6f71326e-d45e-4c3f-9d98-fe9958212135,Nebraska,1,Burger Theory,,,,closed,,,2018-06-29,,500.0,0.0
-26e5c16c-3391-411d-8dcd-a02390f9f50e,a70edb7e-844d-480e-8bc9-abff9b5f3941,Nebraska,1,Travelodge,,,,closed,,,2018-07-09,,500.0,0.0
-ed9b10dd-9c4c-4f9d-8bb3-4965487e3401,c7a63d7e-7cab-47f4-ac7c-7d135f7b29f0,Nebraska,1,"Newstrom Tile, LLC",,,,closed,,,2018-07-17,,500.0,0.0
-e8363ae7-72ce-4afc-b0de-e74678c225c2,75184730-6eeb-4de2-b8f2-f327ede1c72c,Nebraska,1,"Newstrom Tile, LLC",,,,closed,,,2018-07-17,,500.0,0.0
-90301983-e5f6-43ad-a0d5-46fc2d8e2c1e,04d62e05-c56d-4484-8187-51161ea63987,Nebraska,1,"NDCCM, Inc.",,,,closed,,,2018-07-20,,500.0,0.0
-240f174b-df0a-473e-b542-bb0f50fdc834,ad30b560-6df3-4d55-a3f3-6faf2620f564,Nebraska,1,Playmakers Pizzeria & Sports Grill,,,,closed,,,2018-07-27,,100.0,0.0
-08934577-4983-4ba4-924a-cf5ed9482ce9,ceb5dcb3-f133-4379-aac9-2a6f5ea42651,Nebraska,1,SPEAK OUT,,,,closed,,,2018-07-31,,1000.0,0.0
-fa81ddda-c506-47c2-abc3-10cadc53a0bb,73aad807-9c64-499f-8158-e7a15c326f99,Nebraska,1,Capriotti's,,,,closed,,,2018-08-06,,500.0,0.0
-39045536-6504-405d-9792-94be6e27030e,06643872-eb1c-489e-a626-0f4f340c1c6a,Nebraska,1,"Jensen Clinic, P.C.",,,,closed,,,2018-08-07,,500.0,0.0
-746e3ab7-40f7-41ec-a7ed-43181ec6fa10,d2f3b610-4d84-4443-bca3-5b95524bd14d,Nebraska,1,Top Notch Lawn & Landscaping,,,,closed,,,2018-08-10,,500.0,0.0
-a44a8ba8-621c-4e1f-9c24-9f1b6e017436,0a8fd9b2-1cb9-4ab6-9065-1aa13db199af,Nebraska,1,Xclusive Trading NE LLC,,,,closed,,,2018-08-21,,500.0,0.0
-44ea85ab-30bb-4520-b6e9-be1e1d961726,cfbc8228-5ecc-4c98-9ca0-874c011918f0,Nebraska,1,"B & B Midwest Trucking, LLC",,,,closed,,,2018-08-22,,100.0,0.0
-d1ea0799-000c-44e4-b669-1baf82ecf719,186dbec8-6d07-4c1d-8af4-6a82ea5a5993,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-09-05,,5000.0,0.0
-1b0aa782-9a64-4114-9e57-1eed08c0b43e,907eb4e7-26d0-4f3e-b788-99586b36660f,Nebraska,1,"Gretna Sanitation, Inc.",,,,closed,,,2018-09-13,,500.0,500.0
-09abc0ce-d263-4cff-86ab-26f6648857db,c5f39089-8543-4c74-8d9c-3cc1e3d2f459,Nebraska,1,Red Coach Inn & Suites Grand Island,,,,closed,,,2018-09-14,,250.0,0.0
-1f285531-0429-41af-8d79-e630ed3ac3b1,78fd2b48-406c-437e-b1f8-d57d829d31c2,Nebraska,1,"Von Busch & Sons, Inc.",,,,closed,,,2018-09-14,,100.0,0.0
-05da0fb2-be56-422b-aa8a-9c92982bdbc6,76154666-9273-4843-8db9-aca2f7fd9e84,Nebraska,1,Gonzalez Drywall,,,,closed,,,2018-09-19,,500.0,0.0
-2645645f-1a68-40e1-a789-04c5b1f8fc20,fe72c1e9-5d0d-4b22-bf4a-ecb9745d6815,Nebraska,1,Gonzalez Drywall,,,,closed,,,2018-09-19,,500.0,0.0
-b5326d9b-c6bf-472c-9656-ed103a4e57fa,46db7cc4-7d86-47fd-a45f-6ddbd1819b8b,Nebraska,1,Roadmaster's,,,,closed,,,2018-09-28,,500.0,0.0
-e837e075-92b1-40a4-847d-fa74ef83075a,59003441-7f9c-49fb-89ea-1a2ede75d03b,Nebraska,1,"Trimmerz Lawn and Landscape, LLC",,,,closed,,,2018-10-03,,500.0,0.0
-b6e97d22-f005-4b4e-b2fe-0ff0b97bd492,a21de733-4f22-4423-8f48-c540826fb34e,Nebraska,1,Boost Mobile,,,,closed,,,2018-10-11,,500.0,0.0
-4e58e058-cba7-4f96-9946-e5f817840db9,33f9e315-f189-427c-903a-c1bdaf74ee7e,Nebraska,1,Pickrell Veterinary Clinic,,,,closed,,,2018-10-12,,250.0,250.0
-d5aea904-3627-4d4e-b69e-1f04e77bb612,4a51bcd7-5557-49db-bfd3-84a740394819,Nebraska,1,The Watering Hole,,,,closed,,,2018-10-16,,500.0,0.0
-d8d848cb-f65f-49f7-b4d1-1440ba06d2fb,23ebdd74-4cb4-4819-accf-c6dde1365da7,Nebraska,1,"Caniglia Heating and Cooling, LLC",,,,closed,,,2018-10-22,,250.0,0.0
-3dccb43e-1017-4c2d-9e43-9751983b3e3f,a39a6714-6eea-4992-9813-f17cfaf6b8ba,Nebraska,1,Sip Coffee & Wine Bar,,,,closed,,,2018-10-25,,500.0,0.0
-2fcf3e6b-0add-4d77-9c9f-35f190e19792,c7f7ff64-7efb-4178-aa43-189eb4719f10,Nebraska,1,"Honest & Humble Construction, LLC",,,,closed,,,2018-11-05,,500.0,0.0
-ae1822c1-6394-4c17-855a-af112d7ff80c,836473f4-89af-4f7a-804d-8958f98016ea,Nebraska,1,"AngelTrax, Inc.",,,,closed,,,2018-11-09,,500.0,500.0
-9de7feb8-06c4-4bfc-a4e1-5c8225b6aec0,17ebc9ec-a918-4cef-90c8-91297be66363,Nebraska,1,Rosalinda's Fry Bread and Mexican Food,,,,closed,,,2018-11-15,,500.0,500.0
-1205c58a-b520-4eb8-9e4d-41cb0a6a2641,0204bb5b-6a33-4ed6-9598-a3468c3578c0,Nebraska,1,The Corner,,,,closed,,,2018-11-16,,500.0,0.0
-7334aa4b-ca7c-4765-b744-5777cb33b7a1,009c70ed-7160-4a98-90a2-19373f51d03e,Nebraska,1,Harvest Development Management Company,,,,closed,,,2018-12-06,,500.0,500.0
-0e44d748-8507-4d8f-a0dd-e646afeb36b9,d88f3882-2bf5-4aa5-9d62-75139e1388d0,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-12-06,,5000.0,0.0
-1961ae08-00bb-4479-b403-63cc890b001d,f4af75be-140a-4b5b-832f-261e6b7d946c,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-12-06,,5000.0,0.0
-8e42f4ea-f6b7-4f8b-9a34-32d270f7f63e,22450a09-5ac7-474a-9fa4-7441b1bd8d23,Nebraska,1,"Mr. Cools Heating & Air, Inc.",,,,closed,,,2018-12-06,,500.0,0.0
-2ea88056-373e-413c-b3ce-e100c0739131,8dd2f87b-6df0-4cd7-9124-aeffeed6c160,Nebraska,1,R & K Cleaning,,,,closed,,,2018-12-19,,250.0,0.0
-aae4fbd9-26ee-4915-b036-183f8cd3749d,83be6daf-7192-4af7-a5a6-a87464c79534,Nebraska,1,Evolution Towing & Recovery LLC,,,,closed,,,2018-12-21,,500.0,0.0
-326a36c3-8023-4544-9cf9-6531e4ad7c02,815e78ba-ce7e-4d45-a91b-c025b0648f4b,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
-febadb8e-1c0d-432e-8187-a201af919bac,4ca13f0a-c2dd-487f-93b9-6a1bb6d3b043,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
-297ae5e0-a660-40f0-bd17-4a3d0a5224f7,28b88ef3-f6ec-4561-a7df-a83629189322,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
-ba7afa6f-5810-4da4-9b58-8a55c8bd332d,a00a6da8-b3fc-43e2-ae44-b30ccc0c26cb,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
-faa2e15a-ce52-4973-867b-22b7ef77081c,6dcad1fd-ea18-4ea0-a1e4-8ee151eab86c,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
-26e3386c-26a5-4002-a4e0-3eee519bcf6b,aa51b442-f81f-4623-a8b2-a0560a99e997,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
-30c52786-b026-4e7e-abb6-23c359da7827,b52852e1-72a8-43b9-9651-09da8793e2cc,Nebraska,1,The Achievement Preschool,,,,closed,,,2019-01-04,,500.0,0.0
-cac87f56-ca02-4731-823f-ec923347468f,44df1e13-48be-4dd2-81d5-817a7195f9f5,Nebraska,1,"B & B Midwest Trucking, LLC",,,,closed,,,2019-01-04,,500.0,0.0
-6099ba67-6f9f-439c-8da2-70eede44d814,9808175b-ffcc-4175-8c10-473918dd51dd,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2019-01-14,,5000.0,0.0
-51dd311d-3235-496c-a12d-9409a9d701d0,6e16e37c-d3bf-4482-85de-9a6f0fd0e2ec,Nebraska,1,"Quad Packaging, Inc.",,,,closed,,,2019-01-23,,500.0,0.0
-c6a510e9-d18f-4382-9ad7-ab8d485d753d,176f8f5f-7ff3-4964-995c-e362ace46146,Nebraska,1,"Jimmy's Plumbing, Inc.",,,,closed,,,2019-01-29,,500.0,0.0
-01717b6a-38b2-4165-80e8-8107589f683c,14fab72c-df7a-4a9f-a9c9-c78e7e4d94bd,Nebraska,1,"Jimmy's Plumbing, Inc.",,,,closed,,,2019-01-29,,500.0,0.0
-84a7e118-e3c7-4795-a45e-730cdd094285,5b0e48e4-f72c-484d-8028-5144aa8bef25,Nebraska,1,Cafe Le Fleur,,,,closed,,,2019-01-30,,500.0,0.0
-c2a67351-a411-4679-b2fb-51dbdeb02945,1195ff92-44b6-4f3a-ae50-cea66c836250,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2019-02-11,,5000.0,0.0
-c8f26763-e735-41dc-8cd4-7d1d98eeecfe,29f854ae-1a0b-40d0-84ea-57ac2ee9f12e,Nebraska,1,Team Softball of Nebraska LLC,,,,closed,,,2019-03-18,,500.0,0.0
-801b5238-1a47-4236-9722-6365425bb5e4,30107974-ede1-496c-889e-0ada08454238,Nebraska,1,"Cornerstone Tower Service, Inc.",,,,closed,,,2019-03-25,,500.0,0.0
-1039d2dd-c3df-4962-877b-134e2e768a27,1e23019d-495d-4652-907e-60026ef3bab1,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
-b86dafaf-ab4a-46a2-a2fc-eea44f614e7a,590a0144-6827-4ef0-8d15-11832148b7f3,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
-e79ef104-1f40-4e19-b87d-99221dc4ed28,69fe506a-0347-45e3-af99-b972626adb07,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
-069c7877-c754-4b0c-b401-5f050c354864,d4bdf044-cfd9-4460-9907-b2d99f32cabc,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
-325aba4a-fdf2-4fba-ace0-6047d5098619,4f5bacbd-5656-4ac8-9920-7fd3c668f90e,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
-3bcd7dfb-6aa6-4a8e-ba54-c6085381935e,3790baca-0802-4ff7-86e8-f12060afc334,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
-109e720c-7605-41b8-a942-dab9f994dcef,99131897-9264-4761-9c8c-ba0172b32560,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
-53430d6e-422b-442f-b774-92131cc1f568,7d3e6b7b-bc3f-41b2-8f16-aeaa5c7d18f6,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
-b86cc39b-fabf-4e6e-a144-8d0fd2735299,1706511c-c13e-4057-8553-17341f620298,Nebraska,1,"Imperium, Inc.",,,,closed,,,2019-04-02,,500.0,0.0
-0792d3c2-635a-474f-8a31-f7d614c6a030,292966c0-3718-46af-be6f-b2121b7914d6,Nebraska,1,"Imperium, Inc.",,,,closed,,,2019-04-02,,500.0,0.0
-074178a1-ab0f-4d0c-85e0-07a1707fc8f3,66932411-bce6-46c0-8d4a-9796f5d78115,Nebraska,1,Bad Beard Gang,,,,closed,,,2019-04-03,,500.0,0.0
-47db5eef-2e06-4b57-af78-580ab96db0d5,f870c0c2-4ab3-4bf7-8538-708a96e5734b,Nebraska,1,Care 24/7,,,,closed,,,2019-04-11,,500.0,0.0
-06d2d7fb-fb97-42c5-8374-29d03b08871c,d0237ceb-385a-48f5-9f55-17db5e3b2515,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
-89ac4b5a-9e70-4deb-9abc-bfe111d00b51,285eabed-4622-4e27-a4c3-a5cceb072b10,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
-6ee88344-12b0-43bb-ab89-7968f390f41a,ab27eb3b-af6f-42ef-9f4a-f9b487968df0,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
-19dc0d86-be37-4a3d-9816-5348f79b4561,a2cb757a-d86b-4a5b-85b8-f28cd4b4a657,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
-87693584-6733-4108-992b-5111555178de,28448da1-de20-4bb1-8270-82f5a6d7aa24,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
-9f635aef-92ce-423b-b6ea-c26f9c6b89aa,8b8a563c-87c8-46f7-aa45-0b7ceb52932f,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
-1c27d3dd-9e9a-4ad1-ab02-de3a5f7032fb,ed7224df-b2e9-4fd3-a33a-978ae3cbcb8b,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
-699255d1-b578-44ec-853b-76114363c4cb,edb14779-a640-4cb5-b654-2c4e4a52433c,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
-bac7b7cb-afe1-4d52-aa0a-2a6bc1d8f080,34455af5-735f-41fb-a2c8-67957073f2f8,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
-4ee481e1-c68a-40b1-9bf2-8ab72bfb63d5,2315c72e-1be5-4bec-a326-bd011a4b5c78,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-0e2ba0d8-28b9-4e36-8396-0d29bd323246,10621a7e-1b10-449e-8890-fb39f39c496c,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-f14d0cf1-478e-412e-97fb-51b9ea3f1336,9f7153e9-d308-4851-a8b2-25daba54004e,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-1d7ad44e-cb78-4bf5-a955-82cc203b3792,39b49ce9-5e84-422a-b4a8-8e59b8882d81,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-2a61c13b-4a9a-40fd-8bfe-42e64554fb5e,73143073-e402-4393-a2a2-c91dc4ded4b8,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-22e617d4-71e8-458c-83bb-6c0ae0bed800,3cd819a7-957d-4c5d-8a92-2ab9e6c16e17,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-d4b3da7b-ca11-44bf-83f9-f1e4d9aa4111,e75b240b-2556-4091-b6c9-9b9c34dbd6f9,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-3b0e044a-97b9-48d1-ace6-13ca1eae8dc2,a204d333-737b-4e29-ae59-2344f39ac1fe,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-1e6b0458-0d16-4b54-ad51-5211a9d22dbc,ffc1e5e7-f35f-4ff1-a44b-bb002d392a8a,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-f7726edb-a2d2-4cc6-8937-c5f4db803e4e,a704d472-1f6a-4e4a-939a-0bcea475b1d4,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-b779f593-7818-4af8-bbd0-584b5d919bc4,c32419d9-b4d1-44dd-b396-bb0a018d9b9e,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-04f7f6d8-9eaa-4852-8240-4126c4022e1f,06c3348e-f2de-4c5e-9bf6-6d7ce86d57f1,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-d72a0f5b-33f4-4e6a-b185-ff59a14511be,89edcafc-c457-42d2-87ab-529dea5995ae,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-1c25f798-a9b0-4f6b-a4be-b0b1b16bb049,40216eb0-2eb7-4339-8014-cc240fe5f0c0,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
-0b0935a0-f6d5-4160-8b60-a1eb9fa638ba,2e9e14bf-0a81-4c77-85d2-f4cef5a92290,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-19,,500.0,0.0
-3f25418e-b69b-41f6-94e8-f0ea34d0e8a8,33e14b62-9e75-464a-9e92-0609bf1a03c6,Nebraska,1,"MyPainDoc, P.C.",,,,closed,,,2019-04-25,,500.0,500.0
-ea61ea78-d350-4a3c-b856-26f769c4a674,47543ab2-f615-4844-87de-d2a342b47fba,Nebraska,1,Cafe Le Fleur,,,,closed,,,2019-05-07,,1100.0,0.0
-e0fd3dee-80b4-4494-9b45-b00d26b38576,51338f6f-f66b-443e-8b0f-df7362969f16,Nebraska,1,"The Tailored Room, Inc.",,,,closed,,,2019-05-09,,500.0,0.0
-b20fbd15-4845-4abd-bb9a-ae452e9e96cc,f424c8bb-3520-4710-a091-138fe36ce533,Nebraska,1,"The Tailored Room, Inc.",,,,closed,,,2019-05-09,,500.0,0.0
-f3313d94-fab5-4ed3-bc6a-1e523e5ab3af,88dd6b54-b523-43d9-9300-46671ca89016,Nebraska,1,"The Tailored Room, Inc.",,,,closed,,,2019-05-09,,500.0,0.0
-e0e5d1f4-d8d5-4031-91ed-6c841540af12,446e13f9-a9b3-4aac-8094-e9f90f01a876,Nebraska,1,"G4 Acquisitions, Inc.",,,,closed,,,2019-05-10,,500.0,0.0
-0f7b89b2-7b76-4ba3-a9b0-21145a2450d3,63c27efc-17ff-4197-b15e-b8f1b21e7a42,Nebraska,1,"Slack Truck Line, Inc.",,,,closed,,,2019-05-30,,260.0,260.0
-45d48121-cd4b-4356-b500-a19bdbc42bcf,5a86f00a-4133-41ed-ad2e-cb1f2b1bca90,Nebraska,1,"Infinite 8 Institute, LLC",,,,closed,,,2019-06-19,,500.0,0.0
-73fcb819-4831-43f6-8a8b-62404b987f0a,6d9bdf25-d767-41cd-a8cf-2a7935b0e8b6,Nebraska,1,"Infinite 8 Institute, LLC",,,,closed,,,2019-06-19,,500.0,0.0
-6fff9a15-bff9-4c9b-809a-b5763193db71,41851488-c65a-4f15-8a73-198018858e0b,Nebraska,1,CK Kitchen & Bath,,,,closed,,,2019-06-19,,500.0,0.0
-b7ecaa16-6ba9-4e42-887a-ac91eef67ad2,d7536725-e1a1-45be-8f01-97805f9d123a,Nebraska,1,Cafe Le Fleur,,,,closed,,,2019-06-19,,5000.0,0.0
-f18f7afe-b22f-47aa-837a-243ec660d38d,3312c131-bb14-410a-b193-c6c7080c616c,Nebraska,1,Professional Pro Cleaners Inc.,,,,closed,,,2019-07-03,,500.0,0.0
-061e5779-5490-42c7-b187-4eb1b117f802,c4508d34-bb28-4559-9e42-b0fc33bbaee3,Nebraska,1,Complete Carpet & Flooring,,,,closed,,,2019-07-09,,500.0,0.0
-48a23d8e-8757-4f2e-bc7b-83a2d30a97cf,ffb1668c-22ae-4b01-9277-a23bfd0af96b,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
-8f664329-2688-4728-b36f-98f938c0db90,0c132dad-5751-4657-8b4d-898844cdc2f4,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
-7d7bc7d8-826c-4653-832d-aebbe9074bad,b3c6120c-27b8-4254-8887-936e90499d63,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
-ac03cc79-7c13-4be8-a168-fcda993c52f3,2a101cda-0d96-4605-8484-3b3cdda84979,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
-8c46d686-389e-4e80-970b-87e97931263f,39dce9bf-d6ac-4a3a-9b52-e4590bf0a5a3,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
-e6c2c85e-729e-4cd1-a891-aaa1aa39cfaa,963fb8f9-2d3a-49bc-a4df-1c5e818946d5,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
-aae89924-a532-4a1d-9394-90089a2b86dd,a83c4587-9126-4670-be99-c0add256dbe4,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
-d2c1abf1-ee8d-46fa-8bc6-d2e54df6af8b,ea75ae1e-0a8f-4939-953d-f37693c40351,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
-a497cdcb-af2f-4d3d-abb2-2f58397c5417,7d4afdf8-547b-494e-a023-49addb8186e9,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
-a6a2f51b-8641-4753-a2d0-97594ac47171,96a03a49-dd84-40dc-9dcc-c5645f8a902b,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
-c47b4555-8e6c-43cf-b22e-1698f05f1a6a,3496324d-131b-4db9-9b19-92cde1f78ebc,Nebraska,1,SC Decks,,,,closed,,,2019-07-22,,500.0,0.0
-f0f32f16-132f-42d0-a2a8-6db04471d0c0,19e638f4-282b-4a6e-b3c3-5babbd021607,Nebraska,1,"LME, Inc.",,,,closed,,,2019-07-26,,500.0,0.0
-8ad6e8e2-ff00-4b29-bb5d-d6f5f6525e56,d6ee05be-ce4c-48ca-89a5-69e9b209caa9,Nebraska,1,"LME, Inc.",,,,closed,,,2019-07-26,,500.0,0.0
-4953ca9e-8898-41c7-8a18-988553a35ccb,c6e53978-1b92-4b80-8cfd-b4a278fa4edc,Nebraska,1,Dignity Home Care Inc.,,,,closed,,,2019-07-29,,500.0,0.0
-22b868f5-5323-4e7b-9803-3a170621ef3f,63182fcc-5814-4486-9578-ec46cc093b94,Nebraska,1,Steak & Grapes,,,,closed,,,2019-08-06,,500.0,0.0
-2389ff03-c3bf-4fac-ac29-918bdc238130,2188ae83-3163-49c9-a6ce-304fc97f9d05,Nebraska,1,Steak & Grapes,,,,closed,,,2019-08-06,,600.0,0.0
-62a63f4e-8833-4271-88df-c4ad59c64bd4,18797f64-562b-46c6-948e-4e038ae4196c,Nebraska,1,Blue Blood Brewing Company,,,,closed,,,2019-08-08,,500.0,0.0
-65025028-3ac8-42c8-9a41-7348bb25dfe0,c159541b-e286-4b19-900d-240634dcafa5,Nebraska,1,Blue Blood Brewing Company,,,,closed,,,2019-08-08,,500.0,0.0
-fbe78d7c-d67b-4d7c-8d3a-31081fa33a12,5985ecb3-5cd7-4118-871b-852b14559648,Nebraska,1,Blue Blood Brewing Company,,,,closed,,,2019-08-08,,500.0,0.0
-f3e660b4-f5ae-4f76-a9d5-48e41a5c755e,3f2ec09c-cd62-4f1c-8cfc-4e9d7ea47bff,Nebraska,1,Blue Blood Brewing Company,,,,closed,,,2019-08-08,,500.0,0.0
-034f6378-9d93-4acf-b89b-1b76d54d4e13,96b5f67f-96fd-41a9-a3e9-51987243cdd0,Nebraska,1,Blue Blood Brewing Company,,,,closed,,,2019-08-08,,500.0,0.0
-589d0d60-ef30-4514-9b05-47b732e11c0c,9babf98f-9fc2-40fb-a9ad-3f55396656c9,Nebraska,1,"Lincoln Industries, Inc.",,,,closed,,,2019-08-13,,500.0,0.0
-7fcbe4ed-66d0-403c-957c-a81fceec88d0,19422d0d-100b-46f7-b79c-329cf3066b3e,Nebraska,1,Breadman Inc,,,,closed,,,2019-08-16,,500.0,0.0
-2c527818-d5d3-4255-a065-2539d9be4a44,cbd7730c-4aae-455b-bd29-21ae9556dcc4,Nebraska,1,Alorica Inc.,,,,closed,,,2019-08-23,,408.0,408.0
-bdffd296-83c7-4bfd-8c45-e7bea83c93a5,1ccecc8d-f75a-4fdc-9b17-1b63a8cf4f13,Nebraska,1,Alorica Inc.,,,,closed,,,2019-08-23,,340.0,340.0
-049871e5-442a-41ad-93a3-c1135bdf09a0,a1e9ec0f-59eb-428e-97e8-9f00793a3976,Nebraska,1,Alorica Inc.,,,,closed,,,2019-08-23,,426.0,426.0
-1bed0e9a-0bfc-4d0e-982d-4fb794072677,8d87b503-a931-4f2d-b023-c161618a9f14,Nebraska,1,Alorica Inc.,,,,closed,,,2019-08-23,,280.0,280.0
-5bd4ca13-3aad-4707-bba6-d69c734ea20d,f6644dc2-aa8e-4526-979f-121a0fe910db,Nebraska,1,Alorica Inc,,,,closed,,,2019-08-23,,410.0,410.0
-6fa30be9-c088-4c29-873b-cf5823e062cc,53e95f03-4d8f-40bc-bd65-1c460cd8f8ce,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
-0f24a19b-3b9c-4da0-8ce5-7b2934cd042e,5cf0f1f2-efd1-47b9-bdb0-14b3b9ba5072,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
-ae265221-d452-413a-9687-d068e4516b1a,558ce222-b82e-41c2-b1f9-e0f58f824943,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
-603ab8cc-9094-4c54-a93a-4c958bc081ac,0898e414-09d4-4732-b4c1-8064b75b2c90,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
-d4c880b0-da80-41a9-99e8-21443a0b84f9,26b4dc19-2856-4581-b229-64e68e9bd853,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
-43ae5354-5885-413c-ab48-ba9e05885ac2,dce65648-3428-44f8-8655-91e93f1b22c4,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
-0c43b063-054c-4913-8757-8621dfecfb37,d984e52a-4106-45e2-841d-2bae3ea79072,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
-654c886e-e1c3-4dea-babc-326a8f633d29,0c886234-595d-4bad-b033-ff88a062e2f5,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
-1b8a23a5-d72c-46c9-b7f2-16623375dce7,8e110279-ea4f-4277-8bae-22a9030cc6f8,Nebraska,1,Deker Corporation,,,,closed,,,2019-09-03,,500.0,0.0
-09ebbc52-c455-4d69-9691-9b622cf090ae,71fd4fb6-26aa-4d8c-8807-70d5e11e4f72,Nebraska,1,C&D Farms,,,,closed,,,2019-09-04,,500.0,0.0
-9eec43e6-c30a-4644-9e0c-466710d53c1f,8c01dfbd-8a07-469a-84ed-f547da41d65b,Nebraska,1,The Hop House Bar & Grill,,,,closed,,,2019-09-09,,500.0,500.0
-33a50674-91c8-479d-bceb-d1300fb32b84,27feb194-e12c-471c-b8eb-931f249d647c,Nebraska,1,"Sautter Construction, L.L.C.",,,,closed,,,2019-09-12,,500.0,0.0
-203b8c75-7f42-4263-b0cc-455319cdd25f,a8d68159-f70c-4e04-8f39-3596b9402bc6,Nebraska,1,"Apostle Nursing Home Health Care, LLC",,,,closed,,,2019-09-17,,500.0,0.0
-832e35f8-fbc5-4b1e-801a-4d437a0ab905,3b612cb4-b093-4479-8d60-075c3109c5e7,Nebraska,1,"Core Energy Solutions, Inc.",,,,closed,,,2019-09-17,,500.0,0.0
-5ddcfad2-bb22-4d88-ae3d-6d6b808fe21a,3a6fa511-cfde-4857-8232-4556a6552dcd,Nebraska,1,"Natural Health Center, P.C.",,,,closed,,,2019-09-18,,500.0,0.0
-01b595d9-14fd-4a7d-b138-605c4cdd76d5,689d2e95-9237-42f9-93ff-96c07fc9545f,Nebraska,1,Countryside Remodeling,,,,closed,,,2019-09-20,,500.0,0.0
-68358c67-1a9a-4e30-a35c-5bba813219af,1ed16e94-8e6a-4056-8d6d-d9ede1b5a3f2,Nebraska,1,"Nickell Construction, LLC",,,,closed,,,2019-09-25,,500.0,0.0
-46e6ff87-20e4-4721-96d6-f57d6a4735fb,d938fa86-280c-4258-91e4-caaeac1c7719,Nebraska,1,Bayshore Constractors LLC,,,,closed,,,2019-09-27,,500.0,0.0
-dae7e829-d232-4f13-bd34-9ffea80ef70e,f6760bfd-c9d3-4d79-b95f-146f28bb1176,Nebraska,1,"Genesis Health Clubs Management, Inc",,,,closed,,,2019-09-27,,500.0,500.0
-13805418-4d20-4f7f-ae55-48f27bd483d6,8ee235cf-1ce7-4f9b-a4c4-bcca76984a8e,Nebraska,1,Western Nebraska Pioneers Baseball Club,,,,closed,,,2019-10-02,,500.0,0.0
-6db70624-8cd3-4ce6-9a2d-2b5066f68241,669486af-cbbf-42c6-b90d-1521cac2f0eb,Nebraska,1,Western Nebraska Pioneers Baseball Club,,,,closed,,,2019-10-02,,500.0,0.0
-a090dc4f-df5e-4419-9741-0fd601aff91c,7e6fbc87-4920-4889-8f2d-21ab94ca37c0,Nebraska,1,Western Nebraska Pioneers Baseball Club,,,,closed,,,2019-10-02,,500.0,0.0
-d768ceaf-d405-4394-8f2d-91acb55d8d42,a2448632-0a71-417b-9ffe-cfce7abda4ed,Nebraska,1,MMP Enterprises,,,,closed,,,2019-10-07,,500.0,500.0
-6e02deeb-9e64-4584-97cb-c55c816da63e,1f52ab79-8632-4b46-b5e6-4d26345e90cd,Nebraska,1,MMP Enterprises,,,,closed,,,2019-10-07,,500.0,500.0
-c6cf14c7-5bce-4a10-83e0-188ddc1f06b7,646f42ba-a8e4-4ecd-af92-4a9e2cdf66cc,Nebraska,1,MMP Enterprises,,,,closed,,,2019-10-07,,500.0,500.0
-428ef417-8a52-4b8e-9d0b-da1eb9f33224,a2d8d8b0-2370-4f48-90b5-91ffb89c56b7,Nebraska,1,MMP Enterprises,,,,closed,,,2019-10-07,,500.0,500.0
-13710ee7-3a27-484e-9e59-c0a50bc2597f,d57bd7d0-15ee-4a2c-9385-69a4e4c893d9,Nebraska,1,"NM Concrete Construction, L.L.C.",,,,closed,,,2019-10-09,,500.0,0.0
-33e383ba-fd37-4c90-9960-a7029df22cef,7d6fddc1-ff95-4f3d-a2b6-76755e26726c,Nebraska,1,MJK Designs & Landscaping LLC,,,,closed,,,2019-10-17,,500.0,0.0
-8f93fbd1-cebc-43b6-92d6-e1346ee187da,ca2409c2-f37f-4505-99d8-4c07c71763fc,Nebraska,1,Rough Road Repair,,,,closed,,,2019-10-29,,500.0,0.0
-ef79a366-fd1d-4c92-af4b-9e3ad49d375b,7b39b55e-2b4e-4a1e-a497-64382e8d880b,Nebraska,1,Rupert Construction Co.,,,,closed,,,2019-11-01,,500.0,0.0
-85240c21-5a67-4a28-8b55-de708c4552f3,a1a834ce-27bd-4f5e-b3d2-a653d75e9be0,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
-54069ed7-c5c6-4d29-981d-5cd32ebdd560,908333cf-4b61-4ab9-88ef-232a63127e75,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
-a692d8c2-8ce4-4c52-8657-1791bd77859f,265ce3c8-abca-404a-88e2-3410f3bb188a,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
-e8b62888-3f1f-49e3-a5d3-81ee479df202,4bc2d9cc-83a1-4f77-8543-017d399a6526,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
-8dd7cd85-c0d8-4df9-89dd-08490cd54994,88f6d1a0-01f8-428e-aa06-11a8fa99c532,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
-8fe3f888-b5a2-47ee-a2db-848a95ce1c92,a37fb78c-4a2b-4923-ad56-d3844afed257,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
-ec68262c-a9bb-4594-8381-48ceed66d2b0,f543a14b-c45b-4f16-898e-508286dfe4e3,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
-8a8ad112-d1d6-4f01-a8ba-7aa43477c4a9,48ab568b-b60a-46f2-aff5-f88077606170,Nebraska,1,Pet Event Pros,,,,closed,,,2019-11-25,,500.0,0.0
-f663ca01-bc37-4938-aaf1-bc1d6643093c,04320dec-983a-483f-b3b8-f9ef855022a3,Nebraska,1,Schilke Erectors,,,,closed,,,2019-12-02,,500.0,0.0
-430247b0-8e9a-44c5-83b5-016eea553d0d,8e5d2c33-36ee-420e-80ba-7662df01fa62,Nebraska,1,Professional Pro Cleaners Inc.,,,,closed,,,2019-12-02,,500.0,0.0
-dac99085-e1a2-45e7-aa11-d03b261e2296,b8133005-eed9-447d-8d0e-6683394f53d6,Nebraska,1,A Flippin' Sweet Pizzeria & Italian Joint,,,,closed,,,2019-12-11,,500.0,0.0
-32ec3e5b-7418-4351-8498-521f15cc9c99,741a53de-8c60-4c33-a544-670364f07459,Nebraska,1,Legbo Services of Omaha,,,,closed,,,2019-12-27,,500.0,0.0
-60b10a56-5c76-4d45-8f9e-5199facc27bf,c15f9701-7040-4d7e-b300-ea4aa4deb63a,Nebraska,1,"Infinite 8 Institute, LLC",,,,closed,,,2020-01-10,,5000.0,0.0
-a63f9a2c-416c-4ccd-845b-fbf190790da1,d3ad89ea-8d48-45a4-a9ad-26d334ebbf37,Nebraska,1,3 Rivers Construction,,,,closed,,,2020-01-16,,500.0,0.0
-a997128f-92d0-4011-88b7-b83becc1c2d0,d11acbc8-a47b-4a9a-a811-8405d84ec2b4,Nebraska,1,9 South CharGrill,,,,closed,,,2020-01-27,,500.0,0.0
-1fc9d0b1-eabf-4ee7-b058-53c065b698f5,bfaf52f9-40ed-47ed-b59d-5f5c4231c09f,Nebraska,1,NAC General Construction LLC,,,,closed,,,2020-02-05,,500.0,0.0
-5fd75e4c-7f7d-4da2-85b7-15e2facf1719,39e5a666-26a8-4535-a05f-34d45b031b93,Nebraska,1,NAC General Construction LLC,,,,closed,,,2020-02-05,,500.0,0.0
-be54d90a-faf5-46bc-a24a-0c22971cdb5e,d2104348-901e-4487-be48-41d79f647cd5,Nebraska,1,NAC General Construction LLC,,,,closed,,,2020-02-05,,500.0,0.0
-788dd6de-8b80-41b6-90ce-78b62feb8ee3,1b5a7110-fd23-4f69-b1b1-642392b710bb,Nebraska,1,"Marshland Acres West, L.L.C.",,,,closed,,,2020-02-07,,500.0,500.0
-cd424926-9da7-493a-8099-1e6629136524,0f614132-5085-4235-90a8-3a11cdeb7ac2,Nebraska,1,SABR Behavioral LLC,,,,closed,,,2020-02-25,,500.0,0.0
-9a5729d5-4807-4ebc-948f-80678115a472,ee462abe-9dba-441b-aab6-6d4beb03bd47,Nebraska,1,"Kwik Shop, Inc.",,,,closed,,,2020-03-05,,500.0,0.0
-7aa4e0fe-ed32-47f5-a501-b7252174721f,db42f417-b255-4bf7-81cd-0d4fb289d201,Nebraska,1,Ozzy's Roadhouse,,,,closed,,,2020-03-06,,250.0,0.0
-170b0251-0dfc-468a-bd08-1215435049ff,58601233-833d-4fc6-97a1-f8b3f57f8820,Nebraska,1,Gonzalez Drywall,,,,closed,,,2020-03-06,,500.0,0.0
-e9baee87-b653-44cc-9b66-ccae2c543462,8c2d1319-6886-43f6-9130-5d702498af00,Nebraska,1,Tuffy Auto Service Center,,,,closed,,,2020-03-16,,500.0,0.0
-e23f948b-505d-46ee-bd1c-d17023d95c3f,93303764-768a-4bfc-a11f-f27c41a06400,Nebraska,1,T3 Construction LLC,,,,closed,,,2020-03-24,,500.0,0.0
-509f256b-3841-4b90-8451-3ceb07fe35ad,7282bfd6-e55c-4681-a5df-43b4229a7e53,Nebraska,1,T3 Construction LLC,,,,closed,,,2020-03-25,,500.0,0.0
-1324451e-a467-4e40-b405-d87a2dc631f7,866a22a3-4725-49cd-922a-946e95e77e69,Nebraska,1,Krab Kingz,,,,closed,,,2020-03-26,,500.0,0.0
-ef8d1a30-ca82-4ac5-9402-674242d325b8,e3fcb4cc-9c9d-4a17-b08f-b0297e114177,Nebraska,1,Ever Lasting God Childcare Center LLC,,,,closed,,,2020-03-31,,500.0,0.0
-1a3b6e2c-304c-447b-a13d-028505de1d47,f2125c6f-5963-4f72-90c6-67f85503d4ab,Nebraska,1,Lincoln Lumber Company,,,,pending appeal,,,2020-04-07,,500.0,0.0
-33dfceb1-e732-4f8f-a545-4e2a472acdf4,da689d70-2225-43aa-a8c5-c348aa378a80,Nebraska,1,"Pupuseria & Restaurant El Rinconcito, LLC",,,,closed,,,2020-05-01,,500.0,0.0
-3810a76e-7868-494d-9a4d-c50d0e9fbd9a,adf491cd-8dfd-45e8-bf34-1c15782bf5e8,Nebraska,1,"Pupuseria & Restaurant El Rinconcito, LLC",,,,closed,,,2020-05-01,,500.0,0.0
-8eb42ad3-8de6-4293-9b62-1fab7f4febe0,7f125e9f-3056-4827-a18a-021e1712140b,Nebraska,1,"Pupuseria & Restaurant El Rinconcito, LLC",,,,closed,,,2020-05-01,,500.0,0.0
-d756c14a-2b30-4282-ab03-47b5e3dd37cc,505c50e0-30b5-456d-aac3-05c50e11f10f,Nebraska,1,"Williamson Cleaning Services, LLC",,,,closed,,,2020-05-04,,500.0,0.0
-821350a2-ff83-4730-925a-1d8ffc13c60b,09c868c6-d289-4bf4-b505-e3dad1a61ecb,Nebraska,1,"Exterior Wood Care, L.L.C.",,,,pending appeal,,,2020-05-05,,500.0,0.0
-3fe52785-ac08-4646-8070-71f133f8b140,0a7df3b3-93cc-4666-be99-f9ca7aa7ffa5,Nebraska,1,SABR Behavioral LLC,,,,closed,,,2020-05-07,,500.0,0.0
-3f12fd41-423a-4a5e-9173-35460d731e96,f441d483-6557-4b8c-901a-af9cb8bb05db,Nebraska,1,SABR Behavioral LLC,,,,closed,,,2020-05-07,,500.0,0.0
-cc322b5f-5f38-498b-a425-847278794552,6ad8611e-0256-4702-b4f3-aa5cc6c41d47,Nebraska,1,LC Hardscapes LLC,,,,closed,,,2020-06-15,,500.0,0.0
-982d2d28-10c5-4739-bc40-569e26e04636,09346c9d-d661-47aa-b4d6-210d1bf25248,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-06-22,,500.0,0.0
-b5c3767a-a4c6-4eee-8ae6-7636694f902e,dc295ae6-f19f-4f8f-bd88-d09e4d8e6862,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-06-22,,500.0,0.0
-76d92469-da7f-4401-9ad5-158b912c1a0f,7ccf14ce-6a79-4b57-8fd0-111c50f9d59e,Nebraska,1,Triple K,,,,closed,,,2020-06-23,,500.0,0.0
-7cabecb5-db95-43a1-9664-701c318fff48,1745dad5-3ced-41d1-b592-c3cc561adbee,Nebraska,1,Whirlpool Corporation,,,,closed,,,2020-06-29,,500.0,0.0
-9bfb62ea-217c-462b-9477-fe6cf8f5b3fb,5295289b-0b16-43cb-b0b5-77e6b7626dd8,Nebraska,1,Travelodge,,,,closed,,,2020-07-06,,500.0,0.0
-a9b76b58-9fb6-488a-9016-daac09f0793a,a8cf5b03-de64-470a-99c8-5c098faca00e,Nebraska,1,Travelodge,,,,closed,,,2020-07-06,,500.0,0.0
-0af3efee-96d6-4f69-8f5d-5ba7ac83e266,ab891e34-f827-4d54-ae57-1ac76ed7aeaf,Nebraska,1,Broadway Steakhouse,,,,closed,,,2020-07-07,,500.0,0.0
-d5196739-1119-4175-97e4-f463e23a65df,6e61c476-f79c-4eb0-9ed2-77a1bc8a5cd6,Nebraska,1,Wave Pizza Co Hastings,,,,closed,,,2020-07-22,,500.0,0.0
-037af87b-c207-4821-81d8-e418aed2d783,06944c14-1db6-4121-b20c-14504308a762,Nebraska,1,Wave Pizza Co Hastings,,,,closed,,,2020-07-22,,500.0,0.0
-1266d317-259c-4198-8a9a-aa9fbec2aeb6,bb1f2e86-88d3-48a4-8b15-16bdc2bdf25c,Nebraska,1,Krab Kingz,,,,closed,,,2020-07-29,,500.0,0.0
-b0b88b7e-a077-4a95-b55f-50600ed53135,734af925-188d-4287-96f3-7ea49aa9cad7,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-13,,5000.0,0.0
-2e2f4a24-5112-4094-889b-221f365b5d74,57950429-8f0e-4cf9-9aa8-fc2352891f22,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
-ef81c39d-5cda-4930-b320-667a5e1ac78b,56503cfd-b25f-4402-bd07-a5072ae16881,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
-45f5844b-5a4d-43fb-b215-edec56d48f06,ae156626-08e5-4ac0-a1c3-bfcfc844e469,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
-4e73fbe7-3b21-4f76-b20b-ff50d8a7c9bb,3f5a5f5e-94fb-4419-ad9c-7f1f33dd3296,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
-380d24f9-07d1-4509-98e9-9e3527861f95,05d0202c-a5d7-42b8-9c06-86146222ee40,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
-4c4121cb-6a8f-4e85-aac9-3f6f3b2e6a04,7902a06c-af91-42ad-8602-1ce07e2da1e0,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
-03b8e4d4-0206-4c05-9a12-f848be000692,8d727f52-2aa1-4d5c-b9aa-33bc7738c390,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
-d7dd99bf-5fe1-4dc8-b877-c834084e4eb4,ee2fd1c2-8913-43dc-98c9-677f763c6a3f,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
-42957eaa-6813-44bf-85a1-a3dfe92f199a,b25ac7ae-9515-4233-a2e9-7193a7131bb8,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
-379a6204-618e-4f8a-8ec7-3e6ed6595bd7,26e3e590-127b-4db8-a15f-f320461d2a04,Nebraska,1,"Examination Management Services, Inc.",,,,closed,,,2020-08-20,,500.0,0.0
-69875013-e910-4f7d-a55a-23cb2fb6c989,9238c683-2f61-4891-9125-20f22344d986,Nebraska,1,"Giggles, Inc.",,,,closed,,,2020-08-24,,500.0,0.0
-73a9170d-a7df-47ea-8641-898189b3482e,94dab1e3-b60f-4a1f-8d0a-d09dbca7bc7a,Nebraska,1,College Hunks Hauling Junk & Moving,,,,closed,,,2020-09-03,,250.0,0.0
-3ccdcfed-c34b-434c-9871-48a9af7c1170,eeeacd0d-4cb9-4a1c-bcbc-e37a4202973f,Nebraska,1,Comfort Inn At The Zoo,,,,closed,,,2020-09-11,,500.0,0.0
-4a705ab5-58b7-4b7d-8bcc-9b0e96017f27,37374956-eef9-48f6-9474-1577322f95b6,Nebraska,1,DigiExt,,,,closed,,,2020-09-15,,500.0,0.0
-a8c552e2-230d-47b3-8339-87d8edd39e17,fe412706-1bc0-4573-8323-cfb0bf065c87,Nebraska,1,Rusty Taco,,,,closed,,,2020-09-15,,50.0,50.0
-de3c9b1d-8b2e-49a0-8aa6-50097fa839ab,b6cd7e9e-dc54-4f00-a3ad-574746e46511,Nebraska,1,Critel Construction and Buildings,,,,closed,,,2020-09-25,,500.0,0.0
-3b209272-bcbf-407c-bdd0-47c30791ba97,3aa38501-9def-4af1-b0fc-6c25474163b2,Nebraska,1,Critel Construction and Buildings,,,,closed,,,2020-09-25,,500.0,0.0
-09be063b-8ae7-44ff-8f8b-504aa37951f0,1ea35d7d-b11c-4db6-b0fb-ce2cc7f48769,Nebraska,1,"Mom & Paup Family Restaurant, LLC",,,,closed,,,2020-10-20,,500.0,0.0
-98555b1c-d998-4ca4-aebc-63502259cff5,e6a95098-27b2-4b95-83e4-9da9f920c8ec,Nebraska,1,Apex Appliance Repair,,,,closed,,,2020-10-29,,500.0,0.0
-06d8538d-9290-4e41-a969-a0af83621591,187cafad-c04e-48ca-9f54-7e4fc20357b3,Nebraska,1,Reed Design Architects,,,,closed,,,2020-11-17,,450.0,0.0
-310f15d9-a953-4587-ab59-06d5731ef612,85024fce-9929-4a13-b2cb-1eb59f01bdff,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
-08a5c163-6fbb-4486-abcb-41bd5f32bba2,892da639-e936-4316-b5c9-ed60f66d02b5,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
-e1eb4793-477f-4deb-a369-471673dad0a0,a70b4be0-7982-444f-ac47-c0cfad08618b,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
-db0bcc79-4274-4ecf-ba20-a4b8c8324f45,6884816a-e0c5-4557-a0e2-cb5404b999e4,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
-b3f44598-fef8-43e9-9ca9-249baec16299,09d7e743-a838-4395-b151-bfc7a72e07dc,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
-ae093b0d-21b1-42c8-aba7-1a9fe906ba0a,4357d3f2-524b-4c8d-b9ab-207f8fc11a12,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
-f1e025ea-662f-4bbf-be21-11e091faeba4,dc9c8ae8-7ba2-49d7-9c08-adb4dfb47b0f,Nebraska,1,LC Hardscapes LLC,,,,pending appeal,,,2020-11-25,,500.0,0.0
-3b001539-cb18-4be9-92e0-5ffc2da4eaa0,b727f8ac-2fa9-450c-b3e0-3a64f52c1b57,Nebraska,1,Sewell Landscape and Holiday Lighting,,,,closed,,,2020-11-30,,500.0,0.0
-8c7528ce-301f-4dfb-911c-43825114fc00,e8827bd8-b6e6-4c89-b415-21f5b5cf5097,Nebraska,1,Sewell Landscape and Holiday Lighting,,,,closed,,,2020-11-30,,500.0,0.0
-08272cab-578a-44f6-9e91-000a3b69f5ec,229e0a44-6c81-4202-a2c4-5e08f1aec0d5,Nebraska,1,Dove's Heavenly Dog Academy LLC,,,,closed,,,2020-12-07,,500.0,0.0
-3160730a-eba2-4db9-9f0c-05f1ceb1e4cc,2eb88bf5-d9eb-4b38-b831-b159adb72a5a,Nebraska,1,C&R Mechanical Welding Service LLC,,,,closed,,,2020-12-09,,500.0,0.0
-8776ec6c-cc77-49d9-9e23-9dd6df071929,78c2dd48-743e-43bf-b232-6b6d906eca98,Nebraska,1,C&R Mechanical Welding Service LLC,,,,closed,,,2020-12-09,,500.0,0.0
-17792871-a178-4114-8193-55932d3e19ff,df74d4a1-66c4-4ed4-8964-0c991cda20f3,Nebraska,1,C&R Mechanical Welding Service LLC,,,,closed,,,2020-12-09,,500.0,0.0
-05904767-2dcc-4b70-aaa2-b2dcc6cd7cc4,5ab44f74-055f-417a-bf73-ee1f78f07a5e,Nebraska,1,Midwest Dough Guys LLC DBA D.P.  Dough,,,,closed,,,2020-12-17,,500.0,0.0
-378b1bb6-5433-4e0b-9348-727eea9c30ad,21fe5c3b-26da-4a81-83bc-bbfe6614fc03,Nebraska,1,Jumping Jax Childcare and Preschool,,,,closed,,,2020-12-17,,500.0,0.0
-43fabe85-026c-4acf-bfb0-71710048a4ba,60cc8f71-300e-4a96-880f-6115d75e04a4,Nebraska,1,Parkview Home Inc.,,,,closed,,,2020-12-22,,500.0,0.0
-080ed1fb-2a99-4cd2-8634-5b0421697529,0e7117b0-3ce2-4b9e-98cd-af41ffb2c059,Nebraska,1,Parkview Home Inc.,,,,closed,,,2020-12-22,,500.0,0.0
-d1d9bbd5-e982-4c19-9bc4-5c20f3b51927,154c945b-01bb-46f8-a787-a7d5b735b44b,Nebraska,1,Parkview Home Inc.,,,,closed,,,2020-12-22,,500.0,0.0
-3cdd112a-a4f9-4acd-80af-067806137ebb,475d4cca-6ca9-4cbc-a7bd-a74d4a8ec34e,Nebraska,1,Xtreme Remodel & Construction LLC,,,,closed,,,2020-12-28,,500.0,0.0
-b457ba83-102a-4767-b80f-7781376ecfe4,530ffcdb-f82f-4275-878d-6012f7ebbba6,Nebraska,1,Keystrokes Transcription Service,,,,closed,,,2021-01-07,,500.0,0.0
-b1ec91ca-44f0-429c-bac0-f5f68b124c23,e919d0ca-0535-4327-b541-6bdb6ac7f3f8,Nebraska,1,Foresight Asset Management,,,,closed,,,2021-03-01,,250.0,250.0
-e9964009-4c87-47cb-b8db-1e96a6836628,b9de98da-3858-4e86-bf75-fa85810de74b,Nebraska,1,Sprouts Child Development Center,,,,closed,,,2021-03-02,,500.0,0.0
-ee65e266-0865-4cb2-8f8e-10407b9fcb86,199b0f97-2b1d-4278-ae09-c671193b8b07,Nebraska,1,"Chroma the Salon, LLC.",,,,closed,,,2021-03-03,,500.0,0.0
-3a32cfef-e192-494f-9e42-ae537016b5c7,b8b901f9-87a2-4f5b-9270-51bdd6713271,Nebraska,1,Xtreme Remodel & Construction LLC,,,,closed,,,2021-03-03,,5000.0,0.0
-fb9dda98-5c79-4030-8a80-b19661fa6fca,a415188e-525d-4b7b-9f7b-29c971fc477a,Nebraska,1,David Fiala Ltd,,,,pending appeal,,,2021-03-05,,500.0,0.0
-8079f859-eb9a-4a1d-bd7c-ee2993e1627c,da7d0265-c531-4885-85a3-f66604826e46,Nebraska,1,Stolzer Construction,,,,closed,,,2021-03-09,,500.0,0.0
-d45f6ba7-a2f9-43bc-bf7f-909fba721050,1a35f47f-7b3a-49fe-b961-00ac15f850be,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-03-16,,500.0,0.0
-14cef32d-fb1a-46a7-ae0d-06725c018f18,de09194d-c3a7-4cd1-8462-bec0f50cddef,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-03-16,,500.0,0.0
-bbf94491-6f37-4b0a-83f4-954cd5979190,8dc6e433-bf30-4666-8d56-512de258f63e,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-03-16,,500.0,0.0
-1c521a92-d1d1-4919-9f3d-33984c4a72cf,f2d876da-2d09-4bf3-9185-50f408f957bd,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-03-16,,500.0,0.0
-fe7fb4b0-dc76-48b9-a7eb-8e6314507c72,c3dd17e2-c75f-43b7-a6da-ad963942f6ca,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-03-16,,500.0,0.0
-23a0b9cd-5094-4c50-8e34-c5f0a909b7b6,33162713-c97f-4eee-9807-b954f0709bb5,Nebraska,1,Renkoski vegetation services,,,,closed,,,2021-03-17,,500.0,500.0
-9537be27-5907-4eda-b50b-70f9f558c7dd,f156cbe2-12df-4877-b0f3-299a83099b58,Nebraska,1,Jubilee Solutions,,,,closed,,,2021-04-13,,500.0,0.0
-7ebb6dd6-71b2-4b91-93fd-ce12f25eb53f,ec71dcd1-d4be-4984-93e7-a470c274b660,Nebraska,1,TLS LLC,,,,closed,,,2021-04-13,,500.0,0.0
-85baf3fc-7b24-46af-a47d-9d2aff6a5e78,35f9f92b-4ddd-47e9-b0d1-1398734ab9db,Nebraska,1,Ridgecrest Rehab Center,,,,closed,,,2021-04-27,,500.0,0.0
-0421ed24-2bd6-4839-8e41-80474c02d786,c243dfaf-cd78-4859-b96d-0cc177f6bc8c,Nebraska,1,Lark Logistics,,,,closed,,,2021-05-07,,500.0,0.0
-9e75b5d5-de58-45df-b964-a6661caa6e38,9134c8f2-42c5-4027-a3e6-6fa41668e1fc,Nebraska,1,"Best Shopping Solutions, LLC",,,,closed,,,2021-05-14,,500.0,0.0
-ef1051c7-d7b4-4eb6-9706-07b50bd8d4e6,2c0795cd-a3f7-4fa8-8885-3af229b81fe7,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
-3787035a-c7df-47ba-96fb-723f42a72475,d9838888-ea6f-48c0-ad1d-71a9718563c2,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
-def103fd-7389-41ff-9762-f53a603aa6cf,2447b604-2e16-418a-8d27-d8660ee326f0,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
-e061fe71-7662-42a8-b15b-63dfd505aa53,1b2dd6e8-d7fd-442b-b00c-2daefb607301,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
-65ebdcf9-8ff4-4a87-b2da-95acd5f971a7,37c596bd-c8db-45a8-93df-554f88d51535,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
-0e26916c-5232-43a3-aab0-8380cb62ae96,9ca77572-c0af-471d-b590-4bea36a6e05d,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
-43cb613c-d8e7-4611-952e-fd6694cd221a,ffef1377-5987-4dcd-97ee-2d1e6f94df12,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
-5e336cad-be12-472f-bfed-67f546f81eac,fb0c2404-0e69-471a-844e-09137d9c6787,Nebraska,1,Sparkle Cleaning Services LLC,,,,closed,,,2021-06-01,,500.0,0.0
-369466f4-9df0-40c1-a698-4a56a4d4163b,a8339efd-07d0-4b34-bd1c-09d3e3f574fd,Nebraska,1,Sushi Karma,,,,closed,,,2021-06-24,,500.0,0.0
-3c329939-f1db-49f1-a69c-3b0e7d5c81b0,292ff15a-4912-484b-80e1-39df9368f05f,Nebraska,1,Sushi Karma,,,,closed,,,2021-06-24,,500.0,0.0
-0a3cf184-276e-4bf7-8cca-a180071f4074,122e4b18-fa40-4c6e-abe4-7b39af26c62a,Nebraska,1,Fajitas Bar and Grill,,,,closed,,,2021-07-20,,500.0,0.0
-63ce94db-7832-49b7-97e1-aea1277f5150,49d70ea8-a177-4eed-a280-680b666f2bf3,Nebraska,1,"Postal Fleet Services, Inc.",,,,closed,,,2021-07-20,,500.0,0.0
-2bb2dd50-4cb6-448b-9044-6dd971e44418,d1d1bbc0-2ed3-4a62-94d2-c040bbe2e275,Nebraska,1,"Postal Fleet Services, Inc.",,,,closed,,,2021-07-20,,500.0,0.0
-ed48262e-79b5-498d-bb5b-e080292e0ad4,d807bce2-41e0-47b8-966a-f608e0fdac7e,Nebraska,1,"Postal Fleet Services, Inc.",,,,closed,,,2021-07-20,,500.0,0.0
-2f5cd366-6ed5-4883-a315-f2da8eeccb36,6fc2ded4-c902-457e-b4ac-6fe573097692,Nebraska,1,"Postal Fleet Services, Inc.",,,,closed,,,2021-07-20,,500.0,0.0
-a5f1de86-edca-4d83-90cb-46e243bffa2d,bcd9c4ae-b33a-4bdb-8394-857c33952d02,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
-f94adf0f-f821-45e0-b1d1-547344cc03c5,7470a488-2429-4647-93ad-d5e8f3dd6d2f,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
-cac6fd97-5cd6-4321-b6cb-a40b642432a1,5627cc10-9a08-4876-97c5-d5a7665774cc,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
-bdbb7657-e068-48f1-8dcd-abb4b4f1006d,c42f1414-6173-47ec-9a6b-fc87d3268ed2,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
-d3de8bc1-f379-4ee1-a3d3-e69fb851863f,520121fd-edba-465a-a6c1-0c666bac11a9,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
-d0901a92-dac7-4976-a9b3-d9482d1d0cd7,43f53ea6-23ae-4ff6-8ea7-8aeb1267a6b7,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
-647ccfdd-6c13-4bed-bb31-73ed686af483,d41f9ea7-f9c5-457d-87b9-cf36b26f5277,Nebraska,1,"Exterior Wood Care, L.L.C.",,,,closed,,,2021-08-06,,500.0,0.0
-47c4a92b-4369-421f-b56d-11df32c7da49,211672ed-7c37-42ac-85eb-695c002cf425,Nebraska,1,Holiday Inn Downtown Omaha,,,,closed,,,2021-08-06,,500.0,0.0
-3f67153f-bb63-44db-a8c1-72204828bf6b,aab28e86-1dec-46d9-8fbf-7fb9c330f807,Nebraska,1,Holiday Inn Downtown Omaha,,,,closed,,,2021-08-06,,500.0,0.0
-be858b47-c6bb-4b74-b186-0e1664036986,86479ff0-d77f-4f2e-9d3f-05e9ac539cb8,Nebraska,1,Holiday Inn Downtown Omaha,,,,closed,,,2021-08-06,,500.0,0.0
-d09e3af2-9594-4065-b230-42df5b48674e,6c0dbb54-10c7-47af-bd1a-75f3803dcaaf,Nebraska,1,Holiday Inn Downtown Omaha,,,,closed,,,2021-08-06,,500.0,0.0
-95f21b62-38f2-409f-ad9c-3dc87971cbeb,75c42c46-759d-4a2a-ac96-d114967103cd,Nebraska,1,Taco Bell,,,,closed,,,2021-08-11,,250.0,0.0
-65698e42-e04f-4f04-9080-93b706aed259,abe1de6a-3afd-4023-a845-3dcdec582a77,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-08-11,,500.0,0.0
-727226b3-f9c9-4ddf-8b4d-ac650a98b7f4,63a18870-3885-4879-8df3-7d8c9f509075,Nebraska,1,Omaha Star Newspaper,,,,closed,,,2021-08-23,,500.0,500.0
-81231386-4816-4eae-9a91-38c11f1f1743,8fc4d014-9eb1-48d8-bff9-726cb6dd2bc6,Nebraska,1,Mars Inc.,,,,closed,,,2021-08-27,,500.0,0.0
-1551104d-11d9-44a7-baf3-2c6d4a1a3f2f,b6b6ba92-35fe-4623-bdc6-b38a42a09f3d,Nebraska,1,Xtreme Co LLC,,,,closed,,,2021-09-24,,500.0,0.0
-89f2f264-f67f-4c91-a209-c57e2e75c5e2,61ebdf01-f5a7-4bb5-b2b5-25337c92ea6a,Nebraska,1,Scarlet Highway,,,,closed,,,2021-09-30,,500.0,500.0
-52a44358-bfd4-4b51-bbda-ea584f08e774,3929e3ff-e500-4343-9a9a-009704ccbe0d,Nebraska,1,Frost Contracting LLC.,,,,closed,,,2021-10-04,,500.0,0.0
-e9d6ca4e-0a86-46d7-9c6c-4accf45b83d7,903d0960-3305-4152-a02c-7d0f9f84226f,Nebraska,1,Frost Contracting LLC.,,,,closed,,,2021-10-04,,500.0,0.0
-1cfb9774-835f-4178-97fe-070c457c0644,56c8dc3c-559f-45e2-8ee1-6c78a0038ca0,Nebraska,1,TaroHR formerly SABR Behavioral,,,,closed,,,2021-10-06,,500.0,0.0
-b859b917-6428-4286-a1c6-6c655d178410,570043d3-3428-4165-bf71-62e11ade9a3e,Nebraska,1,Super Scooper,,,,closed,,,2021-10-07,,500.0,0.0
-986e4ff3-2779-4166-b705-81e609d704fc,c870bfec-4882-4721-9ab0-8955e7741d16,Nebraska,1,"Honey Creek Childcare & Preschool / Ramak Enterprise, LLC",,,,closed,,,2021-10-13,,500.0,0.0
-e67f879c-8cda-4fac-9948-cfe552a80649,cbbc782f-a1a6-4e79-ac53-742876593b1c,Nebraska,1,Metro One Loss Prevention,,,,closed,,,2021-10-20,,500.0,0.0
-0c0a6b4e-6a78-4f26-91fb-153560079004,873f4580-0788-48c4-bda6-d2a981e742f6,Nebraska,1,Locos,,,,closed,,,2021-10-21,,500.0,0.0
-6ca26e2c-a593-4c24-afad-f13ae75a998a,bab7dd1d-a3d5-4c2c-ad52-796b0e959e88,Nebraska,1,Complete Call Solutions,,,,closed,,,2021-10-21,,500.0,0.0
-7805df4c-11b9-46dc-a82f-f4c854a1c72d,d8646141-104d-4e30-9c21-e9ae6de765e7,Nebraska,1,"Honey Creek Childcare & Preschool / Ramak Enterprise, LLC",,,,closed,,,2021-10-25,,5000.0,0.0
-fcef5552-20f4-4d3a-8b1c-dd1c5acfabb5,8522644a-4ead-4fbd-ac26-36bdb568ddcf,Nebraska,1,The Gutter Truck LLC - TGT Exteriors,,,,closed,,,2021-11-03,,500.0,0.0
-547c29a1-b620-4439-ab60-26eaf04800e3,2ccb13a1-243b-453f-b266-ddc831b5de1a,Nebraska,1,Rosati's,,,,closed,,,2021-11-03,,500.0,0.0
-c568076e-f584-49de-818e-aa66a3df91db,12111f78-71d8-4bfd-9d06-abd441e97b42,Nebraska,1,Omaha Basement Pros,,,,closed,,,2021-11-04,,500.0,0.0
-7934373c-8fad-40b8-a5ad-86504af4d9ca,5a8b9c30-f0cc-4d34-8127-523eec6e2d55,Nebraska,1,Nstar HDD & Construction,,,,closed,,,2021-11-09,,500.0,0.0
-2de7e79e-c308-4af5-91b5-b05c2c7d47d6,af9c34f2-a02e-487f-8e63-d29a46c23219,Nebraska,1,AJM Automotive Services,,,,closed,,,2021-11-15,,500.0,0.0
-a561884d-ced3-40e7-bc33-78c32b1048b4,c5b90362-35af-45bf-b8d8-82c0f3886411,Nebraska,1,Parcel Patrol Logistics,,,,closed,,,2021-11-15,,500.0,0.0
-14d00f7b-69e8-4d1a-b457-1f622c082190,c93ff9b6-5040-46af-a1f7-208ff5538775,Nebraska,1,Devening Trucking,,,,closed,,,2021-11-17,,500.0,0.0
-b484488e-fb82-4ea7-a57f-022333533019,276d721d-71eb-4334-b10a-de24aa2c5f85,Nebraska,1,Keurig Dr. Pepper,,,,closed,,,2021-11-29,,500.0,0.0
-0be60bf2-47dd-42c4-96d0-212e3b4d71ce,eb8c90c1-c43a-465e-bfd5-2a5d01d42341,Nebraska,1,Sushi Karma,,,,closed,,,2021-11-30,,500.0,0.0
-ff44661a-e0ff-49d8-858a-6109aa1af705,504c1957-a919-4ac6-ab09-6406dc340aa1,Nebraska,1,Clean by Sierra,,,,closed,,,2021-12-03,,500.0,0.0
-b4a433be-52b9-442f-a2a0-dbbe67f20f93,77a0a44c-63f1-4a46-9fcb-86f39ad52765,Nebraska,1,Wave Pizza Co Hastings,,,,closed,,,2021-12-14,,5000.0,0.0
-d0eeb603-c992-4a48-bee8-6dec778309e8,e0eed4e1-ead4-4412-a5bf-908791700036,Nebraska,1,"Southland Employment Services, Inc.",,,,closed,,,2021-12-15,,500.0,0.0
-67afdb91-0f72-4643-871c-4be1364aa54d,28475373-4954-4fe1-96f7-f11fa7cb1754,Nebraska,1,Big Red's Guaranteed Clean,,,,closed,,,2021-12-21,,500.0,0.0
-ea466d97-6267-4bea-a839-81b36db6336a,2680da9c-d04f-43c7-acb3-90721d372532,Nebraska,1,Big Red's Guaranteed Clean,,,,closed,,,2021-12-21,,500.0,0.0
-d36ca64f-2328-4f3a-afb8-9f5adbf6bb97,71a90551-a5cc-4030-a32b-e6ab7301bc69,Nebraska,1,"Main Street Sweets, LLC",,,,closed,,,2021-12-21,,500.0,0.0
-36d8052b-8407-4254-8d54-49c22a2dc3a0,e85161da-c032-48b3-a76a-c073a9599291,Nebraska,1,"Main Street Sweets, LLC",,,,closed,,,2021-12-21,,500.0,0.0
-7dd9b021-648d-4437-9e08-6aef50eccef8,20924c62-5aaa-4987-b6fc-1d5a12f712ed,Nebraska,1,"Main Street Sweets, LLC",,,,closed,,,2021-12-21,,500.0,0.0
-c8b296f1-17f4-43a2-8f61-9c72e56f1885,9103361e-6e00-467e-ba33-a20a1e1632e6,Nebraska,1,Wendy’s,,,,closed,,,2021-12-22,,500.0,0.0
-0bd462b9-b92d-4808-9446-ea21a3441699,b06d6f84-e31f-46b7-9fcb-2f7c8f8c66b1,Nebraska,1,"Giggles, Inc.",,,,closed,,,2022-01-04,,500.0,0.0
-daa35037-42c6-48ef-bd1a-975c7191f531,26600f19-89a1-49bc-a749-f83341b21354,Nebraska,1,"M. Snoberger Farms, Inc.",,,,closed,,,2022-01-10,,500.0,0.0
-81ad059c-639c-4b59-a80c-26669f44ac4b,44362d9a-5476-4863-99bc-9272f407f219,Nebraska,1,The Just Solution Shot of Expresso LLC,,,,closed,,,2022-01-10,,500.0,0.0
-2cde295d-25ed-4606-8ec3-42a2a391cb79,59683709-b0cd-4325-8ba6-a2c660622317,Nebraska,1,Chicago Dog 42,,,,closed,,,2022-01-12,,500.0,0.0
-08fbe9f6-a378-4e06-a206-7a91d69765af,b258ba7c-2e62-4995-80b0-60c81f6590df,Nebraska,1,Frost Contracting LLC.,,,,closed,,,2022-01-12,,5000.0,0.0
-df037d93-c9ef-4e64-b0c8-2c94eeabf1df,28c8c219-4f21-4250-a576-e9e95093dabc,Nebraska,1,"Wayside Express, Inc",,,,closed,,,2022-01-28,,500.0,0.0
-b0aebec7-3d07-432c-a587-6229d88f43a9,3a78a12c-032b-47ea-9154-88138b590598,Nebraska,1,"Wayside Express, Inc",,,,closed,,,2022-02-04,,1000.0,0.0
-e5f859a1-9954-4364-a56d-ed361c0b0d0e,517a8580-0166-4010-b511-0ab588e42957,Nebraska,1,Great Foundations Christian School & Learning Center LLC,,,,closed,,,2022-02-11,,500.0,0.0
-249e5252-c4dc-4f2d-93ee-ff5edc01cc45,f42bc187-738a-42c3-9415-af32c3319a2b,Nebraska,1,Great Foundations Christian School & Learning Center LLC,,,,closed,,,2022-02-11,,500.0,0.0
-973661e4-8d3a-48df-bc82-47e20142af9a,2a1db038-8432-49b1-b409-cf21c3302593,Nebraska,1,LK Asset Advisors LLC,,,,closed,,,2022-03-01,,500.0,0.0
-94e1ee93-c107-4e0e-8761-133aa1a7c168,f405a193-ba49-4d6d-8c09-6cb8562379e6,Nebraska,1,Christiansen Management LLC,,,,closed,,,2022-03-11,,500.0,0.0
-2e3e735a-91a0-4220-a5c4-bef083174e9b,82922833-a8fd-488d-bca6-32fb4e8721e8,Nebraska,1,Broadway Steakhouse,,,,closed,,,2022-03-11,,1000.0,0.0
-5968cd63-3067-4b0e-8326-62578f454ffc,46dab876-9752-493d-94c0-7cc1e1304241,Nebraska,1,FulFillRX LLC,,,,closed,,,2022-03-31,,500.0,0.0
-cb790467-5bda-42e2-bbad-ff66668a57c6,73268a7c-7580-42df-94ff-ef5e125a87e7,Nebraska,1,Groundscapes,,,,closed,,,2022-04-13,,500.0,0.0
-91b11346-6f2e-425d-a167-3fce2eb3e9b5,cb2288d7-0dae-4be5-858b-39e090ef197d,Nebraska,1,Christiansen Management LLC,,,,closed,,,2022-04-15,,500.0,0.0
-4818f6a1-94f9-425c-8c4b-bfeb3d2928f7,45ee0c82-6b5e-4648-a2d6-57f1950d146b,Nebraska,1,J Ton Contractors Inc,,,,closed,,,2022-05-24,,500.0,0.0
-15d47266-0ee2-4fc2-8033-4065a122f293,5b1c4159-c3e8-489f-99dd-5966ea7fff2d,Nebraska,1,J Ton Contractors Inc,,,,closed,,,2022-05-24,,500.0,0.0
-ca7f5402-d202-498e-ab0c-8ed559075e25,3083f426-1356-445b-b0ad-9aed00fc9961,Nebraska,1,Gretna sanitation,,,,closed,,,2022-05-24,,500.0,0.0
-90b359e7-1a29-42ab-874c-0ea98b594d5a,2797ce2f-6237-4b27-a897-6aaea1a92c55,Nebraska,1,"Nebraska Cartage, Inc.",,,,closed,,,2022-05-26,,500.0,0.0
-4ee51b0f-8081-446a-aee2-118c8faa6a1c,eb19ccb2-abf7-4918-9b9d-1d848bb4e40c,Nebraska,1,"Cartage Management, Inc.",,,,closed,,,2022-05-26,,500.0,0.0
-51d54859-7953-4978-a0a6-585b5c924119,cf362fad-425b-400c-8c2f-e7467946e070,Nebraska,1,"Nebraska Cartage, Inc.",,,,closed,,,2022-05-26,,500.0,0.0
-ab7efe9f-5c0d-4b6c-b5f4-5c07935390e0,d6b02a60-0dcf-467a-b386-fab60d603697,Nebraska,1,Ponderosa Saloon & Opera House,,,,closed,,,2022-06-01,,500.0,0.0
-5588228e-5a8f-4c13-a083-1e20e49471a8,804b8d15-2dd8-4995-9e7a-5cbbf775851b,Nebraska,1,"Nebraska Cartage, Inc.",,,,closed,,,2022-06-01,,500.0,0.0
-045adfe7-4a53-47c3-a47e-cb9da879e1df,df608bd9-20b1-4ae4-ae9d-81584f9a60a4,Nebraska,1,Brent Arens Construction,,,,closed,,,2022-06-24,,500.0,0.0
-96b14bea-a8ff-4dec-b56c-84a35b3d80e7,cd8aacf5-939f-4d8b-8670-663f779ade9e,Nebraska,1,BT Best & Company LLC,,,,closed,,,2022-06-24,,500.0,0.0
-b2a269af-720a-4859-86c3-3a8903476e55,fd9ed1b6-8d96-4789-b71b-0d99feb9d5b8,Nebraska,1,Nightcap management,,,,closed,,,2022-07-01,,500.0,0.0
-425b3f8e-e50a-4351-9c3a-72cb0be934d4,a126a61e-c00a-4e27-a59a-2df8062cdae7,Nebraska,1,Aequitas Management LLC dba Little King Deli & Subs,,,,closed,,,2022-07-08,,500.0,0.0
-bad361c0-7670-46b8-a3bc-9420f16ccc32,b584b9e7-36bc-4e2b-9075-5c51930c295e,Nebraska,1,Luxury Crates LLC,,,,closed,,,2022-07-11,,500.0,0.0
-13deb8bd-83a6-462b-adcf-13b243c8e79e,e7b6acf1-9a48-4c92-a427-011e2fb34fa0,Nebraska,1,GSK Consumer Health Care,,,,closed,,,2022-07-13,,500.0,0.0
-90207daf-a52b-4897-b304-45644cb706a4,12ede44e-2e3d-4857-821c-e8e12a49a36c,Nebraska,1,Aequitas Management LLC dba Little King Deli & Subs,,,,closed,,,2022-07-13,,500.0,0.0
-42c500ce-f8fb-4d0e-87c2-79782495e967,7a0e42fe-2ea8-4460-9866-d021c9278115,Nebraska,1,Aequitas Management LLC dba Little King Deli & Subs,,,,closed,,,2022-07-13,,500.0,0.0
-e37625ed-f54f-4230-b558-a4b68dbffee8,69dfc342-0592-423a-a226-4285d0b3ae18,Nebraska,1,Aequitas Management LLC dba Little King Deli & Subs,,,,closed,,,2022-07-14,,500.0,0.0
-2a28a8d5-38a4-46ac-86ac-07dde50b3d2f,dd35bed5-7c47-469a-858a-11e1a5077c33,Nebraska,1,Sunlight Senior care,,,,closed,,,2022-07-19,,500.0,0.0
-01c79caa-2fcc-47ba-928a-bdcbc36a7c86,b9696fcf-c729-429b-9dbe-263a799fac32,Nebraska,1,"Advance Framing Contractors, LLC",,,,closed,,,2022-07-20,,500.0,0.0
+0a313ba9-c6e1-4462-8bf0-75334238c986,c0cf9289-3ada-4dbb-a0c4-38b5ff1e16ac,Nebraska,1,"Let's Talk Dirt, Inc.",,,,closed,,,2014-09-10,,1000.0,0.0
+288dca2f-ee1e-4f22-bcfe-045113f1ec0a,10814c3d-7e84-4a53-8460-9cb63d0eec83,Nebraska,1,perfect finish flooring llc,,,,closed,,,2014-10-30,,500.0,0.0
+cd3935af-3f91-43c7-8bf0-ee1cca53d923,a9123690-8269-441a-b774-7325479a57d4,Nebraska,1,Little Giggles,,,,closed,,,2014-11-14,,500.0,0.0
+40207889-89d6-4aa5-b657-d8c4beb5923b,b9dee858-d40d-432f-a5e0-3985ee669932,Nebraska,1,Huntington Child Care Center,,,,closed,,,2014-11-18,,400.0,400.0
+53c3b30d-e295-4a71-9efb-7e6f858e679f,5d71a580-31d2-4cab-8656-1c75b0dc1d94,Nebraska,1,Mutual 1st Federal Credit Union,,,,closed,,,2014-11-20,,500.0,500.0
+2cfb482c-bdad-4211-949f-fc5d785cf9bc,ce7c114a-9902-44e1-9a99-cc931f935815,Nebraska,1,"Giggles, Inc.",,,,closed,,,2014-11-21,,500.0,500.0
+0f7f52f8-cbc0-4182-a183-21e0959190a8,142a73cf-bde7-4dae-997c-f08ffaf9d307,Nebraska,1,I Read Books,,,,closed,,,2014-12-01,,225.0,0.0
+d5a33dcc-6c23-48c9-800f-b2401e4b5270,444e53d3-3451-432a-9f53-9ba6fbf71804,Nebraska,1,Sterling Enterprises DBA Team Green,,,,closed,,,2014-12-09,,350.0,350.0
+295f6537-03b8-44d5-9a76-828cef747e3e,2593e3ed-1940-46fc-add1-8c74705d4056,Nebraska,1,"Let's Talk Dirt, Inc.",,,,closed,,,2014-12-11,,1100.0,0.0
+934f7f74-5cf8-4025-aa7a-638449ba508e,e9a173f7-d93a-4dc6-91af-c9ab777ea77d,Nebraska,1,Paul Neideffer Painting,,,,closed,,,2014-12-15,,320.0,0.0
+c00896f8-0158-4990-b437-72ed45066f0a,69f63d40-4f3a-4d3b-8a89-49ab8c5a0625,Nebraska,1,Bridging the Gap Inc.,,,,closed,,,2015-01-02,,500.0,0.0
+3ba83ba2-22b5-46f2-b098-3a71b672b42d,b97fdd91-2735-4ae6-bad3-4c337ed2834d,Nebraska,1,Bridging the Gap Inc.,,,,closed,,,2015-01-02,,500.0,0.0
+4f983a9d-ab87-496e-8921-d433662368e3,15f13d14-a4ab-4096-9428-75f7798e19c0,Nebraska,1,Bridging the Gap Inc.,,,,closed,,,2015-01-02,,500.0,0.0
+55b15a47-7fa2-4743-94e6-bcddde2188aa,cd9fec04-cdc0-4fb9-a473-f4d13f2160cf,Nebraska,1,Bridging the Gap Inc.,,,,closed,,,2015-01-02,,500.0,0.0
+5b7fc371-ce0d-4ac5-b251-c788d060c05d,6d377a3c-ac65-4b51-9203-8eb32e595e79,Nebraska,1,Bridging the Gap Inc.,,,,closed,,,2015-01-02,,500.0,0.0
+6b85f20e-8e2e-436b-bf9c-3a19361b8f99,e3e884b0-fb56-491b-81a5-27749758c88a,Nebraska,1,Bridging the Gap Inc.,,,,closed,,,2015-01-02,,500.0,0.0
+01a3cd3d-8ced-4ec2-a662-8d880bf4be13,03ffbc64-34e6-4d8f-8a09-532649d748ec,Nebraska,1,FuturesOne,,,,closed,,,2015-01-06,,500.0,500.0
+f16ff898-aae0-41f5-87e5-60362d92b306,7f5c240d-25e1-4e1a-aa77-2ad20a2ce51d,Nebraska,1,4 Horsemen Security,,,,closed,,,2015-01-14,,500.0,0.0
+87efec98-d30b-4f74-9333-5663d8f88f0f,45739eb6-2fdc-46b3-89d3-c28c89fcf78f,Nebraska,1,"McCauley Concrete, LLC",,,,closed,,,2015-02-03,,500.0,0.0
+7079e3e7-be7e-439e-b988-a6b458d0a307,2e34ff3d-dcee-427f-b5ef-f7a1127200be,Nebraska,1,Maywood VFW Post 6930 Club,,,,closed,,,2015-02-03,,500.0,500.0
+a05be2af-32d0-4219-bf38-d1f3d47c1c77,0edd2a34-51da-4eb1-bc06-8c1414a45eaa,Nebraska,1,Lynn's Hair Lounge and Spa,,,,closed,,,2015-02-03,,100.0,100.0
+b81edd51-daeb-4065-814c-fdfbe83054aa,e4fa36e9-4b22-4018-985d-230c2a0140de,Nebraska,1,Farm Bureau,,,,closed,,,2015-02-11,,100.0,100.0
+6a0ad44d-3e35-4429-a134-10fa2bdf4968,ed23ee05-16ed-48fa-a9f6-ced30a8b9e37,Nebraska,1,"Building Clean, LLC",,,,closed,,,2015-02-18,,2500.0,0.0
+df8fcdf2-194a-4ece-9810-135b4cf8c8f9,6317e845-4cf0-4f66-addd-99d5a5d23ad3,Nebraska,1,Goodwill Medical Transportation,,,,closed,,,2015-03-09,,100.0,0.0
+eff2ef43-5f5c-41c2-883b-8bd3d02bb5d1,7e02b56f-38ba-44e9-9541-14acbfd26f1f,Nebraska,1,Westmont Inn & Suites,,,,closed,,,2015-03-09,,500.0,0.0
+5922937e-2807-46cf-b968-78dc5ed3637b,994bbdc3-7f1c-4ee2-99c3-7c875d41ca93,Nebraska,1,Blackout Express LLC,,,,closed,,,2015-03-25,,500.0,0.0
+54faad57-7248-4260-ad41-e1e5da44fced,cfea174d-c3d6-45b0-ae8d-a7b243a5be43,Nebraska,1,AmeriLawn of Nebraska,,,,overturned,,,2015-03-27,,1000.0,1000.0
+e67284df-e49a-4c74-aff0-5f091c9e60b0,5d4d0da4-ceb5-4628-8c1e-87c45cdf8d8a,Nebraska,1,AmeriLawn of Nebraska,,,,overturned,,,2015-03-27,,500.0,500.0
+128b882b-faa8-413a-8339-b7d297a65dc0,611a7444-eb38-44a6-a7ee-c825d5144c3b,Nebraska,1,Red Rose Ranch,,,,closed,,,2015-04-20,,200.0,0.0
+469418e6-3d75-46b4-a59f-700a33f88c04,3fdafc1e-fc37-44be-8b7f-85e0eba6bb4f,Nebraska,1,Hobo's Diner LLC,,,,closed,,,2015-04-20,,500.0,0.0
+83fe7e6a-33f4-42f5-b204-90bb6bf4caf0,d3b2261c-6950-4abb-a663-2ef9862e2a60,Nebraska,1,Shuler Irrigation,,,,closed,,,2015-04-30,,500.0,0.0
+0a0719dc-59f6-4c8e-90f3-e006c9ae5435,f1e492e5-d827-46c0-9c2c-dd647f55c75e,Nebraska,1,Aqua-Tots Omaha LLC,,,,closed,,,2015-05-07,,200.0,200.0
+3464c635-9b1d-47dc-bfec-1e9d966c82aa,e69e3ab5-8162-4518-a796-30a5433396c1,Nebraska,1,Huffman Livestock,,,,closed,,,2015-05-08,,500.0,0.0
+d9f2dc40-e19b-4dbb-bb2d-617c8c1688a5,da526580-c339-4ab5-a4c4-51e6190e66de,Nebraska,1,Finch on the Run Entertainment LLC,,,,closed,,,2015-05-11,,500.0,0.0
+80cd5b12-d1e0-4614-869f-9999890c5c1f,f63acc14-ede8-4ff0-988d-8d149e348de1,Nebraska,1,"Aqua Plumbing and Heating, L.L.C.",,,,closed,,,2015-05-29,,500.0,500.0
+3433d255-8eda-4407-b70b-5435e97893c8,4481f87e-c441-4890-875e-352aa3250cd3,Nebraska,1,Twin Rivers Construction and Siding Inc.,,,,closed,,,2015-06-02,,3500.0,0.0
+98b8b0ce-260c-4d46-9f1d-a1e5ee3965ac,0fef91dc-7355-4383-bb91-a198ac04c380,Nebraska,1,Twin Rivers Construction and Siding Inc.,,,,closed,,,2015-06-03,,3500.0,0.0
+efeab37f-db05-4099-b2fe-1ef401b47e71,54f75285-0eba-49a7-9b35-bc23fb6d6052,Nebraska,1,Twin Rivers Construction and Siding Inc.,,,,closed,,,2015-06-03,,3500.0,0.0
+8b436c64-40e1-48a9-a49d-7c27fb1b39a9,107ead3c-1e7b-4d06-8833-092d6c0c60ff,Nebraska,1,Tuffy Associates Corp.,,,,closed,,,2015-06-05,,1000.0,1000.0
+d874e08e-18c4-4d12-abaa-9ccbad913399,c6418143-eb6a-4e75-ad9c-fa602d405ac4,Nebraska,1,TUFFY TIRE AND AUTO,,,,closed,,,2015-06-05,,1000.0,1000.0
+57b7ca0c-9a6e-4edc-be9b-006447f20c26,f550b275-b991-4cc3-a052-ac8dedafbc15,Nebraska,1,Finch on the Run Entertainment LLC,,,,closed,,,2015-06-11,,5000.0,0.0
+d50f9e9f-6b98-4c75-8f4c-8107ed171bef,33c20e2e-f93a-4483-becf-a7a5d33e21f2,Nebraska,1,Steel Steed Steakhouse and Saloon,,,,overturned,,,2015-06-18,,250.0,250.0
+bb0cae94-0d3b-4252-bb2f-56a85852a995,da373d0a-6dd0-4dfc-80bb-75b85a8049bf,Nebraska,1,"Sleep Pointe, LLC",,,,closed,,,2015-07-10,,500.0,0.0
+b913c130-346c-427b-8cb2-a6ce315b9240,b02c5b20-a7ca-4ead-b55d-c74efc4da077,Nebraska,1,Creative Creations Omaha. LLC,,,,closed,,,2015-07-14,,500.0,0.0
+8a93d2ba-4273-4ee6-bdce-25d9b27e66be,fa9375d4-843b-4648-aa63-8583454f8bda,Nebraska,1,Twin Rivers Construction and Siding Inc.,,,,closed,,,2015-07-21,,1500.0,0.0
+4f2fca0c-4ea0-421e-88ac-14007842bb82,c0278a1d-c8a5-4f41-8702-ec1c07dbb54b,Nebraska,1,Twin Rivers Construction and Siding Inc.,,,,closed,,,2015-07-21,,1500.0,0.0
+f0a84c8b-58a5-42d1-9e57-bf78d41ab6f9,a7eb814c-5466-47f7-9937-49d86bad76d4,Nebraska,1,Twin Rivers Construction and Siding Inc.,,,,closed,,,2015-07-21,,1500.0,0.0
+9972f9dd-f186-4d89-8216-b61479b2484d,cfe5cae8-2980-4f82-9117-4ce2677e7918,Nebraska,1,"A-1 Spray Foam Insulation, LLC",,,,closed,,,2015-08-10,,200.0,200.0
+53b2a189-3e84-4c7a-9ac3-5956944c3c96,e8a68753-27e3-48ac-9e14-8cd700caed70,Nebraska,1,Affordable Snow Plowing and Underground,,,,closed,,,2015-08-12,,500.0,500.0
+74d465f2-996a-48e6-82a9-e44e79a592af,c4d0b980-2c8c-4c5b-9e81-11e9e2f8093f,Nebraska,1,"Mark Services, Inc.",,,,overturned,,,2015-08-14,,500.0,500.0
+3d9366fd-30f7-4924-a805-dde4b2d44414,5bd55fbc-30dc-4e42-a55a-b0ff76e4884d,Nebraska,1,"Wolf Auto Center Sidney, LLC",,,,closed,,,2015-08-14,,500.0,500.0
+d0a0a826-d0c5-4c20-9e73-45e7bd92faf8,72c1b585-d1df-4654-b32c-ab1290186c3c,Nebraska,1,Johnson's Painting & Total Construction,,,,closed,,,2015-08-26,,5500.0,0.0
+8746f268-112f-4fde-9621-3269cee6c7df,f9898bb6-55f1-480e-9f95-9560c7410dc9,Nebraska,1,Johnson's Painting & Total Construction,,,,closed,,,2015-08-26,,5500.0,0.0
+6619e020-8687-46c2-a96d-558e206095d7,e4ea82f2-a09b-4cd8-a0a1-5aeab2266f2d,Nebraska,1,The Spigot,,,,closed,,,2015-08-28,,500.0,0.0
+30699861-5550-4b84-a294-01b8fef4942a,cc7c46d7-7569-4fa4-b16f-c46916d977db,Nebraska,1,JV5 Solutions LLC,,,,closed,,,2015-08-31,,1000.0,0.0
+9d24c60d-40d5-493f-9e6b-d2f7a6c6e7df,9ba32287-d913-4260-920a-0e5d07104f8f,Nebraska,1,JV5 Solutions LLC,,,,closed,,,2015-08-31,,1000.0,0.0
+712564f6-2f61-4fe4-b343-7898644e9864,2d80f903-728c-4033-b942-59aa37ed9f78,Nebraska,1,Maharaja Indian Cusine,,,,closed,,,2015-09-22,,500.0,500.0
+f3f73494-6985-41e0-9aa8-3cb12fcae6ba,40f18fd7-05d5-40d2-ace1-45d2ee2945ca,Nebraska,1,Reuter Construction LLC,,,,closed,,,2015-09-28,,500.0,0.0
+dc91f75d-b98a-4df0-b2c4-38b20d1c03cb,ab180f29-2f88-4782-91b1-f177aab3eb52,Nebraska,1,R.A.D.S. Renovations LLC,,,,closed,,,2015-09-28,,500.0,0.0
+c9ea9eaf-7894-4a2b-aa78-7d334c1617c9,6fc8f0d3-3f65-47d8-9c8b-e9c7549c945d,Nebraska,1,Integrity Painting,,,,closed,,,2015-10-06,,300.0,300.0
+9661c413-0578-419c-8b07-4655561fdc78,b942a605-bcd8-4089-b41c-d49e710dc923,Nebraska,1,Deseret Health Group,,,,closed,,,2015-10-08,,51000.0,0.0
+2bd9e588-f80d-4ec4-aaf0-d8dd3c15f331,4ca8cd2c-3c9e-4ab5-8859-b3a03dd793a0,Nebraska,1,"Lift Omaha, LLC",,,,closed,,,2015-10-13,,500.0,0.0
+ad13f623-41f3-4bde-8642-9d27457b5332,e8ad983e-26cd-44cb-90a9-8cb533e61125,Nebraska,1,"Storz Trophy Room Grill and Brewery, LLC",,,,closed,,,2015-10-14,,500.0,0.0
+8729b5c1-fe23-4305-9fd3-cf5b647cc3af,f643dce2-d068-4a88-87c8-f51cbdfee248,Nebraska,1,"Maintenanceman, LLC",,,,pending appeal,,,2015-10-15,,500.0,500.0
+e8e2acf7-765d-4678-94a9-bd83ae7f61aa,97123bd0-e3c8-42e6-8381-fc02084019f4,Nebraska,1,"AdPointe Media, Inc.",,,,closed,,,2015-10-20,,500.0,0.0
+8fbec717-c80d-4a3a-baac-d70e6b03d9f3,d6c14b3c-c55d-4607-9355-2a64072779d7,Nebraska,1,Bank of Lewellen,,,,closed,,,2015-10-21,,500.0,500.0
+57fdd423-3f26-4022-b859-c2b4234c5d5d,79be8a73-2ab9-4e3f-8f1c-adcc4953a9ec,Nebraska,1,West Gate Bank,,,,pending appeal,,,2015-11-09,,500.0,0.0
+f739254a-453a-41ff-96e4-6a0dc7411ed2,0db568a7-478b-4173-aea3-0d1341e40e02,Nebraska,1,"Sterling Enterprises, Inc.",,,,closed,,,2015-11-09,,500.0,0.0
+b6b882c5-5c20-40ba-b108-688357f9aed5,51278e39-d78f-4c80-adfc-bec2c3d17c99,Nebraska,1,Walker Search Group LLC,,,,closed,,,2015-11-09,,250.0,250.0
+4d994eeb-2b6a-4ed5-83fa-a97b2df65332,b62ad0a0-3dce-4c37-8989-d0ba4d0a855d,Nebraska,1,Verizon Wireless,,,,closed,,,2015-11-09,,500.0,500.0
+efb6affb-dc88-479b-bd7d-6c3aba31471b,79a85aaf-4d1b-4ff6-bf27-715e0708eb4e,Nebraska,1,"Kinderversity, LLC",,,,closed,,,2015-11-12,,500.0,500.0
+73924045-f442-4938-9773-85f020c16f35,2707bb06-6fb0-4d64-ae39-a0e611f7babc,Nebraska,1,Holt Excavating,,,,closed,,,2015-11-17,,500.0,0.0
+cdef424c-7d03-4be9-951b-46c306f8c07f,e164ea84-c1d5-42d8-93dc-02eb70d05265,Nebraska,1,Hire a Maid,,,,closed,,,2015-11-17,,500.0,500.0
+ac84bc4e-722c-4e93-af6f-2b2798c78bd6,3e5a2db2-0c92-4049-bb88-c924e736d53c,Nebraska,1,"Novinger Building Services, Inc.",,,,closed,,,2015-11-30,,500.0,0.0
+fddce58f-3004-4e8d-b3b4-5230dbc3fe45,4bedd71e-d38d-4c41-9ece-6f24a0b5c26c,Nebraska,1,"Mid Plains Food & Lodging, Inc.",,,,closed,,,2015-12-07,,500.0,500.0
+0ff93497-7812-455d-ae71-bd39c8038993,41857e89-2a2b-4021-bf98-df6d5cc0145f,Nebraska,1,"TFL, Inc. DBA Mega Saver",,,,closed,,,2015-12-10,,500.0,500.0
+83cb06dc-fb2c-41b8-9546-ab501f42ded3,37c60223-4acb-422e-935a-9b2add63fcdb,Nebraska,1,Jim's Truck Stop & Skyline Cafe,,,,closed,,,2015-12-16,,450.0,450.0
+c172d8a8-3207-46c7-a5f5-98f5fb1d62d0,7a3b4d8a-d545-43a2-8231-fad3d1a02053,Nebraska,1,Rehab Lounge,,,,closed,,,2015-12-17,,500.0,0.0
+623bf748-0753-46ed-b3f9-dd5acafd9618,32e704d3-97b0-400b-99c1-b567b839760f,Nebraska,1,"EA Towing, Inc.",,,,closed,,,2015-12-29,,500.0,500.0
+e04a86a2-96c0-4191-a265-93e807056c51,91e32a9f-3c65-433f-9b46-c5d48cd534d7,Nebraska,1,"Urban Focus, Inc.",,,,closed,,,2015-12-29,,500.0,0.0
+fcbd8dc2-627f-4a29-bf36-9aae3712c538,3c6f381e-a3be-4874-83eb-14c17c698917,Nebraska,1,"Bottom Line, Inc.",,,,closed,,,2016-02-01,,500.0,500.0
+2b07e4cf-29e0-40f4-a07a-693e9365f077,238a8f6a-02b3-47c3-b35e-789961f66028,Nebraska,1,Paul Neideffer Painting,,,,closed,,,2016-02-05,,2500.0,0.0
+bd1302a5-76e8-48ff-b835-19f4c31c6275,423ee4f5-0f9f-4606-9517-405d03b62826,Nebraska,1,"Distinctive Landscape & Concrete Construction, LLC",,,,closed,,,2016-02-25,,250.0,0.0
+d1601f37-29a8-4f1e-b7cd-d7b1728876f2,217c6b78-23a8-4da6-a8ec-3936fb1e0b3b,Nebraska,1,Grand Island Pump and Supply Company,,,,closed,,,2016-03-03,,500.0,500.0
+4b1c373a-3e66-475f-ba72-db7656352beb,7e2e2d62-001d-428c-89f7-546d77a63b23,Nebraska,1,"Bellevue Property Restoration, LLC",,,,closed,,,2016-03-14,,250.0,0.0
+44ebfa06-60f5-49f3-be93-ea4684ffcc57,6d01e5b9-1fb0-41fe-8322-7b926fffeffa,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-03-21,,500.0,0.0
+363578a8-a04a-4c18-9809-f7f11036144c,57f02481-fee2-421f-8c45-ea73ed9de9b3,Nebraska,1,Sixx B Transport LLC,,,,closed,,,2016-04-11,,500.0,0.0
+7ee3e90e-58a1-4207-9614-8ddcff1e8bc7,47b5478e-2024-423d-84cf-42a0f6f4ea90,Nebraska,1,LHD LLC DBA LHD Cleanings Solutions LLC,,,,closed,,,2016-04-11,,250.0,0.0
+940e3427-4547-48a7-96cb-b80ccd40bfb6,5ab6c655-d19b-4856-8a4e-f22d530d2cc3,Nebraska,1,Levy Restaurants at Haymarket Park,,,,closed,,,2016-04-11,,500.0,500.0
+5396be30-273d-42b8-bad5-52ed981ba508,419a62cd-4bc9-442b-b242-aba2bff8fcc9,Nebraska,1,Servpro,,,,closed,,,2016-04-13,,500.0,0.0
+39dd5474-8ed6-4997-bd04-d6b88c2bedd5,d4f874d4-09a5-4c2a-b2dc-c57ee26c2f57,Nebraska,1,"Let's Talk Dirt, Inc.",,,,affirmed,,,2016-04-18,,500.0,0.0
+16a2c8e4-41b9-42c6-b7b3-1fb50f469577,d00274b2-adb4-4530-8d36-76e064382e83,Nebraska,1,"Let's Talk Dirt, Inc.",,,,affirmed,,,2016-04-18,,500.0,0.0
+73ed9fa1-71bc-43ef-961e-bcfe777d8b12,b391a6f2-aa0c-4656-ba67-4cd8ca9e1f3b,Nebraska,1,"Let's Talk Dirt, Inc.",,,,affirmed,,,2016-04-18,,500.0,0.0
+aa23fa50-e543-418f-8686-31e93fda3b7c,d8663ce2-d65d-4f47-b712-cc86eb69327a,Nebraska,1,"C & S Electronics, Inc.",,,,closed,,,2016-05-13,,1000.0,0.0
+944c6f65-0603-4b0f-b790-0300cc9583d4,dc2eafff-7019-49f8-9d37-ce803f9a78fe,Nebraska,1,El Parian Bar & Grill,,,,closed,,,2016-05-17,,500.0,0.0
+7f0c789a-d1d9-4e5c-9d09-aefceb8c343b,47b08e4f-433b-4318-9719-eb373ec6676d,Nebraska,1,Barnstormers Family Bar and Grill,,,,closed,,,2016-05-18,,100.0,0.0
+7397943f-4443-43d5-b7f9-cd518f229093,6ee180b4-cab0-4674-b3f5-d5dd368a4c58,Nebraska,1,Reuter Construction LLC,,,,closed,,,2016-05-24,,5000.0,0.0
+97121ad3-cf52-474d-9201-a7b137ebfb14,e2202b4a-fefb-4a08-86e6-cc1b7dc13af1,Nebraska,1,GSE Construction,,,,closed,,,2016-05-25,,250.0,0.0
+5307cca6-f2c1-4656-8413-67a5dd0b3bca,abdb7f6c-3b06-4b35-8926-65a2e13cdc3f,Nebraska,1,Family Business Contractor,,,,closed,,,2016-05-25,,150.0,0.0
+b8eb0bba-9d43-4d2a-8fe5-8808770c2a01,b849d32c-86f6-4be0-8325-05957e1c0017,Nebraska,1,Offutt AFB Child Development Center,,,,closed,,,2016-05-25,,100.0,100.0
+38ccf6ed-ffcd-4f0b-98f8-38face873c4c,5a4a3ce7-cc9c-4edf-9727-16c74923cb32,Nebraska,1,Girls Inc.,,,,closed,,,2016-05-31,,500.0,500.0
+0ba3bb9a-ecd8-40f1-a39c-b3119a16ee4b,dbacde2e-7da4-48fa-be05-dbe2d758f381,Nebraska,1,JD Contracting,,,,closed,,,2016-06-13,,500.0,0.0
+6e777a76-8b20-4dae-900e-f1853d1a1c2d,fb0d9bd3-aa35-4938-97e4-6b0dd973cd6f,Nebraska,1,JD Contracting,,,,closed,,,2016-06-13,,2500.0,0.0
+bd7f062f-5316-4915-8ada-b4a60b243acd,d21c0e80-456b-4681-b1ad-8dd0d5006138,Nebraska,1,"Reitz Way Delivery, Inc.",,,,closed,,,2016-06-14,,500.0,500.0
+117ba528-ba4d-4468-9e1d-6783bcd71a70,25c75073-6bb2-4e2f-a9d7-c73c624c9164,Nebraska,1,"Nosh Wine, L.L.C.",,,,closed,,,2016-06-21,,500.0,500.0
+fe407dea-525e-4fa0-9a03-fea140a5f35d,c91d26ec-492c-4113-b8fc-76f3c385010c,Nebraska,1,"Von Busch & Sons, Inc.",,,,closed,,,2016-06-24,,300.0,300.0
+62402b40-fcea-4208-9761-4f7e386df1cf,e037c80c-beb8-4323-a09f-f4db08158d83,Nebraska,1,"Claire's Boutiques, Inc.",,,,closed,,,2016-07-11,,500.0,500.0
+bf63c6c6-6c0a-48ea-a5be-e88e28406447,bba17a1f-31c0-49f7-9b59-d0ee99506fe8,Nebraska,1,"Reinhardt Contracting, Inc.",,,,closed,,,2016-08-08,,500.0,0.0
+8e947097-552e-4bc3-aa4e-c1a2f0b9a2ed,56f1662e-927e-4c48-9c59-d5334d03916c,Nebraska,1,"Corporate Enterprise Solutions, Inc.",,,,closed,,,2016-09-13,,500.0,500.0
+7e5ba2ad-6c78-41f5-a5b5-c153ec74f0a3,5815817b-7241-4625-af6e-a04c301da72d,Nebraska,1,Sixteen25 Cafe,,,,closed,,,2016-09-19,,500.0,0.0
+243f1bbb-53af-4f38-8616-fa3e39145e6b,9e883e66-7e42-48a8-a387-1bda6d539bf7,Nebraska,1,"Affordable Underground, LLC",,,,closed,,,2016-09-20,,2500.0,0.0
+0f75314a-7ea9-4ee5-acb9-c23d7f4e1c84,718e6701-b240-4391-a4e8-a0ac0c0c1cc2,Nebraska,1,"TWG Communications, LLC",,,,closed,,,2016-09-23,,500.0,0.0
+7ccf83c1-95c9-46f4-990b-dc14d214ca74,759e5a8b-511c-4211-8baf-7ae7ddd8a4cf,Nebraska,1,"FRSTeam by Fashion Cleaners, LLC",,,,closed,,,2016-09-28,,500.0,500.0
+ccec74f3-892f-4c49-a6e3-4e066b5ec046,07874e30-878f-4025-8429-d03965f11442,Nebraska,1,"J's on Jackson, LLC",,,,closed,,,2016-10-06,,250.0,250.0
+9f37ecd3-6416-48cc-9269-2e00b445ee74,94fb0f38-27a0-48c1-b608-cfa05c4b762b,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-10-28,,5000.0,0.0
+5763ee7d-9122-4589-a768-ad52616eab3f,9590db4c-9a87-42c4-b7bd-df95c7531c94,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-10-28,,5000.0,0.0
+e46c41ec-ec90-478b-99b4-e505e2807ba7,c6b112fa-a302-4509-b3fc-9407aa9fb667,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-10-28,,5000.0,0.0
+0c1e1997-ef75-494a-9c21-7b27790e2538,83e0f9a8-3c2d-4b7e-aeb4-fa7d9512bd22,Nebraska,1,Boss' Pizza & Chicken,,,,closed,,,2016-11-10,,500.0,500.0
+d14b5989-a313-4cab-b457-62c9f1236e28,1ef35521-1d3f-4036-8364-36b0351df551,Nebraska,1,"Credit Bureau of Hastings, Inc.",,,,closed,,,2016-11-21,,500.0,500.0
+203fd7fb-4e34-45c6-8f8d-df019a835d00,0501415f-958d-417f-b286-0759592338c7,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-12-02,,5000.0,0.0
+e1c9f5f7-15fb-4654-9407-8c842766d695,f0ea45e5-fc7c-4a8c-a271-916c40bcf054,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-12-02,,5000.0,0.0
+b8cf6849-27c8-40bf-886f-b08718ed3cc5,9993cdac-7211-494d-8738-523acb8b85c6,Nebraska,1,State 51 Wear LLC DBA Pixi Chix,,,,closed,,,2016-12-29,,5000.0,0.0
+de5e8352-f14f-4141-a84e-5aed5b6e331e,34ed952c-d2b7-4599-8bfd-e310b4c736ed,Nebraska,1,Nebraska Beef,,,,closed,,,2017-01-05,,500.0,0.0
+02a03b68-5ec6-489e-8b6c-3a5a0050c053,95cb7142-426f-4739-baec-8a83f666cd10,Nebraska,1,A Clean Cut Lawn and Landscape,,,,closed,,,2017-02-15,,500.0,0.0
+0218a788-848f-4ce1-94aa-777975c7b1e9,f67f4d8c-b55b-4630-bb68-cb938967a1cf,Nebraska,1,American Income Life,,,,closed,,,2017-02-24,,500.0,500.0
+a33f6077-ebae-47a4-8fee-a74dfda279e2,c348b1fc-abe4-47dc-8ddc-488b732c13a6,Nebraska,1,Thomas Precision Repair & Sales,,,,closed,,,2017-03-20,,500.0,0.0
+b371c9ff-47d6-4e97-af0e-27accc2d11c4,138c947c-6b46-454f-a2d7-a7a8b1b093c1,Nebraska,1,McDonald's,,,,closed,,,2017-04-04,,500.0,0.0
+84f128fd-ff6b-4e6f-a720-0d4765b4458b,f9e60607-fd1a-4428-935f-1cbcb175d78b,Nebraska,1,"Let's Talk Dirt, Inc.",,,,pending appeal,,,2017-04-26,,5000.0,5000.0
+e97b2d9d-474d-4ac4-86aa-1dce5828adde,60bcab20-3be0-4edd-8393-9775f3b09b5e,Nebraska,1,Bro2 Construction,,,,closed,,,2017-05-03,,500.0,0.0
+699d11e3-cf46-4853-b6ff-7ecf04ebad1e,dbe2da81-dcd1-4375-a9ed-21ca13c81bab,Nebraska,1,Over the Top Roofing and Construction LLC,,,,closed,,,2017-05-05,,500.0,500.0
+6abc4e9f-a727-496e-9e80-62382e133428,c3e11d66-a7f2-4d8e-9421-c4e426b7dd2e,Nebraska,1,"Laughing Llamas Learning Center, LLC",,,,closed,,,2017-05-18,,300.0,0.0
+d3392f77-0716-4eb1-98bd-a407f7526b85,851d8758-bde6-4d2f-9e9f-a805f6859108,Nebraska,1,"Garber's, LLC",,,,closed,,,2017-05-18,,250.0,250.0
+4de86429-016c-41ee-b397-3458cbc351e1,3d7ba4de-c60d-4cfe-be0a-bfd0cd068970,Nebraska,1,"Eagle 1st Roofing & Construction, Inc.",,,,closed,,,2017-05-19,,500.0,0.0
+fa4866b5-d196-4757-9e1a-94c3dbe0ec41,cb470b79-b181-45d5-a952-9ff8137dddfc,Nebraska,1,Martinez & Sons,,,,closed,,,2017-05-19,,500.0,0.0
+c181c6d1-16e4-408d-a542-bb980c131bce,3e149e6d-8b99-4d51-8f95-53df8b7d28e6,Nebraska,1,El Parian Bar & Grill,,,,closed,,,2017-05-23,,500.0,0.0
+e10986a6-a537-4634-b86b-010e4b77ad3d,54ff2fbe-d8da-4f5b-8a97-ca3b873e1b3b,Nebraska,1,Ash Fire & Safety Co.,,,,closed,,,2017-05-24,,500.0,500.0
+d7db93cb-dd65-4610-a214-2afeb108e092,741c51e3-4f66-47b5-9539-da5f67ea45b9,Nebraska,1,"TFL, Inc. DBA Mega Saver",,,,overturned,,,2017-06-26,,500.0,500.0
+67167dd0-05ef-4887-950d-90df6c44419a,600b4007-f912-417a-93c4-d77df69c0cec,Nebraska,1,"Hawkeye Vision, Inc.",,,,closed,,,2017-06-28,,500.0,500.0
+28061a32-1ff3-4e54-8717-71b745ccf7f1,8b54f615-7c38-4214-92e8-198e4bcbe733,Nebraska,1,"Flat River Contractors, Inc.",,,,closed,,,2017-07-11,,500.0,500.0
+066b8706-bba9-42a3-b00b-63f0e5183de5,519bd3c6-70d4-46d1-9313-eb8d957be8b1,Nebraska,1,"PracticeMax, Inc.",,,,closed,,,2017-07-14,,500.0,0.0
+99a65399-5fb5-4865-b3c2-27ec6ae78aed,bdf40eb5-e55f-4ce1-b5c6-3ce54c8b3d18,Nebraska,1,Hartland Cleaning Services & Associates,,,,closed,,,2017-07-17,,150.0,150.0
+e21a52b8-801a-4770-b4f1-7d440dc3e2dd,c7168bba-fbb9-4631-a703-e932c15fc5d3,Nebraska,1,"Upstream Brewing Company, L.L.C.",,,,closed,,,2017-07-27,,500.0,500.0
+f295b536-0d72-4048-88fd-e33c089b23a8,42dfaf01-986a-4e63-8fff-360ef175dc0d,Nebraska,1,"Power Crew, Inc.",,,,overturned,,,2017-08-03,,500.0,500.0
+655f5d87-62d3-43dd-a8b5-ec31a65a25fd,e3f25768-111e-4901-8695-07320ca96667,Nebraska,1,SPEAK OUT,,,,closed,,,2017-08-08,,500.0,500.0
+c9cde57c-2a48-43ec-ad88-0c916de9c8fc,7486ac5b-c62c-4a7c-b63e-133459b5a19d,Nebraska,1,"MWD Steel Fabrication, L.L.C.",,,,closed,,,2017-08-10,,500.0,0.0
+cad68149-d3e5-43e2-85d1-e7d9d0d65f63,154cb2f8-9a31-4ce0-92d1-aeab1ce2420c,Nebraska,1,"MWD Steel Fabrication, L.L.C.",,,,closed,,,2017-08-10,,500.0,0.0
+fd21cf47-700e-48bc-943e-449fd6200157,52a2813e-19ec-404b-9818-1e31dbd19f98,Nebraska,1,"MWD Steel Fabrication, L.L.C.",,,,closed,,,2017-08-10,,500.0,0.0
+1a82b464-03ed-47ab-a730-d7998e4dcf34,e036342b-88e6-4ef9-8285-16433de14e5c,Nebraska,1,"MWD Steel Fabrication, L.L.C.",,,,closed,,,2017-08-10,,500.0,0.0
+a4c6a95a-3582-4e91-8a58-1dda8a73b248,89e0c8af-cb88-40d6-9e8e-b695a87dc53f,Nebraska,1,"MWD Steel Fabrication, L.L.C.",,,,closed,,,2017-08-10,,500.0,0.0
+d4239e13-99ad-4315-afac-527f408574fa,c69d0b3d-7e73-4243-bfa4-43e312fea7fd,Nebraska,1,"MWD Steel Fabrication, L.L.C.",,,,closed,,,2017-08-10,,500.0,0.0
+30bedab2-cd65-4ee3-9de0-b051748a9c4f,1a206275-551d-41d7-867c-af7709150094,Nebraska,1,"MWD Steel Fabrication, L.L.C.",,,,closed,,,2017-08-10,,500.0,0.0
+673fadee-9bad-4a43-a705-e1b37d8bf9fb,91ec6434-723f-4ea2-a862-67f4a31e93e5,Nebraska,1,"MWD Steel Fabrication, L.L.C.",,,,closed,,,2017-08-10,,500.0,0.0
+b95ff6b4-fc7c-4009-a5e6-8eb2ba51d30f,e58e44c2-f03a-41b3-9892-4a02eead04ad,Nebraska,1,"Trimmerz Lawn and Landscape, LLC",,,,closed,,,2017-08-23,,250.0,0.0
+4cc290f4-9b31-475b-ad3e-95414d26f14b,16f987db-b544-4533-aeba-ded14cef0ce1,Nebraska,1,"Wentworth, U.S.A.",,,,closed,,,2017-08-28,,500.0,0.0
+2d3329b2-d31d-4182-b3b9-246324452d02,68388e90-2a6e-486e-8bba-f696db2392f5,Nebraska,1,Simplified Electronics LLC,,,,pending appeal,,,2017-08-31,,500.0,500.0
+994a8e5d-c19b-48ac-ad8c-b2e49886c01d,027178d9-82fc-4f85-bcd6-0ab4cf26a6a9,Nebraska,1,"TFL, Inc. DBA Mega Saver",,,,closed,,,2017-09-11,,2500.0,2500.0
+334f6522-83d7-4560-9b1d-aa7cebe3e679,cf115bd1-9b92-493a-852d-4ebcac11b530,Nebraska,1,All Season Construction,,,,overturned,,,2017-09-14,,500.0,0.0
+cf031780-f829-47b5-8bc3-0f822075810d,73c172e0-e2ad-4e92-b019-716773d183fe,Nebraska,1,All Season Construction,,,,overturned,,,2017-09-14,,500.0,0.0
+453fb1ce-f6be-4d64-ae71-cc6ad7a715b9,36f91201-97b8-4ea9-95b0-ab0532c860e2,Nebraska,1,ELV Siding Windows & More,,,,closed,,,2017-09-28,,500.0,0.0
+54aec8de-93ae-409a-8b0a-24b8a07d47d3,10b0aa8a-8cff-405f-a3ca-b27f6c4a915f,Nebraska,1,Tix Construction LLC,,,,closed,,,2017-09-28,,100.0,0.0
+d39ddcbc-da8d-4283-92a3-1dcd4d09b6ee,26f42f71-70d8-4959-89aa-74052b4d3688,Nebraska,1,D.C. Feeds,,,,closed,,,2017-09-29,,500.0,0.0
+4f6ca4c7-190c-4da9-b27b-4724cd352537,66cae314-50f7-4b1d-852c-cc2f7e9dadfe,Nebraska,1,Teavana,,,,closed,,,2017-10-06,,500.0,0.0
+9365a5a8-e730-4fb0-9c15-7e2d311b1b13,f9f5ee59-f219-4412-8d4c-853f86e2897a,Nebraska,1,"Bootleg Brewers, L.L.C.",,,,closed,,,2017-10-17,,500.0,500.0
+44324368-77dc-4e4e-a274-0b49c8f1ef82,45d49aa5-2391-4d29-892c-ba349654954c,Nebraska,1,Fernando Mancinas Construction,,,,closed,,,2017-10-23,,400.0,0.0
+6cf5c407-864a-4933-9db9-f8d57dc220a0,0d67b1c9-0b10-4dc2-820f-96927787bbd2,Nebraska,1,Fernando Mancinas Construction,,,,closed,,,2017-10-23,,400.0,0.0
+081394e8-1b1d-41a0-8c27-092310f88d65,0c105e35-ac27-4589-8128-54efa46f2bdd,Nebraska,1,Fernando Mancinas Construction,,,,closed,,,2017-10-23,,400.0,0.0
+b0cbf9f4-2814-4229-8474-5f950c35f746,9cef0d35-92f6-4322-bf94-558b27073580,Nebraska,1,Fernando Mancinas Construction,,,,closed,,,2017-10-23,,400.0,0.0
+2c971a59-7181-4537-9cc6-64a417a744fa,8892cfe5-744d-4f23-a0e0-27f4529decea,Nebraska,1,City of Waverly,,,,closed,,,2017-11-08,,500.0,0.0
+a9bf44af-d52e-4390-9dc2-9eb9c418b5fa,de345be6-fb23-4eb0-81c3-df418d9c0222,Nebraska,1,"Wright Way Fuel, LLC",,,,closed,,,2017-11-15,,500.0,0.0
+36152adb-37b3-4e8b-a5ce-ebc3dc259c69,6ae05877-95b6-455a-be1b-57fb07f01cad,Nebraska,1,"Aernco Transportation, LLC",,,,closed,,,2017-11-22,,500.0,500.0
+c39ee1f7-ba2a-44bf-a3db-0f97bd36556f,e62cc8ca-dbba-476b-86c2-134afce48b69,Nebraska,1,"Novinger Building Services, Inc.",,,,closed,,,2017-12-08,,500.0,0.0
+ebbb6c6b-1618-4b6b-a237-05e812f3aa0f,9c3ba04d-ad49-46a4-ad05-a4ce7c2d12ce,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
+a688703f-5154-4642-83eb-9d71968ae05c,57123aa8-48d6-4e8b-9db0-880c22317f0d,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
+a195e153-4e72-4241-ad54-01b1d4beaac9,f9737777-b0bf-4893-b4f3-0276f92fe32c,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
+92828f27-8ca0-4ab7-b6f2-30e222931c5d,6201a679-270d-4827-9d95-14bcf8c816a7,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
+0290f70f-27cc-4c49-89aa-93b3b82b799e,bd9cc915-01f9-43e8-9343-429d9990ecab,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
+01ed5274-dc74-497f-b29f-a778624a3346,0175f645-a6a7-4e91-852b-3beb4690403a,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-01-04,,500.0,0.0
+68daa568-0a1c-4568-a3d8-8e6333f131ca,9708c377-97e6-4bb6-ac12-0c3f814ba6ff,Nebraska,1,Cateus Pita,,,,closed,,,2018-01-08,,500.0,0.0
+eb753e30-8210-4c8c-93e8-2c95213d8950,67ba9758-a972-4cc6-af04-c9c729736044,Nebraska,1,"Halftime Sports Bar and Grill, LLC",,,,closed,,,2018-01-12,,500.0,0.0
+03a121bf-68cd-468b-a865-0f7fa0b3c238,40b53ddc-d805-410e-b234-da3abeacb22b,Nebraska,1,Papa Bob's To Go,,,,closed,,,2018-01-22,,500.0,0.0
+4fa50a2b-d2cd-4266-b36d-a36cac8d4d16,2ffe413d-8fd0-4ab1-8e9e-9f8f017d8de2,Nebraska,1,Lincoln Guards Security Company,,,,closed,,,2018-02-01,,500.0,0.0
+05283287-42ae-40b6-93a8-10f3a03692e8,23edda72-1f48-4e61-b71d-17998298a90e,Nebraska,1,"Muhm Enterprise, Inc.",,,,closed,,,2018-02-02,,500.0,0.0
+61d46a9a-9573-422b-abd8-d233d04585e7,3a5193a8-1e48-42c7-99ff-7eb5133006a4,Nebraska,1,"Muhm Enterprise, Inc.",,,,closed,,,2018-02-02,,500.0,0.0
+c08d375e-58d6-40c7-8034-80935ea84d02,b7ac72ae-be3c-422f-9812-26bff282ec51,Nebraska,1,"Holt Enterprises, L.L.C. DBA Oasis Inn & Suites",,,,closed,,,2018-02-02,,500.0,500.0
+b0c7a734-0320-4f22-a369-89d46df66b66,645268e8-9e8d-4d94-b4d0-1cf0d9901f0b,Nebraska,1,Midland Drilling LLC,,,,closed,,,2018-02-02,,500.0,0.0
+1408874c-04ce-4761-8eb5-70d8fa63816c,0ee5dead-3ed5-40ed-8cb8-f7b8ac1775d4,Nebraska,1,Advantage Solutions,,,,closed,,,2018-02-20,,150.0,0.0
+dc9b792f-3638-448e-8b73-21957616a6a5,2094440d-8b35-4949-b055-008b1aaec6f8,Nebraska,1,Elite Mechanical/HVAC Systems,,,,closed,,,2018-02-23,,500.0,0.0
+d3427522-b9ee-4ae7-b611-66f71e874dca,e714ac66-b28d-40ad-bb8f-e906fedcf2b2,Nebraska,1,Elite Mechanical/HVAC Systems,,,,closed,,,2018-02-23,,500.0,0.0
+ccecc94c-c2ac-45d0-a1fc-113366c1ef95,1983c197-fc28-4961-9965-11c5e27aa76b,Nebraska,1,Elite Mechanical/HVAC Systems,,,,closed,,,2018-02-23,,500.0,0.0
+797ff5ac-dbd2-40e0-9850-10f3cb256c06,ee6d6180-20c9-4858-9ba9-b0c43819bdab,Nebraska,1,A Perfect Clean Window Cleaning Inc.,,,,closed,,,2018-02-26,,500.0,0.0
+50d6b931-fdb6-4fc3-8445-f7e2a1ef2c85,629ca19b-a5cb-4aaf-94d0-fa6695cf997a,Nebraska,1,"Construction Finishes, LLC",,,,closed,,,2018-02-26,,500.0,0.0
+32ecd7ab-6d3d-4638-a2ad-adaa9b32617f,3d536bb2-e843-44fe-9cbd-9f187acdc092,Nebraska,1,"UWA, L.L.C. DBA Howard Johnson",,,,closed,,,2018-03-02,,500.0,0.0
+2c33e245-fcc6-4bc5-ac63-8e86079a84a1,f385a805-bb08-40e6-8292-a229e011ebd1,Nebraska,1,"UWA, L.L.C. DBA Howard Johnson",,,,closed,,,2018-03-02,,500.0,0.0
+cfeb7928-e453-4c5f-acb8-2fef4fdb4dff,6681006f-65ce-4f1e-9cb9-4035a02d4ef7,Nebraska,1,Jeff Wallin Farms,,,,closed,,,2018-03-06,,500.0,500.0
+135ad534-0d5a-4c12-ace0-9c299dfa5b96,b26e80d2-2897-4ef5-a710-3e4f7c2552ef,Nebraska,1,City of Waverly,,,,closed,,,2018-03-06,,500.0,500.0
+0d3fd9cf-668d-4432-bd84-8917be5350c3,bdd3abab-8b79-4040-9495-50b1c2f52e1f,Nebraska,1,"Bud Small Trucking, Inc.",,,,closed,,,2018-03-19,,500.0,0.0
+bff27a4d-ab24-4ac4-bbc8-adb2339cba89,7527f43e-2900-4e47-af7f-4118d7328870,Nebraska,1,Hotel RL Omaha,,,,closed,,,2018-03-21,,500.0,0.0
+4119f248-6ee1-4ef7-9022-ed35a334f0c7,f4c3da7c-65ff-4bb6-824e-18b3dc643dcc,Nebraska,1,Mendez Drywall,,,,closed,,,2018-04-03,,250.0,0.0
+c65acb97-76d6-4709-9ee1-44dac302d615,5a25fc9f-4885-40a0-96d6-f0182c0caf29,Nebraska,1,"Energy Pioneer Solutions, Inc.",,,,closed,,,2018-04-11,,500.0,0.0
+3eeb1aac-9de9-4d1a-b53c-2cb6d536a969,90dced6b-5e74-42e0-8b9d-fd5a049bcab1,Nebraska,1,Huerta Trucking LLC,,,,closed,,,2018-04-16,,500.0,0.0
+5730b59b-313a-4807-8fe5-8615ae4f90db,b64dee5c-7088-4f15-836c-7b3b95ddc29d,Nebraska,1,All My Sons Moving & Storage,,,,closed,,,2018-04-17,,500.0,0.0
+6119faa1-5198-402c-a7ca-721206369235,365b002b-87f3-41fe-80d3-4c0b46d9b9fb,Nebraska,1,"Gavrooden, Inc. DBA Mr. Rooter of Omaha",,,,closed,,,2018-04-24,,250.0,250.0
+2eaa6a64-a4c7-478b-bc2a-75aa41814bef,1f571cb4-854a-4e73-9f86-3b4b3649a65f,Nebraska,1,SABR Consulting LLC,,,,closed,,,2018-04-24,,150.0,0.0
+7b758a4a-4389-497b-8e6d-c81a7e99e94c,c0e99faa-157a-464d-a6e4-7f6ceb0d1958,Nebraska,1,"Gear Supply Co., LLC",,,,closed,,,2018-04-26,,500.0,0.0
+c02d973a-d3a9-4f7b-b3bc-43a7f962c48a,3649ffe0-84a3-44eb-b99d-d96011c1fb5d,Nebraska,1,"Holcomb Heating & Air, Inc.",,,,closed,,,2018-04-26,,500.0,0.0
+ba403305-9a98-4b25-9d64-0f9c44281131,5ffc37c4-cda4-4e90-b256-4364b041a12c,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-05-10,,5000.0,0.0
+37077423-7778-4035-9b30-f13fd09bdccf,d91baa6e-b6d3-47b1-93f5-13786acc147c,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-05-10,,5000.0,0.0
+e549a68b-781b-4653-82c4-e5094ef4804a,49c971e2-0f76-4fc4-93fb-8c6224c20ac5,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-05-10,,5000.0,0.0
+beb497fd-0783-43d0-a54f-fd840cb701fd,c31ef33b-3045-4c10-b0a3-554dc37c9a47,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-05-10,,5000.0,0.0
+86d23153-bfbd-4a48-b2da-f3b4257ca207,10459893-c29f-4f5e-8ca6-575b9dcbdc9e,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-05-10,,5000.0,0.0
+1647abfb-1871-4774-afa3-ebacf94e01c9,9f79f9a5-90a9-4c51-8bdf-09b0fd0f9ff7,Nebraska,1,The Shop on Thirteenth,,,,closed,,,2018-05-15,,500.0,0.0
+7981f3e1-20bd-4c02-8e4d-ef07b34ae36d,a9a913ac-8448-4b40-b51a-f6d9109c53cf,Nebraska,1,"Waterjet Cutting Specialists, Inc.",,,,closed,,,2018-05-22,,500.0,0.0
+b43dcebb-9d15-4c3c-8def-c2af62eed540,aa52c399-28df-4378-9a49-e96c6bbc27e7,Nebraska,1,"Holcomb Heating & Air, Inc.",,,,closed,,,2018-06-13,,500.0,0.0
+aa5d1a45-661d-4454-9c09-4454de9e7d40,b695fcad-4ada-4358-b04f-46bcbceae3be,Nebraska,1,Lincoln Guards Security Company,,,,closed,,,2018-06-15,,1000.0,0.0
+2973839c-cfb5-47de-aba4-4e82aafa8704,351298ec-7a6a-4af8-9507-045c4b9f6f03,Nebraska,1,"Roadrunner Temperature Controlled, LLC",,,,closed,,,2018-06-18,,500.0,0.0
+0ae1c588-8a83-4b01-8342-25f9b20b84d6,7b331967-eb05-4fe7-8f93-38e762a17d5e,Nebraska,1,IHOP,,,,closed,,,2018-06-20,,150.0,0.0
+f20efd06-4fab-413a-939d-215ab7a223b6,70029d91-caeb-42f0-9165-b5aae8432c4c,Nebraska,1,Benitez Landscaping and Lawns,,,,closed,,,2018-06-22,,250.0,0.0
+2344f9db-c8b2-4370-a5db-3675c588ebae,48ac91ce-36e7-4956-91eb-c111e808ec42,Nebraska,1,Benitez Landscaping and Lawns,,,,closed,,,2018-06-22,,250.0,0.0
+5c07e55a-6dfd-43bd-83d9-2aa9aa40e3fc,640a24ce-f5a6-42fb-8055-428209e57fe9,Nebraska,1,Aron Geiger Construction,,,,closed,,,2018-06-22,,500.0,0.0
+c0f758d2-b135-4d29-b094-f995b7751e39,7d9a1873-d721-4cb0-836d-dc3369f946cc,Nebraska,1,Burger Theory,,,,closed,,,2018-06-29,,500.0,0.0
+60c150cd-412e-4a9b-8170-6bbc38005090,f689dc71-6f11-4cdb-b725-ccfb54c7d7f2,Nebraska,1,Travelodge,,,,closed,,,2018-07-09,,500.0,0.0
+7e743e0c-0f91-4e99-a768-e435dd7f24d3,e52a4873-a529-4fb8-ba5f-a8ae5667af24,Nebraska,1,"Newstrom Tile, LLC",,,,closed,,,2018-07-17,,500.0,0.0
+cf7544f4-3a56-476b-bf4d-e55309347c3c,2d3f9bab-92e2-438c-b0f6-b3e203f2cb82,Nebraska,1,"Newstrom Tile, LLC",,,,closed,,,2018-07-17,,500.0,0.0
+b95d20eb-1121-43bd-8e18-b62696ddb49d,2ae43317-88a1-4670-89c6-90dead74b1e3,Nebraska,1,"NDCCM, Inc.",,,,closed,,,2018-07-20,,500.0,0.0
+c5f96f8e-2ad0-4697-8fa1-d832ffcd406c,ef402df1-60aa-45c1-a241-694fb62d704e,Nebraska,1,Playmakers Pizzeria & Sports Grill,,,,closed,,,2018-07-27,,100.0,0.0
+7d7052ce-47ec-4521-b94f-b3cdb6098380,96bdb237-6b02-4013-a3cd-b6230c960511,Nebraska,1,SPEAK OUT,,,,closed,,,2018-07-31,,1000.0,0.0
+f35a0f46-7d55-4f5c-b61a-069596122fb7,e6304bcb-e9d9-4d41-af02-9cbb23f549ab,Nebraska,1,Capriotti's,,,,closed,,,2018-08-06,,500.0,0.0
+e200ff54-978e-4b28-ac12-7f060d1e2c7f,dfc37939-3de9-430a-9fb6-02c61ca9373e,Nebraska,1,"Jensen Clinic, P.C.",,,,closed,,,2018-08-07,,500.0,0.0
+687cf92c-6e4c-4658-9e4c-a45c0af16712,ccefc379-79cd-4e7b-a12c-98e29711aeca,Nebraska,1,Top Notch Lawn & Landscaping,,,,closed,,,2018-08-10,,500.0,0.0
+36041bc3-ca58-4232-b8ac-9541b7ff1a50,c7432d04-7c32-4d51-9faf-1b347ca98853,Nebraska,1,Xclusive Trading NE LLC,,,,closed,,,2018-08-21,,500.0,0.0
+798cd93e-1723-453c-9f0c-2039f91b9a7c,fd83ef4a-8bd6-4aa1-b8ed-8632bda99388,Nebraska,1,"B & B Midwest Trucking, LLC",,,,closed,,,2018-08-22,,100.0,0.0
+75271072-fd88-4567-b048-ad5298e29ed5,5ad3ee40-5c8b-4815-be9b-2ad6d4550247,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-09-05,,5000.0,0.0
+94e13bb6-3b04-4245-9bc7-77893628795e,9d31a2c8-5451-4ac9-8fa1-6ad537344f78,Nebraska,1,"Gretna Sanitation, Inc.",,,,closed,,,2018-09-13,,500.0,500.0
+d6dae426-4d8b-4921-bbe4-d46ce705818a,73145603-4c98-4d57-8707-d772408b88dd,Nebraska,1,Red Coach Inn & Suites Grand Island,,,,closed,,,2018-09-14,,250.0,0.0
+45eded29-1a8b-4058-b720-c161fd0ed8a7,d012b45e-96c9-4510-b7c5-911f4bfd3ad8,Nebraska,1,"Von Busch & Sons, Inc.",,,,closed,,,2018-09-14,,100.0,0.0
+cf743267-0cbd-41c4-9a3e-79a1008d42ea,3b18f93e-dffa-4c0c-9f13-2731f21e7152,Nebraska,1,Gonzalez Drywall,,,,closed,,,2018-09-19,,500.0,0.0
+b0604562-b214-465e-a09f-b18ac2863938,6d958e2f-76e1-440f-9618-7471cc8759a0,Nebraska,1,Gonzalez Drywall,,,,closed,,,2018-09-19,,500.0,0.0
+ba953608-a24d-4005-9e61-ded0e37552a0,8b39c0b5-0d63-40fa-92c4-421b25e29914,Nebraska,1,Roadmaster's,,,,closed,,,2018-09-28,,500.0,0.0
+a57de87b-0cbe-4786-8bec-429a562edbc0,a55ec057-8181-45ab-98b8-39c5a85fac14,Nebraska,1,"Trimmerz Lawn and Landscape, LLC",,,,closed,,,2018-10-03,,500.0,0.0
+ada8eecf-e2cf-4aa0-ad3b-9f97f37278f3,8c56bf78-6ed8-47f4-b3fa-b9f181df9bc3,Nebraska,1,Boost Mobile,,,,closed,,,2018-10-11,,500.0,0.0
+69621a2c-8b4b-4cd7-8d60-9055ebc3f851,c0286754-bd1b-4ce2-924f-a18be2c5a2a4,Nebraska,1,Boost Mobile,,,,closed,,,2018-10-11,,500.0,0.0
+967189aa-b20c-410d-a560-3ecb7a24068e,8d4674b1-3768-49e9-b9ec-078ca24b24e0,Nebraska,1,Boost Mobile,,,,closed,,,2018-10-11,,500.0,0.0
+18bbdaf0-0144-4c4c-acd5-20614e233101,2798ba7a-84af-48a3-95d5-aafba7ca0775,Nebraska,1,Pickrell Veterinary Clinic,,,,closed,,,2018-10-12,,250.0,250.0
+ab045ba0-b00f-4da1-95e1-a08bd50bda16,40cc2439-62a7-4c95-a2a4-7b46309631a6,Nebraska,1,The Watering Hole,,,,closed,,,2018-10-16,,500.0,0.0
+593df524-a0c0-481c-87f2-d3bca621a5e6,562f41db-0be2-4a31-95b1-eb7f30c18fc6,Nebraska,1,"Caniglia Heating and Cooling, LLC",,,,closed,,,2018-10-22,,250.0,0.0
+958d6da3-3617-4aa0-8823-5a5001378529,9c51635c-fa2b-47f0-82ec-60957f5820a9,Nebraska,1,Sip Coffee & Wine Bar,,,,closed,,,2018-10-25,,500.0,0.0
+e4c8e1a3-e7a5-40fe-9a88-04e4a22ff12b,dc5dd1a4-2b58-42f4-aa06-a3371863e40f,Nebraska,1,"Honest & Humble Construction, LLC",,,,closed,,,2018-11-05,,500.0,0.0
+dadd8ea2-c3ce-472b-a18f-43ce586d2f31,afa4d89f-bbcf-4ffb-8e9e-0c5ff50de450,Nebraska,1,"AngelTrax, Inc.",,,,closed,,,2018-11-09,,500.0,500.0
+5bf71e80-41d7-4357-8e16-a9c1983d5546,16bdf12c-19f6-455a-9d59-c6232c79c566,Nebraska,1,Rosalinda's Fry Bread and Mexican Food,,,,closed,,,2018-11-15,,500.0,500.0
+01842d3e-7b28-4379-b800-7eff6e6d0cdb,59f79db2-32f4-49e4-9b77-5392ab68d735,Nebraska,1,The Corner,,,,closed,,,2018-11-16,,500.0,0.0
+3438a16c-f6b1-43f6-a95f-0810691d3b87,41dee403-5dd9-4f54-be0d-56fa657ffd92,Nebraska,1,Harvest Development Management Company,,,,closed,,,2018-12-06,,500.0,500.0
+98e90334-4b37-4a2e-b2bd-4e183405da2b,ddd04e78-b1fb-4255-8465-e9d70a3f492c,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-12-06,,5000.0,0.0
+27cb7d98-f87f-4a4a-90b6-7c35f39f585a,627a0a50-c360-42bf-8d8e-fca4b969b4e5,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2018-12-06,,5000.0,0.0
+7ac1d7c5-d155-44f9-8e04-c1666c0aa024,56bdb410-1d18-4920-ab17-6adc764b3516,Nebraska,1,"Mr. Cools Heating & Air, Inc.",,,,closed,,,2018-12-06,,500.0,0.0
+068b5df5-f0d8-4cb5-a911-5fba4d7213ca,11162f6b-abe1-4e92-9e12-9334a88592b9,Nebraska,1,R & K Cleaning,,,,closed,,,2018-12-19,,250.0,0.0
+e249ada6-b898-49a0-8f25-b3907ccd5293,a871e1ec-5c6c-456f-b0b2-66984de6452a,Nebraska,1,Evolution Towing & Recovery LLC,,,,closed,,,2018-12-21,,500.0,0.0
+601b75dd-95f4-43a3-9b04-b947ebd4a8b3,bd731fcc-f96d-4467-80ea-5d1d2ca275c1,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
+028403a9-97ba-4108-a61b-35810177499e,4422d903-a1ad-4e9c-8e39-e19f3621bf8f,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
+3f2bf26c-ccfe-48bf-9740-861f95fefdba,91b5724f-bf5f-47c0-a43c-fccb86c0e381,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
+e55cbfd3-039e-4110-94e5-9681303c4c9c,2923be3e-cfdd-4c70-8eab-e5bf733e81ef,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
+661aa3e5-0085-4be1-a110-f0004b49d08b,708a0d79-e764-49f7-8cf7-b127824827dc,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
+c674bd58-5aca-4674-bf22-cc6096772956,ffbe44b3-1f70-47ee-a8f7-ed16c719129e,Nebraska,1,"MW Ventures, Inc.",,,,closed,,,2018-12-27,,500.0,0.0
+93ac4c77-d8a4-4eee-89f6-e37d1ce7906f,b89e9a4e-4237-42d9-ab11-b8c72e640f6a,Nebraska,1,The Achievement Preschool,,,,closed,,,2019-01-04,,500.0,0.0
+c351021a-cc64-4fb4-9887-f4d536d709bf,32f98dc2-9469-47d5-b873-34aaaadb8557,Nebraska,1,"B & B Midwest Trucking, LLC",,,,closed,,,2019-01-04,,500.0,0.0
+6eab2d74-6c53-4716-a8b1-d397e0e2407c,d16a05bc-0738-42da-88b7-bf10198ad7ac,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2019-01-14,,5000.0,0.0
+6cdd0e1b-f3f3-4a28-bcd8-8e4d97adcdb9,578aacf1-5308-46a9-89da-b7bec88f1440,Nebraska,1,"Quad Packaging, Inc.",,,,closed,,,2019-01-23,,500.0,0.0
+cb03f8e2-a8d7-4584-88aa-7db2a726269a,6ff61063-8d86-4f2b-868c-f8531f22d7a4,Nebraska,1,"Jimmy's Plumbing, Inc.",,,,closed,,,2019-01-29,,500.0,0.0
+cc8ecad8-960f-4944-b637-1b65cf01b396,c9d793c7-9ed2-4432-9653-04c404c89971,Nebraska,1,"Jimmy's Plumbing, Inc.",,,,closed,,,2019-01-29,,500.0,0.0
+6393d1f2-5bbe-40ed-8e53-221dd5cd839b,118eb29c-48a1-4d19-9387-889c8cf4fe09,Nebraska,1,Cafe Le Fleur,,,,closed,,,2019-01-30,,500.0,0.0
+0b0fa3fa-df5a-41e4-b94f-ff88addde55c,1538b0cc-4242-4c32-a3c0-3f8fa5a8a07d,Nebraska,1,Cafe Le Fleur,,,,closed,,,2019-01-30,,500.0,0.0
+e6a71a24-67e2-4868-b188-92e5764bd1c9,1bb184d7-a910-451e-ae95-8de3b8b123bc,Nebraska,1,Priority ONE Security Rapid Response & Safety Patrol,,,,closed,,,2019-02-11,,5000.0,0.0
+cafa6316-aa55-4203-b424-d2af56d002de,0fa7ac94-0d43-4cd6-b4bd-129ac782ba6d,Nebraska,1,Team Softball of Nebraska LLC,,,,closed,,,2019-03-18,,500.0,0.0
+005cf5e3-cb17-4222-a2fb-a84d6c0d9544,586e50ef-6b4e-4179-9fb3-b830da246aad,Nebraska,1,"Cornerstone Tower Service, Inc.",,,,closed,,,2019-03-25,,500.0,0.0
+f5e5795a-04b6-4fe5-a7ad-5ff867b8ce42,9aa46697-cbbf-490d-9b7a-dd4b36bd5779,Nebraska,1,"Cornerstone Tower Service, Inc.",,,,closed,,,2019-03-25,,500.0,0.0
+5b5b233f-9edd-4849-86ae-50c340103e52,723e8c4a-210d-4618-962f-ee5c61dc5422,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
+985bb34c-d9ee-49b5-a73d-7ab33016aa9c,143cebfe-aa4b-49a0-800e-66f9896c8307,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
+b84d7aab-29af-4d5c-b8cd-57da7bb2572b,fe049bbe-24cf-4f35-affa-914966c0cf55,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
+7970e00d-b8d9-49dd-9b9b-8cbff2fb1e82,634f45e6-ea22-4441-b212-4d4c958a605b,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
+f479a696-52b0-4c64-96ac-7d12e1fc9de1,9af8af81-6e21-4d56-88e3-66edee3452d5,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
+a563f5b0-b4f7-4f02-aa5d-a10309acfc10,09029d99-1f37-41e2-8571-fc622f4bc67b,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
+7e0e5970-74f2-4199-a1b8-3b39d7571cb0,7b2de4db-2a8d-4711-b41f-2d12df7959b6,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
+0f139667-3bbd-487b-988a-bc9549a21de2,c0886bdb-8d61-478b-a4ff-866c716227f8,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-03-29,,500.0,0.0
+31b67145-a043-4a0e-b899-bbb67313be4f,9d8b256c-c6b0-44ce-9d6a-6347997defdc,Nebraska,1,"Imperium, Inc.",,,,closed,,,2019-04-02,,500.0,0.0
+4a5058d9-f43d-488c-ab8e-64d335dd4a4c,58887dd6-fed1-4ee4-9862-3440f11e8bfd,Nebraska,1,"Imperium, Inc.",,,,closed,,,2019-04-02,,500.0,0.0
+d0bacb97-2f83-4b70-a690-c1f1ed7601ce,6434f3b9-e5e8-490c-8cf9-36d5b92c76c8,Nebraska,1,Bad Beard Gang,,,,closed,,,2019-04-03,,500.0,0.0
+448e5df4-1514-446c-897c-18f10e26d81e,bf1136c3-5acb-4190-9eaf-312b1b03ab1c,Nebraska,1,Care 24/7,,,,closed,,,2019-04-11,,500.0,0.0
+99cae32e-c191-4d1e-bcc9-f9587dd098c1,18674280-a861-4172-8de6-c39d9931b72c,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
+9dbd08de-2f61-4cf5-9a81-38ddc7bd60b3,93aadb88-cf1c-499f-a233-e2101b96857b,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
+646481ac-191b-4c37-8570-af81dd354172,f7011474-ce74-4ef8-82f7-b783f1c63576,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
+ec2a881d-145f-4f80-9675-d39d049dc645,966e8cbf-9761-4b09-91ac-8854e42b7b98,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
+b7af1179-3ea8-4bc9-8532-e3f482beb382,e1d09a2c-d1aa-4b80-83cc-2fbcc2f8aba3,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
+819199f8-ce7f-4d95-ab21-bcbf6682c5f8,201b9ffa-f419-4d99-bac0-5022fe7e0741,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
+f4229426-8088-4e71-b836-2f1532559b85,5c8981b5-47ff-47db-bb06-f8f3c5fe6480,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
+20a02dbd-effc-418b-9545-5e20ab992d5e,6da7489e-2021-4444-b66a-0e2143008657,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
+bdae9d72-33d9-4f2e-a454-2141daea7278,bb2bdd82-cb7c-403a-bed7-183846f6f486,Nebraska,1,"Don't Care Bar & Grill, Inc.",,,,closed,,,2019-04-18,,500.0,0.0
+16ce513c-b78f-4dde-9ce5-dd34bc7d8f62,6ad01f1b-7968-4cca-b162-5c341122c7cb,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+3bc2d117-8eb7-443f-92a3-f42a2c421710,15d04054-0de8-43fe-bf0b-f290ea64657c,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+1f81226d-e2d6-4932-b4a1-9efd45d33934,92809fea-999a-45de-87c8-42fef1e93a2c,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+7a5c9488-09ae-40a0-93c9-4696e0845b27,b191dd2f-5416-4cb5-8c3f-1bebaac14f54,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+aa796a0c-f309-4b24-b8e0-dae6268c687e,3cb7cff4-6641-48f8-98b4-cd381037a852,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+12727f76-4f03-4415-92bd-5dc9c4ce2380,4c6aae1f-518f-4847-9515-6f8beead2ffe,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+602ba11e-7f03-4e42-9343-eca426d60baf,078ac903-682a-4d8a-83b5-aa96bcf4160f,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+bfd105d8-57a4-41ff-bd5c-07f2c97baa42,99d16007-d425-492d-bfbf-91b20c91d757,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+20599580-2e94-46ad-ab23-5d8978e2cd73,62768cf6-ccb7-483a-bf85-6efcfdc8522b,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+74d89797-260d-4e25-af72-6c67ee96cf51,111e3584-2e95-41b5-b84f-7de301ba4b95,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+f005697d-a511-49fb-bfca-ae802f0a90cc,eb28c523-ed18-4fa6-bf8d-7383f02b1aba,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+adeef933-885f-4db2-8b0b-5bc2c5938a6c,e36b3c7d-36ef-485d-8394-922a8df8390a,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+f133299e-543d-4871-9e9e-91d50f546bf7,b43fc968-a8ed-4872-a369-4a4e9e7eabc4,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+07160926-5168-4ce1-ba5c-13f072eff399,216683a2-f20f-4ebc-a4a7-81a9c8c6ffd1,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-18,,500.0,0.0
+4523dfa2-f1df-470c-908c-95bbcf14d221,96867c0f-ef0c-4467-9aa3-56f1f57acee5,Nebraska,1,Archon Woodworks Inc. DBA Valley Oak Cabinet Doors,,,,closed,,,2019-04-19,,500.0,0.0
+c37f364d-5ad0-4582-88a8-bb1be4519437,eb33b284-b91c-427d-b345-b4166d3471df,Nebraska,1,"MyPainDoc, P.C.",,,,closed,,,2019-04-25,,500.0,500.0
+2a1b5dd4-6c00-4d97-b9e7-2c6a7fe10738,67ec9a34-c639-4945-9972-5d05b8cf48aa,Nebraska,1,Cafe Le Fleur,,,,closed,,,2019-05-07,,1100.0,0.0
+464d9ced-34b6-4849-9fe9-266d028615ea,50d2ac56-4910-4703-b80f-305713699a19,Nebraska,1,"The Tailored Room, Inc.",,,,closed,,,2019-05-09,,500.0,0.0
+d644e452-5331-4488-9e3a-f0f763f68320,11f0ed1e-13b9-4baa-89f8-de852db34c85,Nebraska,1,"The Tailored Room, Inc.",,,,closed,,,2019-05-09,,500.0,0.0
+15763513-0eaf-4e7c-b4fb-d81ac90bab07,1c627755-8ae3-4b74-8c4e-b91d313b63b4,Nebraska,1,"The Tailored Room, Inc.",,,,closed,,,2019-05-09,,500.0,0.0
+514709ce-2f4a-4509-8762-6fe6f53dc1d0,e1584746-3c91-42d7-9537-7d75c0ffd078,Nebraska,1,"G4 Acquisitions, Inc.",,,,closed,,,2019-05-10,,500.0,0.0
+9602d976-7c4b-4244-8797-af5e475fbbca,9faef0bf-e483-4929-8ee4-31493d1c3405,Nebraska,1,"Slack Truck Line, Inc.",,,,closed,,,2019-05-30,,260.0,260.0
+2a14e8ef-8a45-4690-833b-fa149da9862a,d26248b0-7974-4f29-8b51-6cf46def493a,Nebraska,1,"Infinite 8 Institute, LLC",,,,closed,,,2019-06-19,,500.0,0.0
+ad5071ab-9024-4ba7-9200-a6434c82ceaf,4a901485-dc2b-4b11-9706-b1edfc04223c,Nebraska,1,"Infinite 8 Institute, LLC",,,,closed,,,2019-06-19,,500.0,0.0
+7a3af3d2-9762-4bfd-83a2-5e8e4be5ae29,85a0403b-4709-49eb-8d73-149a7f455dca,Nebraska,1,CK Kitchen & Bath,,,,closed,,,2019-06-19,,500.0,0.0
+af6bfa0b-49df-48fb-be00-603bb3d8d40b,b640aa9b-ad03-4160-afce-8443acfd9ce2,Nebraska,1,Cafe Le Fleur,,,,closed,,,2019-06-19,,5000.0,0.0
+3af74d2c-a793-49a8-8f61-ed014c8330d9,a33c31b9-0fee-41f6-aa76-5192b4fbfda4,Nebraska,1,Professional Pro Cleaners Inc.,,,,closed,,,2019-07-03,,500.0,0.0
+9fe9bbb8-567c-4456-943a-4457641315f9,12ed3bd3-fd2b-4ac1-a871-e724f85cafbf,Nebraska,1,Complete Carpet & Flooring,,,,closed,,,2019-07-09,,500.0,0.0
+8942218a-8f0c-4202-acfa-ea176f6ec172,9b65531d-621b-48db-b64e-ffa8d1a8e74d,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
+3a9ca3b8-e311-4890-ae18-060a475f7855,5a9ab0a7-135f-44d1-b00a-f78be80f0c01,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
+f85c1422-0fc9-4b4d-80d7-2b16f7a72b4d,6944f1e0-d903-408a-bd2d-aa3f41ab2ce9,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
+320a17ab-4405-4d85-b93e-b0fd14fab69c,81948d2e-6797-4b61-a917-297a0b6dabe6,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
+ab2f5090-f1ff-4352-9058-59c31512a9a9,fa4af7eb-3a0c-48c3-be66-fbbe09b64458,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
+26b719ea-e29f-4ff5-9869-ca6a7584d1f7,8caadb14-b8c5-496e-ba63-0e0d3f233c56,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
+b7c9b885-8eee-4090-a68b-55f9c9c60c5c,fdab060d-96c9-47f5-a16f-1a9e317f0608,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
+e70ac7eb-cd19-4cb7-8c7a-f35478444ad5,83dc083e-c380-4037-8cf2-37ade8d6cb8b,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
+0ae0eaf6-c615-43b8-bac8-e7d6aa400dfe,dcf75fae-8148-400c-82c1-7c8172dd4d3b,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
+535c7691-f672-4933-8941-5c20793e4889,7fae9b6a-1deb-426b-9647-c18d9a2e1b03,Nebraska,1,"Celebrate Life, Inc. DBA Birchwood Manor",,,,closed,,,2019-07-12,,500.0,0.0
+935c01ff-8d2b-4b6b-8d9b-92404a7a8282,a33a83e7-19ba-42c6-9201-2bad9dd880bc,Nebraska,1,SC Decks,,,,closed,,,2019-07-22,,500.0,0.0
+b2fc61c8-363f-4c31-b9cc-fa8d59277810,15576b6d-be15-4f7f-8243-a024c42693fd,Nebraska,1,"LME, Inc.",,,,closed,,,2019-07-26,,500.0,0.0
+9b7a1941-a2d4-4a57-8b79-29352984daba,e13a6a98-bb8f-4e1a-8407-5a05acd365c4,Nebraska,1,"LME, Inc.",,,,closed,,,2019-07-26,,500.0,0.0
+1474cc95-645b-4e93-946a-ebeb818c28bf,5fb372f8-aa88-4381-ae03-1cd07c3af0ef,Nebraska,1,Dignity Home Care Inc.,,,,closed,,,2019-07-29,,500.0,0.0
+f585d26d-55b4-49d2-bed0-757eaec43f07,85c52e5a-9bba-4997-8f30-9c00d852d494,Nebraska,1,Steak & Grapes,,,,closed,,,2019-08-06,,500.0,0.0
+d15882a2-bb06-4a39-be71-8a81c01cea88,607586c5-7bd8-46f1-9b59-6b6c41d43b11,Nebraska,1,Steak & Grapes,,,,closed,,,2019-08-06,,600.0,0.0
+144c2652-9468-4c81-a18f-cc5b87414e17,dffafbf8-8c90-433e-9089-4f5abc982895,Nebraska,1,Blue Blood Brewing Company,,,,closed,,,2019-08-08,,500.0,0.0
+e747551a-b402-4210-afba-4d2875456cc8,afcffd1a-735b-4472-b5ee-06865ef99eff,Nebraska,1,Blue Blood Brewing Company,,,,closed,,,2019-08-08,,500.0,0.0
+f4adbb31-070b-4487-886f-df0e1dd643d7,e28324fd-40fe-4e62-ba97-c16147cb218a,Nebraska,1,Blue Blood Brewing Company,,,,closed,,,2019-08-08,,500.0,0.0
+4e7018a2-2a9f-4292-b9b5-f94fcd0eed61,0cb28052-8733-4822-833e-f6d470b140d7,Nebraska,1,Blue Blood Brewing Company,,,,closed,,,2019-08-08,,500.0,0.0
+de321a06-fafe-466b-933e-87cf89308d82,da5c25eb-23f0-4174-9288-e5c11e0bce07,Nebraska,1,Blue Blood Brewing Company,,,,closed,,,2019-08-08,,500.0,0.0
+c7e7d715-71cf-4ae4-853c-e86f91c0003f,05b54c7d-df90-4c74-997b-838f7e63ac4e,Nebraska,1,"Lincoln Industries, Inc.",,,,closed,,,2019-08-13,,500.0,0.0
+3ebd8122-2a3b-431f-a68f-0bbb382420f7,18d333e6-05fc-4468-906f-c150e13274ab,Nebraska,1,Breadman Inc,,,,closed,,,2019-08-16,,500.0,0.0
+0e750a74-ac16-42a8-8ecb-dadbedbb2445,881150ec-91fa-4139-a329-6e24e8915e9d,Nebraska,1,Alorica Inc.,,,,closed,,,2019-08-23,,408.0,408.0
+c692fc90-e44a-40eb-be4c-a45a67e87e8c,918f3726-71c1-4565-9f51-c713ced5cd20,Nebraska,1,Alorica Inc.,,,,closed,,,2019-08-23,,340.0,340.0
+64567c2f-0fa7-429f-8fa1-5b5f0fab9aaa,87acf79f-1743-449b-8d96-dda40e89fb86,Nebraska,1,Alorica Inc.,,,,closed,,,2019-08-23,,426.0,426.0
+44a8c8ee-c73a-4fac-a9fd-1936146ccf2d,fdf8b028-1225-4ffa-af2f-abe812c956a7,Nebraska,1,Alorica Inc.,,,,closed,,,2019-08-23,,280.0,280.0
+9da284db-0f00-4c44-a3ca-5a23631e1741,a81e7f33-89e9-4ccb-9035-545bb9a3e7d6,Nebraska,1,Alorica Inc,,,,closed,,,2019-08-23,,410.0,410.0
+bba3d4bd-1923-4405-9e7c-417890d3f2c3,79af1c8c-71ff-4737-81a5-255e934b0bb5,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
+06d88d72-013e-43f0-aee2-0a6fc1426c60,4b307b5e-1a61-47fe-9cf6-f603c7818f06,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
+0de03f06-2312-46c7-a820-c86d04fb0d21,05216783-769f-4349-8794-368fe31d30d0,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
+3c4d6eab-2909-4bc2-9bd5-6a03ac98ec17,614025c0-fb5d-45df-a44f-25d51b023c70,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
+1a58161b-00f3-4b22-8d56-afe4aaec93e3,6407e268-26ca-4dd0-a730-cc0fc5eb6d02,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
+9f2909ef-1590-49d2-b3f2-62dbfe507df5,32bafe48-3ce4-47ff-8f9e-071ec419ade8,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
+26d79ab4-dd7b-4ce9-9eb4-3f76643932ad,f28ea989-9fda-492d-a61d-48e01b54183d,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
+2d2fef1b-5e07-4b21-8292-3703da6b7bbf,0c7fc5ac-ea0c-4fb3-962f-ad3cf7571a8e,Nebraska,1,"Signature Electric, LLC DBA D & J Electric",,,,closed,,,2019-09-03,,500.0,0.0
+8f92f12c-1aab-428c-aa88-4f570d9d3c85,97309ee1-719c-4a6f-a12a-a47060b2925b,Nebraska,1,Deker Corporation,,,,closed,,,2019-09-03,,500.0,0.0
+6fa09f88-f184-453d-824d-3436c87daf27,7ae1d560-3033-4a0e-a8be-8f8559d004f1,Nebraska,1,C&D Farms,,,,closed,,,2019-09-04,,500.0,0.0
+f4b5ff5b-0fd4-47e2-96d1-798fa88c7a95,783e577f-6177-4126-89d9-3b9fe03fe57a,Nebraska,1,The Hop House Bar & Grill,,,,closed,,,2019-09-09,,500.0,500.0
+0fbcdc8a-ddf1-4902-85c1-aeb35f031a74,d38f60c9-5a4a-4a48-8dee-ad7390cefddd,Nebraska,1,"Sautter Construction, L.L.C.",,,,closed,,,2019-09-12,,500.0,0.0
+c7eca048-ca85-4aab-818b-88df696537fa,c0df568f-5858-4080-bf76-ca4e00d0abc3,Nebraska,1,"Apostle Nursing Home Health Care, LLC",,,,closed,,,2019-09-17,,500.0,0.0
+2f9bbc84-3ca1-47c6-87c8-12769aa1e55b,d2cdf26f-06be-41f8-bd60-005e2d30a6c1,Nebraska,1,"Core Energy Solutions, Inc.",,,,closed,,,2019-09-17,,500.0,0.0
+1c92c722-800e-4a54-b712-3ace200af403,afb415ce-8ded-4565-8147-52aee16af8de,Nebraska,1,"Natural Health Center, P.C.",,,,closed,,,2019-09-18,,500.0,0.0
+759723cd-a3f1-4bbc-8aee-3002746800aa,de50483f-442d-40c7-8733-89c0c71b841c,Nebraska,1,Countryside Remodeling,,,,closed,,,2019-09-20,,500.0,0.0
+deaf716d-ef75-42bd-829b-5f65b316b1f7,7ee63e68-310c-4775-8856-6b3bdb227c05,Nebraska,1,"Nickell Construction, LLC",,,,closed,,,2019-09-25,,500.0,0.0
+15cd880f-4422-417b-bc8b-28acb343eead,d2ae7961-8c4b-40c6-98d3-ec2a95abe376,Nebraska,1,Bayshore Constractors LLC,,,,closed,,,2019-09-27,,500.0,0.0
+beefd48d-ecdc-4b73-ae47-e3d03121fdb9,c217cc13-b040-48c3-b561-0106fe08be6a,Nebraska,1,"Genesis Health Clubs Management, Inc",,,,closed,,,2019-09-27,,500.0,500.0
+bae89f0b-b1cb-4ab2-8e4e-13406383e4cd,a96cec40-8aa9-49ea-848f-2543aa6b5d00,Nebraska,1,Western Nebraska Pioneers Baseball Club,,,,closed,,,2019-10-02,,500.0,0.0
+772b141e-0483-403b-b72d-10e6bf5c6c81,7ecd7ec1-8208-4b0e-ba1c-dec459531f1f,Nebraska,1,Western Nebraska Pioneers Baseball Club,,,,closed,,,2019-10-02,,500.0,0.0
+e3ab303f-0af2-4220-8a20-607436df043c,8c82f4dc-2171-49f2-a71c-8506ddf5f42c,Nebraska,1,Western Nebraska Pioneers Baseball Club,,,,closed,,,2019-10-02,,500.0,0.0
+c394530a-cdd6-438a-a81a-f68366dcbf4f,8d504da2-fe17-4307-a1fe-89e9aeb074ad,Nebraska,1,MMP Enterprises,,,,closed,,,2019-10-07,,500.0,500.0
+26f8f8e5-9274-4be0-b6d0-7ba76519717d,2aee3ec2-5387-4f88-b47a-162e40813cb5,Nebraska,1,MMP Enterprises,,,,closed,,,2019-10-07,,500.0,500.0
+adc715bb-db05-4056-9d96-176ec33e1eed,2acbcb59-dfe1-48e1-8754-15b1b1e49419,Nebraska,1,MMP Enterprises,,,,closed,,,2019-10-07,,500.0,500.0
+2b7bb00a-09c6-4ad1-86a6-c3bfbf5d4e07,bab4e7e6-6893-449a-a05c-4c9b0944f701,Nebraska,1,MMP Enterprises,,,,closed,,,2019-10-07,,500.0,500.0
+7eaf8ef8-43ae-4fd3-82b8-1da211deaaf7,2eace0ed-d12f-40c7-b056-a44c9676e53b,Nebraska,1,"NM Concrete Construction, L.L.C.",,,,closed,,,2019-10-09,,500.0,0.0
+2c7ee4a9-dc2e-42f7-a645-df6b8b3b8926,d06e0039-0e3f-4f0f-b204-1ca593df00f1,Nebraska,1,MJK Designs & Landscaping LLC,,,,closed,,,2019-10-17,,500.0,0.0
+799b5e88-36ca-4e15-a6f9-c784cd9c73ff,edfd346a-0975-4b6e-b48d-17b0d33f9377,Nebraska,1,Rough Road Repair,,,,closed,,,2019-10-29,,500.0,0.0
+82b52b0d-de82-491e-babc-22e282c560e0,106964e3-4611-447e-8cbc-6b0ee1fbdb8a,Nebraska,1,Rupert Construction Co.,,,,closed,,,2019-11-01,,500.0,0.0
+ab7c8131-14ed-4f24-9828-f3507d08e7d7,5af8ec2f-a98f-4dfe-83ca-0ebadfb26943,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
+0caf25eb-a3d1-4a86-98b3-2818780ad704,46df6901-7e2d-46dc-a92f-dd358dbb84c8,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
+498fcc89-4013-417c-b7c8-0629d33bff08,5af37da4-f351-4e17-9628-38d43d31bca3,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
+cdc282b5-e060-4f25-8f93-d84789a6191f,375812d6-5db0-455b-bbbe-c59f23fcb9c9,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
+8ec16dfd-749b-44bf-96c8-90d8e64f1fcd,14378f85-2bd1-46ea-b4de-0f048067864b,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
+a61b604b-7530-47a9-94d8-6461a75a4554,11eed899-622a-4291-af61-e057c6efab6d,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
+659318d0-283b-4c84-aa81-3a3c93ecc967,1a8c2de7-e7c7-4d42-a5c5-30acc20d3193,Nebraska,1,KMC Enterprises Inc,,,,closed,,,2019-11-21,,500.0,0.0
+a9319eef-9e38-432c-adaf-e606b72d22d5,a60693d2-6bf5-4c31-a47f-09a32994aff9,Nebraska,1,Pet Event Pros,,,,closed,,,2019-11-25,,500.0,0.0
+fb4f0be0-0c45-4818-a4ed-0abf0a309509,f13d9463-ad62-43ae-b3f7-8088ee4986bf,Nebraska,1,Schilke Erectors,,,,closed,,,2019-12-02,,500.0,0.0
+024bfff2-d4e3-4df4-a182-d19510e5e708,47c33a82-d531-4518-8d30-807a5e540bad,Nebraska,1,Professional Pro Cleaners Inc.,,,,closed,,,2019-12-02,,500.0,0.0
+5a32f01d-86da-4a8e-9613-8c1e2916c591,92318764-d2bf-4d3c-85d5-3495bf4dde74,Nebraska,1,A Flippin' Sweet Pizzeria & Italian Joint,,,,closed,,,2019-12-11,,500.0,0.0
+b27921ed-6a73-40b2-9b5a-37207e42af45,d7dc8fce-a9fe-43d8-83af-bfd5cf1aae6c,Nebraska,1,Legbo Services of Omaha,,,,closed,,,2019-12-27,,500.0,0.0
+5e49b6a1-7b78-4c9e-b1f1-03be19fa62bd,02b3f254-3d8f-4162-8d7e-249ad3ccb3d8,Nebraska,1,"Infinite 8 Institute, LLC",,,,closed,,,2020-01-10,,5000.0,0.0
+4ef1cd62-c521-4d67-8380-da58de7d3aaa,1b34b8e8-801c-4e8f-961c-51309ebf31ad,Nebraska,1,3 Rivers Construction,,,,closed,,,2020-01-16,,500.0,0.0
+1d88b2eb-7568-493c-a82b-9fd7ea6a4275,c7916a24-4087-4362-bfce-63ace5957248,Nebraska,1,9 South CharGrill,,,,closed,,,2020-01-27,,500.0,0.0
+0b45c28d-dfa6-48cf-9063-b05c336a1a91,001e945c-8203-4fcb-9533-1c4c2a5fc7c2,Nebraska,1,NAC General Construction LLC,,,,closed,,,2020-02-05,,500.0,0.0
+e050296e-eddb-42b5-a590-f30c7676c44f,b4ffa7e8-72c3-4194-92ef-f483270043c4,Nebraska,1,NAC General Construction LLC,,,,closed,,,2020-02-05,,500.0,0.0
+ebdfd826-cf9d-45f5-9c13-c08794169ca3,7cd62305-bace-47f6-ac0e-f59a18f9f49a,Nebraska,1,NAC General Construction LLC,,,,closed,,,2020-02-05,,500.0,0.0
+c4cb0579-c1ce-4f25-ab40-6603959890f6,a80a0e49-3b42-47f9-9294-195f7818a927,Nebraska,1,"Marshland Acres West, L.L.C.",,,,closed,,,2020-02-07,,500.0,500.0
+aa8839bd-136a-4712-9ea2-e1c942daaaa9,7073b8d9-26dc-4e4e-8d22-b8d4364d1773,Nebraska,1,SABR Behavioral LLC,,,,closed,,,2020-02-25,,500.0,0.0
+953cd183-c931-4ad5-bd11-5fcad32871a8,64bd6b7a-8cac-4180-b90f-9fbf44bbc734,Nebraska,1,"Kwik Shop, Inc.",,,,closed,,,2020-03-05,,500.0,0.0
+f3316a3f-a718-44fd-a947-9ac4f62b04fd,e4f835d0-aafc-4b9a-9a6f-ae680086abd0,Nebraska,1,Ozzy's Roadhouse,,,,closed,,,2020-03-06,,250.0,0.0
+1ad824d4-9855-40ec-a09d-e34cd952aec9,2a21fef3-d918-49a0-8f91-dd153ed1ddd4,Nebraska,1,Gonzalez Drywall,,,,closed,,,2020-03-06,,500.0,0.0
+ccf778b2-ef87-4ce1-81a8-82561724dca4,15b9d640-1675-4843-85f5-2d814e5fbe05,Nebraska,1,Tuffy Auto Service Center,,,,closed,,,2020-03-16,,500.0,0.0
+ad418eba-8002-42b0-a5b0-ce6016d1297b,6f793150-19ee-42f8-ae87-a774c39e00ae,Nebraska,1,T3 Construction LLC,,,,closed,,,2020-03-24,,500.0,0.0
+17f52294-0d49-45d1-aa6f-300acf4c7d3e,ecffc54c-bee5-461c-9385-d20716547a3c,Nebraska,1,T3 Construction LLC,,,,closed,,,2020-03-25,,500.0,0.0
+d7d6add1-b4e3-4086-a66a-a481fe2e8671,edcb3716-bcb9-4b79-918e-0514f6108bbe,Nebraska,1,Krab Kingz,,,,closed,,,2020-03-26,,500.0,0.0
+27df4997-6ce0-4298-b835-775ec9c36821,021d8958-cf8f-4fbc-b0c6-6cdc47c86201,Nebraska,1,Ever Lasting God Childcare Center LLC,,,,closed,,,2020-03-31,,500.0,0.0
+589f107f-21d6-4987-b7ba-c33e8485e6af,592e8136-4fd0-4ab2-94b4-cf0f950935a0,Nebraska,1,Lincoln Lumber Company,,,,pending appeal,,,2020-04-07,,500.0,0.0
+6a61e756-2bae-4fce-a363-b05a7ddc36f3,c1c0f4d3-e366-4c5c-b936-f4325f3ad607,Nebraska,1,"Pupuseria & Restaurant El Rinconcito, LLC",,,,closed,,,2020-05-01,,500.0,0.0
+dc55ef5f-be4c-4845-8217-b3e6a111f52a,d9a0eafe-741a-4270-bf34-35fb801ba874,Nebraska,1,"Pupuseria & Restaurant El Rinconcito, LLC",,,,closed,,,2020-05-01,,500.0,0.0
+bf9f90fb-b138-4530-868b-2c0a26085e5c,a31714b9-b918-4fcb-8beb-4be8358bfaa5,Nebraska,1,"Pupuseria & Restaurant El Rinconcito, LLC",,,,closed,,,2020-05-01,,500.0,0.0
+c6a6b1bb-c6a8-4e9e-9231-f2198da5a7e1,654d9887-adbe-41c0-94d1-5a2a18a2689a,Nebraska,1,"Williamson Cleaning Services, LLC",,,,closed,,,2020-05-04,,500.0,0.0
+3bd49c9f-7a87-4d95-997d-fbf78f2468f1,131e8ea4-8a0e-44f4-a190-6a2b3c4cc620,Nebraska,1,"Exterior Wood Care, L.L.C.",,,,pending appeal,,,2020-05-05,,500.0,0.0
+12202c41-6feb-4f93-b7c5-d57a3cdb6029,16ff5535-41e1-457e-8125-4464616c34c7,Nebraska,1,SABR Behavioral LLC,,,,closed,,,2020-05-07,,500.0,0.0
+de761a21-da4a-4479-8799-f6c9138a47c3,1775834f-0e2c-40ae-b27c-9bb0adba41a9,Nebraska,1,SABR Behavioral LLC,,,,closed,,,2020-05-07,,500.0,0.0
+9f3402ae-0de2-4a97-b940-5f209e6c7218,473849d5-8fe5-407f-88fa-d92a162a3c81,Nebraska,1,LC Hardscapes LLC,,,,closed,,,2020-06-15,,500.0,0.0
+a19e0137-24ff-41f7-92ad-c29504cfe758,079c09c0-959d-4f29-ad55-cd588942bc7d,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-06-22,,500.0,0.0
+b0f0da8e-df54-4693-906b-9cf0db494d8d,2381713f-8762-4456-9374-7e282a69f484,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-06-22,,500.0,0.0
+21b6b215-a2fe-453e-9b6e-5a322491dd31,0ba71615-e60e-4f75-a6f2-af21a06522e3,Nebraska,1,Triple K,,,,closed,,,2020-06-23,,500.0,0.0
+63ad903e-de35-4891-b0f6-0d51c76a6818,541d4d07-a87c-4835-8924-d1cf129d37ea,Nebraska,1,Whirlpool Corporation,,,,closed,,,2020-06-29,,500.0,0.0
+fe76ea70-9b7d-4cce-9d70-3614b13cf060,7f133b29-51af-428d-9c9b-99ade4a257dd,Nebraska,1,Travelodge,,,,closed,,,2020-07-06,,500.0,0.0
+262b2faf-8b19-44c2-b082-778f98b8fdc3,e8f4c651-5d53-4530-8123-c6d5a66735d5,Nebraska,1,Travelodge,,,,closed,,,2020-07-06,,500.0,0.0
+5d0ef3bb-1303-4c05-b6ca-57b4d0216361,3174df45-7c8c-4ced-bff6-c32a2615469c,Nebraska,1,Broadway Steakhouse,,,,closed,,,2020-07-07,,500.0,0.0
+5dbc1fe6-3230-4793-9b92-067488971d14,a55606fe-33a7-4d44-beb3-b966daff34e6,Nebraska,1,Wave Pizza Co Hastings,,,,closed,,,2020-07-22,,500.0,0.0
+53d9d32c-4902-430e-b777-e926bf9f8e73,301c5f1c-be4b-4fe7-8ffd-753662db1845,Nebraska,1,Wave Pizza Co Hastings,,,,closed,,,2020-07-22,,500.0,0.0
+04da24aa-9af1-49c0-b3dd-8316c5736416,f0c2d1e2-1003-44c0-b51a-25d512c951ee,Nebraska,1,Krab Kingz,,,,closed,,,2020-07-29,,500.0,0.0
+22219b43-6633-4d3b-a22a-2b2182a03bb1,a63d1390-02de-4a38-a1b5-e070524752d6,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-13,,5000.0,0.0
+e28a2136-473d-46b0-a4fa-63cf2fcba781,e3119c1a-7442-45ae-af66-4b9092745054,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
+a49f00a2-18cf-4a4e-b8f7-d1860d552604,4f852f77-2043-4cff-b1f4-ccaabf54dbda,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
+0ab5c769-5260-4d23-a373-af597e9bd57c,7f1fb001-1c52-4999-91ff-c44e10eb5141,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
+92acce65-0e43-40b6-87a1-ec03d3efbedb,388b8e6a-21e5-4ce3-abc4-f654d25b2069,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
+9e452d54-910b-4a7e-9722-38a37ea903ec,c261d4dd-6955-467f-884f-3aa56d737bcc,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
+803feaa8-92b2-4244-955c-b01ec48d20e9,2a7c47cd-bebf-4915-a446-ee827b80ed43,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
+97002e43-2f3b-4fdc-88ba-fe6862e84b05,270badef-9bf1-4370-88e6-dd1077b1ca07,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
+e7e7d980-b28a-45bd-900a-1c4908ef6305,b1b8f55f-09d7-4d5a-9278-cdcadc4a1a2e,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
+a2073f08-c9df-4808-8f0c-bf10df9a2e8f,21c44753-56ce-4a38-93e3-f78b9e24e862,Nebraska,1,DL Phillips Electric LLC,,,,closed,,,2020-08-14,,5000.0,0.0
+6f1ddd02-7814-4c6d-b7ae-d9311322adeb,9f66e2e8-4cbc-441c-8043-0571f3cb7ef8,Nebraska,1,"Examination Management Services, Inc.",,,,closed,,,2020-08-20,,500.0,0.0
+84a3e40e-9913-4ec3-999a-30120e6a414a,4eb8820a-273c-470b-ae36-a8c0f54e16f6,Nebraska,1,"Giggles, Inc.",,,,closed,,,2020-08-24,,500.0,0.0
+3d36a1d6-dc17-4ef1-a313-81b2fa62dd5d,793dcd9c-ff4b-4a77-bd1e-36db689b954a,Nebraska,1,College Hunks Hauling Junk & Moving,,,,closed,,,2020-09-03,,250.0,0.0
+f6dd479b-f2ce-4cf0-a254-63fd720e322d,d98d6eb5-b232-44e9-9f21-13041347db78,Nebraska,1,Comfort Inn At The Zoo,,,,closed,,,2020-09-11,,500.0,0.0
+71d026a0-55d2-4df9-bc1a-0a534d9b7463,51f1d754-db16-47f9-a3fd-4889e50cfbed,Nebraska,1,DigiExt,,,,closed,,,2020-09-15,,500.0,0.0
+428e0948-a99a-4894-a9ab-eeba3123d0fa,01c72e7f-3717-43f9-8e15-2c447c9ac273,Nebraska,1,Rusty Taco,,,,closed,,,2020-09-15,,50.0,50.0
+367283fb-4e42-46c1-9ec0-c118f59a9ef9,5a0f4361-837c-4bcc-9dd0-edf72b51bcbe,Nebraska,1,Critel Construction and Buildings,,,,closed,,,2020-09-25,,500.0,0.0
+f8ddd235-076c-4603-925d-b8ee317d7049,6ab9a4d6-053e-4472-8599-1b6d91fe4fe3,Nebraska,1,Critel Construction and Buildings,,,,closed,,,2020-09-25,,500.0,0.0
+c04f5596-a447-4575-bf34-6658228f9780,8025f7e9-8d76-4da2-8dc4-725d90aecc60,Nebraska,1,"Mom & Paup Family Restaurant, LLC",,,,closed,,,2020-10-20,,500.0,0.0
+2b402ec6-c286-4384-a884-38ccf37b1f84,6b613001-af68-47b7-a698-f7cbdb57ec74,Nebraska,1,Apex Appliance Repair,,,,closed,,,2020-10-29,,500.0,0.0
+eb279872-4d44-4592-a24c-c7d08261365e,526c9d27-193e-49b5-a0b7-1d0c6137ec14,Nebraska,1,Reed Design Architects,,,,closed,,,2020-11-17,,450.0,0.0
+438cae69-404d-43a0-98ed-adbb9b42abfd,ed3981ae-2bea-4bee-a0f9-cefde862ab2b,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
+f8c21adf-76e5-449f-9ba8-68c23615b725,eb868ac8-bb86-4700-9b61-e29cdba1df5c,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
+f0aa06bd-fc61-4ea3-a7c0-2d801030986b,92f8b7f6-87b8-45d4-9e51-27f194d91108,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
+e0283104-b7f3-4e37-8e60-1720261f02b9,5709e227-727e-458b-8166-8c7d2ae39320,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
+fa9bc9d4-6635-4eaa-869b-41b81ec3f9dc,2e1dbfff-16f5-4743-8970-8937f7e4d236,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
+758b052e-d125-424d-b3b3-851bcbc83175,bc585298-2d07-4e62-88dc-99527d1891fd,Nebraska,1,"Midwest Data Service Bureau, LLC",,,,closed,,,2020-11-23,,500.0,0.0
+12cf3418-4c06-49e4-a554-f8b8d2198791,27639e8c-e7bf-463e-ac26-57e6bba27a5b,Nebraska,1,LC Hardscapes LLC,,,,pending appeal,,,2020-11-25,,500.0,0.0
+23affda5-f0ce-43fe-92ec-c837ac697bca,ed890a68-cd67-4b80-a8e5-c45307d2e962,Nebraska,1,Sewell Landscape and Holiday Lighting,,,,closed,,,2020-11-30,,500.0,0.0
+fc6263e0-64f8-488f-9e21-e6f14c24ded0,3eae4ec6-98da-4668-bca2-71e6a47b36d7,Nebraska,1,Sewell Landscape and Holiday Lighting,,,,closed,,,2020-11-30,,500.0,0.0
+9d504f1a-62f0-4d55-930b-d03523579c2e,00791c6e-44d2-4f03-810d-0739c5ad382d,Nebraska,1,Dove's Heavenly Dog Academy LLC,,,,closed,,,2020-12-07,,500.0,0.0
+4c548c8e-6f4a-422d-b34a-d131a4357909,fb7166f2-7ae7-4f7f-8d1a-984205cc8fd7,Nebraska,1,C&R Mechanical Welding Service LLC,,,,closed,,,2020-12-09,,500.0,0.0
+05b2dcb8-af20-48b8-ad0d-87c00702a60f,eaf379c2-039b-49de-8073-db8e888eb6fd,Nebraska,1,C&R Mechanical Welding Service LLC,,,,closed,,,2020-12-09,,500.0,0.0
+07ffd9f4-6e67-4486-a460-c3382e92f3a2,6063af87-063b-41ba-b7da-6be760a00d23,Nebraska,1,C&R Mechanical Welding Service LLC,,,,closed,,,2020-12-09,,500.0,0.0
+c3f3d7ba-a85a-485f-ae19-4baab12a599d,dee4e43c-e7b6-4d94-b1e4-b27948736891,Nebraska,1,Midwest Dough Guys LLC DBA D.P.  Dough,,,,closed,,,2020-12-17,,500.0,0.0
+b59694bf-cb5a-4992-800f-ca72ac9dc6f9,820b9233-65b9-4412-92ed-793e4fa95e45,Nebraska,1,Jumping Jax Childcare and Preschool,,,,closed,,,2020-12-17,,500.0,0.0
+c4a813fd-e46b-4149-ba86-827b9d1e28ac,3f00b326-074c-4c64-bb7d-b54b9f658f4c,Nebraska,1,Parkview Home Inc.,,,,closed,,,2020-12-22,,500.0,0.0
+641a7a18-f571-4f52-ad08-9a31eb02b4d3,6207ddef-229e-45b6-a69d-8cf5fbfcdead,Nebraska,1,Parkview Home Inc.,,,,closed,,,2020-12-22,,500.0,0.0
+caf37ba4-c4aa-43d0-adf8-50d08993729b,7fd43029-58c9-4000-863b-b2690c00f317,Nebraska,1,Parkview Home Inc.,,,,closed,,,2020-12-22,,500.0,0.0
+d8ea2c08-5980-4d4e-ac3b-69367bdd3755,5c8cc0ae-bd7f-4332-8ec3-226902e6a6b9,Nebraska,1,Xtreme Remodel & Construction LLC,,,,closed,,,2020-12-28,,500.0,0.0
+c554a900-58ac-4a96-87cc-58e60022e60c,a4fedd43-380a-494f-aa62-7590646daa1f,Nebraska,1,Keystrokes Transcription Service,,,,closed,,,2021-01-07,,500.0,0.0
+ff1a63f9-e24c-4a70-b203-29371cc86b6c,5d2ecc09-dca7-4ef4-830e-bd0e58c154cb,Nebraska,1,Foresight Asset Management,,,,closed,,,2021-03-01,,250.0,250.0
+f22ed2ae-6919-4edf-ad85-c880c2760665,eeaf4f35-4cd9-4805-8da6-04a1b6b60a02,Nebraska,1,Sprouts Child Development Center,,,,closed,,,2021-03-02,,500.0,0.0
+9b4b4db3-7324-4982-99ab-0eb5f91f3b22,3444e408-7f54-4caa-97e1-ba57a261902c,Nebraska,1,"Chroma the Salon, LLC.",,,,closed,,,2021-03-03,,500.0,0.0
+2910daca-5d18-4a9b-bdcc-26320ff6b7d7,7c51977c-55f9-4b78-b736-c679094079fc,Nebraska,1,Xtreme Remodel & Construction LLC,,,,closed,,,2021-03-03,,5000.0,0.0
+fa01b6fe-a1c1-4c22-bc57-9d6953dc8f4e,9f1b015a-6f29-46c4-ba59-52a7ee4bec4e,Nebraska,1,David Fiala Ltd,,,,pending appeal,,,2021-03-05,,500.0,0.0
+727cb8c4-2702-4be7-9954-43b47b1a7f54,51ec4c99-4777-461a-b4ab-1810445fef17,Nebraska,1,Stolzer Construction,,,,closed,,,2021-03-09,,500.0,0.0
+43e3f5e4-c647-4be8-86b2-9b8dc7d78175,d9431a3d-bf31-415a-8398-b4bfba030744,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-03-16,,500.0,0.0
+02e0390d-8a86-4ee9-8d34-88ac2ef08c2b,d265175b-c1d6-4b55-9dc7-02408634e39a,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-03-16,,500.0,0.0
+4e6a1851-c804-459f-a693-b83723e4b4e2,48acc329-7e3f-48a0-96b0-0a59ab6d249d,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-03-16,,500.0,0.0
+3085abc8-0964-45a7-a384-19ebce92cbe9,24e5e448-8816-4259-adce-c84488e4a073,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-03-16,,500.0,0.0
+9198605e-9f2e-4604-b8b3-3d93202d8b01,fc36ee1d-44a0-4dd4-a132-b08b282b44be,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-03-16,,500.0,0.0
+35c4cd7b-01fc-4df0-b088-ee133dfce1be,1d60414d-39a6-4562-9f56-478871a7a248,Nebraska,1,Renkoski vegetation services,,,,closed,,,2021-03-17,,500.0,500.0
+9dcc6764-ae02-45e1-9109-8031a8cb69b9,581fdf6b-3d75-4b85-a99f-3377c91ff236,Nebraska,1,Jubilee Solutions,,,,closed,,,2021-04-13,,500.0,0.0
+30dd0731-3dbb-4986-a5fd-144aeea84609,b89e6f9b-f65f-47a9-b701-116807c84b0a,Nebraska,1,TLS LLC,,,,closed,,,2021-04-13,,500.0,0.0
+6dd6d06d-5788-4058-9c70-29974f564e51,9fe08ac0-1a83-414f-b123-e73ff715d7b5,Nebraska,1,Ridgecrest Rehab Center,,,,closed,,,2021-04-27,,500.0,0.0
+4f8ad526-366e-4ed5-ac5e-2cb7bb521501,696e52f3-3d4d-4132-b21a-bd655a8bc319,Nebraska,1,Lark Logistics,,,,closed,,,2021-05-07,,500.0,0.0
+a1ec7f9b-7648-4f99-a7dc-ba9b52427746,5c622cee-a595-4f37-852f-94b005e741e7,Nebraska,1,"Best Shopping Solutions, LLC",,,,closed,,,2021-05-14,,500.0,0.0
+8b2daafe-4827-4e27-a145-7d39290a1110,33a05f58-d3e7-435f-9be4-168d8d478b39,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
+d22e874d-cb5e-4787-b903-cb98c9d0f1e7,b5826d20-3f97-49a9-bc35-6b3705afe3e8,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
+8084a3d5-ac4b-439c-97b5-64371b58d531,0f9c7fbe-75a5-4ecd-9d2d-a7df6846dab6,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
+3240a93e-1af6-4566-a4f3-4c4e0eba9ecf,c47b5226-184a-4570-a6b0-b93a043871b4,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
+7286abae-2001-4956-84bc-01425e646d3a,ec9138bc-84dc-4ba5-a700-eccd12bfd269,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
+6d655e11-7c62-4cde-8b91-7d7d144dc2eb,df317776-9bb5-40ab-8594-239d3ecd655c,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
+e40c879d-6eb2-4c54-ba76-315f87efa051,fe6f17de-a825-41eb-89c3-fc2c6bdb0c1b,Nebraska,1,Enlivant Aid Mgmt LLC dba Morton Place Assisted Living,,,,closed,,,2021-05-28,,500.0,0.0
+6bd8f426-8f39-41a0-a1a1-e47a23c44e75,2b9765ac-af0b-46f1-94d8-2b6a81c0be71,Nebraska,1,Sparkle Cleaning Services LLC,,,,closed,,,2021-06-01,,500.0,0.0
+5b5ff941-d42d-4f6e-aa4d-3fbbe7026ba3,8fba0c9a-1d3a-494e-97c9-cf1cae7bdb2d,Nebraska,1,Sushi Karma,,,,closed,,,2021-06-24,,500.0,0.0
+5008e0d7-5069-4b60-a03d-2d1ee158033c,e10a491e-a9c6-4dbc-8c75-fc3131c66da2,Nebraska,1,Sushi Karma,,,,closed,,,2021-06-24,,500.0,0.0
+61da1487-1ce3-4b3d-bb85-68938a2d14a7,2c1b3d38-514f-493d-8e0e-69dcd63cc66f,Nebraska,1,Fajitas Bar and Grill,,,,closed,,,2021-07-20,,500.0,0.0
+3918e582-2adc-494d-b9c6-b5f81a2e0102,1b8df879-a6fa-46d9-8934-6326abe83312,Nebraska,1,"Postal Fleet Services, Inc.",,,,closed,,,2021-07-20,,500.0,0.0
+1fdc618d-d078-4a9d-9817-4859fb4d1bc6,b6dff6ad-3039-4cf7-aca9-18b4160590ca,Nebraska,1,"Postal Fleet Services, Inc.",,,,closed,,,2021-07-20,,500.0,0.0
+515f5b46-a7d1-447c-ba97-e07906e8938f,24763096-5564-4b7e-9e23-e15ba9742c14,Nebraska,1,"Postal Fleet Services, Inc.",,,,closed,,,2021-07-20,,500.0,0.0
+d6eb02b8-34c8-4d49-a821-48d0a7d4f507,e1c091d9-40c1-4b1c-86f8-85ada1a64014,Nebraska,1,"Postal Fleet Services, Inc.",,,,closed,,,2021-07-20,,500.0,0.0
+13f34501-0b0d-4c91-813b-e31faf4544b5,3f700cbc-fbb8-4f1b-a76e-091cc0fa2419,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
+ccc337b5-4075-45f1-959e-8d67d1fd432f,922a85ee-008f-46f5-818a-1d16bcb3d55b,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
+e6901739-bd35-428a-ae77-918f2f5b343f,8a89e76a-bce5-436c-814b-0778d81acb7e,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
+7bf1ad85-fc5f-4643-944d-ce0b23cafe92,97622e1b-6f90-4849-874b-833f2b687c95,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
+88fd91de-9e4b-4c94-ba0f-da29473ee3a4,33364ea9-f596-4b3a-bd29-fa84664902e3,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
+36b1cccc-062b-48bf-a7dc-67b6314c9e1d,b58148bd-ecbe-4f99-ae68-9b9caf78c315,Nebraska,1,"Maple Leaf Plumbing, Inc.",,,,closed,,,2021-08-04,,500.0,0.0
+364aa8c5-a8e0-4b57-8db6-ba6a8ae7c2b0,d5ff57ff-779d-4e9d-8250-deb758d11067,Nebraska,1,"Exterior Wood Care, L.L.C.",,,,closed,,,2021-08-06,,500.0,0.0
+7c780ac9-4599-4631-8dbd-b0b80a388e67,e3fbda07-3966-461c-bdc2-b3f2f7caf26f,Nebraska,1,Holiday Inn Downtown Omaha,,,,closed,,,2021-08-06,,500.0,0.0
+d61fa6c3-bd93-4139-88ee-0d3752b19b93,79be4e7e-9e0e-424d-82bb-830121ba7284,Nebraska,1,Holiday Inn Downtown Omaha,,,,closed,,,2021-08-06,,500.0,0.0
+e7dac7b7-c08b-4d91-8d51-d16eb461394e,4587ba21-e9a4-4b75-b642-e3bd1d70ef7d,Nebraska,1,Holiday Inn Downtown Omaha,,,,closed,,,2021-08-06,,500.0,0.0
+0ad2bb75-983c-435e-a24b-6eca34e72d31,52b74186-5e18-42db-9162-ea18adf7af16,Nebraska,1,Holiday Inn Downtown Omaha,,,,closed,,,2021-08-06,,500.0,0.0
+4739de16-a30d-47b9-8be9-a59175810856,8ab88813-a4b4-4722-82bf-af8d1926e734,Nebraska,1,Taco Bell,,,,closed,,,2021-08-11,,250.0,0.0
+aeb25ef0-c56d-44c1-9b07-fd7cd7c94a25,d5fedaa3-0782-49d9-82ab-a10160532faf,Nebraska,1,THE GOLDEN GROUP SOLUTIONS LLC,,,,closed,,,2021-08-11,,500.0,0.0
+425f6d08-e7fe-4798-8430-1293c864ef12,767e4c7b-79a7-4916-b343-a831cff74509,Nebraska,1,Omaha Star Newspaper,,,,closed,,,2021-08-23,,500.0,500.0
+06df2e18-34f5-4055-a52d-e94690bb022e,53bae5c9-3702-4a34-99ac-662ef64905c0,Nebraska,1,Mars Inc.,,,,closed,,,2021-08-27,,500.0,0.0
+2b54adca-201e-47cc-8139-bbadbc64258d,fa6c08e2-ef22-4f98-93a4-c3d7b1ced276,Nebraska,1,Xtreme Co LLC,,,,closed,,,2021-09-24,,500.0,0.0
+780163c3-abfa-4083-b3ae-ecfdb44d3592,bfbfb667-468f-45bd-9124-b79e087fa8de,Nebraska,1,Scarlet Highway,,,,closed,,,2021-09-30,,500.0,500.0
+51cefa99-0f3a-4ab2-9984-60f80cef13c8,fe6d3db9-8f93-4625-999c-42958418d9a4,Nebraska,1,Frost Contracting LLC.,,,,closed,,,2021-10-04,,500.0,0.0
+a2f4023e-eea1-4c16-bba0-956708bb3ad0,f4248811-a4e8-4138-a9a3-4783ac6bdcc9,Nebraska,1,Frost Contracting LLC.,,,,closed,,,2021-10-04,,500.0,0.0
+cc9fdf9a-f6a3-450b-8cf7-63c31b14a8ae,2d142cb6-46d4-49e3-92aa-cd6cc598292e,Nebraska,1,TaroHR formerly SABR Behavioral,,,,closed,,,2021-10-06,,500.0,0.0
+584a6514-d096-46a8-9390-12c031867a83,cde15f27-f047-4763-b8ce-90be66d592ec,Nebraska,1,Super Scooper,,,,closed,,,2021-10-07,,500.0,0.0
+b83307a0-3c25-43c8-a24d-6d76beb054be,9ceb1a47-645e-44ff-87a2-75eac4333ef7,Nebraska,1,"Honey Creek Childcare & Preschool / Ramak Enterprise, LLC",,,,closed,,,2021-10-13,,500.0,0.0
+7090f00e-c2e6-45bd-8c57-60821f06e59b,8b6a1f9a-dd17-4499-99b2-6ac3e900e390,Nebraska,1,Metro One Loss Prevention,,,,closed,,,2021-10-20,,500.0,0.0
+baf0b6af-d7b5-4741-a2e0-98e9c68f82c5,1126142b-f8e9-4854-84c4-b0a045e45278,Nebraska,1,Locos,,,,closed,,,2021-10-21,,500.0,0.0
+a1237627-0edc-4767-ac74-d257f05f9618,af0ae22f-9b71-4d19-9f2a-3e16da0a5a52,Nebraska,1,Complete Call Solutions,,,,closed,,,2021-10-21,,500.0,0.0
+b179147b-bef2-4db4-95ea-f2f209184c9f,cd965f0b-5926-4bc5-bbe9-84530ae269b5,Nebraska,1,"Honey Creek Childcare & Preschool / Ramak Enterprise, LLC",,,,closed,,,2021-10-25,,5000.0,0.0
+e43aef6a-cb38-4369-aebf-314b14330ab3,c2cee104-ec57-4289-bece-4a6cc71f9d2f,Nebraska,1,The Gutter Truck LLC - TGT Exteriors,,,,closed,,,2021-11-03,,500.0,0.0
+1e586452-3599-4bad-b8ac-295d276e65f7,0a11b7cb-5d08-4561-9bd1-045c9e525676,Nebraska,1,Rosati's,,,,closed,,,2021-11-03,,500.0,0.0
+e25b756e-cc78-49d3-b363-7a43af325457,237dd90a-169f-48f6-b0c0-304ed426c51e,Nebraska,1,Omaha Basement Pros,,,,closed,,,2021-11-04,,500.0,0.0
+405d0bb9-4cd7-485e-8ea8-312edad05e79,28221e60-859e-43a0-94fc-79bf462aa1de,Nebraska,1,Nstar HDD & Construction,,,,closed,,,2021-11-09,,500.0,0.0
+25929d9e-85dd-448e-851a-1b2bab42c874,c190f03e-2873-4a1a-9939-560665a9c77e,Nebraska,1,AJM Automotive Services,,,,closed,,,2021-11-15,,500.0,0.0
+08577e4e-107c-4c93-90b9-a890a2a214bd,aee7e376-a299-4de9-aafa-46e73598214d,Nebraska,1,Parcel Patrol Logistics,,,,closed,,,2021-11-15,,500.0,0.0
+4b10cda7-2b68-4353-9cd5-6d3593699a12,b8137dc5-2ec4-4721-87cb-4c45983c6fbf,Nebraska,1,Devening Trucking,,,,closed,,,2021-11-17,,500.0,0.0
+1d28325e-4135-47b5-aa3b-0cfa5fd2dabf,07d950e6-e4cc-473e-ad7b-2011085d3bc9,Nebraska,1,Keurig Dr. Pepper,,,,closed,,,2021-11-29,,500.0,0.0
+ca6ee9b7-a85c-415e-b5f0-5a0ee3bc1911,83b7e907-b281-4e73-b525-ca83f4f0a526,Nebraska,1,Sushi Karma,,,,closed,,,2021-11-30,,500.0,0.0
+eeb359c7-8b4a-4e96-900b-2d4ddae73a8f,19cd3a8f-e503-4eeb-9840-e782bcb4dd5f,Nebraska,1,Clean by Sierra,,,,closed,,,2021-12-03,,500.0,0.0
+56684aac-25d1-47be-a72b-ceae4a8cd304,894ad516-ee87-4a1e-bb6a-d30dbcaabec4,Nebraska,1,Wave Pizza Co Hastings,,,,closed,,,2021-12-14,,5000.0,0.0
+4bb0476c-0efa-44d2-8b52-00f917b3d0cd,3dfda806-8a25-421c-938a-ceb8a8c3c771,Nebraska,1,"Southland Employment Services, Inc.",,,,closed,,,2021-12-15,,500.0,0.0
+52b5131e-0d55-4955-822d-53803415aff5,b56d5127-2269-4edb-8102-03b366473e32,Nebraska,1,Big Red's Guaranteed Clean,,,,closed,,,2021-12-21,,500.0,0.0
+e3a85994-9788-43e9-8632-82b55e1e5f17,e2b0e2af-2207-425c-ad7b-deec549b8a08,Nebraska,1,Big Red's Guaranteed Clean,,,,closed,,,2021-12-21,,500.0,0.0
+adfd6aeb-1bf1-4701-9b0c-4f51ea5c8811,e1b571b3-d9a4-462d-82f4-47285e2f836c,Nebraska,1,"Main Street Sweets, LLC",,,,closed,,,2021-12-21,,500.0,0.0
+82027084-6cfa-4b91-bac8-d16daaba6a51,aba43769-e22f-4c97-9c68-f068fb4432a1,Nebraska,1,"Main Street Sweets, LLC",,,,closed,,,2021-12-21,,500.0,0.0
+d885d6d4-5d81-4124-9fc0-3bc1a8620d4a,46f17e27-5c34-4521-bd18-f23956c3ec63,Nebraska,1,"Main Street Sweets, LLC",,,,closed,,,2021-12-21,,500.0,0.0
+71cd01a6-e2b0-41cf-8403-beb901c13733,239e248a-8d3d-4263-9d89-af4bd9e3d55c,Nebraska,1,Wendy’s,,,,closed,,,2021-12-22,,500.0,0.0
+ce01c4e6-fdc7-4106-b236-105e5333236f,7f64fe5a-4f0b-4460-a678-4c531d775494,Nebraska,1,"Giggles, Inc.",,,,closed,,,2022-01-04,,500.0,0.0
+9daae751-71e2-4b9e-91f2-b69c86918f9a,060f6490-6ade-4498-90a2-eea548934a04,Nebraska,1,"M. Snoberger Farms, Inc.",,,,closed,,,2022-01-10,,500.0,0.0
+c870aad8-755a-41ec-a408-98c41d6bd813,ff740d98-7d00-4556-ae02-9586f5d6cf0f,Nebraska,1,The Just Solution Shot of Expresso LLC,,,,closed,,,2022-01-10,,500.0,0.0
+6159b5f8-ebdd-4d77-9870-b1e3794c15e6,db09126c-7553-4dbf-b0a9-d3285349df56,Nebraska,1,Chicago Dog 42,,,,closed,,,2022-01-12,,500.0,0.0
+64faaac1-83a7-4b22-983a-dcfa184fdd16,99a91884-e020-4781-859b-9cbb5221e2f9,Nebraska,1,Frost Contracting LLC.,,,,closed,,,2022-01-12,,5000.0,0.0
+05366ece-5090-48f1-8657-ca7ae1eccc1b,ff4f70f3-02f8-4dd1-9a23-e5f83221a877,Nebraska,1,"Wayside Express, Inc",,,,closed,,,2022-01-28,,500.0,0.0
+e87409b5-e0df-4fad-a62e-581d72a93355,e76d34ce-99d5-4d8f-80cd-05e633556764,Nebraska,1,"Wayside Express, Inc",,,,closed,,,2022-02-04,,1000.0,0.0
+9cfaf163-8a63-49c6-ae42-141973e812b4,ec81160d-ba92-4612-ba00-bc2acddde483,Nebraska,1,Great Foundations Christian School & Learning Center LLC,,,,closed,,,2022-02-11,,500.0,0.0
+2c88ca16-53e0-4407-bd19-51a13d3f6265,24161054-ce65-494a-ba4e-d7841d5da1a3,Nebraska,1,Great Foundations Christian School & Learning Center LLC,,,,closed,,,2022-02-11,,500.0,0.0
+0a42952c-8f63-4513-aef0-20836074b262,d670786f-ac80-4273-9823-c9490f80d885,Nebraska,1,LK Asset Advisors LLC,,,,closed,,,2022-03-01,,500.0,0.0
+9612d152-eaa9-4c0b-a471-02cc5873989f,bbebe342-fb69-49e0-ad5b-c9bcba01402b,Nebraska,1,Christiansen Management LLC,,,,closed,,,2022-03-11,,500.0,0.0
+c4deddfc-18ac-4cee-a254-d7d7a64d3d96,78d67b88-1788-42a6-bef6-139786e0d950,Nebraska,1,Broadway Steakhouse,,,,closed,,,2022-03-11,,1000.0,0.0
+a7e2d7cd-0331-4a31-8166-b69db86128d9,490b776f-a0bd-4ca4-b6df-ae2d1251d906,Nebraska,1,FulFillRX LLC,,,,closed,,,2022-03-31,,500.0,0.0
+1b38c6ec-6dee-44a8-9c96-de7056ef761f,08d0392a-b319-463c-9919-afc24c99ecaa,Nebraska,1,Groundscapes,,,,closed,,,2022-04-13,,500.0,0.0
+7d92e225-fa2a-4521-bf0a-d028af20c123,d947701a-ec8e-4259-aec6-b4b6e3ef1bd3,Nebraska,1,Christiansen Management LLC,,,,closed,,,2022-04-15,,500.0,0.0
+bb4bb82d-6fab-476a-9c11-48deba8c70b3,f13eedf6-0879-4074-b033-08c91689597a,Nebraska,1,J Ton Contractors Inc,,,,closed,,,2022-05-24,,500.0,0.0
+d864faee-96cb-4fa2-9c22-d3096e1a99e7,8f135251-3448-40e8-96d1-9f08ae15821a,Nebraska,1,J Ton Contractors Inc,,,,closed,,,2022-05-24,,500.0,0.0
+34267373-034d-4656-bc9d-927156ea52cd,2c5366f1-7e1f-4469-a791-fd82f2c12b09,Nebraska,1,Gretna sanitation,,,,closed,,,2022-05-24,,500.0,0.0
+3153e7d9-c48f-4949-ac10-710557181e79,8f1339a9-81c3-4681-8a7c-96f208aaac64,Nebraska,1,"Nebraska Cartage, Inc.",,,,closed,,,2022-05-26,,500.0,0.0
+85f452b1-bb0d-4357-a8fc-ca36fac13272,14bad77c-1dca-4afa-ba39-dab71a236c1d,Nebraska,1,"Cartage Management, Inc.",,,,closed,,,2022-05-26,,500.0,0.0
+2a2c6ad9-c741-49f1-b3d8-0d6fddbbad92,df84f7ae-d9dd-44c4-9488-462411578d30,Nebraska,1,"Nebraska Cartage, Inc.",,,,closed,,,2022-05-26,,500.0,0.0
+c351c795-630d-4b33-ba19-2d7e63cbc3e4,ad785920-ea37-41d3-95c2-af8d0d08887d,Nebraska,1,Ponderosa Saloon & Opera House,,,,closed,,,2022-06-01,,500.0,0.0
+a18ea4ee-1130-4d2f-bfc8-b6e78eaf3ac2,905ba70f-eeef-4c68-bb10-2a12978523fa,Nebraska,1,"Nebraska Cartage, Inc.",,,,closed,,,2022-06-01,,500.0,0.0
+05bb9e30-d786-4011-8c8c-8500777d9d7d,93df4fa6-43cb-4ea7-9e67-ad083f2b2c31,Nebraska,1,Brent Arens Construction,,,,closed,,,2022-06-24,,500.0,0.0
+0df63e98-a1db-4c8a-a3c4-167f3d49cebf,953aeb32-d41a-4c01-8f28-fa46aec549e3,Nebraska,1,BT Best & Company LLC,,,,closed,,,2022-06-24,,500.0,0.0
+c80d9e58-7393-42cd-a639-381125af99a3,82b7f5a2-7d19-4794-bdd0-d01e1733ca04,Nebraska,1,Nightcap management,,,,closed,,,2022-07-01,,500.0,0.0
+94b3f3e2-cc6a-4eb3-911d-4aa1df5169c2,64040347-c6fc-4e39-99df-17ea830bdac2,Nebraska,1,Aequitas Management LLC dba Little King Deli & Subs,,,,closed,,,2022-07-08,,500.0,0.0
+d9870a35-4019-463b-a07e-372f13c2bf8c,3f72892e-f107-4701-a747-fa20643a74e7,Nebraska,1,Luxury Crates LLC,,,,closed,,,2022-07-11,,500.0,0.0
+daa63a7d-5e01-4e9a-a569-3e5f4e433494,d72a1d69-4f84-4d6b-ba20-7b4ef4f5cc00,Nebraska,1,GSK Consumer Health Care,,,,closed,,,2022-07-13,,500.0,0.0
+f1d82d6c-bb28-48b5-9af1-cbc98bbd4c52,4751b8eb-b4c5-4464-a18c-4071c05b48d3,Nebraska,1,Aequitas Management LLC dba Little King Deli & Subs,,,,closed,,,2022-07-13,,500.0,0.0
+f950d580-5e24-4059-8903-00c8dcced1f0,d2e59cb8-82c8-4b0d-afc1-dbca137b14f0,Nebraska,1,Aequitas Management LLC dba Little King Deli & Subs,,,,closed,,,2022-07-13,,500.0,0.0
+78c8b6c3-aca9-498a-816d-dd910f70742e,95339a78-43fb-4e5f-b3af-b0b9b85543e9,Nebraska,1,Aequitas Management LLC dba Little King Deli & Subs,,,,closed,,,2022-07-14,,500.0,0.0
+80ee201e-0719-49bf-b6ac-cb52720a2f19,bc2593f6-7d52-462a-a34f-e3ebd681c4fa,Nebraska,1,Sunlight Senior care,,,,closed,,,2022-07-19,,500.0,0.0
+c7925a9c-043d-4d9f-9317-db39a83aea53,fd304b52-eeb2-41d1-83ab-3354105b03c4,Nebraska,1,"Advance Framing Contractors, LLC",,,,closed,,,2022-07-20,,500.0,0.0
 
