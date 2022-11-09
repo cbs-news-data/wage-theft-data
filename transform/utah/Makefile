@@ -14,9 +14,11 @@ output/utah.csv: \
 		output/date_opened.csv \
 		output/employer_name.csv \
 		src/merge_files.py \
+		src/fix_case_status.py \
 		src/normalize_data.py \
 		$(wildcard hand/*)
 	python src/merge_files.py $^ | \
+	python src/fix_case_status.py status amount_received | \
 	python src/normalize_data.py Utah \
 		--employer_name employer_name \
 		--date_opened date_opened \

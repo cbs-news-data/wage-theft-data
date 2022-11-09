@@ -22,6 +22,18 @@ def check_no_dupes(dataframe: pd.DataFrame) -> bool:
     )
 
 
+def check_no_status_amount_mismatch(dataframe: pd.DataFrame) -> bool:
+    """
+    checks that there are no rows where case statuses show 'open'
+    but payment amounts are non-null and non-zero
+    """
+
+    return not (
+        (dataframe.case_status == "open")
+        & ((dataframe.amount_paid.notna()) & (dataframe.amount_paid != 0))
+    ).any()
+
+
 SCHEMA = pa.DataFrameSchema(
     columns={
         "case_uuid": pa.Column(
@@ -177,7 +189,13 @@ SCHEMA = pa.DataFrameSchema(
             coerce=True,
         ),
     },
-    checks=[pa.Check(check_no_dupes, error="duplicate rows found")],
+    checks=[
+        pa.Check(check_no_dupes, error="duplicate rows found"),
+        pa.Check(
+            check_no_status_amount_mismatch,
+            error="case status and amount paid mismatch",
+        ),
+    ],
 )
 
 
