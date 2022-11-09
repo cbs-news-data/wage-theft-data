@@ -96,12 +96,6 @@ SCHEMA = pa.DataFrameSchema(
                 ]
             ),
         ),
-        "citation_sequence": pa.Column(
-            dtype=int,
-            nullable=True,
-            unique=False,
-            coerce=True,
-        ),
         "employer_name": pa.Column(
             dtype=str, nullable=True, unique=False, required=True, coerce=True
         ),
@@ -304,14 +298,7 @@ def explode_violations(
             )
         )
         .explode("violation_category")
-        .reset_index()
-        .assign(
-            index=lambda dataframe: dataframe.groupby("index")
-            .cumcount()
-            .add(1)
-            .astype(float)
-        )
-        .rename(columns={"index": "citation_sequence"})
+        .reset_index(drop=True)
         .assign(
             violation_category=lambda dataframe: dataframe.violation_category.str.strip()
         )
@@ -504,10 +491,6 @@ if __name__ == "__main__":
         # if exploding violations, always use "violation_category" as the column name
         args.violation_category = "violation_category"
 
-    # otherwise assign sequence number 1 to all rows
-    else:
-        df["citation_sequence"] = pd.Series(1, index=df.index).astype(int)
-
     # assign violation uuid now that violations have been exploded
     df["violation_uuid"] = df.apply(lambda _: str(uuid.uuid4()), axis=1)
 
@@ -543,10 +526,18 @@ if __name__ == "__main__":
             else:
                 df[dest_colname] = np.NaN
 
+    # dataframe-wise cleaners
+
     # drop rows whose status or violation_category is 'drop'
     df = explicit_drop_replaced_values(df, "violation_category")
     df = explicit_drop_replaced_values(df, "case_status")
     # all other values will fail validation
+
+    # drop date values for rows whose closed or paid date is before open date
+    df.loc[
+        (df.date_paid < df.date_opened) | (df.date_closed < df.date_opened),
+        ["date_opened", "date_closed", "date_paid"],
+    ] = np.NaN
 
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]
