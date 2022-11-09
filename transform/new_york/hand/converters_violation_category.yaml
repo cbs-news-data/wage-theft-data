@@ -2,16 +2,16 @@
 'Supplemental Wage Claim': unpaid_wages
 'Hours and Meal Period': breaks
 'Minimum Wage': minimum_wage
-'Wage Statement/Records/Payment':
+'Wage Statement/Records/Payment': drop
 'Unlawful Deductions': deductions
 'Tip Appropriations': tips
-'Child Labor': 
-'Mandatory Overtime/Nurses': 
-'Farm Labor': 
-'Permit/Licensing': 
-'Homework': 
-'Retaliation': 
-'Mediation': 
-'HHA Wage Parity': 
-'COVID Administration': 
+'Child Labor': drop
+'Mandatory Overtime/Nurses': overtime
+'Farm Labor': drop
+'Permit/Licensing': drop
+'Homework': drop
+'Retaliation': drop
+'Mediation': drop
+'HHA Wage Parity': unpaid_wages
+'COVID Administration': drop
 'NYS Paid Sick Leave': sick_time
