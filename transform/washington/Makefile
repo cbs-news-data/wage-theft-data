@@ -6,11 +6,9 @@ all: $(GENERATED_FILES)
 
 output/washington.csv: \
 		input/146714.xlsx \
-		src/drop_violations.py \
 		src/normalize_data.py \
 		hand/converters_violation_category.yaml
 	in2csv --skip-lines 4 $< | \
-	python src/drop_violations.py  hand/converters_violation_category.yaml | \
 	python src/normalize_data.py Washington \
 		--employer_name Employer \
 		--employer_city "ER Local City" \

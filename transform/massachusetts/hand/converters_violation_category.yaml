@@ -4,14 +4,14 @@
 'Child Labor': drop
 'Domestic Worker Bill of Rights': drop
 'Domestic worker notice of law violation': drop
-'Earned Sick Time': sick_time
+'Earned Sick Time': benefits
 'Employment of a minor after 8:00 PM without the direct and immediate supervision of an adult acting in a supervisory capacity.': drop
 'Employment of a minor in a prohibited occupation': drop
 'Employment of a minor in excess of nine hours in a day or 48 hours (six days) in a week': drop
 'Employment of a minor under the age of 16 during school hours.': drop
 'Employment of a minor': drop
-'Failure to accurately track accrual and/or use of earned sick time': sick_time
-'Failure to carry-over unused earned sick time to the following calendar year': sick_time
+'Failure to accurately track accrual and/or use of earned sick time': benefits
+'Failure to carry-over unused earned sick time to the following calendar year': benefits
 'Failure to Furnish Certified Payroll Records for Inspection to a representitive of the AGO': drop
 'Failure to Furnish Pay Stub': drop
 'Failure to Furnish Records for Inspection': drop
@@ -22,19 +22,19 @@
 'Failure to keep time-keeping or pay records': drop
 'Failure to keep true and accurate payroll records': drop
 'Failure to Keep True and Accurate Records': drop
-'Failure to make earned sick time available as required': sick_time
-'Failure to make timely payment': unpaid_wages
+'Failure to make earned sick time available as required': benefits
+'Failure to make timely payment': unpaid wages
 'Failure to obtain a valid work permit prior to employment of a minor': drop
-'Failure to pay minimum wage': minimum_wage
-'Failure to pay Minimum wage': minimum_wage
-'Failure to Pay Minimum Wage': minimum_wage
+'Failure to pay minimum wage': minimum wage
+'Failure to pay Minimum wage': minimum wage
+'Failure to Pay Minimum Wage': minimum wage
 'Failure to pay overtime compensation': overtime
-'Failure to pay prevailing wage for public works project': minimum_wage
-'Failure to Pay Prevailing Wage': minimum_wage
-'Failure to Pay Service Minimum Rate': minimum_wage
-'Failure to pay service rate': minimum_wage
-'Failure to pay sick time on the same schedule as regular wages are paid': sick_time
-'Failure to permit employees to earn and use sick leave': sick_time
+'Failure to pay prevailing wage for public works project': prevailing wage
+'Failure to Pay Prevailing Wage': prevailing wage
+'Failure to Pay Service Minimum Rate': minimum wage
+'Failure to pay service rate': minimum wage
+'Failure to pay sick time on the same schedule as regular wages are paid': benefits
+'Failure to permit employees to earn and use sick leave': benefits
 'Failure to post  and/or distribute required earned sick time workplace notice': drop
 'Failure to post notice of TWRKL rights': drop
 'Failure to post required workplace notice': drop
@@ -60,17 +60,17 @@
 'Interference': drop
 'Massachusetts Blue Laws for Sundays': drop
 'Meal Break': breaks
-'Minimum wage': minimum_wage
+'Minimum wage': minimum wage
 'Misclassification as independent contractor': drop
 'Misclassification': drop
-'Non-payment of wages; Failure to furnish suitable pay slip': unpaid_wages
-'Non-payment of wages; Failure to make timely payment': unpaid_wages
-'Non-payment of wages': unpaid_wages
-'Non-Payment of wages': unpaid_wages
-'Non-Payment of Wages': unpaid_wages
-'One day of rest in seven': time_off
+'Non-payment of wages; Failure to furnish suitable pay slip': unpaid wages
+'Non-payment of wages; Failure to make timely payment': unpaid wages
+'Non-payment of wages': unpaid wages
+'Non-Payment of wages': unpaid wages
+'Non-Payment of Wages': unpaid wages
+'One day of rest in seven': benefits
 'Overtime': overtime
-'Prevailing wage - cleaning and maintenance': minimum_wage
+'Prevailing wage - cleaning and maintenance': prevailing wage
 'prior to the earliest permissible hour or later than the latest permissible hour': drop
 'Retaliation for employee seeking rights to minimum wage and overtime': drop
 'Retaliation for exercising wage and hour rights under c. 149': drop
@@ -80,9 +80,9 @@
 'Tip Pool': tips
 'Tips': tips
 'under the age of 16': drop
-'Violation of Earned Sick Time Law': sick_time
-"Failure to compensate earned sick time at the employee's same hourly rate of pay; Failure to accurately track accrual and/or use of earned sick time": sick_time
-"Failure to compensate earned sick time at the employee's same hourly rate of pay": sick_time
+'Violation of Earned Sick Time Law': benefits
+"Failure to compensate earned sick time at the employee's same hourly rate of pay; Failure to accurately track accrual and/or use of earned sick time": benefits
+"Failure to compensate earned sick time at the employee's same hourly rate of pay": benefits
 "Hinderance of the Attorney General's Investigation": drop
 "Hindrance of the Attorney General's investigation": drop
-"restraint or denial of an employee's rights under the earned sick time law": sick_time
+"restraint or denial of an employee's rights under the earned sick time law": benefits

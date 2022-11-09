@@ -8,14 +8,16 @@ all: $(GENERATED_FILES)
 
 output/ohio.csv: \
 		src/normalize_data.py \
-		output/stacked.csv
-	python $^ Ohio \
+		output/stacked.csv \
+		$(wildcard hand/*)
+	python src/normalize_data.py output/stacked.csv Ohio \
 		--date_opened date_opened \
 		--employer_name employer_name \
 		--amount_claimed amount_claimed \
 		--amount_assessed amount_assessed \
 		--amount_paid amount_paid \
 		--case_status status \
+		--violation_category violation_category \
 	> $@
 
 output/stacked.csv: \

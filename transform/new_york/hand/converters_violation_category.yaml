@@ -1,7 +1,7 @@
-'Wage Claim': unpaid_wages
-'Supplemental Wage Claim': unpaid_wages
+'Wage Claim': unpaid wages
+'Supplemental Wage Claim': unpaid wages
 'Hours and Meal Period': breaks
-'Minimum Wage': minimum_wage
+'Minimum Wage': minimum wage
 'Wage Statement/Records/Payment': drop
 'Unlawful Deductions': deductions
 'Tip Appropriations': tips
@@ -12,6 +12,6 @@
 'Homework': drop
 'Retaliation': drop
 'Mediation': drop
-'HHA Wage Parity': unpaid_wages
+'HHA Wage Parity': unpaid wages
 'COVID Administration': drop
-'NYS Paid Sick Leave': sick_time
+'NYS Paid Sick Leave': benefits

@@ -1,28 +1,83 @@
-'Final Wages Not Paid': unpaid_wages
-'Unpaid Hours Worked': unpaid_wages
-'Unpaid Minimum Wage': minimum_wage
-'Unpaid Agreed Wage': unpaid_wages
-'Meal Periods': breaks
-'Rest Periods': breaks
-'Unpaid Overtime': overtime
-'Nurse Overtime': overtime
-'Other': drop
-'Paid at incorrect classification for work performed': unpaid_wages
-'Unpaid hours worked': unpaid_wages
-'Unpaid overtime': overtime
-'Unauthorized Deductions': deductions
-'Fringe Benefits': drop
-'Paid Sick Leave': sick_time
-'Meal and Rest Periods (WAC 296-131-020)': breaks
-'Unpaid Tips, Gratuities, Service Charges': tips
-'Other Violations': drop
-'Uniform Charges': deductions
-'Employer': drop
-'Unauthorized Deduction': deductions
-'Failure To Reinstate Leave': time_off
-'Insufficient Leave Accrual': time_off
-'Payment Interval Not Met': unpaid_wages
-'PSL - Unpaid Sick Leave': sick_time
-'PSL - Denial of Use': sick_time
-'PSL - No Sick Leave/Insufficient Accruals': sick_time
-'EAP - Misclassified as Computer Professional Employee': sick_time
+Age of Employment (WAC 296-131-115): drop
+Benefits limited or denied: benefits
+Child Labor Laws: drop
+Denied choice of type of leave: benefits
+Denied or Limited Career Advancement: drop
+Disciplinary action: drop
+EAP - Misclassified as Computer Professional Employee: drop
+EAP - Misclassified as Executive Employee: drop
+EAP - Misclassified as Professional Employee: drop
+Employer: drop
+Employment Records (WAC 296-131-017): drop
+Evidence of Age (WAC 296-125-0263): drop
+Failure to File/Certified Payroll: drop
+Failure to File/Intent: drop
+Failure to Provide Safety Accommodation: drop
+Failure To Reinstate Leave: benefits
+False Filing/Affidavit: drop
+False Filing/Certified Payroll: drop
+False Filing/Intent: drop
+Final Wages Not Paid: unpaid wages
+Fired for asking to take leave: benefits
+Fired for taking leave: benefits
+Fringe Benefits: benefits
+Hours of Work (WAC 296-125-027): drop
+"Hours of Work (WAC 296-131-120) ": drop
+Incomplete FLC/Worker Agreements: drop
+Incomplete Pay Statements: drop
+Insufficient Leave Accrual: benefits
+Insufficient Surety: drop
+Landowner: drop
+Leave denied: benefits
+Licensed Farm Labor Contractor: drop
+Meal and Rest Periods (WAC 296-131-020): breaks
+Meal Periods: breaks
+Meal & Rest Periods for 14-15 year-olds (WAC 296-125-0285): breaks
+Meal & Rest Periods for 16-17-year-olds (WAC 296-125-0287): breaks
+Minor Handling Toxins (WAC 296.131.125.2A): drop
+Minor Operating a Tractor (WAC 296.131.125.1A): drop
+Minor Under age 14 (WAC 296-125-018): drop
+Minor Work Permit (WAC 296-125-0210): drop
+Minor Work Permit (WAC 296-131-100): drop
+No Auto Liability Insurance: drop
+No FLC License: drop
+No FLC/Worker Agreements: drop
+"Nondisclosure of wage or salary range by employer to employee or applicant, upon request": drop
+No Pay Statements Provided: drop
+Notice Requirements Not Met: drop
+Not restored to same or equivalent job: drop
+NSF/Bad Check: unpaid wages
+Nurse Overtime: overtime
+Other: drop
+Other Violations: drop
+Paid at incorrect classification for work performed: unpaid wages
+Paid Sick Leave: benefits
+Parent/School Authorization (WAC 296-125-0260): drop
+Parent/School Authorization (WAC 296-131-105): drop
+Payment Interval Not Met: unpaid wages
+Pay Statements (WAC 296-131-015): drop
+Prohibited Duties – ALL minors (WAC 296-125-030): drop
+Prohibited Duties minors < 16 (WAC296-125-033): drop
+Prohibited Wage Discussion: drop
+PSL - Administrative Violations: benefits
+PSL - Denial of Use: benefits
+PSL - No Sick Leave/Insufficient Accruals: benefits
+PSL - Unpaid Sick Leave: benefits
+Recordkeeping (WAC 296-131-130): drop
+Rest Periods: breaks
+Retaliation: drop
+Retaliation - Pay Owed: unpaid wages
+Unauthorized Deduction: deductions
+Unauthorized Deductions: deductions
+"Unequal Compensation (wages, benefits, or bonuses)": drop
+Uniform Charges: deductions
+Unlicensed Farm Labor Contractor: drop
+Unpaid Agreed Wage: unpaid wages
+Unpaid hours worked: unpaid wages
+Unpaid Hours Worked: unpaid wages
+Unpaid Minimum Wage: unpaid wages
+Unpaid overtime: overtime
+Unpaid Overtime: overtime
+"Unpaid Tips,Gratuities, Service Charges": tips
+Using Services of Unlicensed FLC: drop
+Verification Not Required: drop

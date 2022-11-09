@@ -124,14 +124,14 @@ SCHEMA = pa.DataFrameSchema(
             unique=False,
             checks=pa.Check.isin(
                 [
-                    "minimum_wage",
+                    "minimum wage",
+                    "prevailing wage",
                     "tips",
                     "deductions",
                     "overtime",
                     "breaks",
-                    "unpaid_wages",
-                    "time_off",
-                    "sick_time",
+                    "unpaid wages",
+                    "benefits",
                 ]
             ),
             coerce=True,
