@@ -547,6 +547,14 @@ if __name__ == "__main__":
         ["date_opened", "date_closed", "date_paid"],
     ] = np.NaN
 
+    # replace any negative amounts with nan
+    df.loc[
+        (df.amount_claimed.astype(float) < 0)
+        | (df.amount_paid.astype(float) < 0)
+        | (df.amount_assessed.astype(float) < 0),
+        ["amount_claimed", "amount_paid", "amount_assessed"],
+    ] = np.NaN
+
     print(
         SCHEMA.validate(df)[list(SCHEMA.columns.keys())]
         .set_index(["case_uuid", "violation_uuid"])
