@@ -5,13 +5,13 @@ GENERATED_FILES: output/maryland.csv
 all: $(GENERATED_FILES)
 
 output/maryland.csv: \
-		input/MPIA_-_CBSNews_ChristopherHacker_wagetheft.xls \
+		input/MPIA_CBS_News_Hacker.xls \
 		src/normalize_data.py
 	in2csv $< | python src/normalize_data.py \
 		--employer_name CompanyName \
 		--date_opened DateFormReceived \
-		--amount_claimed "Amount Claimed" \
-		--amount_paid "MoniesCollected" \
+		--amount_claimed "Total Amt Claimed" \
+		--amount_paid "Monies Collected" \
 		Maryland > $@
 
 cleanup:
