@@ -9,6 +9,17 @@ logging.basicConfig(
     filename="output/transform_ca_claims_data.log", level=logging.INFO, filemode="w"
 )
 
+GROUP_COLS = [
+    "dir_case_name",
+    "account_name",
+    "account_dba",
+    "date_of_docket",
+    "naics_code",
+    "role",
+    "oda_decision_date",
+    "case_status",
+]
+
 
 def drop_header_rows(df):
     """drop header rows from the dataframe"""
@@ -64,20 +75,10 @@ def do_transformation(filename):
             lambda df: df[["dir_case_name"]].join(df.groupby("dir_case_name").ffill())
         )
         # group by identifying info and sum all other columns
-        .groupby(
-            [
-                "dir_case_name",
-                "account_name",
-                "account_dba",
-                "date_of_docket",
-                "naics_code",
-                "role",
-                "oda_decision_date",
-                "case_status",
-            ],
-            dropna=False,
-        )
-        .sum()
+        # this is because each row technically represents a different claim
+        # on a single case against a single employer
+        .groupby(GROUP_COLS, dropna=False)
+        .sum(min_count=1)
     )
 
 
