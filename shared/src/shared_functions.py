@@ -12,6 +12,8 @@ def get_coverage_df(df: pd.DataFrame, by_state=True) -> pd.DataFrame:
         "amount_claimed",
         "amount_assessed",
         "amount_paid",
+        "date_opened",
+        "date_closed",
     ]
     if by_state:
         coverage_df = df.groupby("state_name").size().to_frame("total_cases")

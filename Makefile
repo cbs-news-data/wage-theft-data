@@ -4,6 +4,7 @@ TASKS := \
     transform \
 	ln_input_output \
 	merge \
+	determine_case_outcome \
 	upload
 
 .PHONY: \
