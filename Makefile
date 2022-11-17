@@ -5,7 +5,8 @@ TASKS := \
 	ln_input_output \
 	merge \
 	determine_case_outcome \
-	upload
+	upload \
+	notebooks
 
 .PHONY: \
 	  all \
