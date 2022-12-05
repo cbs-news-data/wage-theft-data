@@ -1,38 +1,28 @@
 SHELL := /bin/bash
 
-TASKS := \
-    transform \
-	ln_input_output \
-	merge \
-	determine_case_outcome \
-	upload \
-	notebooks
+DIR := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
+export PROCESSOR_DIR := $(DIR)/processors
 
-.PHONY: \
-	  all \
-	  init \
-	  cleanup \
-	  $(TASKS)
+TASKS := $(sort $(wildcard tasks/*))
+
+.PHONY: all $(TASKS) init cleanup-all
 
 all: $(TASKS)
 
-$(TASKS): venv/bin/activate
-	source $< && $(MAKE) -C $@
+$(TASKS):
+	$(MAKE) -C $@
 
-ln_input_output:
-	cd merge/state_complaints/input ; \
-		ln -sf ../../../transform/*/output/*.csv . ; \
-		cd ../..
+init: \
+	venv/bin/activate \
+	os-dependencies.log
 
-init: venv/bin/activate
-	source $<
+os-dependencies.log: apt.txt
+	sudo apt-get install -y $$(cat $<) > $@
 
 venv/bin/activate: requirements.txt
 	if [ ! -f $@ ]; then virtualenv venv; fi
 	source $@ && pip install -r $<
 	touch $@
- 
-cleanup:
-	for d in $(TASKS) ; do \
-		cd "$(shell pwd)/$$d" && make cleanup  ; \
-	done
+
+cleanup-all:
+	find tasks -type f -path "*\output/*" -delete
