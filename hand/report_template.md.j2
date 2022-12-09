@@ -1,0 +1,62 @@
+# {{ state_name }} Wage Theft Data Report
+
+## Data Summary
+
+Through a public records request under the {{ statute_name }}, CBS News sought more than 10 years of data from the {{ agency_name }}'s wage and hour complaint process. In response, the agency provided {{ total_records_description }} records going back to {{ min_date.strftime("%B %Y") }}.
+
+{% if no_cases_decided_in_favor_of_claimant %}
+The data provided by the {{ agency_name }} does not denote whether the case was decided in favor of the claimant, so this report will contain all cases, regardless of the outcome. 
+{% endif %}
+
+### Overall amounts
+
+The data obtained by CBS News shows that, since {{ min_date.year }}, {{ total_claims }} wage theft claims were filed with the {{ agency_name }}. The total {{ 'amount claimed' if case_amount_field == 'amount_claimed' else 'amount assessed by the agency' if case_amount_field == 'amount_assessed' else 'amount_paid' }} was {{ total_case_amount }}.
+
+The median {{ 'amount claimed' if case_amount_field == 'amount_claimed' else 'amount assessed by the agency' if case_amount_field == 'amount_assessed' else 'amount_paid' }} was {{ median_case_amount }}. Here's how losing that amount could impact an average worker in {{ state_name }}
+
+{{ median_case_amount }} is the equivalent of: 
+* {{ equivalent_weeks_of_income }} weeks of pay for the average worker in {{ state_name }}.
+* {{ equivalent_rent_payments }} months of rent for the average renter in {{ state_name }} or {{ equivalent_mortgage_payments }} months of mortgage payments for the average homeowner in {{ state_name }}.
+* {{ equivalent_tanks_of_gas }} tanks of gas for the average driver in {{ state_name }}.
+* {{ equivalent_family_weekly_grocery_budget }} weeks of groceries for the average family in {{ state_name }}.\
+
+### Amounts paid to claimants
+{% if state_has_paid_amount %}
+{{ pct_cases_paid }}% of the {{ total_records }} wage theft cases provided by the {{ agency_name }} resulted in a payment to the claimant. 
+
+The total amount paid to claimants was {{ total_amount_paid }}.
+
+Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was {{ median_amount_paid }}. {{ pct_cases_paid_full }}% of the cases paid were paid in full.
+{% else %}
+{{ state_name }} did not provide data on the amount paid to claimants.
+{% endif %}
+
+### Time taken to resolve cases
+{% if state_has_case_duration %}
+Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in {{ state_name }} was {{ median_case_duration }} days.
+
+Some cases took much longer to resolve. Below is a breakdown of the number of cases resolved in each time period: 
+{% for duration_days, duration_dict in case_durations_dict.items() %}
+* {{ duration_days }} days: {{ duration_dict['total_cases'] }} cases ({{ duration_dict['pct_of_total_cases'] }}% of all cases)
+{% endfor %}
+{% else %}
+    {{ state_name }} did not provide data on the amount of time it took to resolve cases.
+{% endif %}
+
+## FAQs
+
+### What is "wage theft?"
+
+Wage theft refers to the illegal practice of an employer not paying their employees the full amount of wages that they are owed. This can take many forms, such as not paying overtime, not paying the minimum wage, or making illegal deductions from an employee's pay.
+
+###  How did you get this data?
+
+CBS News requested the data through a public records request under the {{ statute_name }}. The agency provided data exported from its case management system. The data was cleaned and analyzed by CBS News.
+
+### How can I trust this data? 
+
+This data was thoroughly cleaned and vetted prior to being analyzed. The data was provided by the {{ agency_name }}, which is the agency responsible for enforcing the state's wage and hour laws. CBS News then undertook a thorough review of the data to ensure that it was accurate and complete. Wherever possible, any errors or inconsistencies were identified and addressed, and cases that were clearly incomplete, inaccurate, or otherwise not relevant were removed from the dataset.
+
+### How does my state compare to others? 
+
+It is difficult to make direct comparisons between states because each state has different laws and enforcement mechanisms, and because the quality of states' case management systems can vary wildly. For example, some states track detailed data on each case, including status dates and detailed disposition data, while others only track the amount claimed and the date the case was filed. This means that data on wages and labor conditions in one state may not be directly comparable to data from another state.
