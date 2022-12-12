@@ -8,21 +8,20 @@ Through a public records request under the Ohio Open Records Law, CBS News sough
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 1983, 9651 wage theft claims were filed with the Ohio Division of Industrial Compliance. The total amount claimed was 8061350.0.
+The data obtained by CBS News shows that, since 1983, 9,651 wage theft claims were filed with the Ohio Division of Industrial Compliance. The total amount owed was $41,043,963.84.
 
-The median amount claimed was 0.0. Here's how losing that amount could impact an average worker in ohio
+The median amount for each case was $390.79. Here's how losing that amount could impact an average worker in ohio
 
-0.0 is the equivalent of: 
+$390.79 is the equivalent of: 
 * 0 weeks of pay for the average worker in ohio.
 * 0 months of rent for the average renter in ohio or 0 months of mortgage payments for the average homeowner in ohio.
-* 0 tanks of gas for the average driver in ohio.
-* 0 weeks of groceries for the average family in ohio.\
+* 2 weeks of groceries for the average family in ohio.
 
 ### Amounts paid to claimants
 
-0.10019687079059166% of the 9651 wage theft cases provided by the Ohio Division of Industrial Compliance resulted in a payment to the claimant. 
+0%% of the 9,651 wage theft cases provided by the Ohio Division of Industrial Compliance resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 1481679.0.
+The total amount paid to claimants was $1,481,679.00.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.37353642109625945% of the cases paid were paid in full.
 

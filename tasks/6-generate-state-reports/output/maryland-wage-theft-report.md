@@ -8,21 +8,20 @@ Through a public records request under the Maryland Public Information Act, CBS 
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2009, 8290 wage theft claims were filed with the Maryland Department of Labor. The total amount claimed was 23686776.79.
+The data obtained by CBS News shows that, since 2009, 8,290 wage theft claims were filed with the Maryland Department of Labor. The total amount owed was $20,140,568.60.
 
-The median amount claimed was 1068.99. Here's how losing that amount could impact an average worker in maryland
+The median amount for each case was $934.47. Here's how losing that amount could impact an average worker in maryland
 
-1068.99 is the equivalent of: 
-* 1 weeks of pay for the average worker in maryland.
-* 1 months of rent for the average renter in maryland or 1 months of mortgage payments for the average homeowner in maryland.
-* 277 tanks of gas for the average driver in maryland.
-* 5 weeks of groceries for the average family in maryland.\
+$934.47 is the equivalent of: 
+* 0 weeks of pay for the average worker in maryland.
+* 1 months of rent for the average renter in maryland or 0 months of mortgage payments for the average homeowner in maryland.
+* 5 weeks of groceries for the average family in maryland.
 
 ### Amounts paid to claimants
 
-0.6154402895054282% of the 8290 wage theft cases provided by the Maryland Department of Labor resulted in a payment to the claimant. 
+1%% of the 8,290 wage theft cases provided by the Maryland Department of Labor resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 8346019.71.
+The total amount paid to claimants was $8,346,019.71.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 238.54000000000002. 0.20253317249698433% of the cases paid were paid in full.
 

@@ -8,15 +8,14 @@ Through a public records request under the Illinois Freedom of Information Act, 
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2017, 769 wage theft claims were filed with the Illinois Department of Labor. The total amount claimed was 4213957.4.
+The data obtained by CBS News shows that, since 2017, 769 wage theft claims were filed with the Illinois Department of Labor. The total amount owed was $4,213,957.40.
 
-The median amount claimed was 2300.0. Here's how losing that amount could impact an average worker in illinois
+The median amount for each case was $2,300.00. Here's how losing that amount could impact an average worker in illinois
 
-2300.0 is the equivalent of: 
+$2,300.00 is the equivalent of: 
 * 2 weeks of pay for the average worker in illinois.
 * 2 months of rent for the average renter in illinois or 1 months of mortgage payments for the average homeowner in illinois.
-* 574 tanks of gas for the average driver in illinois.
-* 11 weeks of groceries for the average family in illinois.\
+* 11 weeks of groceries for the average family in illinois.
 
 ### Amounts paid to claimants
 

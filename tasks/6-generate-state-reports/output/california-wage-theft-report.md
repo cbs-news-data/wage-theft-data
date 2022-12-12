@@ -8,21 +8,20 @@ Through a public records request under the California Public Records Act, CBS Ne
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2017, 63442 wage theft claims were filed with the California Department of Industrial Relations. The total amount claimed was 847551015.182887.
+The data obtained by CBS News shows that, since 2017, 63,442 wage theft claims were filed with the California Department of Industrial Relations. The total amount owed was $558,617,653.64.
 
-The median amount claimed was 4800.0. Here's how losing that amount could impact an average worker in california
+The median amount for each case was $2,070.01. Here's how losing that amount could impact an average worker in california
 
-4800.0 is the equivalent of: 
-* 3 weeks of pay for the average worker in california.
-* 2 months of rent for the average renter in california or 2 months of mortgage payments for the average homeowner in california.
-* 989 tanks of gas for the average driver in california.
-* 20 weeks of groceries for the average family in california.\
+$2,070.01 is the equivalent of: 
+* 1 weeks of pay for the average worker in california.
+* 1 months of rent for the average renter in california or 1 months of mortgage payments for the average homeowner in california.
+* 9 weeks of groceries for the average family in california.
 
 ### Amounts paid to claimants
 
-0.4178462217458466% of the 63442 wage theft cases provided by the California Department of Industrial Relations resulted in a payment to the claimant. 
+0%% of the 63,442 wage theft cases provided by the California Department of Industrial Relations resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 126853456.26799999.
+The total amount paid to claimants was $126,853,456.27.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 572.44. 0.13439046688313736% of the cases paid were paid in full.
 

@@ -8,21 +8,20 @@ Through a public records request under the Indiana Access to Public Records Act,
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2009, 8175 wage theft claims were filed with the Indiana Department of Labor. The total amount claimed was 38404464.573.
+The data obtained by CBS News shows that, since 2009, 8,175 wage theft claims were filed with the Indiana Department of Labor. The total amount owed was $39,404,254.01.
 
-The median amount claimed was 664.75. Here's how losing that amount could impact an average worker in indiana
+The median amount for each case was $590.55. Here's how losing that amount could impact an average worker in indiana
 
-664.75 is the equivalent of: 
+$590.55 is the equivalent of: 
 * 0 weeks of pay for the average worker in indiana.
-* 1 months of rent for the average renter in indiana or 1 months of mortgage payments for the average homeowner in indiana.
-* 174 tanks of gas for the average driver in indiana.
-* 3 weeks of groceries for the average family in indiana.\
+* 1 months of rent for the average renter in indiana or 0 months of mortgage payments for the average homeowner in indiana.
+* 3 weeks of groceries for the average family in indiana.
 
 ### Amounts paid to claimants
 
-0.6777981651376147% of the 8175 wage theft cases provided by the Indiana Department of Labor resulted in a payment to the claimant. 
+1%% of the 8,175 wage theft cases provided by the Indiana Department of Labor resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 3645489.95.
+The total amount paid to claimants was $3,645,489.95.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 386.78499999999997. 0.14324159021406727% of the cases paid were paid in full.
 

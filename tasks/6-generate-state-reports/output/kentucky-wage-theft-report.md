@@ -8,21 +8,20 @@ Through a public records request under the Kentucky Open Records Act, CBS News s
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2010, 7137 wage theft claims were filed with the Kentucky Labor Cabinet. The total amount_paid was 23838093.630000003.
+The data obtained by CBS News shows that, since 2010, 7,137 wage theft claims were filed with the Kentucky Labor Cabinet. The total amount owed was $23,838,093.63.
 
-The median amount_paid was 374.96. Here's how losing that amount could impact an average worker in kentucky
+The median amount for each case was $398.64. Here's how losing that amount could impact an average worker in kentucky
 
-374.96 is the equivalent of: 
+$398.64 is the equivalent of: 
 * 0 weeks of pay for the average worker in kentucky.
 * 0 months of rent for the average renter in kentucky or 0 months of mortgage payments for the average homeowner in kentucky.
-* 107 tanks of gas for the average driver in kentucky.
-* 2 weeks of groceries for the average family in kentucky.\
+* 2 weeks of groceries for the average family in kentucky.
 
 ### Amounts paid to claimants
 
-0.9836065573770492% of the 7137 wage theft cases provided by the Kentucky Labor Cabinet resulted in a payment to the claimant. 
+1%% of the 7,137 wage theft cases provided by the Kentucky Labor Cabinet resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 23838093.630000003.
+The total amount paid to claimants was $23,838,093.63.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 374.96. 0.0% of the cases paid were paid in full.
 

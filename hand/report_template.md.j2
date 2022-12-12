@@ -10,21 +10,20 @@ The data provided by the {{ agency_name }} does not denote whether the case was 
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since {{ min_date.year }}, {{ total_claims }} wage theft claims were filed with the {{ agency_name }}. The total {{ 'amount claimed' if case_amount_field == 'amount_claimed' else 'amount assessed by the agency' if case_amount_field == 'amount_assessed' else 'amount_paid' }} was {{ total_case_amount }}.
+The data obtained by CBS News shows that, since {{ min_date.year }}, {{ "{:,.0f}".format(total_claims) }} wage theft claims were filed with the {{ agency_name }}. The total amount owed was {{ "${:,.2f}".format(total_case_amount) }}.
 
-The median {{ 'amount claimed' if case_amount_field == 'amount_claimed' else 'amount assessed by the agency' if case_amount_field == 'amount_assessed' else 'amount_paid' }} was {{ median_case_amount }}. Here's how losing that amount could impact an average worker in {{ state_name }}
+The median amount for each case was {{ "${:,.2f}".format(median_case_amount) }}. Here's how losing that amount could impact an average worker in {{ state_name }}
 
-{{ median_case_amount }} is the equivalent of: 
+{{ "${:,.2f}".format(median_case_amount) }} is the equivalent of: 
 * {{ equivalent_weeks_of_income }} weeks of pay for the average worker in {{ state_name }}.
 * {{ equivalent_rent_payments }} months of rent for the average renter in {{ state_name }} or {{ equivalent_mortgage_payments }} months of mortgage payments for the average homeowner in {{ state_name }}.
-* {{ equivalent_tanks_of_gas }} tanks of gas for the average driver in {{ state_name }}.
-* {{ equivalent_family_weekly_grocery_budget }} weeks of groceries for the average family in {{ state_name }}.\
+* {{ equivalent_family_weekly_grocery_budget }} weeks of groceries for the average family in {{ state_name }}.
 
 ### Amounts paid to claimants
 {% if state_has_paid_amount %}
-{{ pct_cases_paid }}% of the {{ total_records }} wage theft cases provided by the {{ agency_name }} resulted in a payment to the claimant. 
+{{ "{:.0f}%".format(pct_cases_paid) }}% of the {{ "{:,.0f}".format(total_claims) }} wage theft cases provided by the {{ agency_name }} resulted in a payment to the claimant. 
 
-The total amount paid to claimants was {{ total_amount_paid }}.
+The total amount paid to claimants was {{ "${:,.2f}".format(total_amount_paid) }}.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was {{ median_amount_paid }}. {{ pct_cases_paid_full }}% of the cases paid were paid in full.
 {% else %}

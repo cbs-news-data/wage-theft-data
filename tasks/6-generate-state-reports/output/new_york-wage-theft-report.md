@@ -8,21 +8,20 @@ Through a public records request under the New York Freedom of Information Law, 
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2010, 52662 wage theft claims were filed with the New York State Department of Labor. The total amount claimed was 496172875.14.
+The data obtained by CBS News shows that, since 2010, 52,662 wage theft claims were filed with the New York State Department of Labor. The total amount owed was $363,780,038.26.
 
-The median amount claimed was 850.5. Here's how losing that amount could impact an average worker in new_york
+The median amount for each case was $600.00. Here's how losing that amount could impact an average worker in new_york
 
-850.5 is the equivalent of: 
-* 1 weeks of pay for the average worker in new_york.
-* 1 months of rent for the average renter in new_york or 0 months of mortgage payments for the average homeowner in new_york.
-* 204 tanks of gas for the average driver in new_york.
-* 4 weeks of groceries for the average family in new_york.\
+$600.00 is the equivalent of: 
+* 0 weeks of pay for the average worker in new_york.
+* 0 months of rent for the average renter in new_york or 0 months of mortgage payments for the average homeowner in new_york.
+* 3 weeks of groceries for the average family in new_york.
 
 ### Amounts paid to claimants
 
-0.5907295583152937% of the 52662 wage theft cases provided by the New York State Department of Labor resulted in a payment to the claimant. 
+1%% of the 52,662 wage theft cases provided by the New York State Department of Labor resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 219924360.45000002.
+The total amount paid to claimants was $219,924,360.45.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 240.0. 0.29649462610611066% of the cases paid were paid in full.
 

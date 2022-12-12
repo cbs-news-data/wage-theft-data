@@ -10,7 +10,7 @@ $(GENERATED_FILES): \
 		$(PROCESSOR_DIR)/generate_reports.py \
 		$(wildcard input/*)
 	python $< \
-		input/state_complaints_deduped_for_report.csv.gz \
+		input/state_complaints.csv.gz \
 		input/state_characteristics.csv \
 		input/report_template.md.j2 \
 		$@ \

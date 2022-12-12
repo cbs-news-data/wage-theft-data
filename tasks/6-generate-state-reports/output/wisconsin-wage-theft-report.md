@@ -8,21 +8,20 @@ Through a public records request under the Wisconsin Open Records Law, CBS News 
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2010, 11011 wage theft claims were filed with the Wisconsin Department of Workforce Development. The total amount assessed by the agency was 31318498.889999997.
+The data obtained by CBS News shows that, since 2010, 11,011 wage theft claims were filed with the Wisconsin Department of Workforce Development. The total amount owed was $33,833,405.81.
 
-The median amount assessed by the agency was 581.25. Here's how losing that amount could impact an average worker in wisconsin
+The median amount for each case was $540.00. Here's how losing that amount could impact an average worker in wisconsin
 
-581.25 is the equivalent of: 
+$540.00 is the equivalent of: 
 * 0 weeks of pay for the average worker in wisconsin.
 * 1 months of rent for the average renter in wisconsin or 0 months of mortgage payments for the average homeowner in wisconsin.
-* 173 tanks of gas for the average driver in wisconsin.
-* 3 weeks of groceries for the average family in wisconsin.\
+* 3 weeks of groceries for the average family in wisconsin.
 
 ### Amounts paid to claimants
 
-0.8906547997457088% of the 11011 wage theft cases provided by the Wisconsin Department of Workforce Development resulted in a payment to the claimant. 
+1%% of the 11,011 wage theft cases provided by the Wisconsin Department of Workforce Development resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 25047136.63.
+The total amount paid to claimants was $25,047,136.63.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 511.62. 0.0% of the cases paid were paid in full.
 

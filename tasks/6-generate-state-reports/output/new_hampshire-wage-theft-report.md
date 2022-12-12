@@ -8,21 +8,20 @@ Through a public records request under the New Hampshire Right to Know Law, CBS 
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 1970, 8200 wage theft claims were filed with the New Hampshire Department of Labor. The total amount claimed was 45708900.0.
+The data obtained by CBS News shows that, since 1970, 8,200 wage theft claims were filed with the New Hampshire Department of Labor. The total amount owed was $42,787,166.00.
 
-The median amount claimed was 1017.0. Here's how losing that amount could impact an average worker in new_hampshire
+The median amount for each case was $920.00. Here's how losing that amount could impact an average worker in new_hampshire
 
-1017.0 is the equivalent of: 
+$920.00 is the equivalent of: 
 * 1 weeks of pay for the average worker in new_hampshire.
-* 1 months of rent for the average renter in new_hampshire or 1 months of mortgage payments for the average homeowner in new_hampshire.
-* 253 tanks of gas for the average driver in new_hampshire.
-* 4 weeks of groceries for the average family in new_hampshire.\
+* 1 months of rent for the average renter in new_hampshire or 0 months of mortgage payments for the average homeowner in new_hampshire.
+* 3 weeks of groceries for the average family in new_hampshire.
 
 ### Amounts paid to claimants
 
-0.3935365853658537% of the 8200 wage theft cases provided by the New Hampshire Department of Labor resulted in a payment to the claimant. 
+0%% of the 8,200 wage theft cases provided by the New Hampshire Department of Labor resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 7670262.0.
+The total amount paid to claimants was $7,670,262.00.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.24292682926829268% of the cases paid were paid in full.
 

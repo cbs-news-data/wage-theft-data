@@ -8,21 +8,20 @@ Through a public records request under the Iowa Open Records Law, CBS News sough
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2000, 7370 wage theft claims were filed with the Iowa Division of Labor Services. The total amount claimed was 9044478.0.
+The data obtained by CBS News shows that, since 2000, 7,370 wage theft claims were filed with the Iowa Division of Labor Services. The total amount owed was $853,899.00.
 
-The median amount claimed was 725.0. Here's how losing that amount could impact an average worker in iowa
+The median amount for each case was $0.00. Here's how losing that amount could impact an average worker in iowa
 
-725.0 is the equivalent of: 
-* 1 weeks of pay for the average worker in iowa.
-* 1 months of rent for the average renter in iowa or 1 months of mortgage payments for the average homeowner in iowa.
-* 220 tanks of gas for the average driver in iowa.
-* 4 weeks of groceries for the average family in iowa.\
+$0.00 is the equivalent of: 
+* 0 weeks of pay for the average worker in iowa.
+* 0 months of rent for the average renter in iowa or 0 months of mortgage payments for the average homeowner in iowa.
+* 0 weeks of groceries for the average family in iowa.
 
 ### Amounts paid to claimants
 
-0.4340569877883311% of the 7370 wage theft cases provided by the Iowa Division of Labor Services resulted in a payment to the claimant. 
+0%% of the 7,370 wage theft cases provided by the Iowa Division of Labor Services resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 2617419.0.
+The total amount paid to claimants was $2,617,419.00.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.16906377204884668% of the cases paid were paid in full.
 

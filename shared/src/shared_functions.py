@@ -45,15 +45,17 @@ def get_coverage_df(df: pd.DataFrame, by_state=True) -> pd.DataFrame:
     return coverage_df
 
 
-def append_texas_amounts(df):
+def append_texas_amounts(
+    df,
+    filename="input/ORR_R005317-081222_from_CBS__C._Hacker__File_date___Amts.xlsx",
+):
     """removes Texas from the dataframe and appends the separate amounts"""
+    read_func = pd.read_excel if filename.endswith(".xlsx") else pd.read_csv
     return pd.concat(
         [
             df.query('state_name != "Texas"'),
             (
-                pd.read_excel(
-                    "input/ORR_R005317-081222_from_CBS__C._Hacker__File_date___Amts.xlsx"
-                )
+                read_func(filename)
                 .iloc[:, 1:]
                 .rename(
                     columns={

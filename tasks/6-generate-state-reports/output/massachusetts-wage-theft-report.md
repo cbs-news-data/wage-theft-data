@@ -8,21 +8,20 @@ Through a public records request under the Massachusetts Public Records Act, CBS
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2015, 2419 wage theft claims were filed with the Massachusetts Attorney General's Office. The total amount assessed by the agency was 48474294.56.
+The data obtained by CBS News shows that, since 2015, 2,419 wage theft claims were filed with the Massachusetts Attorney General's Office. The total amount owed was $48,474,294.56.
 
-The median amount assessed by the agency was 2560.0. Here's how losing that amount could impact an average worker in massachusetts
+The median amount for each case was $2,560.00. Here's how losing that amount could impact an average worker in massachusetts
 
-2560.0 is the equivalent of: 
+$2,560.00 is the equivalent of: 
 * 2 weeks of pay for the average worker in massachusetts.
 * 1 months of rent for the average renter in massachusetts or 1 months of mortgage payments for the average homeowner in massachusetts.
-* 610 tanks of gas for the average driver in massachusetts.
-* 10 weeks of groceries for the average family in massachusetts.\
+* 10 weeks of groceries for the average family in massachusetts.
 
 ### Amounts paid to claimants
 
-0.9954526663910707% of the 2419 wage theft cases provided by the Massachusetts Attorney General's Office resulted in a payment to the claimant. 
+1%% of the 2,419 wage theft cases provided by the Massachusetts Attorney General's Office resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 48474294.56.
+The total amount paid to claimants was $48,474,294.56.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 2560.0. 0.0% of the cases paid were paid in full.
 

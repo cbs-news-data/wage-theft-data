@@ -8,21 +8,20 @@ Through a public records request under the Montana Public Records Act, CBS News 
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2010, 5361 wage theft claims were filed with the Montana Labor Standards Bureau. The total amount claimed was 19862186.43.
+The data obtained by CBS News shows that, since 2010, 5,361 wage theft claims were filed with the Montana Labor Standards Bureau. The total amount owed was $11,437,534.69.
 
-The median amount claimed was 1015.02. Here's how losing that amount could impact an average worker in montana
+The median amount for each case was $720.00. Here's how losing that amount could impact an average worker in montana
 
-1015.02 is the equivalent of: 
+$720.00 is the equivalent of: 
 * 1 weeks of pay for the average worker in montana.
-* 1 months of rent for the average renter in montana or 1 months of mortgage payments for the average homeowner in montana.
-* 284 tanks of gas for the average driver in montana.
-* 4 weeks of groceries for the average family in montana.\
+* 1 months of rent for the average renter in montana or 0 months of mortgage payments for the average homeowner in montana.
+* 3 weeks of groceries for the average family in montana.
 
 ### Amounts paid to claimants
 
-0.7537772803581422% of the 5361 wage theft cases provided by the Montana Labor Standards Bureau resulted in a payment to the claimant. 
+1%% of the 5,361 wage theft cases provided by the Montana Labor Standards Bureau resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 7312386.59.
+The total amount paid to claimants was $7,312,386.59.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 644.16. 0.1591121059503824% of the cases paid were paid in full.
 

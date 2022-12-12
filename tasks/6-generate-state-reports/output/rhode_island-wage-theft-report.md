@@ -8,21 +8,20 @@ Through a public records request under the Rhode Island Access to Public Records
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2010, 2292 wage theft claims were filed with the Rhode Island Department of Labor and Training. The total amount claimed was 10702019.16.
+The data obtained by CBS News shows that, since 2010, 2,292 wage theft claims were filed with the Rhode Island Department of Labor and Training. The total amount owed was $9,288,775.11.
 
-The median amount claimed was 800.0. Here's how losing that amount could impact an average worker in rhode_island
+The median amount for each case was $0.00. Here's how losing that amount could impact an average worker in rhode_island
 
-800.0 is the equivalent of: 
-* 1 weeks of pay for the average worker in rhode_island.
-* 1 months of rent for the average renter in rhode_island or 0 months of mortgage payments for the average homeowner in rhode_island.
-* 191 tanks of gas for the average driver in rhode_island.
-* 4 weeks of groceries for the average family in rhode_island.\
+$0.00 is the equivalent of: 
+* 0 weeks of pay for the average worker in rhode_island.
+* 0 months of rent for the average renter in rhode_island or 0 months of mortgage payments for the average homeowner in rhode_island.
+* 0 weeks of groceries for the average family in rhode_island.
 
 ### Amounts paid to claimants
 
-0.7630890052356021% of the 2292 wage theft cases provided by the Rhode Island Department of Labor and Training resulted in a payment to the claimant. 
+1%% of the 2,292 wage theft cases provided by the Rhode Island Department of Labor and Training resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 4571119.01.
+The total amount paid to claimants was $4,571,119.01.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 361.25. 0.15357766143106458% of the cases paid were paid in full.
 

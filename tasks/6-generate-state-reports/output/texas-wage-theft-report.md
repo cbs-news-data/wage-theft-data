@@ -8,15 +8,14 @@ Through a public records request under the Texas Public Information Act, CBS New
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2009, 60683 wage theft claims were filed with the Texas Workforce Commission. The total amount claimed was 107666804.62.
+The data obtained by CBS News shows that, since 2009, 60,683 wage theft claims were filed with the Texas Workforce Commission. The total amount owed was $119,781,779.02.
 
-The median amount claimed was 451.1. Here's how losing that amount could impact an average worker in texas
+The median amount for each case was $710.50. Here's how losing that amount could impact an average worker in texas
 
-451.1 is the equivalent of: 
-* 0 weeks of pay for the average worker in texas.
-* 0 months of rent for the average renter in texas or 0 months of mortgage payments for the average homeowner in texas.
-* 143 tanks of gas for the average driver in texas.
-* 2 weeks of groceries for the average family in texas.\
+$710.50 is the equivalent of: 
+* 1 weeks of pay for the average worker in texas.
+* 1 months of rent for the average renter in texas or 0 months of mortgage payments for the average homeowner in texas.
+* 3 weeks of groceries for the average family in texas.
 
 ### Amounts paid to claimants
 

@@ -8,21 +8,20 @@ Through a public records request under the Maine Freedom of Access Act, CBS News
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2016, 792 wage theft claims were filed with the Maine Department of Labor. The total amount assessed by the agency was 1977300.0699999998.
+The data obtained by CBS News shows that, since 2016, 792 wage theft claims were filed with the Maine Department of Labor. The total amount owed was $1,977,300.07.
 
-The median amount assessed by the agency was 585.75. Here's how losing that amount could impact an average worker in maine
+The median amount for each case was $585.75. Here's how losing that amount could impact an average worker in maine
 
-585.75 is the equivalent of: 
+$585.75 is the equivalent of: 
 * 0 weeks of pay for the average worker in maine.
 * 1 months of rent for the average renter in maine or 0 months of mortgage payments for the average homeowner in maine.
-* 144 tanks of gas for the average driver in maine.
-* 2 weeks of groceries for the average family in maine.\
+* 2 weeks of groceries for the average family in maine.
 
 ### Amounts paid to claimants
 
-0.8712121212121212% of the 792 wage theft cases provided by the Maine Department of Labor resulted in a payment to the claimant. 
+1%% of the 792 wage theft cases provided by the Maine Department of Labor resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 1451891.01.
+The total amount paid to claimants was $1,451,891.01.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 518.0. 0.0% of the cases paid were paid in full.
 

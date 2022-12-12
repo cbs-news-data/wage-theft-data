@@ -8,15 +8,14 @@ Through a public records request under the Washington Public Records Act, CBS Ne
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2015, 6365 wage theft claims were filed with the Washington State Department of Labor and Industries. The total amount claimed was 14370547.43.
+The data obtained by CBS News shows that, since 2015, 6,365 wage theft claims were filed with the Washington State Department of Labor and Industries. The total amount owed was $13,663,941.42.
 
-The median amount claimed was 625.0. Here's how losing that amount could impact an average worker in washington
+The median amount for each case was $723.00. Here's how losing that amount could impact an average worker in washington
 
-625.0 is the equivalent of: 
+$723.00 is the equivalent of: 
 * 0 weeks of pay for the average worker in washington.
 * 0 months of rent for the average renter in washington or 0 months of mortgage payments for the average homeowner in washington.
-* 139 tanks of gas for the average driver in washington.
-* 3 weeks of groceries for the average family in washington.\
+* 3 weeks of groceries for the average family in washington.
 
 ### Amounts paid to claimants
 

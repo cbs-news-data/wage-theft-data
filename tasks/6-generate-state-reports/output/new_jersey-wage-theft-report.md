@@ -8,21 +8,20 @@ Through a public records request under the New Jersey Open Public Records Act, C
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2010, 25725 wage theft claims were filed with the New Jersey  Department of Labor and Workforce Development. The total amount assessed by the agency was 146034669.76.
+The data obtained by CBS News shows that, since 2010, 25,725 wage theft claims were filed with the New Jersey  Department of Labor and Workforce Development. The total amount owed was $146,034,669.76.
 
-The median amount assessed by the agency was 1101.19. Here's how losing that amount could impact an average worker in new_jersey
+The median amount for each case was $1,101.19. Here's how losing that amount could impact an average worker in new_jersey
 
-1101.19 is the equivalent of: 
+$1,101.19 is the equivalent of: 
 * 1 weeks of pay for the average worker in new_jersey.
 * 1 months of rent for the average renter in new_jersey or 0 months of mortgage payments for the average homeowner in new_jersey.
-* 265 tanks of gas for the average driver in new_jersey.
-* 5 weeks of groceries for the average family in new_jersey.\
+* 5 weeks of groceries for the average family in new_jersey.
 
 ### Amounts paid to claimants
 
-0.8037706511175899% of the 25725 wage theft cases provided by the New Jersey  Department of Labor and Workforce Development resulted in a payment to the claimant. 
+1%% of the 25,725 wage theft cases provided by the New Jersey  Department of Labor and Workforce Development resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 90118620.15.
+The total amount paid to claimants was $90,118,620.15.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 565.8. 0.0% of the cases paid were paid in full.
 

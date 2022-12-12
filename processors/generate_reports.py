@@ -20,7 +20,7 @@ class MarkdownReportGenerator:
                 parse_dates=["date_opened", "date_closed", "date_paid"],
             )
             # keep only 1 row per case. some rows contain multiple violation
-            # categories, but this notebook will not address those.
+            # categories, but this script will not address those.
             .drop_duplicates(subset="case_uuid", keep="first")
         )
         # read in state characteristics
@@ -43,7 +43,9 @@ class MarkdownReportGenerator:
 
         # handle separate amount files if applicable
         if self.state_name.lower() == "texas":
-            self.amounts_df = append_texas_amounts(self.wt_df)
+            self.amounts_df = append_texas_amounts(
+                self.wt_df, filename="input/texas_amounts.csv.gz"
+            )
         else:
             self.amounts_df = self.wt_df
 
@@ -104,7 +106,7 @@ class MarkdownReportGenerator:
         # provide a human-readable rounded number of total_records
         self.data[
             "total_records_description"
-        ] = f"approximately {self.data['total_records']:,}"
+        ] = f"approximately {round(self.data['total_records']):,}"
         self.data["min_date"] = (
             self.wt_df.date_opened.min()
             if len(self.wt_df.query("date_opened.notna()")) > 0
@@ -112,12 +114,8 @@ class MarkdownReportGenerator:
             if len(self.wt_df.query("date_closed.notna()")) > 0
             else self.wt_df.date_paid.min()
         )
-        self.data["total_case_amount"] = self.amounts_df[
-            self.data["case_amount_field"]
-        ].sum()
-        self.data["median_case_amount"] = self.amounts_df[
-            self.data["case_amount_field"]
-        ].median()
+        self.data["total_case_amount"] = self.amounts_df.overall_case_amount.sum()
+        self.data["median_case_amount"] = self.amounts_df.overall_case_amount.median()
 
         # contextualize the data
         self.data["state_median_weekly_income"] = desc_row.median_weekly_income
@@ -129,9 +127,6 @@ class MarkdownReportGenerator:
         )
         self.data["equivalent_mortgage_payments"] = round(
             self.data["median_case_amount"] / desc_row.median_monthly_mortgage
-        )
-        self.data["equivalent_tanks_of_gas"] = round(
-            self.data["median_case_amount"] / desc_row.gas_price_mid_grade
         )
         self.data["equivalent_family_weekly_grocery_budget"] = round(
             self.data["median_case_amount"] / desc_row.low_cost_plan_grocery_estimate

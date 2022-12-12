@@ -8,21 +8,20 @@ Through a public records request under the Minnesota Data Practices Act, CBS New
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2010, 745 wage theft claims were filed with the Minnesota Department of Labor and Industry. The total amount assessed by the agency was 6409615.140000001.
+The data obtained by CBS News shows that, since 2010, 745 wage theft claims were filed with the Minnesota Department of Labor and Industry. The total amount owed was $6,559,247.36.
 
-The median amount assessed by the agency was 1000.0. Here's how losing that amount could impact an average worker in minnesota
+The median amount for each case was $886.50. Here's how losing that amount could impact an average worker in minnesota
 
-1000.0 is the equivalent of: 
+$886.50 is the equivalent of: 
 * 1 weeks of pay for the average worker in minnesota.
 * 1 months of rent for the average renter in minnesota or 1 months of mortgage payments for the average homeowner in minnesota.
-* 286 tanks of gas for the average driver in minnesota.
-* 5 weeks of groceries for the average family in minnesota.\
+* 5 weeks of groceries for the average family in minnesota.
 
 ### Amounts paid to claimants
 
-0.8134228187919463% of the 745 wage theft cases provided by the Minnesota Department of Labor and Industry resulted in a payment to the claimant. 
+1%% of the 745 wage theft cases provided by the Minnesota Department of Labor and Industry resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 5319233.84.
+The total amount paid to claimants was $5,319,233.84.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 1075.0. 0.0% of the cases paid were paid in full.
 

@@ -8,21 +8,20 @@ Through a public records request under the Kansas Open Records Act, CBS News sou
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2010, 4931 wage theft claims were filed with the Kansas Department of Labor. The total amount claimed was 11602894.133000001.
+The data obtained by CBS News shows that, since 2010, 4,931 wage theft claims were filed with the Kansas Department of Labor. The total amount owed was $10,508,991.88.
 
-The median amount claimed was 704.795. Here's how losing that amount could impact an average worker in kansas
+The median amount for each case was $560.00. Here's how losing that amount could impact an average worker in kansas
 
-704.795 is the equivalent of: 
+$560.00 is the equivalent of: 
 * 0 weeks of pay for the average worker in kansas.
 * 1 months of rent for the average renter in kansas or 0 months of mortgage payments for the average homeowner in kansas.
-* 216 tanks of gas for the average driver in kansas.
-* 3 weeks of groceries for the average family in kansas.\
+* 2 weeks of groceries for the average family in kansas.
 
 ### Amounts paid to claimants
 
-1.0% of the 4931 wage theft cases provided by the Kansas Department of Labor resulted in a payment to the claimant. 
+1%% of the 4,931 wage theft cases provided by the Kansas Department of Labor resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 10508991.876.
+The total amount paid to claimants was $10,508,991.88.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 560.0. 0.31048468870411683% of the cases paid were paid in full.
 

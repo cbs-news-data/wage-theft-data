@@ -8,21 +8,20 @@ Through a public records request under the South Carolina Freedom of Information
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2010, 4818 wage theft claims were filed with the South Carolina Department of Labor. The total amount assessed by the agency was 8355885.6.
+The data obtained by CBS News shows that, since 2010, 4,818 wage theft claims were filed with the South Carolina Department of Labor. The total amount owed was $8,358,985.60.
 
-The median amount assessed by the agency was 500.0. Here's how losing that amount could impact an average worker in south_carolina
+The median amount for each case was $497.81. Here's how losing that amount could impact an average worker in south_carolina
 
-500.0 is the equivalent of: 
+$497.81 is the equivalent of: 
 * 0 weeks of pay for the average worker in south_carolina.
 * 0 months of rent for the average renter in south_carolina or 0 months of mortgage payments for the average homeowner in south_carolina.
-* 148 tanks of gas for the average driver in south_carolina.
-* 2 weeks of groceries for the average family in south_carolina.\
+* 2 weeks of groceries for the average family in south_carolina.
 
 ### Amounts paid to claimants
 
-0.4261104192611042% of the 4818 wage theft cases provided by the South Carolina Department of Labor resulted in a payment to the claimant. 
+0%% of the 4,818 wage theft cases provided by the South Carolina Department of Labor resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 307040.6.
+The total amount paid to claimants was $307,040.60.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.0% of the cases paid were paid in full.
 

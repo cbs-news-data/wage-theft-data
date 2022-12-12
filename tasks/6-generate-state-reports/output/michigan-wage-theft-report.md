@@ -8,21 +8,20 @@ Through a public records request under the Michigan Freedom of Information Act, 
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2010, 41787 wage theft claims were filed with the Michigan Department of Labor and Opportunity. The total amount claimed was 76644619.88000001.
+The data obtained by CBS News shows that, since 2010, 41,787 wage theft claims were filed with the Michigan Department of Labor and Opportunity. The total amount owed was $61,287,422.21.
 
-The median amount claimed was 605.81. Here's how losing that amount could impact an average worker in michigan
+The median amount for each case was $492.58. Here's how losing that amount could impact an average worker in michigan
 
-605.81 is the equivalent of: 
+$492.58 is the equivalent of: 
 * 0 weeks of pay for the average worker in michigan.
-* 1 months of rent for the average renter in michigan or 0 months of mortgage payments for the average homeowner in michigan.
-* 157 tanks of gas for the average driver in michigan.
-* 3 weeks of groceries for the average family in michigan.\
+* 0 months of rent for the average renter in michigan or 0 months of mortgage payments for the average homeowner in michigan.
+* 2 weeks of groceries for the average family in michigan.
 
 ### Amounts paid to claimants
 
-0.9044918276018857% of the 41787 wage theft cases provided by the Michigan Department of Labor and Opportunity resulted in a payment to the claimant. 
+1%% of the 41,787 wage theft cases provided by the Michigan Department of Labor and Opportunity resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 36834248.61.
+The total amount paid to claimants was $36,834,248.61.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 400.0. 0.13717184770383134% of the cases paid were paid in full.
 

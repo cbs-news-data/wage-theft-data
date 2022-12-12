@@ -8,21 +8,20 @@ Through a public records request under the Nebraska Public Records Law, CBS News
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2014, 563 wage theft claims were filed with the Nebraska Department of Labor. The total amount assessed by the agency was 508919.0.
+The data obtained by CBS News shows that, since 2014, 563 wage theft claims were filed with the Nebraska Department of Labor. The total amount owed was $508,919.00.
 
-The median amount assessed by the agency was 500.0. Here's how losing that amount could impact an average worker in nebraska
+The median amount for each case was $500.00. Here's how losing that amount could impact an average worker in nebraska
 
-500.0 is the equivalent of: 
+$500.00 is the equivalent of: 
 * 0 weeks of pay for the average worker in nebraska.
 * 1 months of rent for the average renter in nebraska or 0 months of mortgage payments for the average homeowner in nebraska.
-* 149 tanks of gas for the average driver in nebraska.
-* 2 weeks of groceries for the average family in nebraska.\
+* 2 weeks of groceries for the average family in nebraska.
 
 ### Amounts paid to claimants
 
-0.14209591474245115% of the 563 wage theft cases provided by the Nebraska Department of Labor resulted in a payment to the claimant. 
+0%% of the 563 wage theft cases provided by the Nebraska Department of Labor resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 37324.0.
+The total amount paid to claimants was $37,324.00.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.0% of the cases paid were paid in full.
 

@@ -8,21 +8,20 @@ Through a public records request under the Utah Government Records Access and Ma
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2001, 10103 wage theft claims were filed with the Utah Labor Commission. The total amount claimed was 19095170.63.
+The data obtained by CBS News shows that, since 2001, 10,103 wage theft claims were filed with the Utah Labor Commission. The total amount owed was $18,597,232.02.
 
-The median amount claimed was 988.9549999999999. Here's how losing that amount could impact an average worker in utah
+The median amount for each case was $622.10. Here's how losing that amount could impact an average worker in utah
 
-988.9549999999999 is the equivalent of: 
-* 1 weeks of pay for the average worker in utah.
-* 1 months of rent for the average renter in utah or 1 months of mortgage payments for the average homeowner in utah.
-* 252 tanks of gas for the average driver in utah.
-* 5 weeks of groceries for the average family in utah.\
+$622.10 is the equivalent of: 
+* 0 weeks of pay for the average worker in utah.
+* 1 months of rent for the average renter in utah or 0 months of mortgage payments for the average homeowner in utah.
+* 3 weeks of groceries for the average family in utah.
 
 ### Amounts paid to claimants
 
-0.6964268039196279% of the 10103 wage theft cases provided by the Utah Labor Commission resulted in a payment to the claimant. 
+1%% of the 10,103 wage theft cases provided by the Utah Labor Commission resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 7911044.94.
+The total amount paid to claimants was $7,911,044.94.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 499.55. 0.20162328021379788% of the cases paid were paid in full.
 

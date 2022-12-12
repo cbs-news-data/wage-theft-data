@@ -8,21 +8,20 @@ Through a public records request under the Wyoming Public Records Act, CBS News 
 
 ### Overall amounts
 
-The data obtained by CBS News shows that, since 2017, 2105 wage theft claims were filed with the Wyoming Department of Workforce Services. The total amount_paid was 1085092.92.
+The data obtained by CBS News shows that, since 2017, 2,105 wage theft claims were filed with the Wyoming Department of Workforce Services. The total amount owed was $1,085,092.92.
 
-The median amount_paid was 0.0. Here's how losing that amount could impact an average worker in wyoming
+The median amount for each case was $578.02. Here's how losing that amount could impact an average worker in wyoming
 
-0.0 is the equivalent of: 
+$578.02 is the equivalent of: 
 * 0 weeks of pay for the average worker in wyoming.
-* 0 months of rent for the average renter in wyoming or 0 months of mortgage payments for the average homeowner in wyoming.
-* 0 tanks of gas for the average driver in wyoming.
-* 0 weeks of groceries for the average family in wyoming.\
+* 1 months of rent for the average renter in wyoming or 0 months of mortgage payments for the average homeowner in wyoming.
+* 2 weeks of groceries for the average family in wyoming.
 
 ### Amounts paid to claimants
 
-0.45795724465558196% of the 2105 wage theft cases provided by the Wyoming Department of Workforce Services resulted in a payment to the claimant. 
+0%% of the 2,105 wage theft cases provided by the Wyoming Department of Workforce Services resulted in a payment to the claimant. 
 
-The total amount paid to claimants was 1085092.92.
+The total amount paid to claimants was $1,085,092.92.
 
 Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.0% of the cases paid were paid in full.
 
