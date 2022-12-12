@@ -17,13 +17,31 @@ $934.47 is the equivalent of:
 * 1 months of rent for the average renter in maryland or 0 months of mortgage payments for the average homeowner in maryland.
 * 5 weeks of groceries for the average family in maryland.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 390 cases (4.8% of all cases)
+
+* $100-$500: 2,175 cases (26.6% of all cases)
+
+* $500-$1,000: 1,689 cases (20.7% of all cases)
+
+* $1,000-$2,000: 1,633 cases (20.0% of all cases)
+
+* $2,000-$5,000: 1,441 cases (17.6% of all cases)
+
+* $5,000-$10,000: 476 cases (5.8% of all cases)
+
+* $10,000+: 364 cases (4.5% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 8,290 wage theft cases provided by the Maryland Department of Labor resulted in a payment to the claimant. 
+About 62% of the 8,290 wage theft cases provided to CBS News by the Maryland Department of Labor showed a payment was made to the claimant. The total amount paid to claimants was $8,346,019.71.
 
-The total amount paid to claimants was $8,346,019.71.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 238.54000000000002. 0.20253317249698433% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 19% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

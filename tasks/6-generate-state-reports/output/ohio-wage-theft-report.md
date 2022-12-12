@@ -17,13 +17,31 @@ $390.79 is the equivalent of:
 * 0 months of rent for the average renter in ohio or 0 months of mortgage payments for the average homeowner in ohio.
 * 2 weeks of groceries for the average family in ohio.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 553 cases (8.0% of all cases)
+
+* $100-$500: 1,894 cases (27.5% of all cases)
+
+* $500-$1,000: 1,111 cases (16.2% of all cases)
+
+* $1,000-$2,000: 1,024 cases (14.9% of all cases)
+
+* $2,000-$5,000: 1,033 cases (15.0% of all cases)
+
+* $5,000-$10,000: 527 cases (7.7% of all cases)
+
+* $10,000+: 735 cases (10.7% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-0%% of the 9,651 wage theft cases provided by the Ohio Division of Industrial Compliance resulted in a payment to the claimant. 
+About 10% of the 9,651 wage theft cases provided to CBS News by the Ohio Division of Industrial Compliance showed a payment was made to the claimant. The total amount paid to claimants was $1,481,679.00.
 
-The total amount paid to claimants was $1,481,679.00.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.37353642109625945% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 1% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

@@ -17,13 +17,31 @@ $1,101.19 is the equivalent of:
 * 1 months of rent for the average renter in new_jersey or 0 months of mortgage payments for the average homeowner in new_jersey.
 * 5 weeks of groceries for the average family in new_jersey.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 1,904 cases (7.4% of all cases)
+
+* $100-$500: 6,111 cases (23.8% of all cases)
+
+* $500-$1,000: 4,322 cases (16.8% of all cases)
+
+* $1,000-$2,000: 4,173 cases (16.2% of all cases)
+
+* $2,000-$5,000: 4,401 cases (17.1% of all cases)
+
+* $5,000-$10,000: 2,173 cases (8.4% of all cases)
+
+* $10,000+: 2,640 cases (10.3% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 25,725 wage theft cases provided by the New Jersey  Department of Labor and Workforce Development resulted in a payment to the claimant. 
+About 80% of the 25,725 wage theft cases provided to CBS News by the New Jersey  Department of Labor and Workforce Development showed a payment was made to the claimant. The total amount paid to claimants was $90,118,620.15.
 
-The total amount paid to claimants was $90,118,620.15.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 565.8. 0.0% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 79% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

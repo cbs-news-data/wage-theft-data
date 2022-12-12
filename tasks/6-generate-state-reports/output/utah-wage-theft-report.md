@@ -17,13 +17,31 @@ $622.10 is the equivalent of:
 * 1 months of rent for the average renter in utah or 0 months of mortgage payments for the average homeowner in utah.
 * 3 weeks of groceries for the average family in utah.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 459 cases (5.8% of all cases)
+
+* $100-$500: 2,021 cases (25.6% of all cases)
+
+* $500-$1,000: 1,358 cases (17.2% of all cases)
+
+* $1,000-$2,000: 1,523 cases (19.3% of all cases)
+
+* $2,000-$5,000: 1,547 cases (19.6% of all cases)
+
+* $5,000-$10,000: 692 cases (8.8% of all cases)
+
+* $10,000+: 297 cases (3.8% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 10,103 wage theft cases provided by the Utah Labor Commission resulted in a payment to the claimant. 
+About 70% of the 10,103 wage theft cases provided to CBS News by the Utah Labor Commission showed a payment was made to the claimant. The total amount paid to claimants was $7,911,044.94.
 
-The total amount paid to claimants was $7,911,044.94.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 499.55. 0.20162328021379788% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 15% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

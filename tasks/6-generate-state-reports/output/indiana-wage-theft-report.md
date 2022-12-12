@@ -17,32 +17,50 @@ $590.55 is the equivalent of:
 * 1 months of rent for the average renter in indiana or 0 months of mortgage payments for the average homeowner in indiana.
 * 3 weeks of groceries for the average family in indiana.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 667 cases (8.5% of all cases)
+
+* $100-$500: 2,825 cases (36.1% of all cases)
+
+* $500-$1,000: 1,624 cases (20.8% of all cases)
+
+* $1,000-$2,000: 1,177 cases (15.0% of all cases)
+
+* $2,000-$5,000: 799 cases (10.2% of all cases)
+
+* $5,000-$10,000: 395 cases (5.0% of all cases)
+
+* $10,000+: 338 cases (4.3% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 8,175 wage theft cases provided by the Indiana Department of Labor resulted in a payment to the claimant. 
+About 68% of the 8,175 wage theft cases provided to CBS News by the Indiana Department of Labor showed a payment was made to the claimant. The total amount paid to claimants was $3,645,489.95.
 
-The total amount paid to claimants was $3,645,489.95.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 386.78499999999997. 0.14324159021406727% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 14% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases
 
-Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in indiana was 24.0 days.
+Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in indiana was about 24 days.
 
 Some cases took much longer to resolve. Below is a breakdown of the number of cases resolved in each time period: 
 
-* 0-30 days days: 2064 cases (0.6153846153846154% of all cases)
+* 0-30 days days: 2,064 cases (61.5% of all cases)
 
-* 30-60 days days: 1019 cases (0.30381633870005964% of all cases)
+* 30-60 days days: 1,019 cases (30.4% of all cases)
 
-* 60-90 days days: 172 cases (0.05128205128205128% of all cases)
+* 60-90 days days: 172 cases (5.1% of all cases)
 
-* 90-180 days days: 83 cases (0.024746571258199165% of all cases)
+* 90-180 days days: 83 cases (2.5% of all cases)
 
-* 180-360 days days: 13 cases (0.003875968992248062% of all cases)
+* 180-360 days days: 13 cases (0.4% of all cases)
 
-* 360-720 days days: 3 cases (0.0008944543828264759% of all cases)
+* 360-720 days days: 3 cases (0.1% of all cases)
 
 * 720+ days days: 0 cases (0.0% of all cases)
 

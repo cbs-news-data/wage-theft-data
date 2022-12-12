@@ -17,9 +17,27 @@ $2,300.00 is the equivalent of:
 * 2 months of rent for the average renter in illinois or 1 months of mortgage payments for the average homeowner in illinois.
 * 11 weeks of groceries for the average family in illinois.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 5 cases (0.7% of all cases)
+
+* $100-$500: 66 cases (9.2% of all cases)
+
+* $500-$1,000: 96 cases (13.4% of all cases)
+
+* $1,000-$2,000: 136 cases (19.0% of all cases)
+
+* $2,000-$5,000: 197 cases (27.5% of all cases)
+
+* $5,000-$10,000: 114 cases (15.9% of all cases)
+
+* $10,000+: 102 cases (14.2% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-illinois did not provide data on the amount paid to claimants.
+    illinois did not provide data on the amount paid to claimants.
 
 
 ### Time taken to resolve cases

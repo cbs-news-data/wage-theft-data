@@ -17,13 +17,31 @@ $492.58 is the equivalent of:
 * 0 months of rent for the average renter in michigan or 0 months of mortgage payments for the average homeowner in michigan.
 * 2 weeks of groceries for the average family in michigan.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 5,356 cases (12.8% of all cases)
+
+* $100-$500: 15,961 cases (38.3% of all cases)
+
+* $500-$1,000: 8,728 cases (20.9% of all cases)
+
+* $1,000-$2,000: 5,795 cases (13.9% of all cases)
+
+* $2,000-$5,000: 3,757 cases (9.0% of all cases)
+
+* $5,000-$10,000: 1,266 cases (3.0% of all cases)
+
+* $10,000+: 857 cases (2.1% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 41,787 wage theft cases provided by the Michigan Department of Labor and Opportunity resulted in a payment to the claimant. 
+About 90% of the 41,787 wage theft cases provided to CBS News by the Michigan Department of Labor and Opportunity showed a payment was made to the claimant. The total amount paid to claimants was $36,834,248.61.
 
-The total amount paid to claimants was $36,834,248.61.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 400.0. 0.13717184770383134% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 15% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

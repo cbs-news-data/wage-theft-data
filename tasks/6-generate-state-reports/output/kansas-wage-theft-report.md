@@ -17,34 +17,52 @@ $560.00 is the equivalent of:
 * 1 months of rent for the average renter in kansas or 0 months of mortgage payments for the average homeowner in kansas.
 * 2 weeks of groceries for the average family in kansas.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 462 cases (9.4% of all cases)
+
+* $100-$500: 1,855 cases (37.6% of all cases)
+
+* $500-$1,000: 1,114 cases (22.6% of all cases)
+
+* $1,000-$2,000: 725 cases (14.7% of all cases)
+
+* $2,000-$5,000: 509 cases (10.3% of all cases)
+
+* $5,000-$10,000: 147 cases (3.0% of all cases)
+
+* $10,000+: 118 cases (2.4% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 4,931 wage theft cases provided by the Kansas Department of Labor resulted in a payment to the claimant. 
+About 100% of the 4,931 wage theft cases provided to CBS News by the Kansas Department of Labor showed a payment was made to the claimant. The total amount paid to claimants was $10,508,991.88.
 
-The total amount paid to claimants was $10,508,991.88.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 560.0. 0.31048468870411683% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 31% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases
 
-Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in kansas was 99.0 days.
+Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in kansas was about 99 days.
 
 Some cases took much longer to resolve. Below is a breakdown of the number of cases resolved in each time period: 
 
-* 0-30 days days: 804 cases (0.1648554439204429% of all cases)
+* 0-30 days days: 804 cases (16.5% of all cases)
 
-* 30-60 days days: 715 cases (0.1466065204018864% of all cases)
+* 30-60 days days: 715 cases (14.7% of all cases)
 
-* 60-90 days days: 693 cases (0.1420955505433668% of all cases)
+* 60-90 days days: 693 cases (14.2% of all cases)
 
-* 90-180 days days: 1577 cases (0.32335452122206276% of all cases)
+* 90-180 days days: 1,577 cases (32.3% of all cases)
 
-* 180-360 days days: 777 cases (0.1593192536395325% of all cases)
+* 180-360 days days: 777 cases (15.9% of all cases)
 
-* 360-720 days days: 214 cases (0.04387943407832684% of all cases)
+* 360-720 days days: 214 cases (4.4% of all cases)
 
-* 720+ days days: 97 cases (0.019889276194381793% of all cases)
+* 720+ days days: 97 cases (2.0% of all cases)
 
 
 

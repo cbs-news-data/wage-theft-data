@@ -17,13 +17,31 @@ $886.50 is the equivalent of:
 * 1 months of rent for the average renter in minnesota or 1 months of mortgage payments for the average homeowner in minnesota.
 * 5 weeks of groceries for the average family in minnesota.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 86 cases (11.7% of all cases)
+
+* $100-$500: 193 cases (26.2% of all cases)
+
+* $500-$1,000: 113 cases (15.3% of all cases)
+
+* $1,000-$2,000: 88 cases (11.9% of all cases)
+
+* $2,000-$5,000: 84 cases (11.4% of all cases)
+
+* $5,000-$10,000: 62 cases (8.4% of all cases)
+
+* $10,000+: 112 cases (15.2% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 745 wage theft cases provided by the Minnesota Department of Labor and Industry resulted in a payment to the claimant. 
+About 81% of the 745 wage theft cases provided to CBS News by the Minnesota Department of Labor and Industry showed a payment was made to the claimant. The total amount paid to claimants was $5,319,233.84.
 
-The total amount paid to claimants was $5,319,233.84.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 1075.0. 0.0% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 42% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

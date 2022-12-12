@@ -17,13 +17,31 @@ $585.75 is the equivalent of:
 * 1 months of rent for the average renter in maine or 0 months of mortgage payments for the average homeowner in maine.
 * 2 weeks of groceries for the average family in maine.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 90 cases (11.4% of all cases)
+
+* $100-$500: 272 cases (34.3% of all cases)
+
+* $500-$1,000: 162 cases (20.5% of all cases)
+
+* $1,000-$2,000: 100 cases (12.6% of all cases)
+
+* $2,000-$5,000: 90 cases (11.4% of all cases)
+
+* $5,000-$10,000: 44 cases (5.6% of all cases)
+
+* $10,000+: 34 cases (4.3% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 792 wage theft cases provided by the Maine Department of Labor resulted in a payment to the claimant. 
+About 87% of the 792 wage theft cases provided to CBS News by the Maine Department of Labor showed a payment was made to the claimant. The total amount paid to claimants was $1,451,891.01.
 
-The total amount paid to claimants was $1,451,891.01.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 518.0. 0.0% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 73% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

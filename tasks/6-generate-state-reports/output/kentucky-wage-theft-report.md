@@ -17,13 +17,31 @@ $398.64 is the equivalent of:
 * 0 months of rent for the average renter in kentucky or 0 months of mortgage payments for the average homeowner in kentucky.
 * 2 weeks of groceries for the average family in kentucky.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 1,053 cases (15.0% of all cases)
+
+* $100-$500: 2,925 cases (41.7% of all cases)
+
+* $500-$1,000: 1,053 cases (15.0% of all cases)
+
+* $1,000-$2,000: 819 cases (11.7% of all cases)
+
+* $2,000-$5,000: 819 cases (11.7% of all cases)
+
+* $5,000-$10,000: 117 cases (1.7% of all cases)
+
+* $10,000+: 234 cases (3.3% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 7,137 wage theft cases provided by the Kentucky Labor Cabinet resulted in a payment to the claimant. 
+About 98% of the 7,137 wage theft cases provided to CBS News by the Kentucky Labor Cabinet showed a payment was made to the claimant. The total amount paid to claimants was $23,838,093.63.
 
-The total amount paid to claimants was $23,838,093.63.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 374.96. 0.0% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 0% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

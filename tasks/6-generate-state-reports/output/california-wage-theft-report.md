@@ -17,34 +17,52 @@ $2,070.01 is the equivalent of:
 * 1 months of rent for the average renter in california or 1 months of mortgage payments for the average homeowner in california.
 * 9 weeks of groceries for the average family in california.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 2,889 cases (5.4% of all cases)
+
+* $100-$500: 6,276 cases (11.7% of all cases)
+
+* $500-$1,000: 5,954 cases (11.1% of all cases)
+
+* $1,000-$2,000: 6,608 cases (12.3% of all cases)
+
+* $2,000-$5,000: 11,764 cases (21.9% of all cases)
+
+* $5,000-$10,000: 8,969 cases (16.7% of all cases)
+
+* $10,000+: 11,283 cases (21.0% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-0%% of the 63,442 wage theft cases provided by the California Department of Industrial Relations resulted in a payment to the claimant. 
+About 42% of the 63,442 wage theft cases provided to CBS News by the California Department of Industrial Relations showed a payment was made to the claimant. The total amount paid to claimants was $126,853,456.27.
 
-The total amount paid to claimants was $126,853,456.27.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 572.44. 0.13439046688313736% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 28% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases
 
-Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in california was 439.0 days.
+Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in california was about 439 days.
 
 Some cases took much longer to resolve. Below is a breakdown of the number of cases resolved in each time period: 
 
-* 0-30 days days: 1 cases (8.086689309396733e-05% of all cases)
+* 0-30 days days: 1 cases (0.0% of all cases)
 
-* 30-60 days days: 6 cases (0.00048520135856380397% of all cases)
+* 30-60 days days: 6 cases (0.0% of all cases)
 
-* 60-90 days days: 16 cases (0.0012938702895034773% of all cases)
+* 60-90 days days: 16 cases (0.1% of all cases)
 
-* 90-180 days days: 719 cases (0.05814329613456251% of all cases)
+* 90-180 days days: 719 cases (5.8% of all cases)
 
-* 180-360 days days: 3722 cases (0.3009865760957464% of all cases)
+* 180-360 days days: 3,722 cases (30.1% of all cases)
 
-* 360-720 days days: 5224 cases (0.42244864952288536% of all cases)
+* 360-720 days days: 5,224 cases (42.2% of all cases)
 
-* 720+ days days: 2678 cases (0.2165615397056445% of all cases)
+* 720+ days days: 2,678 cases (21.7% of all cases)
 
 
 

@@ -17,13 +17,31 @@ $0.00 is the equivalent of:
 * 0 months of rent for the average renter in rhode_island or 0 months of mortgage payments for the average homeowner in rhode_island.
 * 0 weeks of groceries for the average family in rhode_island.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 58 cases (7.7% of all cases)
+
+* $100-$500: 151 cases (19.9% of all cases)
+
+* $500-$1,000: 135 cases (17.8% of all cases)
+
+* $1,000-$2,000: 135 cases (17.8% of all cases)
+
+* $2,000-$5,000: 105 cases (13.9% of all cases)
+
+* $5,000-$10,000: 64 cases (8.5% of all cases)
+
+* $10,000+: 109 cases (14.4% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 2,292 wage theft cases provided by the Rhode Island Department of Labor and Training resulted in a payment to the claimant. 
+About 76% of the 2,292 wage theft cases provided to CBS News by the Rhode Island Department of Labor and Training showed a payment was made to the claimant. The total amount paid to claimants was $4,571,119.01.
 
-The total amount paid to claimants was $4,571,119.01.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 361.25. 0.15357766143106458% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 12% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

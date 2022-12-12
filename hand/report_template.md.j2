@@ -19,24 +19,30 @@ The median amount for each case was {{ "${:,.2f}".format(median_case_amount) }}.
 * {{ equivalent_rent_payments }} months of rent for the average renter in {{ state_name }} or {{ equivalent_mortgage_payments }} months of mortgage payments for the average homeowner in {{ state_name }}.
 * {{ equivalent_family_weekly_grocery_budget }} weeks of groceries for the average family in {{ state_name }}.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+{% for amount_range, amount_dict in case_amounts_dict.items() %}
+* {{ amount_range }}: {{ "{:,.0f}".format(amount_dict['total_cases']) }} cases ({{ "{:,.1f}%".format(amount_dict['pct_of_total_cases'] * 100) }} of all cases)
+{% endfor %}
+
+
 ### Amounts paid to claimants
 {% if state_has_paid_amount %}
-{{ "{:.0f}%".format(pct_cases_paid) }}% of the {{ "{:,.0f}".format(total_claims) }} wage theft cases provided by the {{ agency_name }} resulted in a payment to the claimant. 
+About {{ "{:.0f}%".format(pct_cases_paid * 100) }} of the {{ "{:,.0f}".format(total_claims) }} wage theft cases provided to CBS News by the {{ agency_name }} showed a payment was made to the claimant. The total amount paid to claimants was {{ "${:,.2f}".format(total_amount_paid) }}.
 
-The total amount paid to claimants was {{ "${:,.2f}".format(total_amount_paid) }}.
-
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was {{ median_amount_paid }}. {{ pct_cases_paid_full }}% of the cases paid were paid in full.
+{% if pct_cases_paid != pct_cases_paid_full %}
+Just because a person was paid doesn't mean they were paid the full amount they claimed: {{ "{:.0f}%".format(pct_cases_paid_full * 100) }} of the cases paid were paid in full.
+{% endif %}
 {% else %}
-{{ state_name }} did not provide data on the amount paid to claimants.
+    {{ state_name }} did not provide data on the amount paid to claimants.
 {% endif %}
 
 ### Time taken to resolve cases
 {% if state_has_case_duration %}
-Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in {{ state_name }} was {{ median_case_duration }} days.
+Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in {{ state_name }} was about {{ "{:,.0f}".format(median_case_duration) }} days.
 
 Some cases took much longer to resolve. Below is a breakdown of the number of cases resolved in each time period: 
 {% for duration_days, duration_dict in case_durations_dict.items() %}
-* {{ duration_days }} days: {{ duration_dict['total_cases'] }} cases ({{ duration_dict['pct_of_total_cases'] }}% of all cases)
+* {{ duration_days }} days: {{ "{:,.0f}".format(duration_dict['total_cases']) }} cases ({{ "{:,.1f}%".format(duration_dict['pct_of_total_cases'] * 100) }} of all cases)
 {% endfor %}
 {% else %}
     {{ state_name }} did not provide data on the amount of time it took to resolve cases.

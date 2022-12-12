@@ -17,13 +17,31 @@ $920.00 is the equivalent of:
 * 1 months of rent for the average renter in new_hampshire or 0 months of mortgage payments for the average homeowner in new_hampshire.
 * 3 weeks of groceries for the average family in new_hampshire.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 563 cases (7.0% of all cases)
+
+* $100-$500: 2,058 cases (25.6% of all cases)
+
+* $500-$1,000: 1,517 cases (18.9% of all cases)
+
+* $1,000-$2,000: 1,441 cases (17.9% of all cases)
+
+* $2,000-$5,000: 1,245 cases (15.5% of all cases)
+
+* $5,000-$10,000: 565 cases (7.0% of all cases)
+
+* $10,000+: 643 cases (8.0% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-0%% of the 8,200 wage theft cases provided by the New Hampshire Department of Labor resulted in a payment to the claimant. 
+About 39% of the 8,200 wage theft cases provided to CBS News by the New Hampshire Department of Labor showed a payment was made to the claimant. The total amount paid to claimants was $7,670,262.00.
 
-The total amount paid to claimants was $7,670,262.00.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.24292682926829268% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 22% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

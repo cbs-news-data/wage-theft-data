@@ -17,30 +17,48 @@ $723.00 is the equivalent of:
 * 0 months of rent for the average renter in washington or 0 months of mortgage payments for the average homeowner in washington.
 * 3 weeks of groceries for the average family in washington.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 630 cases (9.9% of all cases)
+
+* $100-$500: 1,864 cases (29.3% of all cases)
+
+* $500-$1,000: 1,334 cases (21.0% of all cases)
+
+* $1,000-$2,000: 1,169 cases (18.4% of all cases)
+
+* $2,000-$5,000: 872 cases (13.7% of all cases)
+
+* $5,000-$10,000: 283 cases (4.4% of all cases)
+
+* $10,000+: 213 cases (3.3% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-washington did not provide data on the amount paid to claimants.
+    washington did not provide data on the amount paid to claimants.
 
 
 ### Time taken to resolve cases
 
-Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in washington was 43.0 days.
+Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in washington was about 43 days.
 
 Some cases took much longer to resolve. Below is a breakdown of the number of cases resolved in each time period: 
 
-* 0-30 days days: 2201 cases (0.3460147775506996% of all cases)
+* 0-30 days days: 2,201 cases (34.6% of all cases)
 
-* 30-60 days days: 2136 cases (0.3357962584499293% of all cases)
+* 30-60 days days: 2,136 cases (33.6% of all cases)
 
-* 60-90 days days: 1119 cases (0.1759157365194152% of all cases)
+* 60-90 days days: 1,119 cases (17.6% of all cases)
 
-* 90-180 days days: 692 cases (0.10878792642666248% of all cases)
+* 90-180 days days: 692 cases (10.9% of all cases)
 
-* 180-360 days days: 189 cases (0.029712309385316774% of all cases)
+* 180-360 days days: 189 cases (3.0% of all cases)
 
-* 360-720 days days: 22 cases (0.003458575695645339% of all cases)
+* 360-720 days days: 22 cases (0.3% of all cases)
 
-* 720+ days days: 2 cases (0.00031441597233139445% of all cases)
+* 720+ days days: 2 cases (0.0% of all cases)
 
 
 

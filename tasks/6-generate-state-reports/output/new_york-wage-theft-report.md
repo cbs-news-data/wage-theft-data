@@ -17,13 +17,31 @@ $600.00 is the equivalent of:
 * 0 months of rent for the average renter in new_york or 0 months of mortgage payments for the average homeowner in new_york.
 * 3 weeks of groceries for the average family in new_york.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 2,158 cases (5.6% of all cases)
+
+* $100-$500: 8,349 cases (21.8% of all cases)
+
+* $500-$1,000: 6,353 cases (16.6% of all cases)
+
+* $1,000-$2,000: 6,017 cases (15.7% of all cases)
+
+* $2,000-$5,000: 5,962 cases (15.5% of all cases)
+
+* $5,000-$10,000: 3,475 cases (9.1% of all cases)
+
+* $10,000+: 6,057 cases (15.8% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 52,662 wage theft cases provided by the New York State Department of Labor resulted in a payment to the claimant. 
+About 59% of the 52,662 wage theft cases provided to CBS News by the New York State Department of Labor showed a payment was made to the claimant. The total amount paid to claimants was $219,924,360.45.
 
-The total amount paid to claimants was $219,924,360.45.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 240.0. 0.29649462610611066% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 21% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

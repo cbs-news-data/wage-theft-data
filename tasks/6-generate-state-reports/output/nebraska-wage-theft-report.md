@@ -17,13 +17,29 @@ $500.00 is the equivalent of:
 * 1 months of rent for the average renter in nebraska or 0 months of mortgage payments for the average homeowner in nebraska.
 * 2 weeks of groceries for the average family in nebraska.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 10 cases (1.8% of all cases)
+
+* $100-$500: 492 cases (87.4% of all cases)
+
+* $500-$1,000: 11 cases (2.0% of all cases)
+
+* $1,000-$2,000: 5 cases (0.9% of all cases)
+
+* $2,000-$5,000: 42 cases (7.5% of all cases)
+
+* $5,000-$10,000: 2 cases (0.4% of all cases)
+
+* $10,000+: 1 cases (0.2% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-0%% of the 563 wage theft cases provided by the Nebraska Department of Labor resulted in a payment to the claimant. 
+About 14% of the 563 wage theft cases provided to CBS News by the Nebraska Department of Labor showed a payment was made to the claimant. The total amount paid to claimants was $37,324.00.
 
-The total amount paid to claimants was $37,324.00.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.0% of the cases paid were paid in full.
 
 
 ### Time taken to resolve cases

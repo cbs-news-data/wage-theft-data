@@ -17,13 +17,29 @@ $2,560.00 is the equivalent of:
 * 1 months of rent for the average renter in massachusetts or 1 months of mortgage payments for the average homeowner in massachusetts.
 * 10 weeks of groceries for the average family in massachusetts.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 11 cases (0.5% of all cases)
+
+* $100-$500: 385 cases (16.0% of all cases)
+
+* $500-$1,000: 338 cases (14.1% of all cases)
+
+* $1,000-$2,000: 316 cases (13.1% of all cases)
+
+* $2,000-$5,000: 455 cases (18.9% of all cases)
+
+* $5,000-$10,000: 321 cases (13.3% of all cases)
+
+* $10,000+: 579 cases (24.1% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 2,419 wage theft cases provided by the Massachusetts Attorney General's Office resulted in a payment to the claimant. 
+About 100% of the 2,419 wage theft cases provided to CBS News by the Massachusetts Attorney General's Office showed a payment was made to the claimant. The total amount paid to claimants was $48,474,294.56.
 
-The total amount paid to claimants was $48,474,294.56.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 2560.0. 0.0% of the cases paid were paid in full.
 
 
 ### Time taken to resolve cases

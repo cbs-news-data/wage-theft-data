@@ -17,13 +17,31 @@ $720.00 is the equivalent of:
 * 1 months of rent for the average renter in montana or 0 months of mortgage payments for the average homeowner in montana.
 * 3 weeks of groceries for the average family in montana.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 505 cases (9.4% of all cases)
+
+* $100-$500: 1,655 cases (30.9% of all cases)
+
+* $500-$1,000: 1,036 cases (19.3% of all cases)
+
+* $1,000-$2,000: 986 cases (18.4% of all cases)
+
+* $2,000-$5,000: 707 cases (13.2% of all cases)
+
+* $5,000-$10,000: 287 cases (5.4% of all cases)
+
+* $10,000+: 185 cases (3.5% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 5,361 wage theft cases provided by the Montana Labor Standards Bureau resulted in a payment to the claimant. 
+About 75% of the 5,361 wage theft cases provided to CBS News by the Montana Labor Standards Bureau showed a payment was made to the claimant. The total amount paid to claimants was $7,312,386.59.
 
-The total amount paid to claimants was $7,312,386.59.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 644.16. 0.1591121059503824% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 43% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases

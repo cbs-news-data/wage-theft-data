@@ -17,34 +17,52 @@ $497.81 is the equivalent of:
 * 0 months of rent for the average renter in south_carolina or 0 months of mortgage payments for the average homeowner in south_carolina.
 * 2 weeks of groceries for the average family in south_carolina.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 614 cases (12.8% of all cases)
+
+* $100-$500: 1,819 cases (37.9% of all cases)
+
+* $500-$1,000: 983 cases (20.5% of all cases)
+
+* $1,000-$2,000: 725 cases (15.1% of all cases)
+
+* $2,000-$5,000: 463 cases (9.6% of all cases)
+
+* $5,000-$10,000: 114 cases (2.4% of all cases)
+
+* $10,000+: 81 cases (1.7% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-0%% of the 4,818 wage theft cases provided by the South Carolina Department of Labor resulted in a payment to the claimant. 
+About 43% of the 4,818 wage theft cases provided to CBS News by the South Carolina Department of Labor showed a payment was made to the claimant. The total amount paid to claimants was $307,040.60.
 
-The total amount paid to claimants was $307,040.60.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.0% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 0% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases
 
-Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in south_carolina was 57.0 days.
+Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in south_carolina was about 57 days.
 
 Some cases took much longer to resolve. Below is a breakdown of the number of cases resolved in each time period: 
 
-* 0-30 days days: 942 cases (0.19600499375780275% of all cases)
+* 0-30 days days: 942 cases (19.6% of all cases)
 
-* 30-60 days days: 1639 cases (0.3410320432792343% of all cases)
+* 30-60 days days: 1,639 cases (34.1% of all cases)
 
-* 60-90 days days: 1267 cases (0.2636287973366625% of all cases)
+* 60-90 days days: 1,267 cases (26.4% of all cases)
 
-* 90-180 days days: 852 cases (0.1772784019975031% of all cases)
+* 90-180 days days: 852 cases (17.7% of all cases)
 
-* 180-360 days days: 87 cases (0.018102372034956304% of all cases)
+* 180-360 days days: 87 cases (1.8% of all cases)
 
-* 360-720 days days: 18 cases (0.003745318352059925% of all cases)
+* 360-720 days days: 18 cases (0.4% of all cases)
 
-* 720+ days days: 1 cases (0.00020807324178110696% of all cases)
+* 720+ days days: 1 cases (0.0% of all cases)
 
 
 

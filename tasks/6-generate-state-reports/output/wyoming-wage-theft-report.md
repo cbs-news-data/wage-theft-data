@@ -17,34 +17,52 @@ $578.02 is the equivalent of:
 * 1 months of rent for the average renter in wyoming or 0 months of mortgage payments for the average homeowner in wyoming.
 * 2 weeks of groceries for the average family in wyoming.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 86 cases (8.9% of all cases)
+
+* $100-$500: 352 cases (36.5% of all cases)
+
+* $500-$1,000: 225 cases (23.3% of all cases)
+
+* $1,000-$2,000: 165 cases (17.1% of all cases)
+
+* $2,000-$5,000: 98 cases (10.2% of all cases)
+
+* $5,000-$10,000: 34 cases (3.5% of all cases)
+
+* $10,000+: 4 cases (0.4% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-0%% of the 2,105 wage theft cases provided by the Wyoming Department of Workforce Services resulted in a payment to the claimant. 
+About 46% of the 2,105 wage theft cases provided to CBS News by the Wyoming Department of Workforce Services showed a payment was made to the claimant. The total amount paid to claimants was $1,085,092.92.
 
-The total amount paid to claimants was $1,085,092.92.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 0.0. 0.0% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 0% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases
 
-Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in wyoming was 48.0 days.
+Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in wyoming was about 48 days.
 
 Some cases took much longer to resolve. Below is a breakdown of the number of cases resolved in each time period: 
 
-* 0-30 days days: 644 cases (0.3181818181818182% of all cases)
+* 0-30 days days: 644 cases (31.8% of all cases)
 
-* 30-60 days days: 484 cases (0.2391304347826087% of all cases)
+* 30-60 days days: 484 cases (23.9% of all cases)
 
-* 60-90 days days: 198 cases (0.09782608695652174% of all cases)
+* 60-90 days days: 198 cases (9.8% of all cases)
 
-* 90-180 days days: 401 cases (0.19812252964426877% of all cases)
+* 90-180 days days: 401 cases (19.8% of all cases)
 
-* 180-360 days days: 183 cases (0.09041501976284586% of all cases)
+* 180-360 days days: 183 cases (9.0% of all cases)
 
-* 360-720 days days: 97 cases (0.04792490118577075% of all cases)
+* 360-720 days days: 97 cases (4.8% of all cases)
 
-* 720+ days days: 17 cases (0.008399209486166008% of all cases)
+* 720+ days days: 17 cases (0.8% of all cases)
 
 
 

@@ -134,17 +134,24 @@ class MarkdownReportGenerator:
 
         # paid amounts
         self.data["state_has_paid_amount"] = (
-            len(self.wt_df.query("amount_paid.notna()")) > 0
+            len(self.amounts_df.query("amount_paid.notna()")) > 0
         )
         if self.data["state_has_paid_amount"]:
             self.data["pct_cases_paid"] = len(
-                self.wt_df.query("amount_paid > 0")
-            ) / len(self.wt_df)
-            self.data["total_amount_paid"] = self.wt_df.amount_paid.sum()
-            self.data["median_amount_paid"] = self.wt_df.amount_paid.median()
+                self.amounts_df.query("amount_paid > 0")
+            ) / len(self.amounts_df)
+            self.data["total_amount_paid"] = self.amounts_df.amount_paid.sum()
+            self.data["median_amount_paid"] = self.amounts_df.amount_paid.median()
             self.data["pct_cases_paid_full"] = len(
-                self.wt_df.query("amount_paid == amount_claimed")
-            ) / len(self.wt_df)
+                self.amounts_df.assign(
+                    amount_claimed_or_assessed=lambda df: df.apply(
+                        lambda row: row.amount_assessed
+                        if pd.notna(row.amount_assessed)
+                        else row.amount_claimed,
+                        axis=1,
+                    )
+                ).query("amount_paid != 0 & amount_paid == amount_claimed_or_assessed")
+            ) / len(self.amounts_df)
 
         # case duration
         self.data["state_has_case_duration"] = (
@@ -171,6 +178,29 @@ class MarkdownReportGenerator:
                     pd.Interval(180, 360, closed="right"): "180-360 days",
                     pd.Interval(360, 720, closed="right"): "360-720 days",
                     pd.Interval(720, 999999, closed="right"): "720+ days",
+                }
+            )
+            .assign(pct_of_total_cases=lambda df: df.total_cases / df.total_cases.sum())
+            .to_dict(orient="index")
+        )
+        self.data["case_amounts_dict"] = (
+            self.amounts_df.groupby(
+                pd.cut(
+                    self.amounts_df.overall_case_amount,
+                    [0, 100, 500, 1000, 2000, 5000, 10000, 999999],
+                )
+            )
+            .size()
+            .to_frame("total_cases")
+            .rename(
+                index={
+                    pd.Interval(0, 100, closed="right"): "$0-$100",
+                    pd.Interval(100, 500, closed="right"): "$100-$500",
+                    pd.Interval(500, 1000, closed="right"): "$500-$1,000",
+                    pd.Interval(1000, 2000, closed="right"): "$1,000-$2,000",
+                    pd.Interval(2000, 5000, closed="right"): "$2,000-$5,000",
+                    pd.Interval(5000, 10000, closed="right"): "$5,000-$10,000",
+                    pd.Interval(10000, 999999, closed="right"): "$10,000+",
                 }
             )
             .assign(pct_of_total_cases=lambda df: df.total_cases / df.total_cases.sum())

@@ -17,30 +17,52 @@ $710.50 is the equivalent of:
 * 1 months of rent for the average renter in texas or 0 months of mortgage payments for the average homeowner in texas.
 * 3 weeks of groceries for the average family in texas.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 4,890 cases (7.7% of all cases)
+
+* $100-$500: 19,569 cases (31.0% of all cases)
+
+* $500-$1,000: 14,225 cases (22.5% of all cases)
+
+* $1,000-$2,000: 12,044 cases (19.1% of all cases)
+
+* $2,000-$5,000: 8,240 cases (13.0% of all cases)
+
+* $5,000-$10,000: 2,495 cases (4.0% of all cases)
+
+* $10,000+: 1,695 cases (2.7% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-texas did not provide data on the amount paid to claimants.
+About 32% of the 60,683 wage theft cases provided to CBS News by the Texas Workforce Commission showed a payment was made to the claimant. The total amount paid to claimants was $23,406,057.88.
+
+
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 22% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases
 
-Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in texas was 208.0 days.
+Just because a person won their case doesn't mean they got paid right away. The median amount of time it took to resolve a case in texas was about 208 days.
 
 Some cases took much longer to resolve. Below is a breakdown of the number of cases resolved in each time period: 
 
-* 0-30 days days: 2 cases (3.2958159616367024e-05% of all cases)
+* 0-30 days days: 2 cases (0.0% of all cases)
 
-* 30-60 days days: 122 cases (0.0020104477365983885% of all cases)
+* 30-60 days days: 122 cases (0.2% of all cases)
 
-* 60-90 days days: 5100 cases (0.0840433070217359% of all cases)
+* 60-90 days days: 5,100 cases (8.4% of all cases)
 
-* 90-180 days days: 20015 cases (0.329828782360793% of all cases)
+* 90-180 days days: 20,015 cases (33.0% of all cases)
 
-* 180-360 days days: 23557 cases (0.38819768304137897% of all cases)
+* 180-360 days days: 23,557 cases (38.8% of all cases)
 
-* 360-720 days days: 7359 cases (0.12126954830842246% of all cases)
+* 360-720 days days: 7,359 cases (12.1% of all cases)
 
-* 720+ days days: 4528 cases (0.07461727337145493% of all cases)
+* 720+ days days: 4,528 cases (7.5% of all cases)
 
 
 

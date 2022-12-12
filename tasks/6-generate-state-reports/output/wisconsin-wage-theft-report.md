@@ -17,13 +17,31 @@ $540.00 is the equivalent of:
 * 1 months of rent for the average renter in wisconsin or 0 months of mortgage payments for the average homeowner in wisconsin.
 * 3 weeks of groceries for the average family in wisconsin.
 
+Some cases were worth even more money, however. Below is a breakdown of the number of cases filed in each amount range: 
+
+* $0-$100: 1,169 cases (10.8% of all cases)
+
+* $100-$500: 3,928 cases (36.3% of all cases)
+
+* $500-$1,000: 2,156 cases (19.9% of all cases)
+
+* $1,000-$2,000: 1,647 cases (15.2% of all cases)
+
+* $2,000-$5,000: 1,195 cases (11.1% of all cases)
+
+* $5,000-$10,000: 400 cases (3.7% of all cases)
+
+* $10,000+: 314 cases (2.9% of all cases)
+
+
+
 ### Amounts paid to claimants
 
-1%% of the 11,011 wage theft cases provided by the Wisconsin Department of Workforce Development resulted in a payment to the claimant. 
+About 89% of the 11,011 wage theft cases provided to CBS News by the Wisconsin Department of Workforce Development showed a payment was made to the claimant. The total amount paid to claimants was $25,047,136.63.
 
-The total amount paid to claimants was $25,047,136.63.
 
-Just because a person was paid doesn't mean they were paid the full amount they claimed. The median amount paid was 511.62. 0.0% of the cases paid were paid in full.
+Just because a person was paid doesn't mean they were paid the full amount they claimed: 55% of the cases paid were paid in full.
+
 
 
 ### Time taken to resolve cases
