@@ -45,6 +45,18 @@ Some cases were worth even more money, however. Below is a breakdown of the numb
     illinois did not provide data on the amount of time it took to resolve cases.
 
 
+## How to reference this data
+
+All references to this data must be attributed to CBS News analysis.
+
+### On first reference
+
+On first reference, attribution must mention that the data was analyzed by CBS News and was obtained from the Illinois Department of Labor by CBS News through a public records request under the Illinois Freedom of Information Act.
+
+### On subsequent references
+
+After the first reference, you can simply attribute the data to CBS News analysis, e.g. "CBS News' analysis" or "the analysis." 
+
 ## FAQs
 
 ### What is "wage theft?"

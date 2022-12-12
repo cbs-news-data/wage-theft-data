@@ -49,6 +49,18 @@ Just because a person was paid doesn't mean they were paid the full amount they 
     maryland did not provide data on the amount of time it took to resolve cases.
 
 
+## How to reference this data
+
+All references to this data must be attributed to CBS News analysis.
+
+### On first reference
+
+On first reference, attribution must mention that the data was analyzed by CBS News and was obtained from the Maryland Department of Labor by CBS News through a public records request under the Maryland Public Information Act.
+
+### On subsequent references
+
+After the first reference, you can simply attribute the data to CBS News analysis, e.g. "CBS News' analysis" or "the analysis." 
+
 ## FAQs
 
 ### What is "wage theft?"

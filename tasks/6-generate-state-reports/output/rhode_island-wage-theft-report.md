@@ -49,6 +49,18 @@ Just because a person was paid doesn't mean they were paid the full amount they 
     rhode_island did not provide data on the amount of time it took to resolve cases.
 
 
+## How to reference this data
+
+All references to this data must be attributed to CBS News analysis.
+
+### On first reference
+
+On first reference, attribution must mention that the data was analyzed by CBS News and was obtained from the Rhode Island Department of Labor and Training by CBS News through a public records request under the Rhode Island Access to Public Records Act.
+
+### On subsequent references
+
+After the first reference, you can simply attribute the data to CBS News analysis, e.g. "CBS News' analysis" or "the analysis." 
+
 ## FAQs
 
 ### What is "wage theft?"

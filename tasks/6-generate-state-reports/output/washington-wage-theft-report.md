@@ -62,6 +62,18 @@ Some cases took much longer to resolve. Below is a breakdown of the number of ca
 
 
 
+## How to reference this data
+
+All references to this data must be attributed to CBS News analysis.
+
+### On first reference
+
+On first reference, attribution must mention that the data was analyzed by CBS News and was obtained from the Washington State Department of Labor and Industries by CBS News through a public records request under the Washington Public Records Act.
+
+### On subsequent references
+
+After the first reference, you can simply attribute the data to CBS News analysis, e.g. "CBS News' analysis" or "the analysis." 
+
 ## FAQs
 
 ### What is "wage theft?"

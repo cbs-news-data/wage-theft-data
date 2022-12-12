@@ -47,6 +47,18 @@ About 14% of the 563 wage theft cases provided to CBS News by the Nebraska Depar
     nebraska did not provide data on the amount of time it took to resolve cases.
 
 
+## How to reference this data
+
+All references to this data must be attributed to CBS News analysis.
+
+### On first reference
+
+On first reference, attribution must mention that the data was analyzed by CBS News and was obtained from the Nebraska Department of Labor by CBS News through a public records request under the Nebraska Public Records Law.
+
+### On subsequent references
+
+After the first reference, you can simply attribute the data to CBS News analysis, e.g. "CBS News' analysis" or "the analysis." 
+
 ## FAQs
 
 ### What is "wage theft?"
