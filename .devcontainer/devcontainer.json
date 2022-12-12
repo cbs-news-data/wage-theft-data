@@ -18,7 +18,7 @@
 		"ghcr.io/devcontainers/features/git-lfs:1": {
 			"version": "latest"
 		},
-      "ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
+		"ghcr.io/rocker-org/devcontainer-features/pandoc:1": {}
 	},
 	// Configure tool-specific properties.
 	"customizations": {
@@ -68,7 +68,7 @@
 				"ms-vscode-remote.vscode-remote-extensionpack",
 				"GrapeCity.gc-excelviewer",
 				"GitHub.copilot",
-				"vscode-pdf",
+				"vscode-pdf"
 			]
 		}
 	},
