@@ -10,11 +10,11 @@ output/indiana.csv: \
 		input/2019-2022.xlsx \
 		input/Copy_of_Wage_Claim_APRA_2010-2019.xlsx \
 		src/assign_amount_assessed.py \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		$(wildcard hand/*)
 	in2csv $< | \
 	python src/assign_amount_assessed.py | \
-	python $(PROCESSOR_DIR)/normalize_data.py Indiana \
+	python $(SHARED_DIR)/src/normalize_data.py Indiana \
 		--employer_name "Employer Name" \
 		--date_opened "Date Received" \
 		--amount_claimed "Amount of Claim" \
@@ -25,7 +25,7 @@ output/indiana.csv: \
 	
 	in2csv $(word 2, $^) | \
 	python src/assign_amount_assessed.py | \
-	python $(PROCESSOR_DIR)/normalize_data.py Indiana \
+	python $(SHARED_DIR)/src/normalize_data.py Indiana \
 		--employer_name Employer \
 		--date_opened "ClaimReceived" \
 		--date_paid "Date Paid" \

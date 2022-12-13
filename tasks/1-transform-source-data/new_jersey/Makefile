@@ -9,11 +9,11 @@ include ../../../Makefile
 output/new_jersey.csv: \
 		input/Copy_of_C189166_CBS_Request.xlsx \
 		src/add_amount_paid.py \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		$(wildcard hand/*)
 	in2csv $< | \
 	python src/add_amount_paid.py | \
-	python $(PROCESSOR_DIR)/normalize_data.py "New Jersey" \
+	python $(SHARED_DIR)/src/normalize_data.py "New Jersey" \
 		--date_opened "Case Entry Date" \
 		--employer_name "Employer Trade Name" \
 		--amount_assessed "Final Wages" \

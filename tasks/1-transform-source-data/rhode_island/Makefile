@@ -12,10 +12,10 @@ include ../../../Makefile
 
 output/rhode_island.csv: \
 		output/stacked.csv \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		$(wildcard hand/*)
 	cat $< | \
-	python $(PROCESSOR_DIR)/normalize_data.py "Rhode Island" \
+	python $(SHARED_DIR)/src/normalize_data.py "Rhode Island" \
 		--date_opened "DATE RECEIVED" \
 		--employer_name "ACCOUNT NAME" \
 		--employer_dba_name "ACCOUNT DBA NAME" \

@@ -1,7 +1,7 @@
 SHELL := /bin/bash
 
 DIR := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
-export PROCESSOR_DIR := $(DIR)/processors
+export SHARED_DIR := $(DIR)/shared
 
 TASKS := $(sort $(wildcard tasks/*))
 NOTEBOOKS := $(wildcard notebooks/*)

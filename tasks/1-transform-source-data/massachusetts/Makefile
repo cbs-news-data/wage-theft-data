@@ -10,9 +10,9 @@ include ../../../Makefile
 
 output/massachusetts.csv: \
 		output/pre_cleaned.csv \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		hand/converters_violation_category.yaml
-	cat $< | python $(PROCESSOR_DIR)/normalize_data.py Massachusetts \
+	cat $< | python $(SHARED_DIR)/src/normalize_data.py Massachusetts \
 		--explode-violations \
 		--violations-delim "," \
 		--employer_name Employer \

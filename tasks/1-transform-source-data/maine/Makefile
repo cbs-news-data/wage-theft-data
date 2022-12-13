@@ -7,7 +7,7 @@ all: $(GENERATED_FILES)
 include ../../../Makefile
 
 output/maine.csv: \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		input/CBSExtract.csv
 	python $^ Maine \
 		--date_opened INDATE \

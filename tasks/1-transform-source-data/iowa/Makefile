@@ -8,12 +8,12 @@ include ../../../Makefile
 
 output/iowa.csv: \
 		input/OR-_22-2353_Wage_Claims_Data_8_4_2022.xlsx \
-		$(PROCESSOR_DIR)/fix_case_status.py \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/fix_case_status.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		$(wildcard hand/*)
 	in2csv $< | \
-	python $(PROCESSOR_DIR)/fix_case_status.py "Case Status" "Amount Received" | \
-	python $(PROCESSOR_DIR)/normalize_data.py Iowa \
+	python $(SHARED_DIR)/src/fix_case_status.py "Case Status" "Amount Received" | \
+	python $(SHARED_DIR)/src/normalize_data.py Iowa \
 		--employer_name "Account DBA Name" \
 		--date_opened "Date Received" \
 		--amount_claimed "Claim Amount" \

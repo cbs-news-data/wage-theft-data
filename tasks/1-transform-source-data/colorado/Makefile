@@ -9,9 +9,9 @@ include ../../../Makefile
 output/colorado.csv: \
 		input/colorado.html \
 		src/read_html.py \
-		$(PROCESSOR_DIR)/normalize_data.py
+		$(SHARED_DIR)/src/normalize_data.py
 	python src/read_html.py $<  | \
-	python $(PROCESSOR_DIR)/normalize_data.py Colorado \
+	python $(SHARED_DIR)/src/normalize_data.py Colorado \
 		--employer_name Employer \
 		--date_closed Date \
 	> $@

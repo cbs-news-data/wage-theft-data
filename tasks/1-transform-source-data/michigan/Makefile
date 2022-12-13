@@ -8,10 +8,10 @@ include ../../../Makefile
 
 output/michigan.csv: \
 		input/Copy_of_WHD-FOIA_Request_22-08-015_REPORT).xlsx \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		hand/converters_case_status.yaml
 	in2csv "$<" | \
-	python $(PROCESSOR_DIR)/normalize_data.py Michigan \
+	python $(SHARED_DIR)/src/normalize_data.py Michigan \
 		--date_opened RECEIPT_DATE \
 		--employer_name EMPLOYER_NAME \
 		--case_status OPEN_OR_CLOSED \

@@ -9,7 +9,7 @@ all: $(GENERATED_FILES)
 include ../../../Makefile
 
 output/minnesota.csv: \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		output/stacked.csv
 	python $^ Minnesota \
 		--date_opened date_received \

@@ -8,14 +8,14 @@ include ../../../Makefile
 
 output/wisconsin.csv: \
 		input/Responsive_record.xlsx \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		src/ffill_rows.py \
-		$(PROCESSOR_DIR)/fix_case_status.py \
+		$(SHARED_DIR)/src/fix_case_status.py \
 		$(wildcard hand/*)
 	in2csv $< | \
 	python src/ffill_rows.py | \
-	python $(PROCESSOR_DIR)/fix_case_status.py "Case Status" "Payment Received" | \
-	python $(PROCESSOR_DIR)/normalize_data.py Wisconsin \
+	python $(SHARED_DIR)/src/fix_case_status.py "Case Status" "Payment Received" | \
+	python $(SHARED_DIR)/src/normalize_data.py Wisconsin \
 		--date_opened "Received Date" \
 		--violation_category "Category Description" \
 		--employer_name Respondent \

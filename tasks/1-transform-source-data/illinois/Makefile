@@ -10,9 +10,9 @@ include ../../../Makefile
 
 output/illinois.csv: \
 		output/stacked.csv \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		$(wildcard hand/*)
-	python $(PROCESSOR_DIR)/normalize_data.py $< Illinois \
+	python $(SHARED_DIR)/src/normalize_data.py $< Illinois \
 		--date_opened "date" \
 		--employer_name "employer" \
 		--amount_claimed amount \

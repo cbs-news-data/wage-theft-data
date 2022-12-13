@@ -8,10 +8,10 @@ include ../../../Makefile
 
 output/new_york.csv: \
 		input/REC-0011772_Records_for_release.xlsx \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		$(wildcard hand/*)
 	in2csv $< | \
-	python $(PROCESSOR_DIR)/normalize_data.py "New York" \
+	python $(SHARED_DIR)/src/normalize_data.py "New York" \
 		--explode-violations \
 		--violations-delim "," \
 		--date_opened CASE_DATE \

@@ -11,10 +11,10 @@ include ../../../Makefile
 output/south_carolina.csv: \
 		output/cases.csv \
 		output/amounts.csv \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		$(wildcard hand/*)
 	csvjoin -c 1 --left $(wordlist 1, 2, $^) | \
-	python $(PROCESSOR_DIR)/normalize_data.py "South Carolina" \
+	python $(SHARED_DIR)/src/normalize_data.py "South Carolina" \
 		--date_opened Received \
 		--employer_name Respondent \
 		--date_closed Closed \

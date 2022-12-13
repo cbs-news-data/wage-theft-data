@@ -10,9 +10,9 @@ include ../../../Makefile
 
 output/kentucky.csv: \
 		output/extracted.csv \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		hand/converters_violation_category.yaml
-	python $(PROCESSOR_DIR)/normalize_data.py $< Kentucky \
+	python $(SHARED_DIR)/src/normalize_data.py $< Kentucky \
 		--employer_name Employer \
 		--employer_city city \
 		--date_closed DateClosed \

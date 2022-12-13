@@ -9,10 +9,10 @@ all: $(GENERATED_FILES)
 include ../../../Makefile
 
 output/ohio.csv: \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		output/stacked.csv \
 		$(wildcard hand/*)
-	python $(PROCESSOR_DIR)/normalize_data.py output/stacked.csv Ohio \
+	python $(SHARED_DIR)/src/normalize_data.py output/stacked.csv Ohio \
 		--date_opened date_opened \
 		--employer_name employer_name \
 		--amount_claimed amount_claimed \

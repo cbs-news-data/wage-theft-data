@@ -2,12 +2,10 @@ STATES := $(filter-out Makefile colorado west_virginia, $(shell ls ../1-transfor
 
 GENERATED_FILES := $(addprefix output/, $(addsuffix -wage-theft-report.pdf, $(STATES)))
 
-include ../../Makefile
-
 all: $(GENERATED_FILES)
 
 $(GENERATED_FILES): \
-		$(PROCESSOR_DIR)/generate_reports.py \
+		src/generate_reports.py \
 		$(wildcard input/*)
 	python $< \
 		input/state_complaints.csv.gz \

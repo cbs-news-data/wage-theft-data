@@ -11,7 +11,7 @@ all: $(GENERATED_FILES)
 include ../../../Makefile
 
 output/kansas.csv: \
-		$(PROCESSOR_DIR)/normalize_data.py \
+		$(SHARED_DIR)/src/normalize_data.py \
 		output/stacked.csv \
 		$(wildcard hand/*)
 	python $< output/stacked.csv Kansas \
