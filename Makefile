@@ -4,12 +4,21 @@ DIR := $(abspath $(dir $(lastword $(MAKEFILE_LIST))))
 export PROCESSOR_DIR := $(DIR)/processors
 
 TASKS := $(sort $(wildcard tasks/*))
+NOTEBOOKS := $(wildcard notebooks/*)
 
-.PHONY: all $(TASKS) init cleanup-all
+.PHONY: \
+	all \
+	$(TASKS) \
+	$(NOTEBOOKS) \
+	init \
+	cleanup-all
 
-all: $(TASKS)
+all: $(TASKS) $(NOTEBOOKS)
 
 $(TASKS):
+	$(MAKE) -C $@
+
+$(NOTEBOOKS):
 	$(MAKE) -C $@
 
 init: \

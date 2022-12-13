@@ -26,3 +26,4 @@ kaggle
 lxml
 weasyprint
 humanize
+notebook-as-pdf
