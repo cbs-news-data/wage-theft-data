@@ -24,3 +24,5 @@ pdfplumber
 python-dotenv
 kaggle
 lxml
+weasyprint
+humanize

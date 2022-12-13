@@ -2,9 +2,18 @@
 
 import argparse
 import sys
+from humanize import fractional
 import jinja2
 import pandas as pd
 from shared_functions import append_texas_amounts
+
+
+def get_human_readable(num):
+    """returns a human-readable number"""
+    if num >= 1:
+        return round(num)
+
+    return fractional(round(num, 1))
 
 
 class MarkdownReportGenerator:
@@ -38,7 +47,7 @@ class MarkdownReportGenerator:
                 f"Must be one of {unique_states} or 'all'"
             )
 
-        self.data = {"state_name": self.state_name}
+        self.data = {"state_name": self.state_name.replace("_", " ").title()}
         self.preprocess_data()
 
         # handle separate amount files if applicable
@@ -119,16 +128,16 @@ class MarkdownReportGenerator:
 
         # contextualize the data
         self.data["state_median_weekly_income"] = desc_row.median_weekly_income
-        self.data["equivalent_weeks_of_income"] = round(
+        self.data["equivalent_weeks_of_income"] = get_human_readable(
             self.data["median_case_amount"] / self.data["state_median_weekly_income"]
         )
-        self.data["equivalent_rent_payments"] = round(
+        self.data["equivalent_rent_payments"] = get_human_readable(
             self.data["median_case_amount"] / desc_row.fair_market_rent_3br
         )
-        self.data["equivalent_mortgage_payments"] = round(
+        self.data["equivalent_mortgage_payments"] = get_human_readable(
             self.data["median_case_amount"] / desc_row.median_monthly_mortgage
         )
-        self.data["equivalent_family_weekly_grocery_budget"] = round(
+        self.data["equivalent_family_weekly_grocery_budget"] = get_human_readable(
             self.data["median_case_amount"] / desc_row.low_cost_plan_grocery_estimate
         )
 
@@ -207,14 +216,9 @@ class MarkdownReportGenerator:
             .to_dict(orient="index")
         )
 
-    def generate_report(self):
+    def get_report_text(self):
         """generates the report"""
         return self.template.render(**self.data)
-
-    def save_report(self, output_file):
-        """saves the report to a file"""
-        with open(output_file, "w", encoding="utf-8") as outfile:
-            outfile.write(self.generate_report())
 
 
 def main():
@@ -224,7 +228,6 @@ def main():
     parser.add_argument("wage_theft_file", help="wage theft data file")
     parser.add_argument("state_desc_file", help="state characteristics file")
     parser.add_argument("template_file", help="template file")
-    parser.add_argument("output_file", help="output file")
     parser.add_argument("state_name", help="state name")
     args = parser.parse_args()
 
@@ -235,7 +238,7 @@ def main():
         args.template_file,
         args.state_name,
     )
-    report_generator.save_report(args.output_file)
+    print(report_generator.get_report_text())
 
 
 if __name__ == "__main__":
