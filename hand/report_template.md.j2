@@ -2,7 +2,11 @@
 
 ## Data Summary
 
+{% if state_name|lower == 'california' %} 
+CBS News analyzed data provided to it by CalMatters, a nonprofit news organization that covers the state of California. Through a public records request under the {{ statute_name }}, CalMatters obtained {{ total_records_description }} records of wage theft claims going back to {{ min_date.strftime("%B %Y") }}.
+{% else %}
 Through a public records request under the {{ statute_name }}, CBS News sought more than 10 years of data from the {{ agency_name }}'s wage and hour complaint process. In response, the agency provided {{ total_records_description }} records going back to {{ min_date.strftime("%B %Y") }}.
+{% endif %}
 
 {% if no_cases_decided_in_favor_of_claimant %}
 The data provided by the {{ agency_name }} does not denote whether the case was decided in favor of the claimant, so this report will contain all cases, regardless of the outcome. 
