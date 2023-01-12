@@ -1,10 +1,10 @@
-Admin Review: 
+Admin Review: open
 AG: pending enforcement
 AG-EO2: pending enforcement
 AG: pending enforcement
 Awaiting Hearing Date: open
-Awaiting Payment: closed
-Closed: closed
+Awaiting Payment: claimant_won
+Closed: claimant_won
 Commenced and Continued: open
 Dismissed: dismissed
 Hearing: open
@@ -16,7 +16,7 @@ Manager for Review - HD: open
 Manager for Review: open
 Motion to Reconsider: pending appeal
 Open: open
-Paid: closed
+Paid: paid
 Pending Closure: open
 Pending Referral to AG: pending enforcement
 Pending Voucher: open
@@ -26,7 +26,7 @@ Rescheduled: open
 Return to FLSD for further investigation: open
 Return to WCS: open
 Sent for Westlaw: open
-Settlement Agreement - AG: closed
-Settlement Agreement - IDOL: closed
+Settlement Agreement - AG: claimant_won
+Settlement Agreement - IDOL: claimant_won
 Stayed: dismissed
-Westlaw Completed: closed
+Westlaw Completed: open

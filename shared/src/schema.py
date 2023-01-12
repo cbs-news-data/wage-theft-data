@@ -119,6 +119,8 @@ SCHEMA = pa.DataFrameSchema(
             coerce=True,
             checks=pa.Check.isin(
                 [
+                    "paid",
+                    "claimant_won",
                     "closed",
                     "open",
                     "dismissed",

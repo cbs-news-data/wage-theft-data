@@ -26,7 +26,7 @@ OPEN_OR_INCOMPLETE_STATUSES = [
     "amount exceeds statutory limit",
 ]
 
-FINAL_CASE_STATUSES = ["pending enforcement", "affirmed"]
+FINAL_CASE_STATUSES = ["pending enforcement", "affirmed", "claimant_won", "paid"]
 
 INDETERMINATE_CASE_STATUSES = ["closed"]
 
