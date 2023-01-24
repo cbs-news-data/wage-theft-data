@@ -4,7 +4,7 @@ AG-EO2: pending enforcement
 AG: pending enforcement
 Awaiting Hearing Date: open
 Awaiting Payment: claimant_won
-Closed: claimant_won
+Closed: 
 Commenced and Continued: open
 Dismissed: dismissed
 Hearing: open
@@ -17,9 +17,9 @@ Manager for Review: open
 Motion to Reconsider: pending appeal
 Open: open
 Paid: paid
-Pending Closure: open
+Pending Closure: claimant_won
 Pending Referral to AG: pending enforcement
-Pending Voucher: open
+Pending Voucher: claimant_won
 Refer to Hearing: open
 Referred to Hearing: open
 Rescheduled: open
