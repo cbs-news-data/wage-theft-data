@@ -18,19 +18,19 @@ In nearly every state in the country, state labor departments are supposed to in
 
 Beginning in July 2022, I began requesting wage theft complaint data from nearly every state in the country. I asked for more than a decade of case-level data from each department, including the name of the employer, the amount of money the worker claimed they were owed, the outcome of the case, the amount of money the state determined was owed, and the amount of money the state recovered on behalf of the worker.
 
-This repository contains all the data Ireceived from each state, as well as all the code used to clean, merge, and analyze the data. 
+This repository contains all the data I received from each state, as well as all the code used to clean, merge, and analyze the data. 
 
 ## Methodology overview
 
-The layout, time period and quality of the data Ireceived from each state varied wildly between jurisdictions. The greatest challenge was getting it to a point where it could be analyzed nationally. 
+The layout, time period and quality of the data I received from each state varied wildly between jurisdictions. The greatest challenge was getting it to a point where it could be analyzed nationally. 
 
 ### State-specific data cleaning
 
-The data from each state was cleaned and standardized individually. Data was extracted from the source files provided in response to our public records requests, and cleaned using Python. Values for things like dispoisition codes and case types were standardized, and rows with missing or apparently invalid data were dropped wherever possible. 
+The data from each state was cleaned and standardized individually. Data was extracted from the source files provided in response to our public records requests, and cleaned using Python. Values for things like disposition codes and case types were standardized, and rows with missing or apparently invalid data were dropped wherever possible. 
 
 ### Merging data from multiple states
 
-Once the data was extracted, cleaned, and passed validation, it was compiled into a single csv file. Because the data from each state was so different, Ihad to make some decisions about how to standardize it. Those decisions centered around three main questions for the analysis: 
+Once the data was extracted, cleaned, and passed validation, it was compiled into a single csv file. Because the data from each state was so different, I had to make some decisions about how to standardize it. Those decisions centered around three main questions for the analysis: 
 
 #### **1. How much money were people owed?**
 
@@ -40,7 +40,7 @@ To address this inconsistency, I assigned an "overall case amount" field to each
 
 #### **2. What was the outcome of each case?**
 
-Because the mere existence of a wage theft complaint does not necessarily mean that wage theft occurred, I needed to be able to distinguish between cases where the agency determined that wage theft occurred and cases where it did not. Like the case amounts, this was not a simple task. To address this, I assigned a single boolean field to each case which denoted whether the case was decided by the agency in favor of the claimant. 
+Because the mere existence of a wage theft complaint does not necessarily mean that wage theft occurred, I needed to be able to distinguish between cases where the agency determined that wage theft occurred and cases where it did not. Like the case amounts, this was not a simple task. To address this, I assigned a single Boolean field to each case which denoted whether the case was decided by the agency in favor of the claimant. 
 
 Some states provided a case status or disposition that indicated the outcome of the case. In many cases, the meanings of those status codes were not immediately obvious to me and required some follow-up with each agency, which are documented in the issues for this repo. 
 
